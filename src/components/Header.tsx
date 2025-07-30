@@ -77,7 +77,7 @@ function Header() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="/"
+                  href="/#home"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Home
@@ -86,44 +86,44 @@ function Header() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="/about-us"
+                  href="/#features"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  About us
+                  Features
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="/services"
+                  href="/#benefits"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  Services
+                  Benefits
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="/projects"
+                  href="/#pricing"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  Projects
+                  Pricing
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="/contact-us"
+                  href="/#testimonials"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  Contact us
+                  Testimonials
                 </a>
               </li>
             </ul>
           </div>
 
           <ul className="nav align-items-center dropdown-hover ms-sm-2">
-            <li className="nav-item dropdown dropdown-animation">
+            {/* <li className="nav-item dropdown dropdown-animation">
               <button
                 className="btn btn-link mb-0 px-2 lh-1"
                 id="bd-theme"
@@ -209,15 +209,15 @@ function Header() {
                   </button>
                 </li>
               </ul>
-            </li>
+            </li> */}
 
-            <li className="nav-item me-2">
+            {/* <li className="nav-item me-2">
               <a href="sign-up.html" className="btn btn-sm btn-light mb-0">
                 <i className="bi bi-person-circle me-1"></i>Sign up
               </a>
-            </li>
+            </li> */}
             <li className="nav-item d-none d-sm-block">
-              <button className="btn btn-sm btn-primary mb-0">Buy now!</button>
+              <button className="btn btn-sm btn-primary mb-0">Get Started!</button>
             </li>
             <li className="nav-item">
               <button

@@ -51,11 +51,11 @@ function Home() {
   };
   return (
     <main>
-      <section className="overflow-hidden pt-xl-8 mb-n6 parallax-wrap">
+      <section id="home" className="overflow-hidden pt-xl-8 mb-n6 parallax-wrap">
         <div className="container position-relative zindex-5 pt-5">
           <div className="row justify-content-xl-start justify-content-center flex-xl-nowrap">
             <div className="col-xl-6 ps-xl-5 mb-8 mb-xl-0">
-              <span className="text-primary fw-bold text-uppercase">Built exclusively for the real estate industry.</span>
+              <span className="text-primary fw-bold text-uppercase" style={{ fontSize: 'small' }}>Built exclusively for the real estate.</span>
               <h1 className="mt-4">Sell Properties with Confidence. Manage Sales with Ease.</h1>
               <p className="mt-4">Opsera Sales helps real estate agencies and agents manage sales applications, leads, affiliates, and commissions—all from a single, powerful platform.</p>
               <div className="d-flex gap-3 gap-sm-4 flex-wrap mt-4 mt-md-5">
@@ -63,9 +63,9 @@ function Home() {
                 <a className="icon-link icon-link-hover heading-color text-primary-hover mb-0" href="#">Get started<i className="bi bi-arrow-right"></i> </a>
               </div>
 
-              {/* <hr className="my-4 my-sm-6" />
+              <hr className="my-4 my-sm-6" />
 
-              <div className="row g-4">
+              {/* <div className="row g-4">
                 <div className="col-sm-6">
                   <figure className="mb-3">
                     <svg width="154px" height="38.4px" viewBox="0 0 154 38.4">
@@ -90,6 +90,11 @@ function Home() {
                   <p className="mb-0">Total score <span className="text-secondary text-opacity-25">|</span><span className="fw-bold heading-color"> 145 reviews</span></p>
                 </div>
               </div> */}
+              <ul className="list-inline d-flex flex-wrap gap-2 gap-sm-4 mb-0 mt-4 mt-xl-5">
+                <li className="list-inline-item heading-color"> <i className="bi bi-stopwatch me-1"></i>24/7 Supports</li>
+                <li className="list-inline-item heading-color"> <i className="bi bi-fire me-1"></i>Free updates</li>
+                <li className="list-inline-item heading-color"> <i className="bi bi-life-preserver me-1"></i>Access premium doc</li>
+              </ul>
             </div>
 
             <div className="col-xl-10 d-flex rotate-343 position-relative aos z-index-2" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out">
@@ -845,7 +850,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="pb-0">
+      <section id="benefits" className="pb-0">
         <div className="container">
           <div className="inner-container text-center mb-4 mb-sm-6">
             <h2 className="mb-0">Why Real Estate Businesses Choose Opsera</h2>
@@ -1076,7 +1081,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="bg-dark position-relative price-wrap" data-bs-theme="dark">
+      <section id="pricing" className="bg-dark position-relative price-wrap" data-bs-theme="dark">
 
         <figure className="position-absolute top-0 start-0 ms-n9">
           <svg className="opacity-2" width="424" height="405" viewBox="0 0 424 405" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1186,7 +1191,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="pb-0">
+      <section id="testimonials" className="pb-0">
         <div className="container">
           <div className="row">
             <div className="col-lg-11">
