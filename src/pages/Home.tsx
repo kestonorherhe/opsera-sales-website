@@ -63,7 +63,7 @@ function Home() {
                 <a className="icon-link icon-link-hover heading-color text-primary-hover mb-0" href="#">Get started<i className="bi bi-arrow-right"></i> </a>
               </div>
 
-              <hr className="my-4 my-sm-6" />
+              {/* <hr className="my-4 my-sm-6" />
 
               <div className="row g-4">
                 <div className="col-sm-6">
@@ -89,7 +89,7 @@ function Home() {
                   </ul>
                   <p className="mb-0">Total score <span className="text-secondary text-opacity-25">|</span><span className="fw-bold heading-color"> 145 reviews</span></p>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="col-xl-10 d-flex rotate-343 position-relative aos z-index-2" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out">
@@ -236,7 +236,7 @@ function Home() {
         <div className="container pb-6 position-relative">
           <div className="inner-container-small text-center mb-4 mb-sm-5">
             <span className="text-primary fw-bold text-uppercase">Features</span>
-            <h2 className="mb-0 mt-3">Powerful SaaS features for your agency</h2>
+            <h2 className="mb-0 mt-3">Designed for Real Estate Sales agencies</h2>
           </div>
 
           <div className="row">
