@@ -218,7 +218,7 @@ function Header() {
               </a>
             </li> */}
             <li className="nav-item d-none d-sm-block">
-              <button className="btn btn-sm btn-primary mb-0">Get Started!</button>
+              <a href="/#get-started" className="btn btn-sm btn-primary mb-0">Get Started!</a>
             </li>
             <li className="nav-item">
               <button

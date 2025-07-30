@@ -60,7 +60,7 @@ function Home() {
               <p className="mt-4">Opsera Sales helps real estate agencies and agents manage sales applications, leads, affiliates, and commissions—all from a single, powerful platform.</p>
               <div className="d-flex gap-3 gap-sm-4 flex-wrap mt-4 mt-md-5">
                 <a href="/#features" className="btn btn-lg btn-dark mb-0" type="button">Discover features</a>
-                <a className="icon-link icon-link-hover heading-color text-primary-hover mb-0" href="#">Get started<i className="bi bi-arrow-right"></i> </a>
+                <a className="icon-link icon-link-hover heading-color text-primary-hover mb-0" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
               </div>
 
               <hr className="my-4 my-sm-6" />
@@ -275,7 +275,7 @@ function Home() {
                 <div className="tab-pane fade show active" id="pills-analytics" role="tabpanel" aria-labelledby="pills-analytics-tab" tabIndex={0}>
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary bg-opacity-10 text-primary text-uppercase rounded small px-3 py-2">Leads</span>
+                      <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Leads</span>
                       <h3 className="my-4">Comprehensive data analytics and reporting</h3>
                       <p>Turn raw inquiries into closed deals faster. Organize, assign, and follow up with leads without letting anyone slip through the cracks.</p>
                       <ul className="list-group list-group-borderless mb-4">
@@ -284,7 +284,7 @@ function Home() {
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Get reminders to follow up based on lead activity</li>
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Track conversion performance in real time</li>
                       </ul>
-                      <a className="btn btn-white icon-link icon-link-hover" href="#">Manage leads<i className="bi bi-arrow-right"></i> </a>
+                      <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
 
                     <div className="col-lg-4 position-relative ms-auto">
@@ -418,7 +418,7 @@ function Home() {
                 <div className="tab-pane fade" id="pills-collaboration" role="tabpanel" aria-labelledby="pills-collaboration-tab" tabIndex={0}>
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary bg-opacity-10 text-primary text-uppercase rounded small px-3 py-2">Sales</span>
+                      <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Sales</span>
                       <h3 className="my-4">Streamlined teamwork and client engagement</h3>
                       <p className="mb-5">Track every sales application—from initial submission to final allocation—in one clean dashboard.</p>
 
@@ -428,7 +428,7 @@ function Home() {
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Save time by eliminating paperwork and back-and-forth emails</li>
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i> Improve trust by giving customers clarity on their application stage</li>
                       </ul>
-                      <a className="btn btn-white icon-link icon-link-hover" href="#">Track sales<i className="bi bi-arrow-right"></i> </a>
+                      <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
 
                     <div className="col-lg-4 position-relative ms-auto">
@@ -488,7 +488,7 @@ function Home() {
                 <div className="tab-pane fade" id="pills-commissions" role="tabpanel" aria-labelledby="pills-commissions-tab" tabIndex={0}>
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary bg-opacity-10 text-primary text-uppercase rounded small px-3 py-2">Commissions & Rewards</span>
+                      <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Commissions & Rewards</span>
                       <h3 className="my-4">Streamlined teamwork and client engagement</h3>
                       <p className="mb-5">Stop managing commissions with spreadsheets. Let affiliates track their earnings and focus on selling.</p>
 
@@ -498,7 +498,7 @@ function Home() {
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Allow affiliates to view earnings, request withdrawals, and track payout status</li>
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Reduce disputes, errors, and overpayments</li>
                       </ul>
-                      <a className="btn btn-white icon-link icon-link-hover" href="#">Explore commissions & rewards<i className="bi bi-arrow-right"></i> </a>
+                      <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
 
                     <div className="col-lg-4 position-relative ms-auto">
@@ -558,7 +558,7 @@ function Home() {
                 <div className="tab-pane fade" id="pills-properties" role="tabpanel" aria-labelledby="pills-properties-tab" tabIndex={0}>
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary bg-opacity-10 text-primary text-uppercase rounded small px-3 py-2">Properties</span>
+                      <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Properties</span>
                       <h3 className="my-4">Streamlined teamwork and client engagement</h3>
                       <p className="mb-5">Whether you're selling land plots, individual units, or entire estates, Opsera gives you control over your property listings.</p>
 
@@ -568,7 +568,7 @@ function Home() {
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Know what's available, what's sold, and what’s being negotiated</li>
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Attach documentation, images, and allocation notes</li>
                       </ul>
-                      <a className="btn btn-white icon-link icon-link-hover" href="#">Manage properties<i className="bi bi-arrow-right"></i> </a>
+                      <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
 
                     <div className="col-lg-4 position-relative ms-auto">
@@ -628,7 +628,7 @@ function Home() {
                 <div className="tab-pane fade" id="pills-affiliates" role="tabpanel" aria-labelledby="pills-affiliates-tab" tabIndex={0}>
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary bg-opacity-10 text-primary text-uppercase rounded small px-3 py-2">Affiliates</span>
+                      <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Affiliates</span>
                       <h3 className="my-4">Streamlined teamwork and client engagement</h3>
                       <p className="mb-5">Handle hundreds of agents and partners without stress. Structure affiliate tiers, permissions, and activity tracking easily.</p>
 
@@ -638,7 +638,7 @@ function Home() {
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Monitor who is selling what—and how much</li>
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Keep affiliates accountable with transparent performance tracking</li>
                       </ul>
-                      <a className="btn btn-white icon-link icon-link-hover" href="#">Start earning<i className="bi bi-arrow-right"></i> </a>
+                      <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
 
                     <div className="col-lg-4 position-relative ms-auto">
@@ -698,7 +698,7 @@ function Home() {
                 <div className="tab-pane fade" id="pills-reports" role="tabpanel" aria-labelledby="pills-reports-tab" tabIndex={0}>
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary bg-opacity-10 text-primary text-uppercase rounded small px-3 py-2">Reports</span>
+                      <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Reports</span>
                       <h3 className="my-4">Streamlined teamwork and client engagement</h3>
                       <p className="mb-5">Make smarter decisions with real-time data on your sales, agents, and business performance.</p>
 
@@ -708,7 +708,7 @@ function Home() {
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Forecast sales revenue and trends</li>
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Download data-rich reports for investors or internal review</li>
                       </ul>
-                      <a className="btn btn-white icon-link icon-link-hover" href="#">Explore reports<i className="bi bi-arrow-right"></i> </a>
+                      <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
 
                     <div className="col-lg-4 position-relative ms-auto">
@@ -786,13 +786,13 @@ function Home() {
               <div className="swiper-slide">
                 <div className="card bg-primary p-5 mt-lg-7">
                   <div className="card-header bg-transparent d-flex justify-content-between p-0 pb-6">
-                    <h5 className="me-4 mb-0"><a href="#" className="stretched-link heading-color">For Agencies</a></h5>
+                    <h5 className="me-4 mb-0"><a href="#" className="stretched-link text-white">For Agencies</a></h5>
                     <a href="#" className="btn btn-round btn-light border flex-shrink-0"><i className="bi bi-arrow-up-right"></i></a>
                   </div>
 
                   <div className="card-body p-0">
 
-                    <figure className="heading-color mb-5">
+                    <figure className="mb-5 text-white">
                       <svg width="79" height="90" viewBox="0 0 79 90" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M78.3117 35.252L62.0851 26.4733C61.7532 26.2904 61.3476 26.2904 61.0341 26.4733L56.7562 28.7777V9.88519C56.7562 9.48283 56.5349 9.11705 56.1846 8.91587L39.958 0.137167C39.6261 -0.0457224 39.2204 -0.0457224 38.9069 0.137167L22.6803 8.91587C22.33 9.11705 22.1087 9.48283 22.1087 9.88519V28.7777L17.8492 26.4733C17.5173 26.2904 17.1117 26.2904 16.7982 26.4733L0.571618 35.252C0.221271 35.4532 0 35.8189 0 36.2213V68.4099C0 68.8122 0.221271 69.178 0.571618 69.3792L16.7982 78.1579C17.1301 78.3408 17.5358 78.3408 17.8492 78.1579L22.1087 75.8535V80.1148C22.1087 80.5172 22.33 80.883 22.6803 81.0841L38.9069 89.8628C39.2388 90.0457 39.6445 90.0457 39.958 89.8628L56.1846 81.0841C56.5349 80.883 56.7562 80.5172 56.7562 80.1148V75.8535L61.0157 78.1579C61.3476 78.3408 61.7532 78.3408 62.0667 78.1579L78.2933 69.3792C78.6436 69.178 78.8649 68.8122 78.8649 68.4099V36.2213C78.8833 35.8189 78.6621 35.4532 78.3117 35.252ZM61.5504 28.6862L75.4721 36.2213L61.5504 43.7564L47.6287 36.2213L61.5504 28.6862ZM39.4232 65.7031L25.5016 58.1681L39.4232 50.633L53.3449 58.1681L39.4232 65.7031ZM34.629 36.2213C34.629 35.8189 34.4077 35.4532 34.0574 35.252L24.303 29.9848V11.7324L38.3169 19.3223V48.7492L34.629 50.7427V36.2213ZM54.5435 29.9848L44.7891 35.252C44.4387 35.4532 44.2175 35.8189 44.2175 36.2213V50.7244L40.5296 48.7309V19.3223L54.5435 11.7324V29.9848ZM56.1846 57.1987L46.4302 51.9315V38.0685L60.444 45.6584V75.3414L56.7562 73.3479V58.1681C56.7562 57.7657 56.5349 57.3999 56.1846 57.1987ZM39.4232 2.35013L53.3449 9.88519L39.4232 17.4202L25.5016 9.88519L39.4232 2.35013ZM17.2961 28.6862L31.2177 36.2213L17.2961 43.7564L3.37439 36.2213L17.2961 28.6862ZM2.17584 38.0685L16.1897 45.6584V75.3414L2.17584 67.7515V38.0685ZM18.4024 75.3414V45.6584L32.4163 38.0685V51.9315L22.6619 57.1987C22.3116 57.3999 22.0903 57.7657 22.0903 58.1681V73.3479L18.4024 75.3414ZM24.303 73.988V60.0152L38.3169 67.6052V87.0463L24.303 79.4564V73.988ZM54.5435 79.4564L40.5296 87.0463V67.6052L54.5435 60.0152V73.988V79.4564ZM62.6568 75.3414V45.6584L76.6706 38.0685V67.7515L62.6568 75.3414Z" fill="currentColor" />
                       </svg>
@@ -800,7 +800,7 @@ function Home() {
                     </figure>
 
                     {/* <span className="text-white">What included:</span> */}
-                    <p className="fw-semibold heading-color mb-0 mt-2">Manage listings, applications, and commissions with full transparency.</p>
+                    <p className="fw-semibold mb-0 mt-2 text-white">Manage listings, applications, and commissions with full transparency.</p>
                   </div>
                 </div>
               </div>
@@ -808,7 +808,7 @@ function Home() {
               <div className="swiper-slide">
                 <div className="card bg-dark p-5 mt-lg-4" data-bs-theme="dark">
                   <div className="card-header bg-transparent d-flex justify-content-between p-0 pb-6">
-                    <h5 className="me-4 mb-0"><a href="#" className="stretched-link">For Agents & Affiliates</a></h5>
+                    <h5 className="me-4 mb-0"><a href="#" className="stretched-link text-white">For Agents & Affiliates</a></h5>
                     <a href="#" className="btn btn-round btn-light border flex-shrink-0"><i className="bi bi-arrow-up-right"></i></a>
                   </div>
 
@@ -1139,7 +1139,7 @@ function Home() {
                 </ul>
 
                 <span className="mb-4 heading-color"><span className="h2 plan-price" data-monthly-price="$299" data-annual-price="$250">$0</span> /month</span>
-                <a className="btn btn-primary icon-link icon-link-hover justify-content-center" href="#">Get started<i className="bi bi-arrow-right"></i> </a>
+                <a className="btn btn-primary icon-link icon-link-hover justify-content-center" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
               </div>
             </div>
             <div className="col-md-6 col-xl-4">
@@ -1161,7 +1161,7 @@ function Home() {
                 </ul>
 
                 <span className="mb-4 heading-color"><span className="h2 plan-price" data-monthly-price="$299" data-annual-price="$250">$299</span> /month</span>
-                <a className="btn btn-primary icon-link icon-link-hover justify-content-center" href="#">Get started<i className="bi bi-arrow-right"></i> </a>
+                <a className="btn btn-primary icon-link icon-link-hover justify-content-center" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
               </div>
             </div>
             <div className="col-md-6 col-xl-4">
@@ -1169,7 +1169,7 @@ function Home() {
 
 
                 <h5>Enterprise Plan</h5>
-                <p className="small mb-6">For large agencies managing high-volume sales operations.</p>
+                <p className="small mb-0">For large agencies managing high-volume sales operations.</p>
 
                 <hr className="my-4" />
                 <p className="heading-color fw-normal mb-2">Quick look at all the features</p>
@@ -1184,7 +1184,7 @@ function Home() {
                   <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>API access & integrations</li>
                   <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Priority support</li>
                 </ul>
-                <a className="btn btn-primary icon-link icon-link-hover justify-content-center" href="#">Get started<i className="bi bi-arrow-right"></i> </a>
+                <a className="btn btn-primary icon-link icon-link-hover justify-content-center" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
               </div>
             </div>
           </div>
@@ -1244,7 +1244,7 @@ function Home() {
                   <h2 className="my-3">Don't take our word for it. See what our client says.</h2>
                   <p className="mb-4">Hear what our satisfied clients have to say about their experiences with our platform. Discover how we've helped agencies like yours achieve remarkable results.</p>
                   <div className="d-sm-flex gap-3">
-                    <a href="#" className="btn btn-lg btn-dark mb-2 mb-sm-0">Get Started</a>
+                    <a href="/#get-started" className="btn btn-lg btn-dark mb-2 mb-sm-0">Get Started</a>
                     <a className="icon-link icon-link-hover heading-color text-primary-hover mb-0" href="/#features">Browse features<i className="bi bi-arrow-right"></i> </a>
                   </div>
 
@@ -1277,7 +1277,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="pt-9">
+      <section id="get-started" className="pt-9">
         <div className="container">
 
           <div className="inner-container-small mx-auto">
