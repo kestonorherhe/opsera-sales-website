@@ -51,11 +51,11 @@ function Footer() {
               />
             </a>
 
-            <p className="mt-4 mb-2">
+            {/* <p className="mt-4 mb-2">
               Opsera is one of the leading process automation company
               based in Abuja Nigeria. We aim to automate all processes for
               Government, Corporate and Individuals.
-            </p>
+            </p> */}
           </div>
 
           <div className="col-lg-8 col-xxl-7">
@@ -64,23 +64,28 @@ function Footer() {
                 <h6 className="mb-2 mb-md-4">Quick links</h6>
                 <ul className="nav flex-column">
                   <li className="nav-item">
-                    <a className="nav-link pt-0" href="/about-us">
-                      About us
+                    <a className="nav-link pt-0" href="/#home">
+                      Home
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link pt-0" href="/services">
-                      Services
+                    <a className="nav-link pt-0" href="/#features">
+                      Features
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/contact-us">
-                      Contact us
+                    <a className="nav-link" href="/#benefits">
+                      Benefits
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/projects">
-                      Projects
+                    <a className="nav-link" href="/#pricing">
+                      Pricing
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="/#testimonials">
+                      Testimonials
                     </a>
                   </li>
                 </ul>
@@ -106,7 +111,7 @@ function Footer() {
                     </a>
                   </li> */}
                   <li className="nav-item">
-                    <a className="nav-link" href="/legal">
+                    <a className="nav-link" href="/#home">
                       Privacy Policy
                     </a>
                   </li>
@@ -116,7 +121,7 @@ function Footer() {
                     </a>
                   </li> */}
                   <li className="nav-item">
-                    <a className="nav-link" href="/terms">
+                    <a className="nav-link" href="/#home">
                       Terms & condition
                     </a>
                   </li>
@@ -144,7 +149,7 @@ function Footer() {
         <hr className="mt-4 mb-0" />
 
         <div className="d-md-flex justify-content-between align-items-center text-center text-lg-start py-4">
-          <div className="text-body"> Copyrights ©{currentYear} Softnet . </div>
+          <div className="text-body"> Copyrights ©{currentYear} Opsera. </div>
           <div></div>
         </div>
       </div>
