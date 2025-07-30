@@ -40,12 +40,13 @@ function Footer() {
             <a className="me-0" href="index.html">
               <img
                 className="light-mode-item h-40px"
-                src="assets/images/softnet-logo.png"
+                src="assets/images/logos/opsera-footer-light-4.svg"
+                style={{ height: '70px'}}
                 alt="logo"
               />
               <img
-                className="dark-mode-item h-40px"
-                src="assets/images/softnet-logo.png"
+                className="dark-mode-item h-60px"
+                src="assets/images/logos/opsera-footer-light-4.svg"
                 alt="logo"
               />
             </a>

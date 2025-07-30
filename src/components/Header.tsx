@@ -38,7 +38,8 @@ function Header() {
           <a className="navbar-brand me-0" href="/">
             <img
               className="light-mode-item navbar-brand-item"
-              src="assets/images/softnet-logo.png"
+              src="assets/images/logos/opsera-footer-dark-4.svg"
+              style={{ height: '50px' }}
               alt="logo"
             />
             <img
