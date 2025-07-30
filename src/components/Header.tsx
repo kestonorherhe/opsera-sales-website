@@ -39,7 +39,7 @@ function Header() {
             <img
               className="light-mode-item navbar-brand-item"
               src="assets/images/logos/opsera-footer-dark-4.svg"
-              style={{ height: '50px' }}
+              // style={{ height: '50px' }}
               alt="logo"
             />
             <img
