@@ -276,7 +276,7 @@ function Home() {
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
                       <span className="bg-primary text-uppercase text-white rounded small px-3 py-2">Leads</span>
-                      <h3 className="my-4">Comprehensive data analytics and reporting</h3>
+                      <h3 className="my-4">Convert More Leads Without Dropping the Ball</h3>
                       <p>Turn raw inquiries into closed deals faster. Organize, assign, and follow up with leads without letting anyone slip through the cracks.</p>
                       <ul className="list-group list-group-borderless mb-4">
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Automatically collect and qualify leads from forms or campaigns</li>
@@ -419,7 +419,7 @@ function Home() {
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
                       <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Sales</span>
-                      <h3 className="my-4">Streamlined teamwork and client engagement</h3>
+                      <h3 className="my-4">Streamline Sales Application from Start to Finish</h3>
                       <p className="mb-5">Track every sales application—from initial submission to final allocation—in one clean dashboard.</p>
 
                       <ul className="list-group list-group-borderless mb-4">
@@ -489,7 +489,7 @@ function Home() {
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
                       <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Commissions & Rewards</span>
-                      <h3 className="my-4">Streamlined teamwork and client engagement</h3>
+                      <h3 className="my-4">Effortless Commission Tracking for Agents & Affiliates</h3>
                       <p className="mb-5">Stop managing commissions with spreadsheets. Let affiliates track their earnings and focus on selling.</p>
 
                       <ul className="list-group list-group-borderless mb-4">
@@ -559,7 +559,7 @@ function Home() {
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
                       <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Properties</span>
-                      <h3 className="my-4">Streamlined teamwork and client engagement</h3>
+                      <h3 className="my-4">One Platform to Manage All Your Property Listings</h3>
                       <p className="mb-5">Whether you're selling land plots, individual units, or entire estates, Opsera gives you control over your property listings.</p>
 
                       <ul className="list-group list-group-borderless mb-4">
@@ -629,7 +629,7 @@ function Home() {
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
                       <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Affiliates</span>
-                      <h3 className="my-4">Streamlined teamwork and client engagement</h3>
+                      <h3 className="my-4">Organize and Optimize Affiliate Performance</h3>
                       <p className="mb-5">Handle hundreds of agents and partners without stress. Structure affiliate tiers, permissions, and activity tracking easily.</p>
 
                       <ul className="list-group list-group-borderless mb-4">
@@ -699,7 +699,7 @@ function Home() {
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
                       <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Reports</span>
-                      <h3 className="my-4">Streamlined teamwork and client engagement</h3>
+                      <h3 className="my-4">Data-Driven Insights for Smarter Real Estate Decisions</h3>
                       <p className="mb-5">Make smarter decisions with real-time data on your sales, agents, and business performance.</p>
 
                       <ul className="list-group list-group-borderless mb-4">
@@ -1003,8 +1003,8 @@ function Home() {
                     <div className="ms-3">
                       <h6 className="mb-0 mb-sm-2 text-primary">Work from Anywhere</h6>
                       <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Cloud-based platform accessible via web and mobile</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Agents and staff can use it on the go—no desktop dependency</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Cloud-based platform accessible via web and mobile</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Agents and staff can use it on the go—no desktop dependency</li>
                       </ul>
                     </div>
                   </div>
@@ -1204,7 +1204,7 @@ function Home() {
 
                         <div className="col-10 col-xl-9 card-body bg-body shadow rounded position-absolute end-0 bottom-0 p-xl-5 mb-4 me-4">
 
-                          <h6>"Mizzle is essential tool for me and my team"</h6>
+                          {/* <h6>"Mizzle is essential tool for me and my team"</h6> */}
                           <p>We used to manage land sales manually, and it was messy. Since switching to Opsera Sales, we've seen a 60% reduction in delays and a huge boost in agent transparency.</p>
                           <ul className="list-inline mb-1">
                             <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
@@ -1241,7 +1241,7 @@ function Home() {
 
                 <div className="col-lg-6 ms-auto order-1 order-lg-2">
                   <span className="text-primary fw-bold text-uppercase">Testimonials</span>
-                  <h2 className="my-3">Don't take our word for it. See what our client says.</h2>
+                  {/* <h2 className="my-3">Don't take our word for it. See what our client says.</h2> */}
                   <p className="mb-4">Hear what our satisfied clients have to say about their experiences with our platform. Discover how we've helped agencies like yours achieve remarkable results.</p>
                   <div className="d-sm-flex gap-3">
                     <a href="/#get-started" className="btn btn-lg btn-dark mb-2 mb-sm-0">Get Started</a>
