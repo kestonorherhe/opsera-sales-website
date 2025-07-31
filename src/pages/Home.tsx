@@ -240,7 +240,7 @@ function Home() {
 
         <div className="container pb-6 position-relative">
           <div className="inner-container-small text-center mb-4 mb-sm-5">
-            <span className="text-primary fw-bold text-uppercase">Features</span>
+            <span className="fw-bold text-uppercase" style={{ color: '#FFA600' }}>Features</span>
             <h2 className="mb-0 mt-3">Designed for Real Estate Sales agencies</h2>
           </div>
 
@@ -275,14 +275,14 @@ function Home() {
                 <div className="tab-pane fade show active" id="pills-analytics" role="tabpanel" aria-labelledby="pills-analytics-tab" tabIndex={0}>
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Leads</span>
+                      <span className="bg-primary text-uppercase text-white rounded small px-3 py-2">Leads</span>
                       <h3 className="my-4">Comprehensive data analytics and reporting</h3>
                       <p>Turn raw inquiries into closed deals faster. Organize, assign, and follow up with leads without letting anyone slip through the cracks.</p>
                       <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Automatically collect and qualify leads from forms or campaigns</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Assign leads to in-house staff or affiliates</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Get reminders to follow up based on lead activity</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Track conversion performance in real time</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Automatically collect and qualify leads from forms or campaigns</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Assign leads to in-house staff or affiliates</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Get reminders to follow up based on lead activity</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Track conversion performance in real time</li>
                       </ul>
                       <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
@@ -423,10 +423,10 @@ function Home() {
                       <p className="mb-5">Track every sales application—from initial submission to final allocation—in one clean dashboard.</p>
 
                       <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Approve or reject applications with full documentation</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>View status by property, buyer, or agent</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Save time by eliminating paperwork and back-and-forth emails</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i> Improve trust by giving customers clarity on their application stage</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Approve or reject applications with full documentation</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>View status by property, buyer, or agent</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Save time by eliminating paperwork and back-and-forth emails</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i> Improve trust by giving customers clarity on their application stage</li>
                       </ul>
                       <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
@@ -493,10 +493,10 @@ function Home() {
                       <p className="mb-5">Stop managing commissions with spreadsheets. Let affiliates track their earnings and focus on selling.</p>
 
                       <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>See how much each agent or affiliate has earned</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Automatically calculate commissions on closed deals</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Allow affiliates to view earnings, request withdrawals, and track payout status</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Reduce disputes, errors, and overpayments</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>See how much each agent or affiliate has earned</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Automatically calculate commissions on closed deals</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Allow affiliates to view earnings, request withdrawals, and track payout status</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Reduce disputes, errors, and overpayments</li>
                       </ul>
                       <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
@@ -563,10 +563,10 @@ function Home() {
                       <p className="mb-5">Whether you're selling land plots, individual units, or entire estates, Opsera gives you control over your property listings.</p>
 
                       <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Add and categorize properties by location, type, status (available, sold, pending)</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Break down estates into units or plots with pricing per item</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Know what's available, what's sold, and what’s being negotiated</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Attach documentation, images, and allocation notes</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Add and categorize properties by location, type, status (available, sold, pending)</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Break down estates into units or plots with pricing per item</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Know what's available, what's sold, and what’s being negotiated</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Attach documentation, images, and allocation notes</li>
                       </ul>
                       <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
@@ -633,10 +633,10 @@ function Home() {
                       <p className="mb-5">Handle hundreds of agents and partners without stress. Structure affiliate tiers, permissions, and activity tracking easily.</p>
 
                       <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Approve or suspend affiliates in one click</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Assign special commission rates or sales packages</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Monitor who is selling what—and how much</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Keep affiliates accountable with transparent performance tracking</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Approve or suspend affiliates in one click</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Assign special commission rates or sales packages</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Monitor who is selling what—and how much</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Keep affiliates accountable with transparent performance tracking</li>
                       </ul>
                       <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
@@ -703,10 +703,10 @@ function Home() {
                       <p className="mb-5">Make smarter decisions with real-time data on your sales, agents, and business performance.</p>
 
                       <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Visualize sales performance over time</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Identify top-performing agents and affiliates</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Forecast sales revenue and trends</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Download data-rich reports for investors or internal review</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Visualize sales performance over time</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Identify top-performing agents and affiliates</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Forecast sales revenue and trends</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Download data-rich reports for investors or internal review</li>
                       </ul>
                       <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
@@ -981,27 +981,27 @@ function Home() {
                   <div className="d-flex">
                     {/* <div className="icon-md flex-shrink-0 text-primary bg-primary bg-opacity-10 rounded-circle"><i className="bi bi-boxes fa-xl"></i></div> */}
                     <div className="ms-3">
-                      <h6 className="mb-0 mb-sm-2">Save Time</h6>
+                      <h6 className="mb-0 mb-sm-2 text-primary">Save Time</h6>
                       <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Automate repetitive tasks like status updates, follow-ups, and commission reports</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Speed up onboarding of staff and agents</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Automate repetitive tasks like status updates, follow-ups, and commission reports</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Speed up onboarding of staff and agents</li>
                       </ul>
                     </div>
                   </div>
                   <div className="d-flex">
                     {/* <div className="icon-md flex-shrink-0 text-primary bg-primary bg-opacity-10 rounded-circle"><i className="bi bi-boxes fa-xl"></i></div> */}
                     <div className="ms-3">
-                      <h6 className="mb-0 mb-sm-2">Boost Accountability</h6>
+                      <h6 className="mb-0 mb-sm-2 text-primary">Boost Accountability</h6>
                       <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Know exactly who is selling, what they’re selling, and how much they’ve earned</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Eliminate guesswork with full visibility into your entire sales process</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Know exactly who is selling, what they’re selling, and how much they’ve earned</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Eliminate guesswork with full visibility into your entire sales process</li>
                       </ul>
                     </div>
                   </div>
                   <div className="d-flex">
                     {/* <div className="icon-md flex-shrink-0 text-primary bg-primary bg-opacity-10 rounded-circle"><i className="bi bi-boxes fa-xl"></i></div> */}
                     <div className="ms-3">
-                      <h6 className="mb-0 mb-sm-2">Work from Anywhere</h6>
+                      <h6 className="mb-0 mb-sm-2 text-primary">Work from Anywhere</h6>
                       <ul className="list-group list-group-borderless mb-4">
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Cloud-based platform accessible via web and mobile</li>
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Agents and staff can use it on the go—no desktop dependency</li>
@@ -1129,13 +1129,13 @@ function Home() {
                 <hr className="my-4" />
                 <p className="heading-color fw-normal mb-2">Quick look at all the features</p>
                 <ul className="list-group list-group-borderless mb-2 mb-sm-4">
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Manage up to 10 properties</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Up to 3 team members</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Sales application tracking</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Basic lead management</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Access to affiliate tools</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Basic reports and analytics</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Email support</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Manage up to 10 properties</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Up to 3 team members</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Sales application tracking</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Basic lead management</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Access to affiliate tools</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Basic reports and analytics</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Email support</li>
                 </ul>
 
                 <span className="mb-4 heading-color"><span className="h2 plan-price" data-monthly-price="$299" data-annual-price="$250">$0</span> /month</span>
@@ -1149,15 +1149,15 @@ function Home() {
                 <hr className="my-4" />
                 <p className="heading-color fw-normal mb-2">Quick look at all the features</p>
                 <ul className="list-group list-group-borderless mb-2 mb-sm-4">
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Everything in Free Plan</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Unlimited properties</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Up to 20 team members</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Full sales application workflows</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Commission and affiliate tracking</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Access control for staff</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Advanced lead conversion tools</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Standard analytics dashboard</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Email support</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Everything in Free Plan</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Unlimited properties</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Up to 20 team members</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Full sales application workflows</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Commission and affiliate tracking</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Access control for staff</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Advanced lead conversion tools</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Standard analytics dashboard</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Email support</li>
                 </ul>
 
                 <span className="mb-4 heading-color"><span className="h2 plan-price" data-monthly-price="$299" data-annual-price="$250">$299</span> /month</span>
@@ -1174,15 +1174,15 @@ function Home() {
                 <hr className="my-4" />
                 <p className="heading-color fw-normal mb-2">Quick look at all the features</p>
                 <ul className="list-group list-group-borderless mb-2 mb-sm-4">
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Everything in Basic Plan</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Unlimited team members</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Custom affiliate packages</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Enterprise-grade property manager</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>White-label branding</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Custom reports & KPIs</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Dedicated account manager</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>API access & integrations</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill text-primary me-1"></i>Priority support</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Everything in Basic Plan</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Unlimited team members</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Custom affiliate packages</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Enterprise-grade property manager</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>White-label branding</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Custom reports & KPIs</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Dedicated account manager</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>API access & integrations</li>
+                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Priority support</li>
                 </ul>
                 <a className="btn btn-primary icon-link icon-link-hover justify-content-center" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
               </div>
