@@ -64,32 +64,6 @@ function Home() {
               </div>
 
               <hr className="my-4 my-sm-6" />
-
-              {/* <div className="row g-4">
-                <div className="col-sm-6">
-                  <figure className="mb-3">
-                    <svg width="154px" height="38.4px" viewBox="0 0 154 38.4">
-                      <path className="fill-mode" d="M39.5,13.1h15.2v2.9h-6v15.9h-3.3V15.9h-5.9L39.5,13.1z M54,18.2h2.8v2.6h0.1c0.1-0.4,0.3-0.8,0.5-1.1 c0.2-0.4,0.5-0.7,0.9-1c0.4-0.3,0.8-0.5,1.2-0.7c0.5-0.2,0.9-0.3,1.4-0.3c0.4,0,0.6,0,0.8,0s0.3,0.1,0.4,0.1v2.9 c-0.2-0.1-0.5-0.1-0.7-0.1s-0.5-0.1-0.7-0.1c-0.5,0-1,0.1-1.4,0.3c-0.5,0.2-0.8,0.5-1.2,0.9c-0.3,0.4-0.6,0.9-0.8,1.4 c-0.2,0.5-0.3,1.3-0.3,2v6.5h-3L54,18.2z M75.7,31.8h-2.9v-1.9h-0.1c-0.4,0.7-0.9,1.2-1.7,1.7c-0.8,0.5-1.5,0.6-2.3,0.6 c-1.8,0-3.1-0.5-3.9-1.4c-0.8-0.9-1.2-2.3-1.2-4v-8.6h3v8.3c0,1.2,0.2,2,0.7,2.6c0.5,0.5,1.1,0.8,2,0.8c0.6,0,1.1-0.1,1.6-0.3 c0.5-0.2,0.8-0.5,1.1-0.8s0.5-0.8,0.6-1.2c0.2-0.5,0.2-1,0.2-1.5v-7.9h3L75.7,31.8L75.7,31.8z M80.8,27.5c0.1,0.9,0.5,1.5,1,1.9 c0.6,0.4,1.3,0.5,2.1,0.5c0.3,0,0.6,0,1-0.1c0.4-0.1,0.7-0.2,1-0.2c0.3-0.2,0.6-0.3,0.8-0.5c0.2-0.2,0.3-0.5,0.3-0.9 c0-0.4-0.2-0.7-0.5-1c-0.3-0.2-0.6-0.5-1-0.6c-0.4-0.2-0.9-0.3-1.4-0.4c-0.5-0.1-1.1-0.2-1.6-0.4c-0.5-0.2-1.1-0.3-1.7-0.5 c-0.5-0.2-1-0.4-1.4-0.8c-0.4-0.3-0.8-0.7-1-1.1c-0.2-0.5-0.4-1.1-0.4-1.7c0-0.8,0.2-1.4,0.5-1.9c0.4-0.5,0.8-0.9,1.4-1.2 s1.2-0.5,1.9-0.7c0.7-0.2,1.4-0.2,2-0.2c0.7,0,1.4,0.1,2,0.2c0.6,0.2,1.2,0.4,1.7,0.8c0.5,0.3,1,0.8,1.3,1.3c0.4,0.5,0.5,1.2,0.7,2 h-3.2c-0.2-0.8-0.5-1.2-1-1.4c-0.5-0.2-1.1-0.4-1.8-0.4c-0.2,0-0.5,0-0.8,0.1c-0.3,0.1-0.5,0.1-0.8,0.2c-0.2,0.1-0.5,0.2-0.7,0.5 c-0.2,0.2-0.3,0.5-0.3,0.8c0,0.4,0.2,0.7,0.4,0.9c0.2,0.2,0.6,0.4,1,0.6c0.4,0.2,0.9,0.3,1.4,0.4c0.5,0.1,1.1,0.2,1.7,0.4 s1.1,0.3,1.6,0.5c0.5,0.2,1,0.4,1.4,0.8c0.4,0.3,0.8,0.7,1,1.1c0.2,0.5,0.4,1.1,0.4,1.7c0,0.8-0.2,1.5-0.5,2 c-0.4,0.5-0.8,1.1-1.4,1.4c-0.6,0.4-1.3,0.6-2,0.8c-0.8,0.2-1.4,0.2-2.1,0.2c-0.8,0-1.7-0.1-2.4-0.3c-0.8-0.2-1.4-0.5-1.9-0.9 c-0.5-0.4-1-0.9-1.3-1.5c-0.3-0.6-0.5-1.3-0.5-2.1L80.8,27.5L80.8,27.5L80.8,27.5z M90.7,18.2h2.3v-4.1h3v4.1h2.7v2.3h-2.7v7.3 c0,0.3,0,0.6,0.1,0.8c0,0.2,0.1,0.5,0.2,0.6c0.1,0.2,0.2,0.3,0.5,0.4c0.2,0.1,0.5,0.2,0.8,0.2c0.2,0,0.5,0,0.6,0 c0.2,0,0.5-0.1,0.6-0.1v2.3c-0.3,0.1-0.7,0.1-1,0.1C97.3,32,97,32,96.7,32c-0.8,0-1.4-0.1-1.9-0.2c-0.5-0.2-0.8-0.4-1.1-0.7 c-0.3-0.3-0.5-0.7-0.5-1.1c-0.1-0.5-0.2-1-0.2-1.5v-8.1h-2.3L90.7,18.2L90.7,18.2z M100.8,18.2h2.9v1.9h0.1c0.5-0.8,1-1.4,1.7-1.7 c0.8-0.4,1.6-0.5,2.5-0.5c1.1,0,2,0.2,2.8,0.6c0.8,0.4,1.4,0.9,2,1.6c0.5,0.7,0.9,1.4,1.2,2.3c0.2,0.9,0.4,1.8,0.4,2.8 c0,0.9-0.2,1.8-0.4,2.6s-0.6,1.7-1.1,2.3s-1.1,1.2-1.8,1.6c-0.8,0.4-1.6,0.6-2.6,0.6c-0.5,0-0.9-0.1-1.3-0.2 c-0.5-0.1-0.8-0.2-1.3-0.4c-0.4-0.2-0.8-0.4-1.1-0.7c-0.4-0.3-0.6-0.6-0.8-1h-0.1v6.8h-3L100.8,18.2L100.8,18.2z M111.2,25.1 c0-0.6-0.1-1.2-0.2-1.8c-0.2-0.6-0.4-1.1-0.8-1.5s-0.8-0.8-1.2-1.1c-0.5-0.3-1.1-0.4-1.7-0.4c-1.3,0-2.2,0.5-2.9,1.3 c-0.6,0.9-1,2-1,3.5c0,0.7,0.1,1.4,0.2,1.9c0.2,0.6,0.4,1.1,0.8,1.5c0.3,0.5,0.8,0.8,1.2,1c0.5,0.2,1,0.4,1.7,0.4s1.3-0.2,1.7-0.5 c0.5-0.3,0.8-0.7,1.2-1.1c0.3-0.5,0.5-1,0.7-1.5C111.2,26.2,111.2,25.7,111.2,25.1z M116.6,13.1h3v2.9h-3V13.1z M116.6,18.2h3v13.6 h-3V18.2z M122.2,13.1h3v18.8h-3V13.1z M134.4,32.2c-1.1,0-2-0.2-2.9-0.5c-0.8-0.4-1.6-0.8-2.2-1.5c-0.6-0.6-1.1-1.4-1.4-2.3 c-0.3-0.9-0.5-1.9-0.5-2.9c0-1.1,0.2-2,0.5-2.9c0.3-0.9,0.8-1.7,1.4-2.3c0.6-0.6,1.3-1.1,2.2-1.5c0.8-0.4,1.8-0.5,2.9-0.5 s2,0.2,2.9,0.5c0.8,0.4,1.6,0.8,2.2,1.5c0.6,0.6,1.1,1.4,1.4,2.3c0.3,0.9,0.5,1.8,0.5,2.9c0,1.1-0.2,2-0.5,2.9 c-0.3,0.8-0.8,1.7-1.4,2.3c-0.6,0.6-1.3,1.1-2.2,1.5C136.5,32,135.5,32.2,134.4,32.2z M134.4,29.8c0.7,0,1.3-0.2,1.7-0.5 c0.5-0.3,0.9-0.7,1.2-1.1c0.3-0.5,0.5-1,0.7-1.5c0.2-0.6,0.2-1.1,0.2-1.7s-0.1-1.1-0.2-1.7s-0.4-1.1-0.7-1.5 c-0.3-0.5-0.8-0.8-1.2-1.1c-0.5-0.3-1.1-0.5-1.7-0.5s-1.3,0.2-1.7,0.5c-0.5,0.3-0.9,0.7-1.2,1.1c-0.3,0.5-0.5,1-0.7,1.5 c-0.2,0.6-0.2,1.1-0.2,1.7s0.1,1.2,0.2,1.7s0.4,1.1,0.7,1.5c0.3,0.5,0.8,0.8,1.2,1.1C133.2,29.7,133.8,29.8,134.4,29.8z M142.2,18.2 h2.3v-4.1h3v4.1h2.7v2.3h-2.7v7.3c0,0.3,0,0.6,0.1,0.8c0,0.2,0.1,0.5,0.2,0.6s0.2,0.3,0.5,0.4c0.2,0.1,0.5,0.2,0.8,0.2 c0.2,0,0.5,0,0.6,0c0.2,0,0.5-0.1,0.6-0.1v2.3c-0.3,0.1-0.7,0.1-1,0.1c-0.3,0.1-0.6,0.1-1,0.1c-0.8,0-1.4-0.1-1.9-0.2 c-0.5-0.2-0.8-0.4-1.1-0.7c-0.3-0.3-0.5-0.7-0.5-1.1c-0.1-0.5-0.2-1-0.2-1.5v-8.1h-2.3L142.2,18.2L142.2,18.2z" />
-                      <path className="st0" d="M36,13.1H22.2L18,0l-4.3,13.1H0l11.1,8.1l-4.3,13L17.9,26L29,34.2l-4.2-13.1L36,13.1z" fill="#00B67A" />
-                      <path className="st1" d="M25.8,24.1l-1-2.9l-6.8,5L25.8,24.1z" fill="#005128" />
-                    </svg>
-                  </figure>
-                  <img src="assets/images/elements/trustpilot-star.svg" className="h-20px mb-3" alt="Rating-img" />
-                  <p className="mb-0">Total score <span className="text-secondary text-opacity-25">|</span><span className="fw-bold heading-color"> 305 reviews</span></p>
-                </div>
-
-                <div className="col-sm-6">
-                  <img src="assets/images/elements/google.svg" className="mb-3 h-40px" alt="google icon" />
-                  <ul className="list-inline mb-2">
-                    <li className="list-inline-item me-0"><i className="fa-solid fa-star text-warning"></i></li>
-                    <li className="list-inline-item me-0"><i className="fa-solid fa-star text-warning"></i></li>
-                    <li className="list-inline-item me-0"><i className="fa-solid fa-star text-warning"></i></li>
-                    <li className="list-inline-item me-0"><i className="fa-solid fa-star text-warning"></i></li>
-                    <li className="list-inline-item"><i className="fa-solid fa-star-half-alt text-warning"></i></li>
-                  </ul>
-                  <p className="mb-0">Total score <span className="text-secondary text-opacity-25">|</span><span className="fw-bold heading-color"> 145 reviews</span></p>
-                </div>
-              </div> */}
               <ul className="list-inline d-flex flex-wrap gap-2 gap-sm-4 mb-0 mt-4 mt-xl-5">
                 <li className="list-inline-item heading-color"> <i className="bi bi-stopwatch me-1"></i>24/7 Supports</li>
                 <li className="list-inline-item heading-color"> <i className="bi bi-fire me-1"></i>Free updates</li>
@@ -98,107 +72,7 @@ function Home() {
             </div>
 
             <div className="col-xl-10 d-flex rotate-343 position-relative aos z-index-2" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out">
-
-              <figure className="position-absolute top-0 start-0 ms-9">
-                <svg className="opacity-2" width="148" height="140" viewBox="0 0 148 140" xmlns="http://www.w3.org/2000/svg">
-                  <path className="fill-primary" d="m9.95 131.41c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <circle className="fill-primary" cx="25.86" cy="131.41" r="2.95"></circle>
-                  <circle className="fill-primary" cx="44.71" cy="131.41" r="2.95"></circle>
-                  <circle className="fill-primary" cx="63.57" cy="131.41" r="2.95"></circle>
-                  <circle className="fill-primary" cx="82.43" cy="131.41" r="2.95"></circle>
-                  <circle className="fill-primary" cx="101.29" cy="131.41" r="2.95"></circle>
-                  <circle className="fill-primary" cx="120.14" cy="131.41" r="2.95"></circle>
-                  <path className="fill-primary" d="m141.95 131.41c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m9.95 113.61c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <circle className="fill-primary" cx="25.86" cy="113.61" r="2.95"></circle>
-                  <circle className="fill-primary" cx="44.71" cy="113.61" r="2.95"></circle>
-                  <circle className="fill-primary" cx="63.57" cy="113.61" r="2.95"></circle>
-                  <circle className="fill-primary" cx="82.43" cy="113.61" r="2.95"></circle>
-                  <circle className="fill-primary" cx="101.29" cy="113.61" r="2.95"></circle>
-                  <circle className="fill-primary" cx="120.14" cy="113.61" r="2.95"></circle>
-                  <path className="fill-primary" d="m141.95 113.61c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m9.95 95.81c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <circle className="fill-primary" cx="25.86" cy="95.81" r="2.95"></circle>
-                  <circle className="fill-primary" cx="44.71" cy="95.81" r="2.95"></circle>
-                  <circle className="fill-primary" cx="63.57" cy="95.81" r="2.95"></circle>
-                  <circle className="fill-primary" cx="82.43" cy="95.81" r="2.95"></circle>
-                  <circle className="fill-primary" cx="101.29" cy="95.81" r="2.95"></circle>
-                  <circle className="fill-primary" cx="120.14" cy="95.81" r="2.95"></circle>
-                  <path className="fill-primary" d="m141.95 95.81c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m9.95 78.01c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.63 0.01 2.95 1.33 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m28.8 78.01c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.63 0.01 2.95 1.33 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m47.66 78.01c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.63 0.01 2.95 1.33 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m66.52 78.01c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.63 0.01 2.95 1.33 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m85.37 78.01c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.64 0.01 2.95 1.33 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m104.23 78.01c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.63 0.01 2.95 1.33 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m123.09 78.01c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.63 0.01 2.95 1.33 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m141.95 78.01c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.63 0.01 2.95 1.33 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m9.95 60.22c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m28.8 60.22c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m47.66 60.22c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m66.52 60.22c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m85.37 60.22c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.64 0 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m104.23 60.22c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m123.09 60.22c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m141.95 60.22c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m9.95 42.42c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m28.8 42.42c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m47.66 42.42c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m66.52 42.42c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m85.37 42.42c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.64 0 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m104.23 42.42c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m123.09 42.42c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m141.95 42.42c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m9.95 24.62c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <circle className="fill-primary" cx="25.86" cy="24.62" r="2.95"></circle>
-                  <circle className="fill-primary" cx="44.71" cy="24.62" r="2.95"></circle>
-                  <circle className="fill-primary" cx="63.57" cy="24.62" r="2.95"></circle>
-                  <circle className="fill-primary" cx="82.43" cy="24.62" r="2.95"></circle>
-                  <circle className="fill-primary" cx="101.29" cy="24.62" r="2.95"></circle>
-                  <circle className="fill-primary" cx="120.14" cy="24.62" r="2.95"></circle>
-                  <path className="fill-primary" d="m141.95 24.62c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                  <path className="fill-primary" d="m9.95 6.82c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95c0-1.62 1.32-2.94 2.95-2.94s2.95 1.32 2.95 2.94z"></path>
-                  <circle className="fill-primary" cx="25.86" cy="6.82" r="2.95"></circle>
-                  <circle className="fill-primary" cx="44.71" cy="6.82" r="2.95"></circle>
-                  <circle className="fill-primary" cx="63.57" cy="6.82" r="2.95"></circle>
-                  <circle className="fill-primary" cx="82.43" cy="6.82" r="2.95"></circle>
-                  <circle className="fill-primary" cx="101.29" cy="6.82" r="2.95"></circle>
-                  <circle className="fill-primary" cx="120.14" cy="6.82" r="2.95"></circle>
-                  <path className="fill-primary" d="m141.95 6.82c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.63 0.01 2.95 1.33 2.95 2.95z"></path>
-                </svg>
-              </figure>
-
-              <figure className="position-absolute start-50 bottom-0 ms-n5">
-                <svg width="120.4px" height="124.5px" viewBox="0 0 120.4 124.5">
-                  <path className="fill-mode" d="M92.9,58.4c-0.2-4.7-1.8-9-5-12.6c-3-3.3-6.4-6.2-10.4-8.4c-3.4-1.9-7-2.9-10.8-3.3c-3.1-0.4-6,0.2-8.6,1.8 c-6.5,3.8-11.5,9.1-14.6,16.1c-1.1,2.5-1.5,5.1-1.3,7.7c0.3,3.2,0.9,6.4,2.1,9.4c2.1,5.4,5.7,9.4,11.5,11c1.8,0.5,3.5,1,5.3,1.6 c2.1,0.7,4.3,0.8,6.5,0.5c2.4-0.3,4.8-0.8,7.1-1.4c1.8-0.5,3.4-1.5,4.6-2.9c2-2.2,3.9-4.6,5.2-7.3c0.7-1.4,1.3-3,1.6-4.5 c1.1-6.4-0.7-12.1-4.5-17.2c-1.8-2.5-4.3-4.2-7.2-5c-3-0.8-6.1-1.1-9.2-0.8c-4.5,0.4-8.4,2.2-11.4,5.7c-2.1,2.4-3.6,5-4.3,8.1 c-0.6,2.4-0.5,4.8-0.6,7.2c-0.2,5.8,6.2,12.5,12.3,12c2.7-0.2,5.5-0.5,8.2-0.7c5.4-0.5,9.3-4.9,9.8-9.6c0.2-1.9,0.2-3.9,0.1-5.8 c-0.1-2.5-1.3-4.6-3.1-6.3c-3.1-2.9-6.8-4.1-11.1-3.7c-2.4,0.2-4.4,1.2-5.8,3.2c-1.8,2.5-2.8,5.3-3.1,8.3c-0.2,1.9,0.3,3.7,1.9,5 c2.7,2.2,5.8,3.3,9.2,3c1.6-0.1,2.8-0.9,3.8-2.2c1.6-2.1,1.6-4.5,1.1-6.9c-1-4.3-4.6-5.5-8.2-2.9c-0.3,0.2-0.4,0.7-0.6,1.1 c0.1,0.1,0.3,0.3,0.4,0.4c0.9-0.4,1.8-0.9,2.8-1.2c1-0.3,2-0.1,2.8,0.7c1.6,1.8,1.9,5.4,0.5,7.4c-0.9,1.2-2.1,1.9-3.5,1.8 c-2.3-0.1-4.5-0.9-6.4-2.3c-1.3-1-1.8-2.3-1.7-3.9c0.2-1.7,0.7-3.4,1.4-4.9c1.8-3.6,4-4.9,8.1-4.4c0.9,0.1,1.8,0.3,2.7,0.6 c4.5,1.7,6.8,5,6.6,9.8c0,1.4-0.2,2.8-0.5,4.1c-0.9,3.2-2.9,5.5-6.3,6.1c-2.9,0.5-5.9,0.7-8.9,0.9c-5.6,0.4-10.5-5.4-10.3-9.9 c0.1-2.1,0.2-4.1,0.6-6.1c1.5-6.9,7.2-11.6,14.2-11.9c1.7-0.1,3.5,0,5.2,0.2c3.5,0.4,6.4,1.9,8.5,4.7c3.1,4.2,4.6,8.9,4.2,14.2 c-0.3,3.5-2.1,6.2-4,9c-2.1,3-4.7,5-8.4,5.4c-1.1,0.1-2.3,0.4-3.4,0.7c-2,0.5-3.9,0.4-5.8-0.1c-2.3-0.6-4.6-1.3-6.9-2 c-3.1-1-5.4-3-7.1-5.7c-2.7-4.3-3.8-9.1-3.8-14.1c0-2,0.6-3.8,1.5-5.6c2.9-6,7.3-10.5,12.9-14c2.2-1.4,4.7-1.9,7.3-1.6 c4.2,0.4,8.1,1.6,11.6,3.9c3.1,2,5.8,4.5,8.3,7.2c1.7,1.9,2.9,4.1,3.6,6.6c1.5,5,1.1,10.1-0.2,15c-2.2,8-9.4,14.2-17.5,15.9 c-1.7,0.4-3.3,0.9-4.9,1.5c-1.1,0.4-1.6,1.4-1.2,2.1c0.5,0.8,1.4,0.7,2.1,0.5c2.5-0.7,5.1-1.3,7.6-2.2c1.4-0.5,2.8-1.1,4-1.9 c2.9-1.7,5.4-3.9,7.6-6.4c2.6-3,4.5-6.5,5.2-10.4C92.8,65.1,93,61.7,92.9,58.4z"></path>
-                  <path className="fill-primary" d="M98.2,97.6c-1.9-3-3.8-6-5.7-9c-0.7-1-1.2-2.2-3-3c0,0.8-0.1,1.3,0,1.7c0.4,0.9,1,1.8,1.5,2.7 c2.8,5,5.7,9.9,9.2,14.5c1,1.2,2.2,2.3,3.4,3.4c0.3,0.3,0.8,0.4,1.2-0.3c-0.5-0.8-1.1-1.8-1.8-2.7C101.4,102.3,99.7,100,98.2,97.6z "></path>
-                  <path className="fill-primary" d="M75.3,98c-0.5-1.5-1.2-3-1.9-4.4c-0.1-0.3-0.6-0.4-0.9-0.6c-0.2,0.2-0.3,0.3-0.5,0.5c0.1,0.5,0.2,1.1,0.4,1.6 c1.6,5.3,3.1,10.5,4.8,15.8c0.5,1.6,1.1,3.3,1.7,4.9c0.5,1.3,1.4,1.8,1.9,1.4c0.8-0.6,0.5-1.4,0.2-2.2C79,109.3,77.2,103.6,75.3,98 z"></path>
-                  <path className="fill-primary" d="M26.5,69.5c-5.5,1.6-11,3.2-16.5,4.8c-2.1,0.6-4.1,1.4-6.1,2.2c-0.6,0.2-1.1,0.7-1.9,1.2 c5.9-0.4,24.8-6,28.2-8.3C28.8,68.8,27.6,69.2,26.5,69.5z"></path>
-                  <path className="fill-primary" d="M55,96.3c-2.2,7.9-4.5,15.8-6.7,23.8c-0.3,1.2-0.4,2.5-0.7,4.4c0.6-0.9,0.8-1.2,0.9-1.5 c2.6-7.8,5.1-15.7,7.6-23.5c0.3-1.1,0.5-2.2,0.6-3.4c0-0.4-0.4-0.9-0.8-1.7C55.5,95.3,55.2,95.8,55,96.3z"></path>
-                  <path className="fill-primary" d="M25.2,48.7c0.6,0.3,1.3,0.5,2,0.6c0.5,0.1,1.1-0.1,1.6-0.2c0-0.2,0-0.3,0-0.5c-3-1.4-6-3-9-4.2 c-3.2-1.3-6.4-2.4-9.7-3.5c-3.1-1-6.1-2.3-10-2.8c0.8,0.7,1.1,1.1,1.5,1.3c1.5,0.7,2.9,1.3,4.4,1.9C12.4,43.6,18.9,45.7,25.2,48.7z "></path>
-                  <path className="fill-primary" d="M38.2,86.5c-0.7,0.3-1.4,0.8-2,1.3c-5.1,4.5-10.1,9-14.5,14.2c-0.9,1-1.6,2.2-2.5,3.3c0.1,0.1,0.2,0.3,0.4,0.4 c6.7-6.2,13.4-12.3,20.1-18.5c0.1-0.1,0-0.4,0-0.9C39.2,86.4,38.6,86.3,38.2,86.5z"></path>
-                  <path className="fill-primary" d="M106.5,77.4c-1.1-1.1-2.4-2.2-3.6-3.1c-0.7-0.5-1.6-0.8-2.5-1c-0.5-0.1-1.2,0-1,1.1c2.1,0.8,3.6,2.5,5.2,4.1 c1.3,1.3,2.4,2.7,3.8,3.9c1.8,1.5,3.8,3,5.7,4.3c1,0.7,2.2,1.3,4.1,0.7c-0.7-0.7-1.1-1.1-1.5-1.4C112.9,83.6,109.6,80.5,106.5,77.4 z"></path>
-                  <path className="fill-primary" d="M33.5,27.3c0.7,0.7,1.6,1.3,2.5,1.8c0.5,0.3,1.3,0.4,1.9,0.5c-2.3-2.2-4-4.6-6-6.8c-3.5-3.8-7-7.6-10.5-11.3 c-0.4-0.4-0.7-0.9-1.4-0.6c-0.5,0.6-0.1,1.1,0.3,1.5C24.6,17.4,29.1,22.4,33.5,27.3z"></path>
-                  <path className="fill-primary" d="M53.3,20c0.1,1.1,0.3,2.3,0.6,3.4c0.1,0.4,0.7,0.6,1.3,1c-0.1-3.1-0.1-5.8-0.3-8.5c-0.1-2.6-0.4-5.2-0.6-7.9 c-0.4-5-0.6-5.7-2-8c0,0.9-0.1,1.6-0.1,2.2C52.6,8.2,52.9,14.1,53.3,20z"></path>
-                  <path className="fill-primary" d="M101.1,56.2c0.2,0.4,0.3,0.7,0.5,0.7c4.9,1.1,9.8,2.2,14.7,3.1c1.3,0.3,2.7,0.4,4.1-0.5 c-0.8-0.3-1.7-0.6-2.5-0.8c-5.2-0.9-10.3-1.9-15.5-2.7C102,56,101.6,56.1,101.1,56.2z"></path>
-                  <path className="fill-primary" d="M97.8,36.8c4.7-1.9,8.9-4.8,12.6-8.3c0.3-0.3,0.7-0.6,0.1-1.3c-2.5,1.7-5.1,3.5-7.7,5.1 c-2.6,1.6-5.3,3-8.1,4.6C95.9,37.7,96.8,37.2,97.8,36.8z"></path>
-                  <path className="fill-primary" d="M81.6,11.5c0.5-1.6,0.8-3.2,1.2-4.8c-0.3,0.2-0.6,0.3-0.7,0.5c-1.6,4.3-3.2,8.5-4.7,12.8 c-0.2,0.6-0.1,1.3-0.2,1.9C79.1,18.6,80.5,15.1,81.6,11.5z"></path>
-                  <path className="fill-primary" d="M82.8,6.5c0,0,0,0.1,0,0.1C82.8,6.6,82.8,6.6,82.8,6.5C82.9,6.6,82.8,6.5,82.8,6.5z"></path>
-                </svg>
-              </figure>
-
-              <img src="assets/images/bg/saas-bg-2.png" className="rounded-4 position-relative" alt="" />
-
-              <div className="">
-                <img src="assets/images/elements/saas-decoration/01.png" data-depth="0.5" className="layer position-absolute top-0 end-0 rounded-3 h-25 shadow me-5" alt="" />
-              </div>
-
-              <img src="assets/images/elements/saas-decoration/02.png" className="rounded-3 shadow position-absolute top-0 start-50 translate-middle mt-7 d-none d-md-block" alt="" />
-
-              <img src="assets/images/elements/saas-decoration/03.png" data-depth="0.8" className="rounded-3 layer shadow position-absolute bottom-0 start-0 ms-8 d-none d-lg-block" alt="" />
-
-              <img src="assets/images/elements/saas-decoration/04.png" data-depth="0.3" className="rounded-3 layer shadow position-absolute bottom-0 end-0 me-9 mb-4 d-none d-sm-block" alt="" />
-
+              <img src="assets/images/bg/hero.png" className="rounded-4 position-relative" alt="" />
             </div>
           </div>
         </div>
@@ -287,130 +161,8 @@ function Home() {
                       <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
 
-                    <div className="col-lg-4 position-relative ms-auto">
-                      <figure className="position-absolute top-0 start-0 ms-n5 mt-n5">
-                        <svg className="opacity-2" width="148" height="140" viewBox="0 0 148 140" xmlns="http://www.w3.org/2000/svg">
-                          <path className="fill-primary" d="m9.95 131.41c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <circle className="fill-primary" cx="25.86" cy="131.41" r="2.95"></circle>
-                          <circle className="fill-primary" cx="44.71" cy="131.41" r="2.95"></circle>
-                          <circle className="fill-primary" cx="63.57" cy="131.41" r="2.95"></circle>
-                          <circle className="fill-primary" cx="82.43" cy="131.41" r="2.95"></circle>
-                          <circle className="fill-primary" cx="101.29" cy="131.41" r="2.95"></circle>
-                          <circle className="fill-primary" cx="120.14" cy="131.41" r="2.95"></circle>
-                          <path className="fill-primary" d="m141.95 131.41c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m9.95 113.61c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <circle className="fill-primary" cx="25.86" cy="113.61" r="2.95"></circle>
-                          <circle className="fill-primary" cx="44.71" cy="113.61" r="2.95"></circle>
-                          <circle className="fill-primary" cx="63.57" cy="113.61" r="2.95"></circle>
-                          <circle className="fill-primary" cx="82.43" cy="113.61" r="2.95"></circle>
-                          <circle className="fill-primary" cx="101.29" cy="113.61" r="2.95"></circle>
-                          <circle className="fill-primary" cx="120.14" cy="113.61" r="2.95"></circle>
-                          <path className="fill-primary" d="m141.95 113.61c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m9.95 95.81c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <circle className="fill-primary" cx="25.86" cy="95.81" r="2.95"></circle>
-                          <circle className="fill-primary" cx="44.71" cy="95.81" r="2.95"></circle>
-                          <circle className="fill-primary" cx="63.57" cy="95.81" r="2.95"></circle>
-                          <circle className="fill-primary" cx="82.43" cy="95.81" r="2.95"></circle>
-                          <circle className="fill-primary" cx="101.29" cy="95.81" r="2.95"></circle>
-                          <circle className="fill-primary" cx="120.14" cy="95.81" r="2.95"></circle>
-                          <path className="fill-primary" d="m141.95 95.81c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m9.95 78.01c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.63 0.01 2.95 1.33 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m28.8 78.01c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.63 0.01 2.95 1.33 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m47.66 78.01c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.63 0.01 2.95 1.33 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m66.52 78.01c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.63 0.01 2.95 1.33 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m85.37 78.01c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.64 0.01 2.95 1.33 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m104.23 78.01c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.63 0.01 2.95 1.33 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m123.09 78.01c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.63 0.01 2.95 1.33 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m141.95 78.01c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.63 0.01 2.95 1.33 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m9.95 60.22c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m28.8 60.22c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m47.66 60.22c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m66.52 60.22c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m85.37 60.22c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.64 0 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m104.23 60.22c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m123.09 60.22c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m141.95 60.22c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m9.95 42.42c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m28.8 42.42c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m47.66 42.42c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m66.52 42.42c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m85.37 42.42c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.64 0 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m104.23 42.42c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m123.09 42.42c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m141.95 42.42c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m9.95 24.62c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <circle className="fill-primary" cx="25.86" cy="24.62" r="2.95"></circle>
-                          <circle className="fill-primary" cx="44.71" cy="24.62" r="2.95"></circle>
-                          <circle className="fill-primary" cx="63.57" cy="24.62" r="2.95"></circle>
-                          <circle className="fill-primary" cx="82.43" cy="24.62" r="2.95"></circle>
-                          <circle className="fill-primary" cx="101.29" cy="24.62" r="2.95"></circle>
-                          <circle className="fill-primary" cx="120.14" cy="24.62" r="2.95"></circle>
-                          <path className="fill-primary" d="m141.95 24.62c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"></path>
-                          <path className="fill-primary" d="m9.95 6.82c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95c0-1.62 1.32-2.94 2.95-2.94s2.95 1.32 2.95 2.94z"></path>
-                          <circle className="fill-primary" cx="25.86" cy="6.82" r="2.95"></circle>
-                          <circle className="fill-primary" cx="44.71" cy="6.82" r="2.95"></circle>
-                          <circle className="fill-primary" cx="63.57" cy="6.82" r="2.95"></circle>
-                          <circle className="fill-primary" cx="82.43" cy="6.82" r="2.95"></circle>
-                          <circle className="fill-primary" cx="101.29" cy="6.82" r="2.95"></circle>
-                          <circle className="fill-primary" cx="120.14" cy="6.82" r="2.95"></circle>
-                          <path className="fill-primary" d="m141.95 6.82c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.63 0.01 2.95 1.33 2.95 2.95z"></path>
-                        </svg>
-                      </figure>
-
-                      <figure className="position-absolute bottom-0 end-0 z-index-1 mb-n6 me-n6 d-none d-lg-block">
-                        <svg width="167" height="107" viewBox="0 0 167 107" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path className="fill-white" clip-rule="evenodd" d="M87.1132 1.04286L87.1128 1.04337C86.6896 1.55271 86.2787 2.04727 85.826 2.5C84.8049 3.40765 83.7918 4.32334 82.78 5.23795L82.7799 5.23803L82.7798 5.23811L82.7796 5.23823C80.2242 7.54807 77.6764 9.85101 75.026 12C61.626 22.5 48.226 33 34.926 43.5L9.12598 63.9L9.12586 63.9001C8.7259 64.2001 8.32595 64.5 8.02598 64.8C7.32598 65.4 6.52598 65.8 5.62598 65C4.82598 64.3 5.02598 63.3 5.52598 62.6C6.12598 61.6 6.92598 60.6 7.72598 59.8C8.20935 59.3606 8.69271 58.919 9.17671 58.4769L9.17678 58.4768L9.17686 58.4767L9.17698 58.4766C11.9972 55.9003 14.8387 53.3044 17.826 51C39.426 34.4 61.126 17.9 83.626 2.5C84.826 1.6 86.126 0.8 87.426 0C87.426 0 87.526 0.1 87.826 0.2C87.5789 0.482421 87.3442 0.764841 87.1132 1.04286ZM166.026 21.9C165.676 22.1 165.326 22.325 164.976 22.55C164.626 22.775 164.276 23 163.926 23.2C149.326 31.8 134.926 40.7 120.826 50.2C99.226 64.6 77.826 79.4 57.426 95.4C53.626 98.4 49.926 101.4 46.226 104.4C45.626 104.9 45.126 105.3 44.526 105.7C43.726 106.3 42.926 106.6 42.126 105.9C41.326 105.2 41.526 104.2 42.026 103.5C42.626 102.5 43.326 101.5 44.226 100.7L44.3458 100.59C46.8091 98.3235 49.3691 95.9681 52.026 94C82.426 71 113.626 49.5 146.926 31C150.726 28.8667 154.615 26.9111 158.504 24.9556C160.448 23.9778 162.393 23 164.326 22C164.826 21.8 165.326 21.6 165.726 21.4C165.826 21.5 165.926 21.7 166.026 21.9ZM99.926 8.5C100.626 8 101.226 7.4 101.826 6.8C101.726 6.7 101.626 6.6 101.326 6.5C100.626 7 99.926 7.525 99.226 8.05C98.526 8.575 97.826 9.1 97.126 9.6C93.0918 12.5088 89.0545 15.4176 85.0158 18.3275L85.0151 18.328C65.7284 32.224 46.4088 46.1436 27.226 60.2C21.8311 64.1042 16.7385 68.3108 11.6263 72.5336L11.6262 72.5336C9.53676 74.2595 7.44401 75.9882 5.32601 77.7C3.82601 78.9 2.52601 80.3 1.22601 81.7C0.726013 82.2 0.226013 82.8 0.026013 83.5C-0.073987 84 0.126013 84.7 0.426013 85C0.726013 85.3 1.52601 85.4 1.92601 85.2C2.72601 84.8 3.42601 84.3 4.12601 83.7C6.54336 81.7156 8.93467 79.7052 11.3234 77.6969C15.5554 74.139 19.7794 70.5878 24.126 67.2C34.7347 58.9552 45.3766 50.8101 56.0135 42.669L56.0143 42.6684L56.015 42.6678C63.8265 36.6891 71.6352 30.7125 79.426 24.7C86.3253 19.3005 93.1247 13.9011 99.924 8.50163L99.926 8.5ZM100.426 22C99.326 23 98.226 24 97.026 24.9C93.6956 27.4851 90.3598 30.0703 87.0224 32.6567L87.015 32.6624C76.0246 41.1795 65.0165 49.7104 54.126 58.3C47.6804 63.3921 41.3179 68.5672 34.9849 73.7183C31.4926 76.5588 28.0093 79.3921 24.526 82.2L24.526 82.2001C23.726 82.9 22.926 83.6 22.026 84.1C21.526 84.4 20.426 84.4 20.126 84.1C19.726 83.7 19.626 82.7 19.926 82.2C20.326 81.4 20.926 80.6 21.626 79.9C22.3148 79.2686 22.9953 78.629 23.6771 77.9883L23.6772 77.9882C25.3709 76.3963 27.0722 74.7973 28.926 73.3C48.926 57.5 69.126 42 90.226 27.7C92.5211 26.1427 94.9505 24.5853 97.2941 23.083L97.2943 23.0828C97.8098 22.7524 98.3212 22.4246 98.826 22.1C99.226 21.9 99.626 21.7 100.026 21.4C100.102 21.5146 100.164 21.6 100.217 21.6729L100.217 21.673C100.302 21.791 100.364 21.8764 100.426 22ZM107.355 35.4442C107.542 35.2315 107.732 35.0157 107.926 34.8C107.626 34.6 107.526 34.5 107.526 34.5L107.526 34.5001C106.026 35.6001 104.526 36.7 103.026 37.7C86.326 48.8 70.226 60.7 54.326 72.8C49.6261 76.2999 45.0262 79.8999 40.4262 83.4998L40.426 83.5C39.526 84.2 38.726 85 38.026 85.8C37.426 86.5 37.126 87.4 37.826 88.2C38.526 89.1 39.426 89 40.226 88.5C41.326 87.9 42.426 87.2 43.426 86.4C45.176 85 46.901 83.575 48.626 82.15C50.351 80.725 52.076 79.3 53.826 77.9C65.926 68.4 78.126 58.9 90.326 49.5L105.326 37.5C106.032 36.951 106.676 36.2175 107.355 35.4442Z"></path>
-                        </svg>
-                      </figure>
-
-                      <img src="assets/images/about/14.jpg" className="rounded position-relative zindex-2" alt="feature-img" />
-
-                      <div className="bg-white rounded d-flex align-items-center position-absolute top-0 end-0 mt-n5 px-3 py-2">
-                        <p className="text-dark fw-bold mb-0">Meeting with</p>
-                        <ul className="mb-0 align-items-center">
-                          <li className="avatar avatar-xs">
-                            <img className="avatar-img rounded-circle" src="assets/images/avatar/06.jpg" alt="avatar" />
-                          </li>
-                          <li className="avatar avatar-xs">
-                            <img className="avatar-img rounded-circle" src="assets/images/avatar/05.jpg" alt="avatar" />
-                          </li>
-                        </ul>
-                      </div>
-
-                      <div className="card card-body position-absolute bottom-0 start-0 ms-lg-n8 mb-n5">
-                        <p>Our lovely customers</p>
-                        <div className="d-flex align-items-center">
-                          <ul className="avatar-group mb-0 align-items-center">
-                            <li className="avatar avatar-xs">
-                              <img className="avatar-img rounded-circle" src="assets/images/avatar/06.jpg" alt="avatar" />
-                            </li>
-                            <li className="avatar avatar-xs">
-                              <img className="avatar-img rounded-circle" src="assets/images/avatar/05.jpg" alt="avatar" />
-                            </li>
-                            <li className="avatar avatar-xs">
-                              <img className="avatar-img rounded-circle" src="assets/images/avatar/02.jpg" alt="avatar" />
-                            </li>
-                            <li className="avatar avatar-xs">
-                              <img className="avatar-img rounded-circle" src="assets/images/avatar/03.jpg" alt="avatar" />
-                            </li>
-                            <li className="avatar avatar-xs">
-                              <img className="avatar-img rounded-circle" src="assets/images/avatar/04.jpg" alt="avatar" />
-                            </li>
-                          </ul>
-                          <h6 className="text-white mb-0 ms-2">5K+</h6>
-                        </div>
-                        <hr />
-                        <div className="overflow-hidden">
-                          <div className="d-flex justify-content-between mb-2">
-                            <small>Satisfaction Rate</small>
-                            <small>80%</small>
-                          </div>
-                          <div className="progress progress-sm bg-primary bg-opacity-10">
-                            {/* <div className="progress-bar bg-primary aos" role="progressbar" data-aos="slide-right" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out" style={{ width: '80%' }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                            </div> */}
-                          </div>
-                        </div>
-                      </div>
+                    <div className="col-lg-5 position-relative ms-auto">
+                      <img src="assets/images/services/leeds.png" alt="feature-img" />
                     </div>
                   </div>
                 </div>
@@ -431,56 +183,8 @@ function Home() {
                       <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
 
-                    <div className="col-lg-4 position-relative ms-auto">
-                      <div className="col-md-8 position-absolute top-50 start-0 translate-middle mt-xl-n9 d-none d-lg-block">
-                        <div className="bg-body rounded p-3">
-                          <div className="bg-light d-flex align-items-center rounded w-100 p-2 mb-3">
-                            <div className="icon-md bg-primary bg-opacity-10 rounded-circle text-primary flex-shrink-0"> <i className="bi bi-check fs-5"></i> </div>
-                            <p className="heading-color mb-0 ms-2">Than continues its and because can use.</p>
-                          </div>
-
-                          <div className="bg-light d-flex align-items-center rounded w-100 p-2 mb-3">
-                            <div className="icon-md bg-primary bg-opacity-10 rounded-circle text-primary flex-shrink-0"> <i className="bi bi-check fs-5"></i> </div>
-                            <p className="heading-color mb-0 ms-2">Entire first decided the so must.</p>
-                          </div>
-
-                          <div className="bg-light d-flex align-items-center rounded w-100 p-2">
-                            <div className="icon-md bg-primary bg-opacity-10 rounded-circle text-primary flex-shrink-0"> <i className="bi bi-check fs-5"></i> </div>
-                            <p className="heading-color mb-0 ms-2">Separated sort.</p>
-                          </div>
-
-                        </div>
-                      </div>
-
-                      <div className="d-inline-block bg-white shadow rounded-4 position-absolute end-0 bottom-0 p-3 mb-n5 me-lg-n6 d-none d-sm-block">
-                        <img src="assets/images/elements/trustpilot.svg" className="h-20px mb-2" alt="Client-img" />
-                        <div className="d-flex align-items-center">
-                          <img src="assets/images/elements/trustpilot-star.svg" className="h-30px" alt="rating-img" />
-                          <h6 className="font-base fw-bold heading-color ms-1 mb-0">4.8/5.0</h6>
-                        </div>
-                        <p className="text-dark small mb-0 mt-2">Review by 365 users</p>
-                      </div>
-
-                      <figure className="position-absolute top-0 end-0 mt-n7 me-lg-n5">
-                        <svg width="120.4px" height="124.5px" viewBox="0 0 120.4 124.5">
-                          <path className="fill-mode" d="M92.9,58.4c-0.2-4.7-1.8-9-5-12.6c-3-3.3-6.4-6.2-10.4-8.4c-3.4-1.9-7-2.9-10.8-3.3c-3.1-0.4-6,0.2-8.6,1.8 c-6.5,3.8-11.5,9.1-14.6,16.1c-1.1,2.5-1.5,5.1-1.3,7.7c0.3,3.2,0.9,6.4,2.1,9.4c2.1,5.4,5.7,9.4,11.5,11c1.8,0.5,3.5,1,5.3,1.6 c2.1,0.7,4.3,0.8,6.5,0.5c2.4-0.3,4.8-0.8,7.1-1.4c1.8-0.5,3.4-1.5,4.6-2.9c2-2.2,3.9-4.6,5.2-7.3c0.7-1.4,1.3-3,1.6-4.5 c1.1-6.4-0.7-12.1-4.5-17.2c-1.8-2.5-4.3-4.2-7.2-5c-3-0.8-6.1-1.1-9.2-0.8c-4.5,0.4-8.4,2.2-11.4,5.7c-2.1,2.4-3.6,5-4.3,8.1 c-0.6,2.4-0.5,4.8-0.6,7.2c-0.2,5.8,6.2,12.5,12.3,12c2.7-0.2,5.5-0.5,8.2-0.7c5.4-0.5,9.3-4.9,9.8-9.6c0.2-1.9,0.2-3.9,0.1-5.8 c-0.1-2.5-1.3-4.6-3.1-6.3c-3.1-2.9-6.8-4.1-11.1-3.7c-2.4,0.2-4.4,1.2-5.8,3.2c-1.8,2.5-2.8,5.3-3.1,8.3c-0.2,1.9,0.3,3.7,1.9,5 c2.7,2.2,5.8,3.3,9.2,3c1.6-0.1,2.8-0.9,3.8-2.2c1.6-2.1,1.6-4.5,1.1-6.9c-1-4.3-4.6-5.5-8.2-2.9c-0.3,0.2-0.4,0.7-0.6,1.1 c0.1,0.1,0.3,0.3,0.4,0.4c0.9-0.4,1.8-0.9,2.8-1.2c1-0.3,2-0.1,2.8,0.7c1.6,1.8,1.9,5.4,0.5,7.4c-0.9,1.2-2.1,1.9-3.5,1.8 c-2.3-0.1-4.5-0.9-6.4-2.3c-1.3-1-1.8-2.3-1.7-3.9c0.2-1.7,0.7-3.4,1.4-4.9c1.8-3.6,4-4.9,8.1-4.4c0.9,0.1,1.8,0.3,2.7,0.6 c4.5,1.7,6.8,5,6.6,9.8c0,1.4-0.2,2.8-0.5,4.1c-0.9,3.2-2.9,5.5-6.3,6.1c-2.9,0.5-5.9,0.7-8.9,0.9c-5.6,0.4-10.5-5.4-10.3-9.9 c0.1-2.1,0.2-4.1,0.6-6.1c1.5-6.9,7.2-11.6,14.2-11.9c1.7-0.1,3.5,0,5.2,0.2c3.5,0.4,6.4,1.9,8.5,4.7c3.1,4.2,4.6,8.9,4.2,14.2 c-0.3,3.5-2.1,6.2-4,9c-2.1,3-4.7,5-8.4,5.4c-1.1,0.1-2.3,0.4-3.4,0.7c-2,0.5-3.9,0.4-5.8-0.1c-2.3-0.6-4.6-1.3-6.9-2 c-3.1-1-5.4-3-7.1-5.7c-2.7-4.3-3.8-9.1-3.8-14.1c0-2,0.6-3.8,1.5-5.6c2.9-6,7.3-10.5,12.9-14c2.2-1.4,4.7-1.9,7.3-1.6 c4.2,0.4,8.1,1.6,11.6,3.9c3.1,2,5.8,4.5,8.3,7.2c1.7,1.9,2.9,4.1,3.6,6.6c1.5,5,1.1,10.1-0.2,15c-2.2,8-9.4,14.2-17.5,15.9 c-1.7,0.4-3.3,0.9-4.9,1.5c-1.1,0.4-1.6,1.4-1.2,2.1c0.5,0.8,1.4,0.7,2.1,0.5c2.5-0.7,5.1-1.3,7.6-2.2c1.4-0.5,2.8-1.1,4-1.9 c2.9-1.7,5.4-3.9,7.6-6.4c2.6-3,4.5-6.5,5.2-10.4C92.8,65.1,93,61.7,92.9,58.4z"></path>
-                          <path className="fill-primary" d="M98.2,97.6c-1.9-3-3.8-6-5.7-9c-0.7-1-1.2-2.2-3-3c0,0.8-0.1,1.3,0,1.7c0.4,0.9,1,1.8,1.5,2.7 c2.8,5,5.7,9.9,9.2,14.5c1,1.2,2.2,2.3,3.4,3.4c0.3,0.3,0.8,0.4,1.2-0.3c-0.5-0.8-1.1-1.8-1.8-2.7C101.4,102.3,99.7,100,98.2,97.6z "></path>
-                          <path className="fill-primary" d="M75.3,98c-0.5-1.5-1.2-3-1.9-4.4c-0.1-0.3-0.6-0.4-0.9-0.6c-0.2,0.2-0.3,0.3-0.5,0.5c0.1,0.5,0.2,1.1,0.4,1.6 c1.6,5.3,3.1,10.5,4.8,15.8c0.5,1.6,1.1,3.3,1.7,4.9c0.5,1.3,1.4,1.8,1.9,1.4c0.8-0.6,0.5-1.4,0.2-2.2C79,109.3,77.2,103.6,75.3,98 z"></path>
-                          <path className="fill-primary" d="M26.5,69.5c-5.5,1.6-11,3.2-16.5,4.8c-2.1,0.6-4.1,1.4-6.1,2.2c-0.6,0.2-1.1,0.7-1.9,1.2 c5.9-0.4,24.8-6,28.2-8.3C28.8,68.8,27.6,69.2,26.5,69.5z"></path>
-                          <path className="fill-primary" d="M55,96.3c-2.2,7.9-4.5,15.8-6.7,23.8c-0.3,1.2-0.4,2.5-0.7,4.4c0.6-0.9,0.8-1.2,0.9-1.5 c2.6-7.8,5.1-15.7,7.6-23.5c0.3-1.1,0.5-2.2,0.6-3.4c0-0.4-0.4-0.9-0.8-1.7C55.5,95.3,55.2,95.8,55,96.3z"></path>
-                          <path className="fill-primary" d="M25.2,48.7c0.6,0.3,1.3,0.5,2,0.6c0.5,0.1,1.1-0.1,1.6-0.2c0-0.2,0-0.3,0-0.5c-3-1.4-6-3-9-4.2 c-3.2-1.3-6.4-2.4-9.7-3.5c-3.1-1-6.1-2.3-10-2.8c0.8,0.7,1.1,1.1,1.5,1.3c1.5,0.7,2.9,1.3,4.4,1.9C12.4,43.6,18.9,45.7,25.2,48.7z "></path>
-                          <path className="fill-primary" d="M38.2,86.5c-0.7,0.3-1.4,0.8-2,1.3c-5.1,4.5-10.1,9-14.5,14.2c-0.9,1-1.6,2.2-2.5,3.3c0.1,0.1,0.2,0.3,0.4,0.4 c6.7-6.2,13.4-12.3,20.1-18.5c0.1-0.1,0-0.4,0-0.9C39.2,86.4,38.6,86.3,38.2,86.5z"></path>
-                          <path className="fill-primary" d="M106.5,77.4c-1.1-1.1-2.4-2.2-3.6-3.1c-0.7-0.5-1.6-0.8-2.5-1c-0.5-0.1-1.2,0-1,1.1c2.1,0.8,3.6,2.5,5.2,4.1 c1.3,1.3,2.4,2.7,3.8,3.9c1.8,1.5,3.8,3,5.7,4.3c1,0.7,2.2,1.3,4.1,0.7c-0.7-0.7-1.1-1.1-1.5-1.4C112.9,83.6,109.6,80.5,106.5,77.4 z"></path>
-                          <path className="fill-primary" d="M33.5,27.3c0.7,0.7,1.6,1.3,2.5,1.8c0.5,0.3,1.3,0.4,1.9,0.5c-2.3-2.2-4-4.6-6-6.8c-3.5-3.8-7-7.6-10.5-11.3 c-0.4-0.4-0.7-0.9-1.4-0.6c-0.5,0.6-0.1,1.1,0.3,1.5C24.6,17.4,29.1,22.4,33.5,27.3z"></path>
-                          <path className="fill-primary" d="M53.3,20c0.1,1.1,0.3,2.3,0.6,3.4c0.1,0.4,0.7,0.6,1.3,1c-0.1-3.1-0.1-5.8-0.3-8.5c-0.1-2.6-0.4-5.2-0.6-7.9 c-0.4-5-0.6-5.7-2-8c0,0.9-0.1,1.6-0.1,2.2C52.6,8.2,52.9,14.1,53.3,20z"></path>
-                          <path className="fill-primary" d="M101.1,56.2c0.2,0.4,0.3,0.7,0.5,0.7c4.9,1.1,9.8,2.2,14.7,3.1c1.3,0.3,2.7,0.4,4.1-0.5 c-0.8-0.3-1.7-0.6-2.5-0.8c-5.2-0.9-10.3-1.9-15.5-2.7C102,56,101.6,56.1,101.1,56.2z"></path>
-                          <path className="fill-primary" d="M97.8,36.8c4.7-1.9,8.9-4.8,12.6-8.3c0.3-0.3,0.7-0.6,0.1-1.3c-2.5,1.7-5.1,3.5-7.7,5.1 c-2.6,1.6-5.3,3-8.1,4.6C95.9,37.7,96.8,37.2,97.8,36.8z"></path>
-                          <path className="fill-primary" d="M81.6,11.5c0.5-1.6,0.8-3.2,1.2-4.8c-0.3,0.2-0.6,0.3-0.7,0.5c-1.6,4.3-3.2,8.5-4.7,12.8 c-0.2,0.6-0.1,1.3-0.2,1.9C79.1,18.6,80.5,15.1,81.6,11.5z"></path>
-                          <path className="fill-primary" d="M82.8,6.5c0,0,0,0.1,0,0.1C82.8,6.6,82.8,6.6,82.8,6.5C82.9,6.6,82.8,6.5,82.8,6.5z"></path>
-                        </svg>
-                      </figure>
-
-                      <img src="assets/images/about/17.jpg" className="rounded" alt="feature-img" />
+                    <div className="col-lg-5 position-relative ms-auto">
+                      <img src="assets/images/services/sales.png" className="rounded" alt="feature-img" />
                     </div>
                   </div>
                 </div>
@@ -501,56 +205,8 @@ function Home() {
                       <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
 
-                    <div className="col-lg-4 position-relative ms-auto">
-                      <div className="col-md-8 position-absolute top-50 start-0 translate-middle mt-xl-n9 d-none d-lg-block">
-                        <div className="bg-body rounded p-3">
-                          <div className="bg-light d-flex align-items-center rounded w-100 p-2 mb-3">
-                            <div className="icon-md bg-primary bg-opacity-10 rounded-circle text-primary flex-shrink-0"> <i className="bi bi-check fs-5"></i> </div>
-                            <p className="heading-color mb-0 ms-2">Than continues its and because can use.</p>
-                          </div>
-
-                          <div className="bg-light d-flex align-items-center rounded w-100 p-2 mb-3">
-                            <div className="icon-md bg-primary bg-opacity-10 rounded-circle text-primary flex-shrink-0"> <i className="bi bi-check fs-5"></i> </div>
-                            <p className="heading-color mb-0 ms-2">Entire first decided the so must.</p>
-                          </div>
-
-                          <div className="bg-light d-flex align-items-center rounded w-100 p-2">
-                            <div className="icon-md bg-primary bg-opacity-10 rounded-circle text-primary flex-shrink-0"> <i className="bi bi-check fs-5"></i> </div>
-                            <p className="heading-color mb-0 ms-2">Separated sort.</p>
-                          </div>
-
-                        </div>
-                      </div>
-
-                      <div className="d-inline-block bg-white shadow rounded-4 position-absolute end-0 bottom-0 p-3 mb-n5 me-lg-n6 d-none d-sm-block">
-                        <img src="assets/images/elements/trustpilot.svg" className="h-20px mb-2" alt="Client-img" />
-                        <div className="d-flex align-items-center">
-                          <img src="assets/images/elements/trustpilot-star.svg" className="h-30px" alt="rating-img" />
-                          <h6 className="font-base fw-bold heading-color ms-1 mb-0">4.8/5.0</h6>
-                        </div>
-                        <p className="text-dark small mb-0 mt-2">Review by 365 users</p>
-                      </div>
-
-                      <figure className="position-absolute top-0 end-0 mt-n7 me-lg-n5">
-                        <svg width="120.4px" height="124.5px" viewBox="0 0 120.4 124.5">
-                          <path className="fill-mode" d="M92.9,58.4c-0.2-4.7-1.8-9-5-12.6c-3-3.3-6.4-6.2-10.4-8.4c-3.4-1.9-7-2.9-10.8-3.3c-3.1-0.4-6,0.2-8.6,1.8 c-6.5,3.8-11.5,9.1-14.6,16.1c-1.1,2.5-1.5,5.1-1.3,7.7c0.3,3.2,0.9,6.4,2.1,9.4c2.1,5.4,5.7,9.4,11.5,11c1.8,0.5,3.5,1,5.3,1.6 c2.1,0.7,4.3,0.8,6.5,0.5c2.4-0.3,4.8-0.8,7.1-1.4c1.8-0.5,3.4-1.5,4.6-2.9c2-2.2,3.9-4.6,5.2-7.3c0.7-1.4,1.3-3,1.6-4.5 c1.1-6.4-0.7-12.1-4.5-17.2c-1.8-2.5-4.3-4.2-7.2-5c-3-0.8-6.1-1.1-9.2-0.8c-4.5,0.4-8.4,2.2-11.4,5.7c-2.1,2.4-3.6,5-4.3,8.1 c-0.6,2.4-0.5,4.8-0.6,7.2c-0.2,5.8,6.2,12.5,12.3,12c2.7-0.2,5.5-0.5,8.2-0.7c5.4-0.5,9.3-4.9,9.8-9.6c0.2-1.9,0.2-3.9,0.1-5.8 c-0.1-2.5-1.3-4.6-3.1-6.3c-3.1-2.9-6.8-4.1-11.1-3.7c-2.4,0.2-4.4,1.2-5.8,3.2c-1.8,2.5-2.8,5.3-3.1,8.3c-0.2,1.9,0.3,3.7,1.9,5 c2.7,2.2,5.8,3.3,9.2,3c1.6-0.1,2.8-0.9,3.8-2.2c1.6-2.1,1.6-4.5,1.1-6.9c-1-4.3-4.6-5.5-8.2-2.9c-0.3,0.2-0.4,0.7-0.6,1.1 c0.1,0.1,0.3,0.3,0.4,0.4c0.9-0.4,1.8-0.9,2.8-1.2c1-0.3,2-0.1,2.8,0.7c1.6,1.8,1.9,5.4,0.5,7.4c-0.9,1.2-2.1,1.9-3.5,1.8 c-2.3-0.1-4.5-0.9-6.4-2.3c-1.3-1-1.8-2.3-1.7-3.9c0.2-1.7,0.7-3.4,1.4-4.9c1.8-3.6,4-4.9,8.1-4.4c0.9,0.1,1.8,0.3,2.7,0.6 c4.5,1.7,6.8,5,6.6,9.8c0,1.4-0.2,2.8-0.5,4.1c-0.9,3.2-2.9,5.5-6.3,6.1c-2.9,0.5-5.9,0.7-8.9,0.9c-5.6,0.4-10.5-5.4-10.3-9.9 c0.1-2.1,0.2-4.1,0.6-6.1c1.5-6.9,7.2-11.6,14.2-11.9c1.7-0.1,3.5,0,5.2,0.2c3.5,0.4,6.4,1.9,8.5,4.7c3.1,4.2,4.6,8.9,4.2,14.2 c-0.3,3.5-2.1,6.2-4,9c-2.1,3-4.7,5-8.4,5.4c-1.1,0.1-2.3,0.4-3.4,0.7c-2,0.5-3.9,0.4-5.8-0.1c-2.3-0.6-4.6-1.3-6.9-2 c-3.1-1-5.4-3-7.1-5.7c-2.7-4.3-3.8-9.1-3.8-14.1c0-2,0.6-3.8,1.5-5.6c2.9-6,7.3-10.5,12.9-14c2.2-1.4,4.7-1.9,7.3-1.6 c4.2,0.4,8.1,1.6,11.6,3.9c3.1,2,5.8,4.5,8.3,7.2c1.7,1.9,2.9,4.1,3.6,6.6c1.5,5,1.1,10.1-0.2,15c-2.2,8-9.4,14.2-17.5,15.9 c-1.7,0.4-3.3,0.9-4.9,1.5c-1.1,0.4-1.6,1.4-1.2,2.1c0.5,0.8,1.4,0.7,2.1,0.5c2.5-0.7,5.1-1.3,7.6-2.2c1.4-0.5,2.8-1.1,4-1.9 c2.9-1.7,5.4-3.9,7.6-6.4c2.6-3,4.5-6.5,5.2-10.4C92.8,65.1,93,61.7,92.9,58.4z"></path>
-                          <path className="fill-primary" d="M98.2,97.6c-1.9-3-3.8-6-5.7-9c-0.7-1-1.2-2.2-3-3c0,0.8-0.1,1.3,0,1.7c0.4,0.9,1,1.8,1.5,2.7 c2.8,5,5.7,9.9,9.2,14.5c1,1.2,2.2,2.3,3.4,3.4c0.3,0.3,0.8,0.4,1.2-0.3c-0.5-0.8-1.1-1.8-1.8-2.7C101.4,102.3,99.7,100,98.2,97.6z "></path>
-                          <path className="fill-primary" d="M75.3,98c-0.5-1.5-1.2-3-1.9-4.4c-0.1-0.3-0.6-0.4-0.9-0.6c-0.2,0.2-0.3,0.3-0.5,0.5c0.1,0.5,0.2,1.1,0.4,1.6 c1.6,5.3,3.1,10.5,4.8,15.8c0.5,1.6,1.1,3.3,1.7,4.9c0.5,1.3,1.4,1.8,1.9,1.4c0.8-0.6,0.5-1.4,0.2-2.2C79,109.3,77.2,103.6,75.3,98 z"></path>
-                          <path className="fill-primary" d="M26.5,69.5c-5.5,1.6-11,3.2-16.5,4.8c-2.1,0.6-4.1,1.4-6.1,2.2c-0.6,0.2-1.1,0.7-1.9,1.2 c5.9-0.4,24.8-6,28.2-8.3C28.8,68.8,27.6,69.2,26.5,69.5z"></path>
-                          <path className="fill-primary" d="M55,96.3c-2.2,7.9-4.5,15.8-6.7,23.8c-0.3,1.2-0.4,2.5-0.7,4.4c0.6-0.9,0.8-1.2,0.9-1.5 c2.6-7.8,5.1-15.7,7.6-23.5c0.3-1.1,0.5-2.2,0.6-3.4c0-0.4-0.4-0.9-0.8-1.7C55.5,95.3,55.2,95.8,55,96.3z"></path>
-                          <path className="fill-primary" d="M25.2,48.7c0.6,0.3,1.3,0.5,2,0.6c0.5,0.1,1.1-0.1,1.6-0.2c0-0.2,0-0.3,0-0.5c-3-1.4-6-3-9-4.2 c-3.2-1.3-6.4-2.4-9.7-3.5c-3.1-1-6.1-2.3-10-2.8c0.8,0.7,1.1,1.1,1.5,1.3c1.5,0.7,2.9,1.3,4.4,1.9C12.4,43.6,18.9,45.7,25.2,48.7z "></path>
-                          <path className="fill-primary" d="M38.2,86.5c-0.7,0.3-1.4,0.8-2,1.3c-5.1,4.5-10.1,9-14.5,14.2c-0.9,1-1.6,2.2-2.5,3.3c0.1,0.1,0.2,0.3,0.4,0.4 c6.7-6.2,13.4-12.3,20.1-18.5c0.1-0.1,0-0.4,0-0.9C39.2,86.4,38.6,86.3,38.2,86.5z"></path>
-                          <path className="fill-primary" d="M106.5,77.4c-1.1-1.1-2.4-2.2-3.6-3.1c-0.7-0.5-1.6-0.8-2.5-1c-0.5-0.1-1.2,0-1,1.1c2.1,0.8,3.6,2.5,5.2,4.1 c1.3,1.3,2.4,2.7,3.8,3.9c1.8,1.5,3.8,3,5.7,4.3c1,0.7,2.2,1.3,4.1,0.7c-0.7-0.7-1.1-1.1-1.5-1.4C112.9,83.6,109.6,80.5,106.5,77.4 z"></path>
-                          <path className="fill-primary" d="M33.5,27.3c0.7,0.7,1.6,1.3,2.5,1.8c0.5,0.3,1.3,0.4,1.9,0.5c-2.3-2.2-4-4.6-6-6.8c-3.5-3.8-7-7.6-10.5-11.3 c-0.4-0.4-0.7-0.9-1.4-0.6c-0.5,0.6-0.1,1.1,0.3,1.5C24.6,17.4,29.1,22.4,33.5,27.3z"></path>
-                          <path className="fill-primary" d="M53.3,20c0.1,1.1,0.3,2.3,0.6,3.4c0.1,0.4,0.7,0.6,1.3,1c-0.1-3.1-0.1-5.8-0.3-8.5c-0.1-2.6-0.4-5.2-0.6-7.9 c-0.4-5-0.6-5.7-2-8c0,0.9-0.1,1.6-0.1,2.2C52.6,8.2,52.9,14.1,53.3,20z"></path>
-                          <path className="fill-primary" d="M101.1,56.2c0.2,0.4,0.3,0.7,0.5,0.7c4.9,1.1,9.8,2.2,14.7,3.1c1.3,0.3,2.7,0.4,4.1-0.5 c-0.8-0.3-1.7-0.6-2.5-0.8c-5.2-0.9-10.3-1.9-15.5-2.7C102,56,101.6,56.1,101.1,56.2z"></path>
-                          <path className="fill-primary" d="M97.8,36.8c4.7-1.9,8.9-4.8,12.6-8.3c0.3-0.3,0.7-0.6,0.1-1.3c-2.5,1.7-5.1,3.5-7.7,5.1 c-2.6,1.6-5.3,3-8.1,4.6C95.9,37.7,96.8,37.2,97.8,36.8z"></path>
-                          <path className="fill-primary" d="M81.6,11.5c0.5-1.6,0.8-3.2,1.2-4.8c-0.3,0.2-0.6,0.3-0.7,0.5c-1.6,4.3-3.2,8.5-4.7,12.8 c-0.2,0.6-0.1,1.3-0.2,1.9C79.1,18.6,80.5,15.1,81.6,11.5z"></path>
-                          <path className="fill-primary" d="M82.8,6.5c0,0,0,0.1,0,0.1C82.8,6.6,82.8,6.6,82.8,6.5C82.9,6.6,82.8,6.5,82.8,6.5z"></path>
-                        </svg>
-                      </figure>
-
-                      <img src="assets/images/about/17.jpg" className="rounded" alt="feature-img" />
+                    <div className="col-lg-5 position-relative ms-auto">
+                      <img src="assets/images/services/rewards.png" className="rounded" alt="feature-img" />
                     </div>
                   </div>
                 </div>
@@ -571,56 +227,8 @@ function Home() {
                       <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
 
-                    <div className="col-lg-4 position-relative ms-auto">
-                      <div className="col-md-8 position-absolute top-50 start-0 translate-middle mt-xl-n9 d-none d-lg-block">
-                        <div className="bg-body rounded p-3">
-                          <div className="bg-light d-flex align-items-center rounded w-100 p-2 mb-3">
-                            <div className="icon-md bg-primary bg-opacity-10 rounded-circle text-primary flex-shrink-0"> <i className="bi bi-check fs-5"></i> </div>
-                            <p className="heading-color mb-0 ms-2">Than continues its and because can use.</p>
-                          </div>
-
-                          <div className="bg-light d-flex align-items-center rounded w-100 p-2 mb-3">
-                            <div className="icon-md bg-primary bg-opacity-10 rounded-circle text-primary flex-shrink-0"> <i className="bi bi-check fs-5"></i> </div>
-                            <p className="heading-color mb-0 ms-2">Entire first decided the so must.</p>
-                          </div>
-
-                          <div className="bg-light d-flex align-items-center rounded w-100 p-2">
-                            <div className="icon-md bg-primary bg-opacity-10 rounded-circle text-primary flex-shrink-0"> <i className="bi bi-check fs-5"></i> </div>
-                            <p className="heading-color mb-0 ms-2">Separated sort.</p>
-                          </div>
-
-                        </div>
-                      </div>
-
-                      <div className="d-inline-block bg-white shadow rounded-4 position-absolute end-0 bottom-0 p-3 mb-n5 me-lg-n6 d-none d-sm-block">
-                        <img src="assets/images/elements/trustpilot.svg" className="h-20px mb-2" alt="Client-img" />
-                        <div className="d-flex align-items-center">
-                          <img src="assets/images/elements/trustpilot-star.svg" className="h-30px" alt="rating-img" />
-                          <h6 className="font-base fw-bold heading-color ms-1 mb-0">4.8/5.0</h6>
-                        </div>
-                        <p className="text-dark small mb-0 mt-2">Review by 365 users</p>
-                      </div>
-
-                      <figure className="position-absolute top-0 end-0 mt-n7 me-lg-n5">
-                        <svg width="120.4px" height="124.5px" viewBox="0 0 120.4 124.5">
-                          <path className="fill-mode" d="M92.9,58.4c-0.2-4.7-1.8-9-5-12.6c-3-3.3-6.4-6.2-10.4-8.4c-3.4-1.9-7-2.9-10.8-3.3c-3.1-0.4-6,0.2-8.6,1.8 c-6.5,3.8-11.5,9.1-14.6,16.1c-1.1,2.5-1.5,5.1-1.3,7.7c0.3,3.2,0.9,6.4,2.1,9.4c2.1,5.4,5.7,9.4,11.5,11c1.8,0.5,3.5,1,5.3,1.6 c2.1,0.7,4.3,0.8,6.5,0.5c2.4-0.3,4.8-0.8,7.1-1.4c1.8-0.5,3.4-1.5,4.6-2.9c2-2.2,3.9-4.6,5.2-7.3c0.7-1.4,1.3-3,1.6-4.5 c1.1-6.4-0.7-12.1-4.5-17.2c-1.8-2.5-4.3-4.2-7.2-5c-3-0.8-6.1-1.1-9.2-0.8c-4.5,0.4-8.4,2.2-11.4,5.7c-2.1,2.4-3.6,5-4.3,8.1 c-0.6,2.4-0.5,4.8-0.6,7.2c-0.2,5.8,6.2,12.5,12.3,12c2.7-0.2,5.5-0.5,8.2-0.7c5.4-0.5,9.3-4.9,9.8-9.6c0.2-1.9,0.2-3.9,0.1-5.8 c-0.1-2.5-1.3-4.6-3.1-6.3c-3.1-2.9-6.8-4.1-11.1-3.7c-2.4,0.2-4.4,1.2-5.8,3.2c-1.8,2.5-2.8,5.3-3.1,8.3c-0.2,1.9,0.3,3.7,1.9,5 c2.7,2.2,5.8,3.3,9.2,3c1.6-0.1,2.8-0.9,3.8-2.2c1.6-2.1,1.6-4.5,1.1-6.9c-1-4.3-4.6-5.5-8.2-2.9c-0.3,0.2-0.4,0.7-0.6,1.1 c0.1,0.1,0.3,0.3,0.4,0.4c0.9-0.4,1.8-0.9,2.8-1.2c1-0.3,2-0.1,2.8,0.7c1.6,1.8,1.9,5.4,0.5,7.4c-0.9,1.2-2.1,1.9-3.5,1.8 c-2.3-0.1-4.5-0.9-6.4-2.3c-1.3-1-1.8-2.3-1.7-3.9c0.2-1.7,0.7-3.4,1.4-4.9c1.8-3.6,4-4.9,8.1-4.4c0.9,0.1,1.8,0.3,2.7,0.6 c4.5,1.7,6.8,5,6.6,9.8c0,1.4-0.2,2.8-0.5,4.1c-0.9,3.2-2.9,5.5-6.3,6.1c-2.9,0.5-5.9,0.7-8.9,0.9c-5.6,0.4-10.5-5.4-10.3-9.9 c0.1-2.1,0.2-4.1,0.6-6.1c1.5-6.9,7.2-11.6,14.2-11.9c1.7-0.1,3.5,0,5.2,0.2c3.5,0.4,6.4,1.9,8.5,4.7c3.1,4.2,4.6,8.9,4.2,14.2 c-0.3,3.5-2.1,6.2-4,9c-2.1,3-4.7,5-8.4,5.4c-1.1,0.1-2.3,0.4-3.4,0.7c-2,0.5-3.9,0.4-5.8-0.1c-2.3-0.6-4.6-1.3-6.9-2 c-3.1-1-5.4-3-7.1-5.7c-2.7-4.3-3.8-9.1-3.8-14.1c0-2,0.6-3.8,1.5-5.6c2.9-6,7.3-10.5,12.9-14c2.2-1.4,4.7-1.9,7.3-1.6 c4.2,0.4,8.1,1.6,11.6,3.9c3.1,2,5.8,4.5,8.3,7.2c1.7,1.9,2.9,4.1,3.6,6.6c1.5,5,1.1,10.1-0.2,15c-2.2,8-9.4,14.2-17.5,15.9 c-1.7,0.4-3.3,0.9-4.9,1.5c-1.1,0.4-1.6,1.4-1.2,2.1c0.5,0.8,1.4,0.7,2.1,0.5c2.5-0.7,5.1-1.3,7.6-2.2c1.4-0.5,2.8-1.1,4-1.9 c2.9-1.7,5.4-3.9,7.6-6.4c2.6-3,4.5-6.5,5.2-10.4C92.8,65.1,93,61.7,92.9,58.4z"></path>
-                          <path className="fill-primary" d="M98.2,97.6c-1.9-3-3.8-6-5.7-9c-0.7-1-1.2-2.2-3-3c0,0.8-0.1,1.3,0,1.7c0.4,0.9,1,1.8,1.5,2.7 c2.8,5,5.7,9.9,9.2,14.5c1,1.2,2.2,2.3,3.4,3.4c0.3,0.3,0.8,0.4,1.2-0.3c-0.5-0.8-1.1-1.8-1.8-2.7C101.4,102.3,99.7,100,98.2,97.6z "></path>
-                          <path className="fill-primary" d="M75.3,98c-0.5-1.5-1.2-3-1.9-4.4c-0.1-0.3-0.6-0.4-0.9-0.6c-0.2,0.2-0.3,0.3-0.5,0.5c0.1,0.5,0.2,1.1,0.4,1.6 c1.6,5.3,3.1,10.5,4.8,15.8c0.5,1.6,1.1,3.3,1.7,4.9c0.5,1.3,1.4,1.8,1.9,1.4c0.8-0.6,0.5-1.4,0.2-2.2C79,109.3,77.2,103.6,75.3,98 z"></path>
-                          <path className="fill-primary" d="M26.5,69.5c-5.5,1.6-11,3.2-16.5,4.8c-2.1,0.6-4.1,1.4-6.1,2.2c-0.6,0.2-1.1,0.7-1.9,1.2 c5.9-0.4,24.8-6,28.2-8.3C28.8,68.8,27.6,69.2,26.5,69.5z"></path>
-                          <path className="fill-primary" d="M55,96.3c-2.2,7.9-4.5,15.8-6.7,23.8c-0.3,1.2-0.4,2.5-0.7,4.4c0.6-0.9,0.8-1.2,0.9-1.5 c2.6-7.8,5.1-15.7,7.6-23.5c0.3-1.1,0.5-2.2,0.6-3.4c0-0.4-0.4-0.9-0.8-1.7C55.5,95.3,55.2,95.8,55,96.3z"></path>
-                          <path className="fill-primary" d="M25.2,48.7c0.6,0.3,1.3,0.5,2,0.6c0.5,0.1,1.1-0.1,1.6-0.2c0-0.2,0-0.3,0-0.5c-3-1.4-6-3-9-4.2 c-3.2-1.3-6.4-2.4-9.7-3.5c-3.1-1-6.1-2.3-10-2.8c0.8,0.7,1.1,1.1,1.5,1.3c1.5,0.7,2.9,1.3,4.4,1.9C12.4,43.6,18.9,45.7,25.2,48.7z "></path>
-                          <path className="fill-primary" d="M38.2,86.5c-0.7,0.3-1.4,0.8-2,1.3c-5.1,4.5-10.1,9-14.5,14.2c-0.9,1-1.6,2.2-2.5,3.3c0.1,0.1,0.2,0.3,0.4,0.4 c6.7-6.2,13.4-12.3,20.1-18.5c0.1-0.1,0-0.4,0-0.9C39.2,86.4,38.6,86.3,38.2,86.5z"></path>
-                          <path className="fill-primary" d="M106.5,77.4c-1.1-1.1-2.4-2.2-3.6-3.1c-0.7-0.5-1.6-0.8-2.5-1c-0.5-0.1-1.2,0-1,1.1c2.1,0.8,3.6,2.5,5.2,4.1 c1.3,1.3,2.4,2.7,3.8,3.9c1.8,1.5,3.8,3,5.7,4.3c1,0.7,2.2,1.3,4.1,0.7c-0.7-0.7-1.1-1.1-1.5-1.4C112.9,83.6,109.6,80.5,106.5,77.4 z"></path>
-                          <path className="fill-primary" d="M33.5,27.3c0.7,0.7,1.6,1.3,2.5,1.8c0.5,0.3,1.3,0.4,1.9,0.5c-2.3-2.2-4-4.6-6-6.8c-3.5-3.8-7-7.6-10.5-11.3 c-0.4-0.4-0.7-0.9-1.4-0.6c-0.5,0.6-0.1,1.1,0.3,1.5C24.6,17.4,29.1,22.4,33.5,27.3z"></path>
-                          <path className="fill-primary" d="M53.3,20c0.1,1.1,0.3,2.3,0.6,3.4c0.1,0.4,0.7,0.6,1.3,1c-0.1-3.1-0.1-5.8-0.3-8.5c-0.1-2.6-0.4-5.2-0.6-7.9 c-0.4-5-0.6-5.7-2-8c0,0.9-0.1,1.6-0.1,2.2C52.6,8.2,52.9,14.1,53.3,20z"></path>
-                          <path className="fill-primary" d="M101.1,56.2c0.2,0.4,0.3,0.7,0.5,0.7c4.9,1.1,9.8,2.2,14.7,3.1c1.3,0.3,2.7,0.4,4.1-0.5 c-0.8-0.3-1.7-0.6-2.5-0.8c-5.2-0.9-10.3-1.9-15.5-2.7C102,56,101.6,56.1,101.1,56.2z"></path>
-                          <path className="fill-primary" d="M97.8,36.8c4.7-1.9,8.9-4.8,12.6-8.3c0.3-0.3,0.7-0.6,0.1-1.3c-2.5,1.7-5.1,3.5-7.7,5.1 c-2.6,1.6-5.3,3-8.1,4.6C95.9,37.7,96.8,37.2,97.8,36.8z"></path>
-                          <path className="fill-primary" d="M81.6,11.5c0.5-1.6,0.8-3.2,1.2-4.8c-0.3,0.2-0.6,0.3-0.7,0.5c-1.6,4.3-3.2,8.5-4.7,12.8 c-0.2,0.6-0.1,1.3-0.2,1.9C79.1,18.6,80.5,15.1,81.6,11.5z"></path>
-                          <path className="fill-primary" d="M82.8,6.5c0,0,0,0.1,0,0.1C82.8,6.6,82.8,6.6,82.8,6.5C82.9,6.6,82.8,6.5,82.8,6.5z"></path>
-                        </svg>
-                      </figure>
-
-                      <img src="assets/images/about/17.jpg" className="rounded" alt="feature-img" />
+                    <div className="col-lg-5 position-relative ms-auto">
+                      <img src="assets/images/services/properties.png" className="rounded" alt="feature-img" />
                     </div>
                   </div>
                 </div>
@@ -641,56 +249,8 @@ function Home() {
                       <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
 
-                    <div className="col-lg-4 position-relative ms-auto">
-                      <div className="col-md-8 position-absolute top-50 start-0 translate-middle mt-xl-n9 d-none d-lg-block">
-                        <div className="bg-body rounded p-3">
-                          <div className="bg-light d-flex align-items-center rounded w-100 p-2 mb-3">
-                            <div className="icon-md bg-primary bg-opacity-10 rounded-circle text-primary flex-shrink-0"> <i className="bi bi-check fs-5"></i> </div>
-                            <p className="heading-color mb-0 ms-2">Than continues its and because can use.</p>
-                          </div>
-
-                          <div className="bg-light d-flex align-items-center rounded w-100 p-2 mb-3">
-                            <div className="icon-md bg-primary bg-opacity-10 rounded-circle text-primary flex-shrink-0"> <i className="bi bi-check fs-5"></i> </div>
-                            <p className="heading-color mb-0 ms-2">Entire first decided the so must.</p>
-                          </div>
-
-                          <div className="bg-light d-flex align-items-center rounded w-100 p-2">
-                            <div className="icon-md bg-primary bg-opacity-10 rounded-circle text-primary flex-shrink-0"> <i className="bi bi-check fs-5"></i> </div>
-                            <p className="heading-color mb-0 ms-2">Separated sort.</p>
-                          </div>
-
-                        </div>
-                      </div>
-
-                      <div className="d-inline-block bg-white shadow rounded-4 position-absolute end-0 bottom-0 p-3 mb-n5 me-lg-n6 d-none d-sm-block">
-                        <img src="assets/images/elements/trustpilot.svg" className="h-20px mb-2" alt="Client-img" />
-                        <div className="d-flex align-items-center">
-                          <img src="assets/images/elements/trustpilot-star.svg" className="h-30px" alt="rating-img" />
-                          <h6 className="font-base fw-bold heading-color ms-1 mb-0">4.8/5.0</h6>
-                        </div>
-                        <p className="text-dark small mb-0 mt-2">Review by 365 users</p>
-                      </div>
-
-                      <figure className="position-absolute top-0 end-0 mt-n7 me-lg-n5">
-                        <svg width="120.4px" height="124.5px" viewBox="0 0 120.4 124.5">
-                          <path className="fill-mode" d="M92.9,58.4c-0.2-4.7-1.8-9-5-12.6c-3-3.3-6.4-6.2-10.4-8.4c-3.4-1.9-7-2.9-10.8-3.3c-3.1-0.4-6,0.2-8.6,1.8 c-6.5,3.8-11.5,9.1-14.6,16.1c-1.1,2.5-1.5,5.1-1.3,7.7c0.3,3.2,0.9,6.4,2.1,9.4c2.1,5.4,5.7,9.4,11.5,11c1.8,0.5,3.5,1,5.3,1.6 c2.1,0.7,4.3,0.8,6.5,0.5c2.4-0.3,4.8-0.8,7.1-1.4c1.8-0.5,3.4-1.5,4.6-2.9c2-2.2,3.9-4.6,5.2-7.3c0.7-1.4,1.3-3,1.6-4.5 c1.1-6.4-0.7-12.1-4.5-17.2c-1.8-2.5-4.3-4.2-7.2-5c-3-0.8-6.1-1.1-9.2-0.8c-4.5,0.4-8.4,2.2-11.4,5.7c-2.1,2.4-3.6,5-4.3,8.1 c-0.6,2.4-0.5,4.8-0.6,7.2c-0.2,5.8,6.2,12.5,12.3,12c2.7-0.2,5.5-0.5,8.2-0.7c5.4-0.5,9.3-4.9,9.8-9.6c0.2-1.9,0.2-3.9,0.1-5.8 c-0.1-2.5-1.3-4.6-3.1-6.3c-3.1-2.9-6.8-4.1-11.1-3.7c-2.4,0.2-4.4,1.2-5.8,3.2c-1.8,2.5-2.8,5.3-3.1,8.3c-0.2,1.9,0.3,3.7,1.9,5 c2.7,2.2,5.8,3.3,9.2,3c1.6-0.1,2.8-0.9,3.8-2.2c1.6-2.1,1.6-4.5,1.1-6.9c-1-4.3-4.6-5.5-8.2-2.9c-0.3,0.2-0.4,0.7-0.6,1.1 c0.1,0.1,0.3,0.3,0.4,0.4c0.9-0.4,1.8-0.9,2.8-1.2c1-0.3,2-0.1,2.8,0.7c1.6,1.8,1.9,5.4,0.5,7.4c-0.9,1.2-2.1,1.9-3.5,1.8 c-2.3-0.1-4.5-0.9-6.4-2.3c-1.3-1-1.8-2.3-1.7-3.9c0.2-1.7,0.7-3.4,1.4-4.9c1.8-3.6,4-4.9,8.1-4.4c0.9,0.1,1.8,0.3,2.7,0.6 c4.5,1.7,6.8,5,6.6,9.8c0,1.4-0.2,2.8-0.5,4.1c-0.9,3.2-2.9,5.5-6.3,6.1c-2.9,0.5-5.9,0.7-8.9,0.9c-5.6,0.4-10.5-5.4-10.3-9.9 c0.1-2.1,0.2-4.1,0.6-6.1c1.5-6.9,7.2-11.6,14.2-11.9c1.7-0.1,3.5,0,5.2,0.2c3.5,0.4,6.4,1.9,8.5,4.7c3.1,4.2,4.6,8.9,4.2,14.2 c-0.3,3.5-2.1,6.2-4,9c-2.1,3-4.7,5-8.4,5.4c-1.1,0.1-2.3,0.4-3.4,0.7c-2,0.5-3.9,0.4-5.8-0.1c-2.3-0.6-4.6-1.3-6.9-2 c-3.1-1-5.4-3-7.1-5.7c-2.7-4.3-3.8-9.1-3.8-14.1c0-2,0.6-3.8,1.5-5.6c2.9-6,7.3-10.5,12.9-14c2.2-1.4,4.7-1.9,7.3-1.6 c4.2,0.4,8.1,1.6,11.6,3.9c3.1,2,5.8,4.5,8.3,7.2c1.7,1.9,2.9,4.1,3.6,6.6c1.5,5,1.1,10.1-0.2,15c-2.2,8-9.4,14.2-17.5,15.9 c-1.7,0.4-3.3,0.9-4.9,1.5c-1.1,0.4-1.6,1.4-1.2,2.1c0.5,0.8,1.4,0.7,2.1,0.5c2.5-0.7,5.1-1.3,7.6-2.2c1.4-0.5,2.8-1.1,4-1.9 c2.9-1.7,5.4-3.9,7.6-6.4c2.6-3,4.5-6.5,5.2-10.4C92.8,65.1,93,61.7,92.9,58.4z"></path>
-                          <path className="fill-primary" d="M98.2,97.6c-1.9-3-3.8-6-5.7-9c-0.7-1-1.2-2.2-3-3c0,0.8-0.1,1.3,0,1.7c0.4,0.9,1,1.8,1.5,2.7 c2.8,5,5.7,9.9,9.2,14.5c1,1.2,2.2,2.3,3.4,3.4c0.3,0.3,0.8,0.4,1.2-0.3c-0.5-0.8-1.1-1.8-1.8-2.7C101.4,102.3,99.7,100,98.2,97.6z "></path>
-                          <path className="fill-primary" d="M75.3,98c-0.5-1.5-1.2-3-1.9-4.4c-0.1-0.3-0.6-0.4-0.9-0.6c-0.2,0.2-0.3,0.3-0.5,0.5c0.1,0.5,0.2,1.1,0.4,1.6 c1.6,5.3,3.1,10.5,4.8,15.8c0.5,1.6,1.1,3.3,1.7,4.9c0.5,1.3,1.4,1.8,1.9,1.4c0.8-0.6,0.5-1.4,0.2-2.2C79,109.3,77.2,103.6,75.3,98 z"></path>
-                          <path className="fill-primary" d="M26.5,69.5c-5.5,1.6-11,3.2-16.5,4.8c-2.1,0.6-4.1,1.4-6.1,2.2c-0.6,0.2-1.1,0.7-1.9,1.2 c5.9-0.4,24.8-6,28.2-8.3C28.8,68.8,27.6,69.2,26.5,69.5z"></path>
-                          <path className="fill-primary" d="M55,96.3c-2.2,7.9-4.5,15.8-6.7,23.8c-0.3,1.2-0.4,2.5-0.7,4.4c0.6-0.9,0.8-1.2,0.9-1.5 c2.6-7.8,5.1-15.7,7.6-23.5c0.3-1.1,0.5-2.2,0.6-3.4c0-0.4-0.4-0.9-0.8-1.7C55.5,95.3,55.2,95.8,55,96.3z"></path>
-                          <path className="fill-primary" d="M25.2,48.7c0.6,0.3,1.3,0.5,2,0.6c0.5,0.1,1.1-0.1,1.6-0.2c0-0.2,0-0.3,0-0.5c-3-1.4-6-3-9-4.2 c-3.2-1.3-6.4-2.4-9.7-3.5c-3.1-1-6.1-2.3-10-2.8c0.8,0.7,1.1,1.1,1.5,1.3c1.5,0.7,2.9,1.3,4.4,1.9C12.4,43.6,18.9,45.7,25.2,48.7z "></path>
-                          <path className="fill-primary" d="M38.2,86.5c-0.7,0.3-1.4,0.8-2,1.3c-5.1,4.5-10.1,9-14.5,14.2c-0.9,1-1.6,2.2-2.5,3.3c0.1,0.1,0.2,0.3,0.4,0.4 c6.7-6.2,13.4-12.3,20.1-18.5c0.1-0.1,0-0.4,0-0.9C39.2,86.4,38.6,86.3,38.2,86.5z"></path>
-                          <path className="fill-primary" d="M106.5,77.4c-1.1-1.1-2.4-2.2-3.6-3.1c-0.7-0.5-1.6-0.8-2.5-1c-0.5-0.1-1.2,0-1,1.1c2.1,0.8,3.6,2.5,5.2,4.1 c1.3,1.3,2.4,2.7,3.8,3.9c1.8,1.5,3.8,3,5.7,4.3c1,0.7,2.2,1.3,4.1,0.7c-0.7-0.7-1.1-1.1-1.5-1.4C112.9,83.6,109.6,80.5,106.5,77.4 z"></path>
-                          <path className="fill-primary" d="M33.5,27.3c0.7,0.7,1.6,1.3,2.5,1.8c0.5,0.3,1.3,0.4,1.9,0.5c-2.3-2.2-4-4.6-6-6.8c-3.5-3.8-7-7.6-10.5-11.3 c-0.4-0.4-0.7-0.9-1.4-0.6c-0.5,0.6-0.1,1.1,0.3,1.5C24.6,17.4,29.1,22.4,33.5,27.3z"></path>
-                          <path className="fill-primary" d="M53.3,20c0.1,1.1,0.3,2.3,0.6,3.4c0.1,0.4,0.7,0.6,1.3,1c-0.1-3.1-0.1-5.8-0.3-8.5c-0.1-2.6-0.4-5.2-0.6-7.9 c-0.4-5-0.6-5.7-2-8c0,0.9-0.1,1.6-0.1,2.2C52.6,8.2,52.9,14.1,53.3,20z"></path>
-                          <path className="fill-primary" d="M101.1,56.2c0.2,0.4,0.3,0.7,0.5,0.7c4.9,1.1,9.8,2.2,14.7,3.1c1.3,0.3,2.7,0.4,4.1-0.5 c-0.8-0.3-1.7-0.6-2.5-0.8c-5.2-0.9-10.3-1.9-15.5-2.7C102,56,101.6,56.1,101.1,56.2z"></path>
-                          <path className="fill-primary" d="M97.8,36.8c4.7-1.9,8.9-4.8,12.6-8.3c0.3-0.3,0.7-0.6,0.1-1.3c-2.5,1.7-5.1,3.5-7.7,5.1 c-2.6,1.6-5.3,3-8.1,4.6C95.9,37.7,96.8,37.2,97.8,36.8z"></path>
-                          <path className="fill-primary" d="M81.6,11.5c0.5-1.6,0.8-3.2,1.2-4.8c-0.3,0.2-0.6,0.3-0.7,0.5c-1.6,4.3-3.2,8.5-4.7,12.8 c-0.2,0.6-0.1,1.3-0.2,1.9C79.1,18.6,80.5,15.1,81.6,11.5z"></path>
-                          <path className="fill-primary" d="M82.8,6.5c0,0,0,0.1,0,0.1C82.8,6.6,82.8,6.6,82.8,6.5C82.9,6.6,82.8,6.5,82.8,6.5z"></path>
-                        </svg>
-                      </figure>
-
-                      <img src="assets/images/about/17.jpg" className="rounded" alt="feature-img" />
+                    <div className="col-lg-5 position-relative ms-auto">
+                      <img src="assets/images/services/affiliates.png" className="rounded" alt="feature-img" />
                     </div>
                   </div>
                 </div>
@@ -711,63 +271,14 @@ function Home() {
                       <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
                     </div>
 
-                    <div className="col-lg-4 position-relative ms-auto">
-                      <div className="col-md-8 position-absolute top-50 start-0 translate-middle mt-xl-n9 d-none d-lg-block">
-                        <div className="bg-body rounded p-3">
-                          <div className="bg-light d-flex align-items-center rounded w-100 p-2 mb-3">
-                            <div className="icon-md bg-primary bg-opacity-10 rounded-circle text-primary flex-shrink-0"> <i className="bi bi-check fs-5"></i> </div>
-                            <p className="heading-color mb-0 ms-2">Than continues its and because can use.</p>
-                          </div>
-
-                          <div className="bg-light d-flex align-items-center rounded w-100 p-2 mb-3">
-                            <div className="icon-md bg-primary bg-opacity-10 rounded-circle text-primary flex-shrink-0"> <i className="bi bi-check fs-5"></i> </div>
-                            <p className="heading-color mb-0 ms-2">Entire first decided the so must.</p>
-                          </div>
-
-                          <div className="bg-light d-flex align-items-center rounded w-100 p-2">
-                            <div className="icon-md bg-primary bg-opacity-10 rounded-circle text-primary flex-shrink-0"> <i className="bi bi-check fs-5"></i> </div>
-                            <p className="heading-color mb-0 ms-2">Separated sort.</p>
-                          </div>
-
-                        </div>
-                      </div>
-
-                      <div className="d-inline-block bg-white shadow rounded-4 position-absolute end-0 bottom-0 p-3 mb-n5 me-lg-n6 d-none d-sm-block">
-                        <img src="assets/images/elements/trustpilot.svg" className="h-20px mb-2" alt="Client-img" />
-                        <div className="d-flex align-items-center">
-                          <img src="assets/images/elements/trustpilot-star.svg" className="h-30px" alt="rating-img" />
-                          <h6 className="font-base fw-bold heading-color ms-1 mb-0">4.8/5.0</h6>
-                        </div>
-                        <p className="text-dark small mb-0 mt-2">Review by 365 users</p>
-                      </div>
-
-                      <figure className="position-absolute top-0 end-0 mt-n7 me-lg-n5">
-                        <svg width="120.4px" height="124.5px" viewBox="0 0 120.4 124.5">
-                          <path className="fill-mode" d="M92.9,58.4c-0.2-4.7-1.8-9-5-12.6c-3-3.3-6.4-6.2-10.4-8.4c-3.4-1.9-7-2.9-10.8-3.3c-3.1-0.4-6,0.2-8.6,1.8 c-6.5,3.8-11.5,9.1-14.6,16.1c-1.1,2.5-1.5,5.1-1.3,7.7c0.3,3.2,0.9,6.4,2.1,9.4c2.1,5.4,5.7,9.4,11.5,11c1.8,0.5,3.5,1,5.3,1.6 c2.1,0.7,4.3,0.8,6.5,0.5c2.4-0.3,4.8-0.8,7.1-1.4c1.8-0.5,3.4-1.5,4.6-2.9c2-2.2,3.9-4.6,5.2-7.3c0.7-1.4,1.3-3,1.6-4.5 c1.1-6.4-0.7-12.1-4.5-17.2c-1.8-2.5-4.3-4.2-7.2-5c-3-0.8-6.1-1.1-9.2-0.8c-4.5,0.4-8.4,2.2-11.4,5.7c-2.1,2.4-3.6,5-4.3,8.1 c-0.6,2.4-0.5,4.8-0.6,7.2c-0.2,5.8,6.2,12.5,12.3,12c2.7-0.2,5.5-0.5,8.2-0.7c5.4-0.5,9.3-4.9,9.8-9.6c0.2-1.9,0.2-3.9,0.1-5.8 c-0.1-2.5-1.3-4.6-3.1-6.3c-3.1-2.9-6.8-4.1-11.1-3.7c-2.4,0.2-4.4,1.2-5.8,3.2c-1.8,2.5-2.8,5.3-3.1,8.3c-0.2,1.9,0.3,3.7,1.9,5 c2.7,2.2,5.8,3.3,9.2,3c1.6-0.1,2.8-0.9,3.8-2.2c1.6-2.1,1.6-4.5,1.1-6.9c-1-4.3-4.6-5.5-8.2-2.9c-0.3,0.2-0.4,0.7-0.6,1.1 c0.1,0.1,0.3,0.3,0.4,0.4c0.9-0.4,1.8-0.9,2.8-1.2c1-0.3,2-0.1,2.8,0.7c1.6,1.8,1.9,5.4,0.5,7.4c-0.9,1.2-2.1,1.9-3.5,1.8 c-2.3-0.1-4.5-0.9-6.4-2.3c-1.3-1-1.8-2.3-1.7-3.9c0.2-1.7,0.7-3.4,1.4-4.9c1.8-3.6,4-4.9,8.1-4.4c0.9,0.1,1.8,0.3,2.7,0.6 c4.5,1.7,6.8,5,6.6,9.8c0,1.4-0.2,2.8-0.5,4.1c-0.9,3.2-2.9,5.5-6.3,6.1c-2.9,0.5-5.9,0.7-8.9,0.9c-5.6,0.4-10.5-5.4-10.3-9.9 c0.1-2.1,0.2-4.1,0.6-6.1c1.5-6.9,7.2-11.6,14.2-11.9c1.7-0.1,3.5,0,5.2,0.2c3.5,0.4,6.4,1.9,8.5,4.7c3.1,4.2,4.6,8.9,4.2,14.2 c-0.3,3.5-2.1,6.2-4,9c-2.1,3-4.7,5-8.4,5.4c-1.1,0.1-2.3,0.4-3.4,0.7c-2,0.5-3.9,0.4-5.8-0.1c-2.3-0.6-4.6-1.3-6.9-2 c-3.1-1-5.4-3-7.1-5.7c-2.7-4.3-3.8-9.1-3.8-14.1c0-2,0.6-3.8,1.5-5.6c2.9-6,7.3-10.5,12.9-14c2.2-1.4,4.7-1.9,7.3-1.6 c4.2,0.4,8.1,1.6,11.6,3.9c3.1,2,5.8,4.5,8.3,7.2c1.7,1.9,2.9,4.1,3.6,6.6c1.5,5,1.1,10.1-0.2,15c-2.2,8-9.4,14.2-17.5,15.9 c-1.7,0.4-3.3,0.9-4.9,1.5c-1.1,0.4-1.6,1.4-1.2,2.1c0.5,0.8,1.4,0.7,2.1,0.5c2.5-0.7,5.1-1.3,7.6-2.2c1.4-0.5,2.8-1.1,4-1.9 c2.9-1.7,5.4-3.9,7.6-6.4c2.6-3,4.5-6.5,5.2-10.4C92.8,65.1,93,61.7,92.9,58.4z"></path>
-                          <path className="fill-primary" d="M98.2,97.6c-1.9-3-3.8-6-5.7-9c-0.7-1-1.2-2.2-3-3c0,0.8-0.1,1.3,0,1.7c0.4,0.9,1,1.8,1.5,2.7 c2.8,5,5.7,9.9,9.2,14.5c1,1.2,2.2,2.3,3.4,3.4c0.3,0.3,0.8,0.4,1.2-0.3c-0.5-0.8-1.1-1.8-1.8-2.7C101.4,102.3,99.7,100,98.2,97.6z "></path>
-                          <path className="fill-primary" d="M75.3,98c-0.5-1.5-1.2-3-1.9-4.4c-0.1-0.3-0.6-0.4-0.9-0.6c-0.2,0.2-0.3,0.3-0.5,0.5c0.1,0.5,0.2,1.1,0.4,1.6 c1.6,5.3,3.1,10.5,4.8,15.8c0.5,1.6,1.1,3.3,1.7,4.9c0.5,1.3,1.4,1.8,1.9,1.4c0.8-0.6,0.5-1.4,0.2-2.2C79,109.3,77.2,103.6,75.3,98 z"></path>
-                          <path className="fill-primary" d="M26.5,69.5c-5.5,1.6-11,3.2-16.5,4.8c-2.1,0.6-4.1,1.4-6.1,2.2c-0.6,0.2-1.1,0.7-1.9,1.2 c5.9-0.4,24.8-6,28.2-8.3C28.8,68.8,27.6,69.2,26.5,69.5z"></path>
-                          <path className="fill-primary" d="M55,96.3c-2.2,7.9-4.5,15.8-6.7,23.8c-0.3,1.2-0.4,2.5-0.7,4.4c0.6-0.9,0.8-1.2,0.9-1.5 c2.6-7.8,5.1-15.7,7.6-23.5c0.3-1.1,0.5-2.2,0.6-3.4c0-0.4-0.4-0.9-0.8-1.7C55.5,95.3,55.2,95.8,55,96.3z"></path>
-                          <path className="fill-primary" d="M25.2,48.7c0.6,0.3,1.3,0.5,2,0.6c0.5,0.1,1.1-0.1,1.6-0.2c0-0.2,0-0.3,0-0.5c-3-1.4-6-3-9-4.2 c-3.2-1.3-6.4-2.4-9.7-3.5c-3.1-1-6.1-2.3-10-2.8c0.8,0.7,1.1,1.1,1.5,1.3c1.5,0.7,2.9,1.3,4.4,1.9C12.4,43.6,18.9,45.7,25.2,48.7z "></path>
-                          <path className="fill-primary" d="M38.2,86.5c-0.7,0.3-1.4,0.8-2,1.3c-5.1,4.5-10.1,9-14.5,14.2c-0.9,1-1.6,2.2-2.5,3.3c0.1,0.1,0.2,0.3,0.4,0.4 c6.7-6.2,13.4-12.3,20.1-18.5c0.1-0.1,0-0.4,0-0.9C39.2,86.4,38.6,86.3,38.2,86.5z"></path>
-                          <path className="fill-primary" d="M106.5,77.4c-1.1-1.1-2.4-2.2-3.6-3.1c-0.7-0.5-1.6-0.8-2.5-1c-0.5-0.1-1.2,0-1,1.1c2.1,0.8,3.6,2.5,5.2,4.1 c1.3,1.3,2.4,2.7,3.8,3.9c1.8,1.5,3.8,3,5.7,4.3c1,0.7,2.2,1.3,4.1,0.7c-0.7-0.7-1.1-1.1-1.5-1.4C112.9,83.6,109.6,80.5,106.5,77.4 z"></path>
-                          <path className="fill-primary" d="M33.5,27.3c0.7,0.7,1.6,1.3,2.5,1.8c0.5,0.3,1.3,0.4,1.9,0.5c-2.3-2.2-4-4.6-6-6.8c-3.5-3.8-7-7.6-10.5-11.3 c-0.4-0.4-0.7-0.9-1.4-0.6c-0.5,0.6-0.1,1.1,0.3,1.5C24.6,17.4,29.1,22.4,33.5,27.3z"></path>
-                          <path className="fill-primary" d="M53.3,20c0.1,1.1,0.3,2.3,0.6,3.4c0.1,0.4,0.7,0.6,1.3,1c-0.1-3.1-0.1-5.8-0.3-8.5c-0.1-2.6-0.4-5.2-0.6-7.9 c-0.4-5-0.6-5.7-2-8c0,0.9-0.1,1.6-0.1,2.2C52.6,8.2,52.9,14.1,53.3,20z"></path>
-                          <path className="fill-primary" d="M101.1,56.2c0.2,0.4,0.3,0.7,0.5,0.7c4.9,1.1,9.8,2.2,14.7,3.1c1.3,0.3,2.7,0.4,4.1-0.5 c-0.8-0.3-1.7-0.6-2.5-0.8c-5.2-0.9-10.3-1.9-15.5-2.7C102,56,101.6,56.1,101.1,56.2z"></path>
-                          <path className="fill-primary" d="M97.8,36.8c4.7-1.9,8.9-4.8,12.6-8.3c0.3-0.3,0.7-0.6,0.1-1.3c-2.5,1.7-5.1,3.5-7.7,5.1 c-2.6,1.6-5.3,3-8.1,4.6C95.9,37.7,96.8,37.2,97.8,36.8z"></path>
-                          <path className="fill-primary" d="M81.6,11.5c0.5-1.6,0.8-3.2,1.2-4.8c-0.3,0.2-0.6,0.3-0.7,0.5c-1.6,4.3-3.2,8.5-4.7,12.8 c-0.2,0.6-0.1,1.3-0.2,1.9C79.1,18.6,80.5,15.1,81.6,11.5z"></path>
-                          <path className="fill-primary" d="M82.8,6.5c0,0,0,0.1,0,0.1C82.8,6.6,82.8,6.6,82.8,6.5C82.9,6.6,82.8,6.5,82.8,6.5z"></path>
-                        </svg>
-                      </figure>
-
-                      <img src="assets/images/about/17.jpg" className="rounded" alt="feature-img" />
+                    <div className="col-lg-5 position-relative ms-auto">
+                      <img src="assets/images/services/reports.png" className="rounded" alt="feature-img" />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </section>
 
@@ -1279,7 +790,7 @@ function Home() {
 
       <section className="bg-light mt-8 mb-8">
         <div className="container">
-          
+
           <div className="row align-items-center">
             <div className="col-lg-5 mb-5 mb-sm-0">
               <h2 className="mb-4">Frequently Asked Questions</h2>
