@@ -118,3 +118,20 @@ code {
     transition: color 0.3s ease;
   }
 }
+
+
+
+
+.main-nav {
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.secondary-nav {
+  background: #0d6efd; /* blue or your brand color */
+}
+
+.secondary-nav .nav-link {
+  color: white !important;
+  font-weight: 500;
+}

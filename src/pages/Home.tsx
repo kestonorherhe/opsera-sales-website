@@ -1,6 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Header from "../components/Header";
 
 function Home() {
   const sliderSettings = {
@@ -51,6 +52,9 @@ function Home() {
   };
   return (
     <main>
+      <Header />
+
+      
       <section id="home" className="overflow-hidden pt-xl-8 mb-n6 parallax-wrap">
         <div className="container position-relative zindex-5 pt-5">
           <div className="row justify-content-xl-start justify-content-center flex-xl-nowrap">

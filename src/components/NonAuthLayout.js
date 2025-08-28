@@ -7,7 +7,7 @@ import Header from "./Header";
 const NonAuthLayout = (props) => {
   return (
     <React.Fragment>
-      <Header />
+      {/* <Header /> */}
       {props.children}
       <Footer />
     </React.Fragment>
