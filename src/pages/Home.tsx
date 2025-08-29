@@ -54,7 +54,7 @@ function Home() {
     <main>
       <Header />
 
-      
+
       <section id="home" className="overflow-hidden pt-xl-8 mb-n6 parallax-wrap">
         <div className="container position-relative zindex-5 pt-5">
           <div className="row justify-content-xl-start justify-content-center flex-xl-nowrap">
@@ -792,7 +792,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="bg-light mt-8 mb-8">
+      <section id='faqs' className="bg-light mt-8 mb-8">
         <div className="container">
 
           <div className="row align-items-center">

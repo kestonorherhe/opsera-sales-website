@@ -360,30 +360,13 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle active" href="#" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Demos</a>
+                <a className="nav-link dropdown-toggle active" href="#" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
                 <div className="dropdown-menu dropdown-menu-size-lg p-3">
                   <div className="row pt-2">
                     <div className="col-sm-6">
                       <ul className="list-unstyled">
                         <li> <a className="dropdown-item" href="index-2.html">Classic Default</a> </li>
                         <li> <a className="dropdown-item" href="index-creative-agency.html">Creative Agency</a> </li>
-                        <li> <a className="dropdown-item" href="index-digital-agency.html">Digital Agency</a> </li>
-                        <li> <a className="dropdown-item" href="index-design-agency.html">Design Agency</a> </li>
-                        <li> <a className="dropdown-item" href="index-seo-agency.html">SEO Agency</a> </li>
-                        <li> <a className="dropdown-item" href="index-landing-product.html">Product Landing</a> </li>
-                        <li> <a className="dropdown-item" href="index-mobile-app-showcase.html">Mobile App Showcase</a> </li>
-                      </ul>
-                    </div>
-
-                    <div className="col-sm-6">
-                      <ul className="list-unstyled">
-                        <li> <a className="dropdown-item" href="index-saas.html">SaaS v.1</a> </li>
-                        <li> <a className="dropdown-item" href="index-saas-v2.html">SaaS v.2</a> </li>
-                        <li> <a className="dropdown-item" href="index-saas-v3.html">SaaS v.3</a> </li>
-                        <li> <a className="dropdown-item" href="index-saas-v4.html">SaaS v.4</a> </li>
-                        <li> <a className="dropdown-item" href="index-saas-v5.html">SaaS v.5</a> </li>
-                        <li> <a className="dropdown-item active" href="index-finance-consulting.html">Finance consulting<span className="badge text-bg-success ms-2">New</span></a> </li>
-                        <li> <a className="dropdown-item" href="index-shop.html">Index Shop</a> </li>
                       </ul>
                     </div>
 
@@ -400,8 +383,33 @@ function Header() {
                   </div>
                 </div>
               </li>
-              <li className="nav-item"><a className="nav-link" href="/#features" onClick={() => setIsMobileMenuOpen(false)}>Features</a></li>
-              <li className="nav-item"><a className="nav-link" href="/#pricing" onClick={() => setIsMobileMenuOpen(false)}>Pricing</a></li>
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle active" href="#" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Partners</a>
+                <div className="dropdown-menu dropdown-menu-size-lg p-3">
+                  <div className="row pt-2">
+                    <div className="col-sm-6">
+                      <ul className="list-unstyled">
+                        <li> <a className="dropdown-item" href="index-2.html">Work with a partner</a> </li>
+                        <li> <a className="dropdown-item" href="index-creative-agency.html">Become a partner</a> </li>
+                      </ul>
+                    </div>
+
+                    <div className="col-12">
+                      <hr className="mt-2" />
+                        <div className="d-sm-flex justify-content-between align-items-center px-2">
+                          <div className="me-3 mb-2 mb-sm-0">
+                            <h6 className="mb-2 mb-sm-0">Ready to get started?</h6>
+                            <small className="mb-0">Take your documents to the next level with Mizzle</small>
+                          </div>
+                          <a href="#" className="btn btn-sm btn-primary">Get in touch</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li className="nav-item"><a className="nav-link" href="/#features" onClick={() => setIsMobileMenuOpen(false)}>Testimonials</a></li>
+              <li className="nav-item"><a className="nav-link" href="/#pricing" onClick={() => setIsMobileMenuOpen(false)}>About Us</a></li>
+              <li className="nav-item"><a className="nav-link" href="/#pricing" onClick={() => setIsMobileMenuOpen(false)}>Contact Us</a></li>
             </ul>
           </div>
 
@@ -438,10 +446,12 @@ function Header() {
       <nav className={`navbar navbar-expand-xl secondary-nav ${isMobileMenuOpen ? "d-none" : ""}`}>
         <div className="container">
           <ul className="navbar-nav mx-auto d-none d-xl-flex">
-            <li className="nav-item"><a className="nav-link" href="/#solution">Solution</a></li>
-            <li className="nav-item"><a className="nav-link" href="/#customers">Customers</a></li>
-            <li className="nav-item"><a className="nav-link" href="/#partners">Partner with us</a></li>
-            <li className="nav-item"><a className="nav-link" href="/#resources">Resources</a></li>
+            <li className="nav-item"><a className="nav-link" href="/#home">Home</a></li>
+            <li className="nav-item"><a className="nav-link" href="/#features">Features</a></li>
+            <li className="nav-item"><a className="nav-link" href="/#benefits">Benefits</a></li>
+            <li className="nav-item"><a className="nav-link" href="/#pricing">Pricing</a></li>
+            <li className="nav-item"><a className="nav-link" href="/#testimonials">Testtimonials</a></li>
+            <li className="nav-item"><a className="nav-link" href="/#faqs">FAQs</a></li>
           </ul>
 
           {/* Mobile: Right aligned hamburger for secondary nav */}
