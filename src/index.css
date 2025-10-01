@@ -128,10 +128,16 @@ code {
 }
 
 .secondary-nav {
-  background: #0d6efd; /* blue or your brand color */
+  background: #071437; /* blue or your brand color */
 }
 
 .secondary-nav .nav-link {
   color: white !important;
   font-weight: 500;
+}
+
+/* Sticky nav links (black) */
+.header-absolute.is-sticky .secondary-nav .nav-link {
+  /* color: #212529 !important; */
+  color: #fff !important;
 }
