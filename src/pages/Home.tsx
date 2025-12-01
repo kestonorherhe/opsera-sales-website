@@ -314,126 +314,9 @@ function Home() {
           </div>
 
         </div>
-          <div className="container mt-7 text-left">
-            <h6 className="mb-0 mt-4">Together, they form the Opsera Ecosystem—</h6>
-            <p>Opsera is home to six powerful SaaS platforms, each solving a mission-critical need—yet designed to work together seamlessly.</p>
-          </div>
-      </section>
-
-      <section id="benefits" className="pb-0">
-        <div className="container">
-          <div className="inner-container text-center mb-4 mb-sm-6">
-            <h2 className="mb-0">Why Real Estate Businesses Choose Opsera</h2>
-          </div>
-
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
-            <div className="col">
-              <div className="card card-hover-shadow border h-100 p-4">
-                <div className="card-body p-0">
-                  <figure className="text-primary mb-4">
-                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M2.25 12C2.25 17.3848 6.61522 21.75 12 21.75C16.567 21.75 20.4006 18.6099 21.4597 14.371C21.6257 13.7068 21.7086 13.3746 21.5327 13.0378C21.4825 12.9418 21.3914 12.8252 21.3104 12.7532C21.0263 12.5009 20.6322 12.5009 19.844 12.5009H13.3C12.5501 12.5009 12.1751 12.5009 11.9122 12.3099C11.8273 12.2482 11.7527 12.1736 11.691 12.0887C11.5 11.8258 11.5 11.4508 11.5 10.7009V4.15582C11.5 3.36765 11.5 2.97356 11.2477 2.68947C11.1758 2.60848 11.0591 2.51736 10.9631 2.4672C10.6263 2.29125 10.2942 2.37418 9.63002 2.54005C5.39056 3.59874 2.25 7.43262 2.25 12Z" fill="currentColor" fill-opacity="0.25" />
-                      <path d="M12.8 9.4V4.25994C12.8 3.42978 12.8 3.0147 13.0698 2.72637C13.1465 2.64435 13.2702 2.55404 13.3717 2.50592C13.7284 2.33679 14.0733 2.44702 14.7632 2.6675C17.8775 3.66283 20.3372 6.12259 21.3326 9.23688C21.553 9.92672 21.6633 10.2716 21.4941 10.6284C21.446 10.7299 21.3557 10.8536 21.2737 10.9303C20.9853 11.2 20.5703 11.2 19.7401 11.2H14.6C13.8501 11.2 13.4751 11.2 13.2123 11.009C13.1274 10.9473 13.0527 10.8727 12.991 10.7878C12.8 10.5249 12.8 10.1499 12.8 9.4Z" fill="currentColor" />
-                    </svg>
-                  </figure>
-
-                  <h5 className="mb-3"><a href="#">Tailored for Real Estate Workflows</a></h5>
-                  <p>Unlike generic CRM or sales platforms, Opsera is purpose-built for real estate companies. From land and housing sales to affiliate and commission management, every feature is designed around how real estate teams actually operate.
-                    No need to bend a general tool to fit your workflow—Opsera speaks your language.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="card card-hover-shadow border h-100 p-4">
-                <div className="card-body p-0">
-                  <figure className="text-primary mb-4">
-                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M3 5.75H5M10.5 5.75H21M3 18.25H5M10.5 18.25H21M21 12H19M13.5 12H3" stroke="currentColor" stroke-opacity="0.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                      <path d="M4.25 5.75C4.25 3.817 5.817 2.25 7.75 2.25V2.25C9.683 2.25 11.25 3.817 11.25 5.75V5.75C11.25 7.683 9.683 9.25 7.75 9.25V9.25C5.817 9.25 4.25 7.683 4.25 5.75V5.75Z" fill="currentColor" />
-                      <path d="M4.25 18.25C4.25 16.317 5.817 14.75 7.75 14.75V14.75C9.683 14.75 11.25 16.317 11.25 18.25V18.25C11.25 20.183 9.683 21.75 7.75 21.75V21.75C5.817 21.75 4.25 20.183 4.25 18.25V18.25Z" fill="currentColor" />
-                      <path d="M12.75 12C12.75 10.067 14.317 8.5 16.25 8.5V8.5C18.183 8.5 19.75 10.067 19.75 12V12C19.75 13.933 18.183 15.5 16.25 15.5V15.5C14.317 15.5 12.75 13.933 12.75 12V12Z" fill="currentColor" />
-                    </svg>
-                  </figure>
-
-                  <h5 className="mb-3"><a href="#">End-to-End Sales Automation</a></h5>
-                  <p>From capturing leads to allocating properties and paying commissions, Opsera automates repetitive tasks so your team can focus on closing more deals.
-                    Sales pipelines move faster. Errors are reduced. Revenue grows.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="card card-hover-shadow border h-100 p-4">
-                <div className="card-body p-0">
-                  <figure className="text-primary mb-4">
-                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M20.2402 6.75391C21.2543 9.81065 21.2543 11.8485 20.2402 14.9052" stroke="currentColor" stroke-opacity="0.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                      <path d="M2.25047 12.9739C2.25055 14.0922 3.15715 14.9988 4.27547 14.9988V14.9988L4.25651 19.4911C4.25125 20.7361 5.25945 21.7481 6.50452 21.7474V21.7474C7.74497 21.7468 8.75021 20.741 8.75021 19.5006V15.1105H10V6.55981H6.46978C5.09959 6.55981 4.41449 6.55981 3.87962 6.79848C3.26038 7.07479 2.76505 7.57015 2.48879 8.18941C2.25016 8.72431 2.25021 9.4094 2.25031 10.7796L2.25047 12.9739Z" fill="currentColor" />
-                      <path d="M11.0002 15.8122C13.9211 18.3111 15.3815 19.5606 16.6274 19.37C17.1377 19.2919 17.6157 19.0718 18.0068 18.7348C18.9616 17.912 18.9616 15.99 18.9616 12.146V9.4287C18.9616 5.58267 18.9616 3.65966 18.0199 2.83775C17.6138 2.48322 17.1124 2.2559 16.5781 2.18405C15.3393 2.01748 13.893 3.28476 11.0002 5.81933V5.81933V15.8122V15.8122Z" fill="currentColor" fill-opacity="0.25" />
-                    </svg>
-                  </figure>
-
-                  <h5 className="mb-3"><a href="#">Smart Affiliate & Agent Management</a></h5>
-                  <p>Whether you work with in-house sales reps, freelance marketers, or referral partners, Opsera helps you manage them all transparently.
-                    Agents can view their applications, earnings, and commissions—reducing back-and-forth and disputes. </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="card card-hover-shadow border h-100 p-4">
-                <div className="card-body p-0">
-                  <figure className="text-primary mb-4">
-                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M17.523 8.92914C17.523 9.94279 16.6746 10.7645 15.6281 10.7645C14.5816 10.7645 13.7333 9.94279 13.7333 8.92914C13.7333 7.91548 14.5816 7.09375 15.6281 7.09375C16.6746 7.09375 17.523 7.91548 17.523 8.92914Z" fill="currentColor" />
-                      <path d="M10.485 8.92914C10.485 9.94279 9.63664 10.7645 8.59015 10.7645C7.54366 10.7645 6.69531 9.94279 6.69531 8.92914C6.69531 7.91548 7.54366 7.09375 8.59015 7.09375C9.63664 7.09375 10.485 7.91548 10.485 8.92914Z" fill="currentColor" />
-                      <path d="M11.0264 15.2219C11.0264 16.2355 10.178 17.0573 9.13154 17.0573C8.08504 17.0573 7.2367 16.2355 7.2367 15.2219C7.2367 14.2082 8.08504 13.3865 9.13154 13.3865C10.178 13.3865 11.0264 14.2082 11.0264 15.2219Z" fill="currentColor" />
-                      <path d="M21.748 9.45998C21.4753 4.55256 14.4854 1.4706 9.28231 2.41642C4.07925 3.36223 1.56208 8.48915 2.41245 13.4547C3.23924 18.2826 8.68956 21.7459 12.1134 21.7459C15 21.7459 17.25 20.6058 17.25 18.9959C17.25 18.9959 17.2846 18.5254 16.98 17.9961C16.7157 17.5369 16.4642 17.3392 16.07 16.9961C15.8584 16.8119 15.5273 16.5296 15.15 15.9959C14.9079 15.6534 14.8139 15.4137 14.8 15.3435C14.7846 14.9174 15.0127 14.407 15.5 14.2561C15.6439 14.2115 15.8105 14.2221 16 14.2459C18 14.3961 22 13.9961 21.748 9.45998Z" fill="currentColor" fill-opacity="0.25" />
-                    </svg>
-                  </figure>
-
-                  <h5 className="mb-3"><a href="#">Built for Teams of Any Size</a></h5>
-                  <p>From a one-person agency to large firms with dozens of agents, Opsera scales with you. You control who gets access to what with staff roles and permission settings.
-                    No extra cost or complexity as your business grows.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="card card-hover-shadow border h-100 p-4">
-                <div className="card-body p-0">
-                  <figure className="text-primary mb-4">
-                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M8 18V15M12 13V18M16 18V11M6.5 11.5L7.9646 9.7913C8.91547 8.68195 10.3837 8.16067 11.8212 8.42204V8.42204C13.812 8.78401 15.8538 8.14622 17.2846 6.71542L17.5 6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                      <path d="M13.2 2.25H10.8C7.23775 2.25 5.45663 2.25 4.20802 3.15717C3.80477 3.45015 3.45015 3.80477 3.15717 4.20802C2.25 5.45663 2.25 7.23775 2.25 10.8V13.2C2.25 16.7622 2.25 18.5434 3.15717 19.792C3.45015 20.1952 3.80477 20.5499 4.20802 20.8428C5.45663 21.75 7.23775 21.75 10.8 21.75H13.2C16.7622 21.75 18.5434 21.75 19.792 20.8428C20.1952 20.5499 20.5499 20.1952 20.8428 19.792C21.75 18.5434 21.75 16.7622 21.75 13.2V10.8C21.75 7.23775 21.75 5.45663 20.8428 4.20802C20.5499 3.80477 20.1952 3.45015 19.792 3.15717C18.5434 2.25 16.7622 2.25 13.2 2.25Z" fill="currentColor" fill-opacity="0.25" />
-                    </svg>
-                  </figure>
-
-                  <h5 className="mb-3"><a href="#">Data You Can Act On</a></h5>
-                  <p>With real-time reporting, sales analytics, and performance dashboards, you’re never in the dark.
-                    Understand what’s working, who’s performing, and where you’re losing opportunities.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="card card-hover-shadow border h-100 p-4">
-                <div className="card-body p-0">
-                  <figure className="text-primary mb-4">
-                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M12 21.75C17.3848 21.75 21.75 17.3848 21.75 12C21.75 6.61522 17.3848 2.25 12 2.25C6.61522 2.25 2.25 6.61522 2.25 12C2.25 17.3848 6.61522 21.75 12 21.75Z" fill="currentColor" fill-opacity="0.25" />
-                      <path d="M14.5 10V10C14.5 8.89543 13.6046 8 12.5 8H12M12 8H11.5C10.3954 8 9.5 8.89543 9.5 10V10C9.5 11.1046 10.3954 12 11.5 12H12M12 8V6.5M12 8V12M12 12H12.5C13.6046 12 14.5 12.8954 14.5 14V14C14.5 15.1046 13.6046 16 12.5 16H12M12 12V16M12 16H11.5C10.3954 16 9.5 15.1046 9.5 14V14M12 16V17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                  </figure>
-
-                  <h5 className="mb-3"><a href="#">Secure, Cloud-Based, and Always Accessible</a></h5>
-                  <p>Your data is safely stored in the cloud and accessible anywhere—on-site, in the office, or on mobile.
-                    Stay connected to your sales operation no matter where you are.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className="container mt-7 text-left">
+          <h6 className="mb-0 mt-4">Together, they form the Opsera Ecosystem—</h6>
+          <p>Opsera is home to six powerful SaaS platforms, each solving a mission-critical need—yet designed to work together seamlessly.</p>
         </div>
       </section>
 
@@ -441,7 +324,7 @@ function Home() {
         <div className="container">
           <div className="row g-4">
             <div className="col-lg-6 mb-sm-6 mb-lg-0">
-              <h2 className="mb-4">Why Use Opsera Sales Platform</h2>
+              <h2 className="mb-4">Real Estate & Construction in West Africa are filled with challenges:</h2>
               {/* <p className="mb-0">Supposing so be resolving breakfast am or perfectly. It drew a hill from me. Valley by oh twenty direct me so.</p> */}
 
               <hr className="my-4 my-sm-5" />
@@ -449,37 +332,24 @@ function Home() {
               <div className="row g-4 mb-4 mb-sm-5">
                 <div className="col-sm-12">
                   <div className="d-flex">
-                    {/* <div className="icon-md flex-shrink-0 text-primary bg-primary bg-opacity-10 rounded-circle"><i className="bi bi-boxes fa-xl"></i></div> */}
                     <div className="ms-3">
-                      <h6 className="mb-0 mb-sm-2 text-primary">Save Time</h6>
+                      {/* <h6 className="mb-0 mb-sm-2 text-primary">Save Time</h6> */}
                       <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Automate repetitive tasks like status updates, follow-ups, and commission reports</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Speed up onboarding of staff and agents</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Manual workflows that slow down operations</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Data scattered across spreadsheets and WhatsApp</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>High costs from delays, errors, and mismanagement</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>No real-time visibility across properties or projects</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Revenue leakages and fraud</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Poor accountability and documentation</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Investor mistrust and lack of transparency</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Fragmented tools that don’t talk to each other</li>
                       </ul>
                     </div>
                   </div>
-                  <div className="d-flex">
-                    {/* <div className="icon-md flex-shrink-0 text-primary bg-primary bg-opacity-10 rounded-circle"><i className="bi bi-boxes fa-xl"></i></div> */}
-                    <div className="ms-3">
-                      <h6 className="mb-0 mb-sm-2 text-primary">Boost Accountability</h6>
-                      <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Know exactly who is selling, what they’re selling, and how much they’ve earned</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Eliminate guesswork with full visibility into your entire sales process</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="d-flex">
-                    {/* <div className="icon-md flex-shrink-0 text-primary bg-primary bg-opacity-10 rounded-circle"><i className="bi bi-boxes fa-xl"></i></div> */}
-                    <div className="ms-3">
-                      <h6 className="mb-0 mb-sm-2 text-primary">Work from Anywhere</h6>
-                      <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Cloud-based platform accessible via web and mobile</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Agents and staff can use it on the go—no desktop dependency</li>
-                      </ul>
-                    </div>
-                  </div>
+                  <p className="mb-0">Opsera solves all of this by building a connected, integrated platform where every activity, every stakeholder, and every decision lives in one ecosystem.</p>
                 </div>
               </div>
+
             </div>
 
             <div className="col-lg-6">
@@ -551,115 +421,61 @@ function Home() {
         </div>
       </section>
 
-      <section id="pricing" className="bg-dark position-relative price-wrap" data-bs-theme="dark">
+      {/* <section className="pb-0"> */}
+      <div className="container">
+        <div className="row g-4 g-md-5">
 
-        <figure className="position-absolute top-0 start-0 ms-n9">
-          <svg className="opacity-2" width="424" height="405" viewBox="0 0 424 405" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <ellipse cx="212" cy="202.5" rx="212" ry="202.5" fill="url(#paint0_linear_153_3831)"></ellipse>
-            <defs>
-              <linearGradient id="paint0_linear_153_3831" x1="212" y1="0" x2="212" y2="405" gradientUnits="userSpaceOnUse">
-                <stop offset="0.0569271" stop-color="#D9D9D9" stop-opacity="0"></stop>
-                <stop offset="0.998202" stop-color="#D9D9D9" stop-opacity="0.5"></stop>
-              </linearGradient>
-            </defs>
-          </svg>
-        </figure>
+          <div className="col-md-6 col-lg-4">
+            <h2 className="mb-0">We Simplify. We Automate. We Transform.</h2>
+            <p>Opsera’s ecosystem delivers unmatched value across the entire property and construction lifecycle.</p>
+          </div>
 
-        <div className="container position-relative">
-          <div className="row g-4 g-lg-6">
-            <div className="col-xl-12 text-center">
-              <span className="text-primary fw-bold text-uppercase">Pricing</span>
-              <h2 className="mb-4 mt-3">Budget-friendly pricing solutions</h2>
-              <p className="mb-5">Choose the plan that fits your real estate business. Whether you're just starting out or scaling rapidly, Opsera Sales Platform grows with you.</p>
-              {/* <form className="d-flex align-items-center">
-                <span className="fw-semibold heading-color">Monthly</span>
-                <div className="form-check form-switch form-check-lg mx-2 mb-0">
-                  <input className="form-check-input mt-0 price-toggle" type="checkbox" id="flexSwitchCheckDefault" />
-                </div>
-                <div className="position-relative">
-                  <span className="fw-semibold heading-color">Yearly</span>
-                  <span className="badge bg-danger position-absolute top-0 start-100 translate-middle mt-n2 ms-2 ms-md-5">20% save</span>
-                </div>
-              </form> */}
-            </div>
-
-
-
-            <div className="col-md-6 col-xl-4">
-              <div className="card card-body p-4 p-sm-5">
-                <figure className="position-absolute top-0 start-0 translate-middle mt-n4 ms-n5 d-none d-md-block">
-                  <svg className="fill-mode" width="86" height="105" viewBox="0 0 86 105" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M50.9805 4.63769C51.6165 4.24345 56.4262 10.3524 61.7246 18.1163C67.0564 25.8003 72.7966 35.1061 75.9634 40.6314C82.2158 51.6489 85.8889 61.2748 84.5362 62.0301C83.1029 62.7522 77.2708 54.3462 71.0415 43.3853C67.8986 37.9165 62.7042 28.3199 58.293 20.1246C53.8819 11.9293 50.2874 5.05535 50.9805 4.63769Z"></path>
-                    <path d="M64.0889 66.7297C63.5001 67.2372 60.6142 65.1098 57.1179 62.637C53.6451 60.2207 49.5285 57.539 47.2336 56.0303C42.5967 52.8997 39.0022 49.8707 39.6599 48.4069C40.2841 47.0231 45.3294 47.9307 50.3923 51.2838C52.9286 52.892 56.9393 56.2802 59.8742 59.6469C62.809 63.0137 64.6779 66.2223 64.0889 66.7297Z"></path>
-                    <path d="M55.1316 86.0595C55.1297 86.856 48.7063 87.4433 40.9853 87.6368C33.2643 87.8295 24.2555 87.492 19.0669 87.0413C8.68981 86.139 0.434871 83.7683 0.656712 82.218C0.878555 80.6685 9.34356 80.5005 19.5833 81.393C24.7149 81.867 33.5706 82.7978 41.1895 83.6415C48.832 84.5408 55.1571 85.32 55.1316 86.0595Z"></path>
-                  </svg>
-                </figure>
-                <h5>Free Plan</h5>
-                <p className="small mb-0">Perfect for small teams or individual agents starting out.</p>
-                <hr className="my-4" />
-                <p className="heading-color fw-normal mb-2">Quick look at all the features</p>
-                <ul className="list-group list-group-borderless mb-2 mb-sm-4">
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Manage up to 10 properties</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Up to 3 team members</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Sales application tracking</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Basic lead management</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Access to affiliate tools</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Basic reports and analytics</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Email support</li>
-                </ul>
-
-                <span className="mb-4 heading-color"><span className="h2 plan-price" data-monthly-price="$299" data-annual-price="$250">$0</span> /month</span>
-                <a className="btn btn-primary icon-link icon-link-hover justify-content-center" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
-              </div>
-            </div>
-            <div className="col-md-6 col-xl-4">
-              <div className="card card-body p-4 p-sm-5">
-                <h5>Basic Plan</h5>
-                <p className="small mb-0">Best for growing real estate agencies and small firms.</p>
-                <hr className="my-4" />
-                <p className="heading-color fw-normal mb-2">Quick look at all the features</p>
-                <ul className="list-group list-group-borderless mb-2 mb-sm-4">
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Everything in Free Plan</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Unlimited properties</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Up to 20 team members</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Full sales application workflows</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Commission and affiliate tracking</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Access control for staff</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Advanced lead conversion tools</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Standard analytics dashboard</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Email support</li>
-                </ul>
-
-                <span className="mb-4 heading-color"><span className="h2 plan-price" data-monthly-price="$299" data-annual-price="$250">$299</span> /month</span>
-                <a className="btn btn-primary icon-link icon-link-hover justify-content-center" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
-              </div>
-            </div>
-            <div className="col-md-6 col-xl-4">
-              <div className="card card-body bg-light p-4 p-sm-5">
-
-
-                <h5>Enterprise Plan</h5>
-                <p className="small mb-0">For large agencies managing high-volume sales operations.</p>
-
-                <hr className="my-4" />
-                <p className="heading-color fw-normal mb-2">Quick look at all the features</p>
-                <ul className="list-group list-group-borderless mb-2 mb-sm-4">
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Everything in Basic Plan</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Unlimited team members</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Custom affiliate packages</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Enterprise-grade property manager</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>White-label branding</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Custom reports & KPIs</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Dedicated account manager</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>API access & integrations</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Priority support</li>
-                </ul>
-                <a className="btn btn-primary icon-link icon-link-hover justify-content-center" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
-              </div>
+          <div className="col-md-6 col-lg-4">
+            <div className="card card-body border p-4 h-100">
+              <h6 className="text-primary mb-4">01.</h6>
+              <h5>Unified Operations</h5>
+              <p className="mb-0">Opsera brings property management, construction, sales, hospitality, and estate operations into one seamless platform—removing fragmentation and enabling full oversight from a single dashboard.</p>
             </div>
           </div>
+
+          <div className="col-md-6 col-lg-4">
+            <div className="card card-body border p-4 h-100">
+              <h6 className="text-primary mb-4">02.</h6>
+              <h5>Real-Time Transparency</h5>
+              <p className="mb-0">Every activity, update, and financial movement is visible instantly, ensuring accountability, trust, and confident decision-making across all stakeholders. </p>
+            </div>
+          </div>
+
+          <div className="col-md-6 col-lg-4">
+            <div className="card card-body border p-4 h-100">
+              <h6 className="text-primary mb-4">03.</h6>
+              <h5>Automated Workflows</h5>
+              <p className="mb-0">From approvals to reporting to financial tracking, Opsera automates repetitive tasks—reducing human error, accelerating processes, and improving operational efficiency.</p>
+            </div>
+          </div>
+
+          <div className="col-md-6 col-lg-4">
+            <div className="card card-body border p-4 h-100">
+              <h6 className="text-primary mb-4">04.</h6>
+              <h5>Data-Driven Insights</h5>
+              <p className="mb-0">Our platform analyzes your operations, financials, and performance data to deliver insights that reveal opportunities, reduce risks, and drive measurable growth.</p>
+            </div>
+          </div>
+
+          <div className="col-md-6 col-lg-4">
+            <div className="card card-body border p-4 h-100">
+              <h6 className="text-primary mb-4">05.</h6>
+              <h5>Faster Deliveries</h5>
+              <p className="mb-0">Our tools streamline planning, communication, tracking, and execution—helping teams deliver projects and daily operations with speed, accuracy, and consistency.</p>
+            </div>
+          </div>
+
+          <h6>We Turn Inefficiency Into Profit</h6>
+          <p className="m-0">Through automation and optimization, we help businesses operate leaner, smarter, and more cost-effectively—directly increasing revenue and reducing waste.</p>
         </div>
-      </section>
+      </div>
+      {/* </section> */}
+
 
       <section id="testimonials" className="pb-0">
         <div className="container">
@@ -747,7 +563,7 @@ function Home() {
         </div>
       </section>
 
-      <section id='faqs' className="bg-light mt-8 mb-8">
+      <section id='faqs' className="bg-light mt-8">
         <div className="container">
 
           <div className="row align-items-center">
@@ -862,52 +678,6 @@ function Home() {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="get-started" className="pt-0">
-        <div className="container">
-
-          <div className="inner-container-small mx-auto">
-            <div className="text-center mb-6">
-              <h2 className="mb-">We've been waiting for you</h2>
-              <p className="mb-0">You can watch your business bloom and glow, achieving new heights of success and radiating prosperity.</p>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-lg-8 mx-auto">
-              <form className="row g-4">
-                <div className="col-md-6">
-                  <label className="form-label heading-color">Your name *</label>
-                  <input type="text" className="form-control form-control-lg" placeholder="Full name" />
-                </div>
-
-                <div className="col-md-6">
-                  <label className="form-label heading-color">Email address *</label>
-                  <input type="email" className="form-control form-control-lg" id="floatingInput" placeholder="name@example.com" />
-                </div>
-
-                <div className="col-md-6">
-                  <label className="form-label heading-color">Phone number *</label>
-                  <input type="text" className="form-control form-control-lg" placeholder="(xxx) xx xxxx" />
-                </div>
-
-                <div className="col-md-6">
-                  <label className="form-label heading-color">Company *</label>
-                  <input type="text" className="form-control form-control-lg" placeholder="Company name" />
-                </div>
-
-                <div className="col-12">
-                  <label className="form-label heading-color">Message *</label>
-                  <textarea className="form-control" placeholder="Write your message here...." id="floatingTextarea2" style={{ height: "150px" }}></textarea>
-                </div>
-                <div className="col-12 d-grid">
-                  <button className="btn btn-lg btn-primary mb-0">Get Started</button>
-                </div>
-              </form>
             </div>
           </div>
         </div>
