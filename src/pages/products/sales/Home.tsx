@@ -2,8 +2,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Header2 from "../../../components/Header2";
+import Header3 from "../../../components/Header3";
 
-function Home() {
+function SalesHome() {
   const sliderSettings = {
     dots: true,
     infinite: true,
@@ -52,7 +53,8 @@ function Home() {
   };
   return (
     <main>
-      <Header2 />
+      {/* <Header2 /> */}
+      <Header3 />
 
 
       <section id="home" className="overflow-hidden pt-xl-8 mb-n6 parallax-wrap">
@@ -63,7 +65,7 @@ function Home() {
               <h1 className="mt-4">Sell Properties with Confidence. Manage Sales with Ease.</h1>
               <p className="mt-4">Opsera Sales helps real estate agencies and agents manage sales applications, leads, affiliates, and commissions—all from a single, powerful platform.</p>
               <div className="d-flex gap-3 gap-sm-4 flex-wrap mt-4 mt-md-5">
-                <a href="/#features" className="btn btn-lg btn-dark mb-0" type="button">Discover features</a>
+                <a className="btn btn-md btn-dark mb-0" type="button">Discover features</a>
                 <a className="icon-link icon-link-hover heading-color text-primary-hover mb-0" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
               </div>
 
@@ -961,4 +963,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default SalesHome;

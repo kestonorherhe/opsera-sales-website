@@ -98,7 +98,7 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle active" href="#" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+                <a className="nav-link dropdown-toggle active" href="#" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products 2</a>
                 <div className="dropdown-menu dropdown-menu-size-lg p-3">
                   <div className="row pt-2">
                     <div className="col-sm-6">

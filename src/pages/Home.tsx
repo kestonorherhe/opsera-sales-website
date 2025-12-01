@@ -33,38 +33,22 @@ function Home() {
     speed: 200,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // responsive: [
-    //   {
-    //     breakpoint: 992,
-    //     settings: {
-    //       slidesToShow: 2,
-    //       slidesToScroll: 1,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 768,
-    //     settings: {
-    //       slidesToShow: 1,
-    //       slidesToScroll: 1,
-    //     },
-    //   },
-    // ],
   };
   return (
     <main>
       <Header />
 
 
-      <section id="home" className="overflow-hidden pt-xl-8 mb-n6 parallax-wrap">
+      {/* <section id="home" className="overflow-hidden pt-xl-8 mb-n6 parallax-wrap">
         <div className="container position-relative zindex-5 pt-5">
           <div className="row justify-content-xl-start justify-content-center flex-xl-nowrap">
             <div className="col-xl-6 ps-xl-5 mb-8 mb-xl-0">
               <span className="text-primary fw-bold text-uppercase" style={{ fontSize: 'small' }}>Built exclusively for real estate businesses.</span>
-              <h1 className="mt-4">Sell Properties with Confidence. Manage Sales with Ease.</h1>
-              <p className="mt-4">Opsera Sales helps real estate agencies and agents manage sales applications, leads, affiliates, and commissions—all from a single, powerful platform.</p>
+              <h1 className="mt-4">Building the Future of Property in West Africa</h1>
+              <p className="mt-4">Opsera is the PropTech ecosystem powering the next generation of property, construction, and real-estate innovation—simplifying operations, amplifying revenue, and unlocking sustainable growth for every stakeholder.</p>
               <div className="d-flex gap-3 gap-sm-4 flex-wrap mt-4 mt-md-5">
-                <a href="/#features" className="btn btn-lg btn-dark mb-0" type="button">Discover features</a>
-                <a className="icon-link icon-link-hover heading-color text-primary-hover mb-0" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
+                <a href="/#features" className="btn btn-lg btn-dark mb-0" type="button">Explore Our Products</a>
+                <a className="icon-link icon-link-hover heading-color text-primary-hover mb-0" href="/#get-started">Partner With Us<i className="bi bi-arrow-right"></i> </a>
               </div>
 
               <hr className="my-4 my-sm-6" />
@@ -80,203 +64,52 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section id="features" className="bg-dark position-relative overflow-hidden" data-bs-theme="dark">
+      {/* <section className="pt-0"> */}
+      <div className="swiper overflow-hidden" data-swiper-options='{
+		"effect": "fade",
+		"speed":"1000",
+		"autoplay":{
+			"delay": 3000, 
+			"disableOnInteraction": false
+		},
+		"pagination":{
+			"el":".swiper-pagination",
+			"clickable":"true"
+		}}'>
 
-        <figure className="position-absolute top-0 start-0 mt-n6 ms-n8">
-          <svg className="opacity-3" width="371" height="354" viewBox="0 0 371 354" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <ellipse cx="172.5" cy="176.5" rx="131.5" ry="125.5" fill="url(#paint0_linear_195_2)"></ellipse>
-            <ellipse cx="185.5" cy="177" rx="185.5" ry="177" fill="url(#paint1_linear_195_2)"></ellipse>
-            <defs>
-              <linearGradient id="paint0_linear_195_2" x1="172.5" y1="51" x2="172.5" y2="302" gradientUnits="userSpaceOnUse">
-                <stop offset="0.0569271" stop-color="#D9D9D9" stop-opacity="0.5"></stop>
-                <stop offset="0.998202" stop-color="#D9D9D9" stop-opacity="0"></stop>
-              </linearGradient>
-              <linearGradient id="paint1_linear_195_2" x1="185.5" y1="0" x2="185.5" y2="354" gradientUnits="userSpaceOnUse">
-                <stop offset="0.0569271" stop-color="#D9D9D9" stop-opacity="0.2"></stop>
-                <stop offset="0.998202" stop-color="#D9D9D9" stop-opacity="0"></stop>
-              </linearGradient>
-            </defs>
-          </svg>
-        </figure>
+        <div className="swiper-wrapper">
+          <div className="swiper-slide">
+            <div className="card overflow-hidden min-vh-100 rounded-0" style={{ background: 'url(assets/images/bg/10.jpg) no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+              <div className="bg-overlay bg-linear-overlay"></div>
 
-        <figure className="position-absolute top-0 end-0 me-n9 mt-n7 d-none d-md-block">
-          <svg className="fill-white" width="768.8px" height="1386px" viewBox="0 0 768.8 1386">
-            <path d="M647.6,748.4c1.9,6,3.3,12.2,3.8,18.4c2.2,18.9-0.7,38.9-9.1,61.5c-15.6,41.9-47.8,85.3-81.6,131.5 c-46.1,63.1-94.5,128.4-108.1,199.1c-15.7,80.6,17.2,154.5,101.1,226.1l-0.4,0.4c-188.1-160.7-84.4-301.8,7.3-426.2 c33.9-46,65.8-89.6,81.4-131.2c17.5-46.8,11.8-84.9-18-119.6c-39.6-46.6-86.5-86.9-135.7-129.3C339.1,450.3,184.9,317.3,240.6,4.6 l0.6,0.1C185.7,317,339.7,450.1,488.7,578.7c49.3,42.7,95.8,82.8,135.8,129.6C635.5,721,643.1,734.2,647.6,748.4z"></path>
-            <path d="M636.2,722.3c23.4,73.7-25.2,149.2-76.5,228.7c-40.8,63.5-83,129.1-91.9,198.3c-9.9,78.2,25.9,150,109.6,219 l-0.4,0.7c-45-37.1-75.4-74-93.5-112.7c-15.9-34.5-21.2-69.5-16.5-106.8c8.9-69.5,51-135.1,91.9-198.6 C616.4,861.3,671,776.5,622,694.1c-39.6-66.6-102.4-118.8-169-174.2c-68.7-57.3-140-116.4-188.1-195.3 c-25.9-42.6-42.9-86.9-51.5-135.2c-9.8-54.6-9.2-112.9,2-177.9l0.6,0.1c-46.5,271.4,97.9,391.7,237.5,507.9 c66.7,55.4,129.4,107.7,169.1,174.5C628.8,702.7,633.1,712.6,636.2,722.3z"></path>
-            <path d="M624.6,687.5c11.7,37,10.5,76.9-3.8,121.9c-13.7,43.3-38.1,87.4-61.8,130.2c-35.7,64.2-72.5,130.4-76.3,198.6 c-4.4,76.5,34.5,146.1,118.7,213.3l-0.6,0.8c-188.5-150.2-114.3-284-42.6-413.2c49.3-88.7,95.7-172.7,62.4-260.6 c-31.5-83-108.5-141.7-189.7-204C363,422.5,293.2,369,244.9,298c-26.1-38.5-43.3-78.4-53-121.8C181.2,127,180.6,75,190.2,16.8l0.9,0 C151,259.3,293.5,368.3,431.2,473.7c81.5,62.2,158.3,121.3,190.1,204.2C622.6,681.2,623.6,684.4,624.6,687.5z"></path>
-            <path d="M614.6,642.5c2.2,6.8,4.1,13.7,5.4,20.8c18.1,91.8-22.3,177.4-61.1,260.2c-32.2,68.8-62.8,133.6-62.1,201.3 c0.8,76.3,41.6,143,128.7,209.2l-0.6,0.8c-46.1-35.1-78.8-70-100.3-106.8c-19.1-32.9-28.6-66.6-28.9-103.1 c-0.6-67.6,29.8-132.7,62.3-201.6c38.8-82.7,79-168.2,60.9-259.8c-19.1-96.7-109.2-158.6-204.5-224.2 c-68.3-47.1-139.2-95.6-188.9-160.4c-56.1-73.2-75.8-157-60.3-255.8l0.9,0c-34.9,220.7,109.1,319.7,248.6,415.2 C503.4,499.3,587.6,557.2,614.6,642.5z"></path>
-            <path d="M610.8,603.9c4.4,13.9,7.1,28.7,7.8,44.6c3.6,91.5-28.4,172.7-59.3,251.2c-28.5,72.3-55.1,140.5-50.2,208.8 c5.2,76.6,49.9,143,140.1,208.8l-0.4,0.7c-90.5-66-135.2-132.4-140.8-209.2c-5-68.6,21.9-136.9,50.3-209.4 c30.9-78.5,62.6-159.6,59.1-250.9c-4.2-109-107.3-171.8-216.8-238.5c-70.1-42.7-142.8-87-194.2-146.1 c-58.1-66.8-79.9-143.6-66-234.6l1,0.3c-30.7,202.9,117.1,292.9,259.8,379.6C494.9,466.2,584.1,520.8,610.8,603.9z"></path>
-            <path d="M610.7,570.7c6.1,19.2,8.4,40.1,6,62.8c-8.3,84.1-33.8,160.3-55.9,227.3c-27.6,83.2-51.4,154.9-42.7,226 c9.5,78.4,58.7,146,155,213l-0.6,0.8c-96.5-66.7-145.8-134.6-155.4-213.2c-8.8-71.4,15.2-143.4,42.8-226.7 c22.3-67.1,47.6-143.3,55.9-227.3c12-120.7-104.2-182.9-227.6-248.9c-72.3-38.6-147.1-78.7-200.6-132.7 c-60.6-61-84.2-131.8-72-216.2l1.2,0.2C89.9,223.5,242,305,389.1,383.7C488.9,437.2,584.6,488.6,610.7,570.7z"></path>
-            <path d="M613,540.8c7.3,23.1,8.5,48.7,1.9,77.9c-14,63.3-31.8,122.1-47.4,173.8c-30,99.3-56,185.2-45,263.4 c11.7,84.3,67.2,156.6,174.2,227.2l-0.5,1c-56.6-37.2-98.1-74.3-126.8-113.1c-26.6-35.7-42.3-73.2-47.9-114.7 c-11.1-78.8,14.9-164.4,45.1-264c15.7-51.7,33.4-110.5,47.5-173.6C643.5,486.7,513.4,426,375.8,361.9 c-74.9-34.9-152.2-71-207.6-120.1c-63-55.7-88.3-121-78-199.6l1.1-0.1c-10.5,78.1,14.8,143.1,77.7,198.6 c55.4,49.1,132.7,85.3,207.5,119.9C484,410.7,587.1,458.9,613,540.8z"></path>
-            <path d="M617.2,512.9c8.3,26.2,8,56.1-3.5,90.9c-5.6,17.1-11.2,33.9-16.5,50c-47.8,143.4-85.7,256.4-76.5,351.9 c9.7,99.7,71.5,180,200.4,260.4l-0.5,1c-67.3-41.9-115.6-83.2-148.1-126.6c-30.9-41-48.1-85.2-52.8-134.8 c-9.3-95.8,28.8-208.9,76.6-352.3c5.6-16.2,10.9-32.9,16.5-50c47.5-143.5-96.3-201.6-248.6-263.1c-77.7-31.1-157.6-63.5-215.4-108.2 C83.3,181.7,56.1,121.4,65.2,48l1.2,0.2c-9,72.7,18.1,132.8,83.1,183c57.8,44.6,137.6,76.8,214.8,108.1 C480.2,386,591.2,431,617.2,512.9z"></path>
-            <path d="M622.4,486.7c9.6,30.2,6.1,63.9-10.3,102.3C465,933,463,1084.4,745.1,1249l-0.8,1.1 c-143.5-83.6-211.5-162.5-227.9-263.5c-17.4-106.8,25.3-236.4,94.5-398.1c18.6-43.4,20.4-80.4,6-113.1 C583.7,401.1,471.1,362,351.5,320.8C189.7,265,22.7,207.3,40,54.3l1.2,0.2C23.8,206.4,190.5,263.8,351.7,319.6 C471.4,361,584.6,400,617.6,475C619.7,478.9,621.2,482.8,622.4,486.7z"></path>
-            <path d="M628.6,461.4c10.3,32.5,4.4,69.6-18,112.8c-93.9,182.2-122.9,308.3-94.5,408.8c26.1,92.5,101.7,167,252.8,249 l-0.8,1.1c-151.5-82.5-227.2-157.2-253.6-249.9c-28.5-100.7,0.5-227.1,94.5-409.9c24.3-47.3,29-87.1,14.3-121.5 c-32.7-76-155.1-112-284.6-149.7C172.6,253.7,0.1,203.5,15.1,60.4l1.2,0.2c-14.6,141.8,157,191.9,323.2,240.6 c129.9,37.9,252.4,73.9,285.3,150.4C626.2,454.9,627.5,458,628.6,461.4z"></path>
-          </svg>
-        </figure>
-
-        <div className="container pb-6 position-relative">
-          <div className="inner-container-small text-center mb-4 mb-sm-5">
-            <span className="fw-bold text-uppercase" style={{ color: '#FFA600' }}>Features</span>
-            <h2 className="mb-0 mt-3">Designed for Real Estate Sales agencies</h2>
-          </div>
-
-          <div className="row">
-            <div className="col-lg-12 col-xl-10 col-xxl-8 mx-auto mb-6 mb-xl-8">
-              <div className="bg-light rounded-pill p-2">
-                <ul className="nav nav-pills nav-pills-primary nav-responsive justify-content-between">
-                  <li className="nav-item" role="presentation">
-                    <button className="nav-link rounded-pill active" id="pills-analytics-tab" data-bs-toggle="pill" data-bs-target="#pills-analytics" type="button" role="tab" aria-controls="pills-analytics" aria-selected="true"><i className="bi bi-funnel me-2"></i>Leads</button>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <button className="nav-link rounded-pill" id="pills-collaboration-tab" data-bs-toggle="pill" data-bs-target="#pills-collaboration" type="button" role="tab" aria-controls="pills-collaboration" aria-selected="false"><i className="bi bi-basket me-2"></i>Sales</button>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <button className="nav-link rounded-pill" id="pills-commissions-tab" data-bs-toggle="pill" data-bs-target="#pills-commissions" type="button" role="tab" aria-controls="pills-commissions" aria-selected="false"><i className="bi bi-basket me-2"></i>Commissions & Rewards</button>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <button className="nav-link rounded-pill" id="pills-properties-tab" data-bs-toggle="pill" data-bs-target="#pills-properties" type="button" role="tab" aria-controls="pills-properties" aria-selected="false"><i className="bi bi-basket me-2"></i>Properties</button>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <button className="nav-link rounded-pill" id="pills-affiliates-tab" data-bs-toggle="pill" data-bs-target="#pills-affiliates" type="button" role="tab" aria-controls="pills-affiliates" aria-selected="false"><i className="bi bi-basket me-2"></i>Affiliates</button>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <button className="nav-link rounded-pill" id="pills-reports-tab" data-bs-toggle="pill" data-bs-target="#pills-reports" type="button" role="tab" aria-controls="pills-reports" aria-selected="false"><i className="bi bi-basket me-2"></i>Reports</button>
-                  </li>
-                </ul>
+              <div className="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-sm-11 col-lg-8 col-xl-7 text-center m-auto">
+                      {/* <span className="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2">🚀 #World's best software agency</span> */}
+                      <h1 className="text-white display-4 my-4">Building the Future of Property in West Africa</h1>
+                      <p className="text-white mb-5"> Opsera is the PropTech ecosystem powering the next generation of property, construction, and real-estate innovation—simplifying operations, amplifying revenue, and unlocking sustainable growth for every stakeholder.</p>
+                      <a className="btn btn-lg btn-white icon-link icon-link-hover mb-0" href="#">Get started now<i className="bi bi-arrow-right"></i> </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+          </div>
 
-            <div className="col-11 mx-auto">
-              <div className="tab-content" id="pills-tabContent">
-                <div className="tab-pane fade show active" id="pills-analytics" role="tabpanel" aria-labelledby="pills-analytics-tab" tabIndex={0}>
-                  <div className="row align-items-center">
-                    <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary text-uppercase text-white rounded small px-3 py-2">Leads</span>
-                      <h3 className="my-4">Convert More Leads Without Dropping the Ball</h3>
-                      <p>Turn raw inquiries into closed deals faster. Organize, assign, and follow up with leads without letting anyone slip through the cracks.</p>
-                      <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Automatically collect and qualify leads from forms or campaigns</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Assign leads to in-house staff or affiliates</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Get reminders to follow up based on lead activity</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Track conversion performance in real time</li>
-                      </ul>
-                      <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
-                    </div>
+          <div className="swiper-slide">
+            <div className="card overflow-hidden min-vh-100 rounded-0" style={{ background: 'url(assets/images/bg/09.jpg) no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+              <div className="bg-overlay bg-linear-overlay"></div>
 
-                    <div className="col-lg-5 position-relative ms-auto">
-                      <img src="assets/images/services/leeds.png" alt="feature-img" />
-                    </div>
-                  </div>
-                </div>
-
-                <div className="tab-pane fade" id="pills-collaboration" role="tabpanel" aria-labelledby="pills-collaboration-tab" tabIndex={0}>
-                  <div className="row align-items-center">
-                    <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Sales</span>
-                      <h3 className="my-4">Streamline Sales Application from Start to Finish</h3>
-                      <p className="mb-5">Track every sales application—from initial submission to final allocation—in one clean dashboard.</p>
-
-                      <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Approve or reject applications with full documentation</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>View status by property, buyer, or agent</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Save time by eliminating paperwork and back-and-forth emails</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i> Improve trust by giving customers clarity on their application stage</li>
-                      </ul>
-                      <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
-                    </div>
-
-                    <div className="col-lg-5 position-relative ms-auto">
-                      <img src="assets/images/services/sales.png" className="rounded" alt="feature-img" />
-                    </div>
-                  </div>
-                </div>
-
-                <div className="tab-pane fade" id="pills-commissions" role="tabpanel" aria-labelledby="pills-commissions-tab" tabIndex={0}>
-                  <div className="row align-items-center">
-                    <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Commissions & Rewards</span>
-                      <h3 className="my-4">Effortless Commission Tracking for Agents & Affiliates</h3>
-                      <p className="mb-5">Stop managing commissions with spreadsheets. Let affiliates track their earnings and focus on selling.</p>
-
-                      <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>See how much each agent or affiliate has earned</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Automatically calculate commissions on closed deals</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Allow affiliates to view earnings, request withdrawals, and track payout status</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Reduce disputes, errors, and overpayments</li>
-                      </ul>
-                      <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
-                    </div>
-
-                    <div className="col-lg-5 position-relative ms-auto">
-                      <img src="assets/images/services/rewards.png" className="rounded" alt="feature-img" />
-                    </div>
-                  </div>
-                </div>
-
-                <div className="tab-pane fade" id="pills-properties" role="tabpanel" aria-labelledby="pills-properties-tab" tabIndex={0}>
-                  <div className="row align-items-center">
-                    <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Properties</span>
-                      <h3 className="my-4">One Platform to Manage All Your Property Listings</h3>
-                      <p className="mb-5">Whether you're selling land plots, individual units, or entire estates, Opsera gives you control over your property listings.</p>
-
-                      <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Add and categorize properties by location, type, status (available, sold, pending)</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Break down estates into units or plots with pricing per item</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Know what's available, what's sold, and what’s being negotiated</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Attach documentation, images, and allocation notes</li>
-                      </ul>
-                      <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
-                    </div>
-
-                    <div className="col-lg-5 position-relative ms-auto">
-                      <img src="assets/images/services/properties.png" className="rounded" alt="feature-img" />
-                    </div>
-                  </div>
-                </div>
-
-                <div className="tab-pane fade" id="pills-affiliates" role="tabpanel" aria-labelledby="pills-affiliates-tab" tabIndex={0}>
-                  <div className="row align-items-center">
-                    <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Affiliates</span>
-                      <h3 className="my-4">Organize and Optimize Affiliate Performance</h3>
-                      <p className="mb-5">Handle hundreds of agents and partners without stress. Structure affiliate tiers, permissions, and activity tracking easily.</p>
-
-                      <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Approve or suspend affiliates in one click</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Assign special commission rates or sales packages</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Monitor who is selling what—and how much</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Keep affiliates accountable with transparent performance tracking</li>
-                      </ul>
-                      <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
-                    </div>
-
-                    <div className="col-lg-5 position-relative ms-auto">
-                      <img src="assets/images/services/affiliates.png" className="rounded" alt="feature-img" />
-                    </div>
-                  </div>
-                </div>
-
-                <div className="tab-pane fade" id="pills-reports" role="tabpanel" aria-labelledby="pills-reports-tab" tabIndex={0}>
-                  <div className="row align-items-center">
-                    <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Reports</span>
-                      <h3 className="my-4">Data-Driven Insights for Smarter Real Estate Decisions</h3>
-                      <p className="mb-5">Make smarter decisions with real-time data on your sales, agents, and business performance.</p>
-
-                      <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Visualize sales performance over time</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Identify top-performing agents and affiliates</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Forecast sales revenue and trends</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Download data-rich reports for investors or internal review</li>
-                      </ul>
-                      <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
-                    </div>
-
-                    <div className="col-lg-5 position-relative ms-auto">
-                      <img src="assets/images/services/reports.png" className="rounded" alt="feature-img" />
+              <div className="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-sm-11 col-lg-8 mt-auto">
+                      <h1 className="text-white display-4 mb-4">Empower Your <span className="fw-light">Business</span> with <span className="fw-light">Innovation</span></h1>
+                      <p className="text-white mb-5"> Whether you're a gaming enthusiast or simply seeking an extraordinary escape from reality, our Virtual VR product is your portal to endless excitement. </p>
+                      <a className="btn btn-lg btn-primary icon-link icon-link-hover mb-0" href="#">Explore Our Services<i className="bi bi-arrow-right"></i> </a>
                     </div>
                   </div>
                 </div>
@@ -284,85 +117,207 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
 
+        <div className="swiper-pagination swiper-pagination-line position-absolute bottom-0 mb-3"></div>
+      </div>
+      {/* </section> */}
+
+      {/* Our Goal */}
       <section className="pb-0">
         <div className="container">
-          <div className="row align-items-center mb-4 mb-md-6">
-            <div className="col-md-6 mb-3 mb-md-0">
-              <h2 className="mb-0">Trusted by Real Estate Businesses of All Sizes</h2>
-              <p className="mb-0">Whether you’re selling plots of land or luxury buildings, Opsera Sales gives you the tools to simplify property sales, manage agents, and scale your business.</p>
+          <div className="row mb-3 mb-xl-0">
+            <div className="col-xl-9">
+              <h4 className="lh-base mb-0">We Are Engineering the Backbone of West Africa’s Property Economy.</h4>
             </div>
           </div>
 
-          <div className="slider-container">
-            <Slider {...sliderSettings}>
+          <div className="row align-items-center">
+            <div className="col-lg-7 pe-lg-5">
+              <p className="mb-5">Opsera was born from a simple belief:
+                technology should make the complex simple, the opaque transparent, and the impossible achievable.</p>
+              <p className="mb-3">Across Nigeria and West Africa, property owners, estate managers, investors, and construction teams struggle with fragmented processes, manual operations, poor accountability, costly delays, and unreliable data.</p>
+              <p className="mb-5 fw-bold">We saw an opportunity—not just to fix these problems, but to reinvent how the entire industry works.</p>
+              <p className="mb-2 fw-bold">Opsera is not just a company.</p>
+              <p className="mb-2">It’s an ecosystem.</p>
+              <p className="mb-5">A platform of intelligent products that transform the way real estate is owned, built, managed, and grown.</p>
+              <p className="mb-5 fw-bold">We are building the digital foundation for the region’s next era of property excellence.</p>
+            </div>
 
-              <div className="swiper-slide">
-                <div className="card bg-primary p-5 mt-lg-7">
-                  <div className="card-header bg-transparent d-flex justify-content-between p-0 pb-6">
-                    <h5 className="me-4 mb-0"><a href="#" className="stretched-link text-white">For Agencies</a></h5>
-                    <a href="#" className="btn btn-round btn-light border flex-shrink-0"><i className="bi bi-arrow-up-right"></i></a>
-                  </div>
-
-                  <div className="card-body p-0">
-
-                    <figure className="mb-5 text-white">
-                      <svg width="79" height="90" viewBox="0 0 79 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M78.3117 35.252L62.0851 26.4733C61.7532 26.2904 61.3476 26.2904 61.0341 26.4733L56.7562 28.7777V9.88519C56.7562 9.48283 56.5349 9.11705 56.1846 8.91587L39.958 0.137167C39.6261 -0.0457224 39.2204 -0.0457224 38.9069 0.137167L22.6803 8.91587C22.33 9.11705 22.1087 9.48283 22.1087 9.88519V28.7777L17.8492 26.4733C17.5173 26.2904 17.1117 26.2904 16.7982 26.4733L0.571618 35.252C0.221271 35.4532 0 35.8189 0 36.2213V68.4099C0 68.8122 0.221271 69.178 0.571618 69.3792L16.7982 78.1579C17.1301 78.3408 17.5358 78.3408 17.8492 78.1579L22.1087 75.8535V80.1148C22.1087 80.5172 22.33 80.883 22.6803 81.0841L38.9069 89.8628C39.2388 90.0457 39.6445 90.0457 39.958 89.8628L56.1846 81.0841C56.5349 80.883 56.7562 80.5172 56.7562 80.1148V75.8535L61.0157 78.1579C61.3476 78.3408 61.7532 78.3408 62.0667 78.1579L78.2933 69.3792C78.6436 69.178 78.8649 68.8122 78.8649 68.4099V36.2213C78.8833 35.8189 78.6621 35.4532 78.3117 35.252ZM61.5504 28.6862L75.4721 36.2213L61.5504 43.7564L47.6287 36.2213L61.5504 28.6862ZM39.4232 65.7031L25.5016 58.1681L39.4232 50.633L53.3449 58.1681L39.4232 65.7031ZM34.629 36.2213C34.629 35.8189 34.4077 35.4532 34.0574 35.252L24.303 29.9848V11.7324L38.3169 19.3223V48.7492L34.629 50.7427V36.2213ZM54.5435 29.9848L44.7891 35.252C44.4387 35.4532 44.2175 35.8189 44.2175 36.2213V50.7244L40.5296 48.7309V19.3223L54.5435 11.7324V29.9848ZM56.1846 57.1987L46.4302 51.9315V38.0685L60.444 45.6584V75.3414L56.7562 73.3479V58.1681C56.7562 57.7657 56.5349 57.3999 56.1846 57.1987ZM39.4232 2.35013L53.3449 9.88519L39.4232 17.4202L25.5016 9.88519L39.4232 2.35013ZM17.2961 28.6862L31.2177 36.2213L17.2961 43.7564L3.37439 36.2213L17.2961 28.6862ZM2.17584 38.0685L16.1897 45.6584V75.3414L2.17584 67.7515V38.0685ZM18.4024 75.3414V45.6584L32.4163 38.0685V51.9315L22.6619 57.1987C22.3116 57.3999 22.0903 57.7657 22.0903 58.1681V73.3479L18.4024 75.3414ZM24.303 73.988V60.0152L38.3169 67.6052V87.0463L24.303 79.4564V73.988ZM54.5435 79.4564L40.5296 87.0463V67.6052L54.5435 60.0152V73.988V79.4564ZM62.6568 75.3414V45.6584L76.6706 38.0685V67.7515L62.6568 75.3414Z" fill="currentColor" />
-                      </svg>
-
-                    </figure>
-
-                    {/* <span className="text-white">What included:</span> */}
-                    <p className="fw-semibold mb-0 mt-2 text-white">Manage listings, applications, and commissions with full transparency.</p>
-                  </div>
-                </div>
+            <div className="col-lg-5 mt-7 mt-lg-0">
+              <div className="position-relative d-flex justify-content-center">
+                <img src="assets/images/about/04.jpg" className="rounded" alt="" />
               </div>
-
-              <div className="swiper-slide">
-                <div className="card bg-dark p-5 mt-lg-4" data-bs-theme="dark">
-                  <div className="card-header bg-transparent d-flex justify-content-between p-0 pb-6">
-                    <h5 className="me-4 mb-0"><a href="#" className="stretched-link text-white">For Agents & Affiliates</a></h5>
-                    <a href="#" className="btn btn-round btn-light border flex-shrink-0"><i className="bi bi-arrow-up-right"></i></a>
-                  </div>
-
-                  <div className="card-body p-0">
-
-                    <figure className="heading-color mb-5">
-                      <svg width="74" height="90" viewBox="0 0 74 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M36.582 90C36.3791 90 36.1898 89.942 36.0297 89.8412L0.501132 68.337C0.190185 68.1489 0 67.8116 0 67.448C0 67.448 0 58.0947 0 58.0855C0.00332564 57.722 0.203487 57.3791 0.516721 57.1961L5.98635 53.8859L0.500925 50.5657C0.190186 50.3776 0 50.0402 0 49.6767C0 49.6767 0 40.3233 0 40.3142C0.00332564 39.9511 0.203695 39.6073 0.516721 39.4248L5.98614 36.1143L0.501132 32.7945C0.190185 32.6062 0 32.2691 0 31.9053C0 31.9053 0 22.552 0 22.5428C0.00332564 22.1703 0.216582 21.828 0.516928 21.6534L36.0439 0.150277C36.3748 -0.0500924 36.7892 -0.0500924 37.1201 0.150277C37.1201 0.150277 72.5965 21.6229 72.6473 21.6534C72.9651 21.8459 73.1609 22.1797 73.164 22.552V31.9053C73.164 32.2691 72.974 32.6062 72.6628 32.7943L67.1778 36.1143C67.1778 36.1143 72.6429 39.4225 72.647 39.425C72.9538 39.6106 73.1606 39.9482 73.1638 40.3235V49.6769C73.1638 50.0404 72.9738 50.3778 72.6626 50.5659L67.1774 53.8859C67.1774 53.8859 72.6441 57.1947 72.6466 57.1961C72.9534 57.3818 73.1606 57.7164 73.1638 58.0949V67.4482C73.1638 67.8118 72.9738 68.1491 72.6626 68.3372L37.1343 89.8412C36.9742 89.942 36.7851 90 36.582 90ZM37.6212 80.1931V87.1169L71.0854 66.8623V59.9385L37.6212 80.1931ZM2.07852 66.8623L35.5427 87.1169V80.1931L2.07852 59.9385V66.8623ZM3.04649 58.0947L36.582 78.3925L70.1177 58.0947L65.1706 55.1006L37.1343 72.07C36.9742 72.1706 36.7851 72.2286 36.582 72.2286C36.3791 72.2286 36.1898 72.1706 36.0297 72.0698L7.99358 55.1006L3.04649 58.0947ZM37.6212 62.4218V69.3455L71.0854 49.0909V42.1672L37.6212 62.4218ZM2.07852 49.0909L35.5427 69.3455V62.4218L2.07852 42.1672V49.0909ZM3.04628 40.3233L36.582 60.6211L70.1177 40.3233L65.1708 37.329L37.1343 54.2985C36.974 54.3991 36.7848 54.4573 36.582 54.4573C36.3791 54.4573 36.1898 54.3993 36.0297 54.2985L7.99296 37.329L3.04628 40.3233ZM37.6212 44.6504V51.5742L71.0854 31.3196V24.3958L37.6212 44.6504ZM2.07852 31.3196L35.5427 51.5742V44.6504L2.07852 24.3958V31.3196ZM3.04628 22.552L36.582 42.8498L70.1177 22.552L36.582 2.25416L3.04628 22.552Z" fill="currentColor" />
-                      </svg>
-                    </figure>
-
-                    {/* <span>What included:</span> */}
-                    <p className="fw-semibold heading-color mb-0 mt-2">Track sales, commissions, and client engagement in real-time.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="swiper-slide">
-                <div className="card bg-light border p-5">
-                  <div className="card-header bg-transparent d-flex justify-content-between p-0 pb-6">
-                    <h5 className="me-4 mb-0"><a href="#" className="stretched-link">For Buyers</a></h5>
-                    <a href="#" className="btn btn-round btn-white border flex-shrink-0"><i className="bi bi-arrow-up-right"></i></a>
-                  </div>
-
-                  <div className="card-body p-0">
-                    <figure className="heading-color mb-5">
-                      <svg width="82" height="91" viewBox="0 0 82 91" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0.894531 65.0129C0.894523 65.2227 0.948005 65.4291 1.04993 65.6126C1.15185 65.796 1.29885 65.9505 1.47705 66.0613L40.453 90.313C40.6524 90.4373 41.4679 90.6552 41.8211 90.3106L80.4581 66.0589C80.6352 65.9478 80.7811 65.7935 80.8823 65.6105C80.9835 65.4276 81.0366 65.2219 81.0366 65.0129C81.0366 65.0129 81.0334 25.8976 81.0331 25.8856C81.0413 25.6708 80.9918 25.4577 80.8899 25.2684C80.7879 25.0791 80.6372 24.9205 80.4533 24.8091L41.6173 0.682433C41.4217 0.560647 41.196 0.496094 40.9656 0.496094C40.7352 0.496094 40.5095 0.560647 40.3139 0.682433L1.47787 24.8092C1.29278 24.9193 1.14107 25.0776 1.03895 25.2672C0.936835 25.4568 0.88814 25.6705 0.898072 25.8857C0.897742 25.8976 0.894531 65.0129 0.894531 65.0129ZM59.1999 58.2046L41.0757 69.4641L22.9514 58.2046L41.0757 46.9451L59.1999 58.2046ZM39.9145 44.7586L21.8461 55.9836V38.1889L39.9145 26.8151V44.7586ZM60.3054 38.1922V55.9836L42.4156 44.8697V27.0275L60.3054 38.1922ZM3.36457 28.0789L19.2641 37.9566V58.0645C19.2588 58.3076 19.321 58.5473 19.4438 58.7572C19.5665 58.967 19.745 59.1387 19.9594 59.2533L39.8705 71.6231V87.0413L3.36457 64.3268V28.0789ZM42.3995 87.0313V71.5791L62.1919 59.2536C62.402 59.1535 62.573 58.9868 62.6785 58.7794C62.784 58.5721 62.818 58.3357 62.7753 58.107V37.8891L78.5664 28.0789V64.3297L42.3995 87.0313ZM77.4612 25.858L61.303 35.8962L42.2878 24.0194C41.964 23.8172 41.5903 23.709 41.2085 23.7069C40.8267 23.7048 40.4518 23.809 40.1258 24.0078L20.6277 35.8961L4.46955 25.8579L40.9656 3.18545L77.4612 25.858Z" fill="currentColor" />
-                      </svg>
-                    </figure>
-
-                    {/* <span>What included:</span> */}
-                    <p className="fw-semibold heading-color mb-0 mt-2">Seamless application and allocation experience.</p>
-                  </div>
-                </div>
-              </div>
-            </Slider>
+            </div>
           </div>
         </div>
+      </section>
+
+
+      <section>
+        <div className="container">
+          <div className="row g-4 align-items-xl-center">
+
+            <div className="col-lg-6">
+              <div className="row pe-xl-5">
+                <div className="col-sm-6">
+                  <img src="assets/images/about/02.jpg" className="rounded" alt="about-img" />
+                </div>
+
+                <div className="col-sm-6">
+                  <div className="row mb-4">
+                    <div className="col-sm-6 mb-4 mb-sm-0">
+                      <div className="bg-dark text-white rounded text-center p-3">
+                        <span className="h2 text-white">10+</span>
+                        <p className="mb-0">Years of experience</p>
+                      </div>
+                    </div>
+                    <div className="col-sm-6">
+                      <div className="bg-primary rounded text-center p-3">
+                        <span className="h2 text-white">1.2K</span>
+                        <p className="mb-0 text-white">Happy customers</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <img src="assets/images/about/01.jpg" className="rounded" alt="about-img-2" />
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              {/* <span className="heading-color bg-light small rounded-3 px-3 py-2">🤝 Your gateway to digital success</span> */}
+              <h5 className="my-4">Our Mission</h5>
+              <p className="mb-4">To empower property owners, investors, managers, and construction professionals through innovative, integrated, and intelligent technology—simplifying operations, maximizing revenue, and enabling sustainable growth.</p>
+              <h5 className="my-4">Our Vision</h5>
+              <p className="mb-4">To become West Africa’s leading PropTech ecosystem, redefining how real estate, construction, and property investment are managed through transparency, automation, and disruptive technology.</p>
+
+              <h5 className="my-4">Our Core Values</h5>
+              <ul className="list-group list-group-borderless mb-4">
+                <li className="list-group-item heading-color d-flex mb-0"><b>Innovation</b> - We don’t follow trends; we create them.</li>
+                <li className="list-group-item heading-color d-flex mb-0"><b>Simplicity</b> - Complex processes should be effortlessly simple.</li>
+                <li className="list-group-item heading-color d-flex mb-0"><b>Transparency</b> - Trust thrives where clarity lives.</li>
+                <li className="list-group-item heading-color d-flex mb-0"><b>Empowerment</b> - We give every stakeholder the tools to succeed.</li>
+                <li className="list-group-item heading-color d-flex mb-0"><b>Sustainability</b> - Long-term thinking, responsible growth.</li>
+                <li className="list-group-item heading-color d-flex mb-0"><b>Excellence</b> - Every solution, every product, every time.</li>
+                <li className="list-group-item heading-color d-flex mb-0"><b>Collaboration</b> - We grow by lifting others.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      <section className="bg-dark position-relative overflow-hidden" data-bs-theme="dark">
+
+        <div className="container position-relative">
+          <div className="inner-container-small text-center">
+            <span className="bg-light heading-color small rounded-3 px-3 py-2">🚀 Innovative solutions, Measurable results</span>
+            <h2 className="mb-0 mt-4">A Unified PropTech Platform for the Entire Property Lifecycle</h2>
+            <p>Opsera is home to six powerful SaaS platforms, each solving a mission-critical need—yet designed to work together seamlessly.</p>
+          </div>
+
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-5 gy-md-7 mt-3">
+            <div className="col">
+              <div className="card bg-light h-100">
+                <div className="card-body pb-0">
+                  <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
+                    <i className="bi bi-stack fa-fw fs-5"></i>
+                  </div>
+                  <h5 className="mb-3"><a href="#" className="text-white">Hotel Management Software (HMS)</a></h5>
+                  <p>Smart hospitality management for hotels of all sizes.</p>
+                  <p>Automate bookings, optimize operations, increase occupancy, and deliver memorable guest experiences.</p>
+                </div>
+                <div className="card-footer bg-light mt-auto pt-2">
+                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card bg-light h-100">
+                <div className="card-body pb-0">
+                  <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
+                    <i className="bi bi-boxes fa-fw fs-5"></i>
+                  </div>
+                  <h5 className="mb-3"><a href="#" className="text-white">Property Management Software (PMS)</a></h5>
+                  <p>A modern system for managing rentals, maintenance, tenants, facilities, and property finance—built for landlords, facility managers, and property companies.</p>
+                </div>
+                <div className="card-footer bg-light mt-auto pt-2">
+                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card bg-light h-100">
+                <div className="card-body pb-0">
+                  <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
+                    <i className="bi bi-circle-square fa-fw fs-5"></i>
+                  </div>
+                  <h5 className="mb-3"><a href="#" className="text-white">Estate Management Software (EMS)</a></h5>
+                  <p>Digitize and automate estate governance.</p>
+                  <p>Payments. Security. Maintenance. Communication. All in one place.</p>
+                </div>
+                <div className="card-footer bg-light mt-auto pt-2">
+                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card bg-light h-100">
+                <div className="card-body pb-0">
+                  <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
+                    <i className="bi bi-vector-pen fa-fw fs-5"></i>
+                  </div>
+                  <h5 className="mb-3"><a href="#" className="text-white">Construction Management Software (CMS)</a></h5>
+                  <p>The future of construction project management.</p>
+                  <p>Plan, track, collaborate, and deliver projects with precision, transparency, and cost control.</p>
+                </div>
+                <div className="card-footer bg-light mt-auto pt-2">
+                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card bg-light h-100">
+                <div className="card-body pb-0">
+                  <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
+                    <i className="bi bi-briefcase fa-fw fs-5"></i>
+                  </div>
+                  <h5 className="mb-3"><a href="#" className="text-white">Real Estate Investment Software (REIS)</a></h5>
+                  <p>A platform that empowers investors with data-driven insights, risk analysis, portfolio tracking, and smart investment tools for wealth creation.</p>
+                </div>
+                <div className="card-footer bg-light mt-auto pt-2">
+                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card bg-light h-100">
+                <div className="card-body pb-0">
+                  <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
+                    <i className="bi bi-binoculars fa-fw fs-5"></i>
+                  </div>
+                  <h5 className="mb-3"><a href="#" className="text-white">Sales Management Software (SMS)</a></h5>
+                  <p>A sales engine built for real-estate developers and agencies.</p>
+                  <p>Lead management, automation, customer engagement, and revenue tracking in one streamlined workflow.</p>
+                </div>
+                <div className="card-footer bg-light mt-auto pt-2">
+                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+          <div className="container mt-7 text-left">
+            <h6 className="mb-0 mt-4">Together, they form the Opsera Ecosystem—</h6>
+            <p>Opsera is home to six powerful SaaS platforms, each solving a mission-critical need—yet designed to work together seamlessly.</p>
+          </div>
       </section>
 
       <section id="benefits" className="pb-0">

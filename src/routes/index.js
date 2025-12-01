@@ -1,6 +1,7 @@
 import AboutUs from "../pages/AboutUs";
 import ContactUs from "../pages/ContactUs";
-import Home from "../pages/products/sales/Home";
+import Home from "../pages/Home";
+import SalesHome from "../pages/products/sales/Home";
 import Legal from "../pages/Legal";
 import Portfolio from "../pages/Portfolio";
 import Services from "../pages/Services";
@@ -34,6 +35,10 @@ const publicRoutes = [
   {
     path: "/terms",
     component: <Terms />,
+  },
+  {
+    path: "/sales",
+    component: <SalesHome />,
   },
 ];
 

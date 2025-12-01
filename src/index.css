@@ -73,7 +73,7 @@ code {
 }
 
 .header-absolute .nav-link:hover {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 /* Default hamburger icon (white for absolute header) */
@@ -140,4 +140,23 @@ code {
 .header-absolute.is-sticky .secondary-nav .nav-link {
   /* color: #212529 !important; */
   color: #fff !important;
+}
+
+
+/* Default desktop style (white text) */
+.secondary-nav .nav-link {
+  color: white !important;
+}
+
+/* Mobile style (black text) */
+@media (max-width: 1199.98px) {
+  .secondary-nav .nav-link {
+    color: black !important;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .secondary-nav .nav-link:hover {
+    color: #333 !important;
+  }
 }
