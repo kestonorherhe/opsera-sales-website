@@ -40,7 +40,7 @@ code {
 /* Non-sticky nav links (white) */
 .header-absolute .nav-link {
   /* color: #ffffff !important; */
-  color: #000000 !important;
+  color: #000000;
   transition: color 0.3s ease;
 }
 
@@ -54,7 +54,7 @@ code {
 
 /* Sticky nav links (black) */
 .header-absolute.is-sticky .nav-link {
-  color: #212529 !important;
+  color: #212529;
 }
 
 .nav-link:hover {
@@ -69,11 +69,11 @@ code {
 /* Dark mode nav links when sticky */
 [data-bs-theme="dark"] .header-absolute.is-sticky .nav-link {
   /* color: #ffffff !important; */
-  color: #000 !important;
+  color: #000;
 }
 
 .header-absolute .nav-link:hover {
-  color: #000000 !important;
+  color: #000000;
 }
 
 /* Default hamburger icon (white for absolute header) */

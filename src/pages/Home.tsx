@@ -4,29 +4,6 @@ import "slick-carousel/slick/slick-theme.css";
 import Header from "../components/Header";
 
 function Home() {
-  const sliderSettings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
   const sliderSettings2 = {
     dots: true,
     infinite: true,
@@ -34,6 +11,80 @@ function Home() {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 7000,
+
+    variableWidth: false,
+    centerMode: false,
+    centerPadding: '0px',
+
+    speed: 2000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false, // Hide arrows for cleaner mobile experience
+    fade: true, // Smooth fade transition
+    cssEase: 'linear',
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: true,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: true,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: true,
+          arrows: false,
+        },
+      },
+    ],
+  };
+
+  const slides = [
+    {
+      title: "Building the Future of Property in West Africa",
+      description: "At Exhale Avenue, we craft properties that blend functionality with inspiration, delivering innovation and satisfaction. Our mission is simple — to fulfill every investment, residential, or commercial project with excellence, transparency, and timely delivery.",
+      buttonText: "Buy Now",
+      buttonLink: "/properties"
+    },
+    {
+      title: "Earn like an investor, live like a guest. Discover the BnB that does both.",
+      description: "Invest in comfort. Live in style. Earn without limits.",
+      buttonText: "Buy Now",
+      buttonLink: "/properties"
+    },
+    {
+      title: "A scenic blend of elegance, comfort, and real estate value.",
+      description: "Panoramic views. Profitable returns. Premium lifestyle.",
+      buttonText: "Buy Now",
+      buttonLink: "/properties"
+    },
+    {
+      title: "A scenic blend of elegance, comfort, and real estate value.",
+      description: "Stylish, serene, and strategically located.- Welcome to Jas Residence.",
+      buttonText: "Buy Now",
+      buttonLink: "/properties"
+    },
+  ];
   return (
     <main>
       <Header />
@@ -66,60 +117,36 @@ function Home() {
         </div>
       </section> */}
 
-      {/* <section className="pt-0"> */}
-      <div className="swiper overflow-hidden" data-swiper-options='{
-		"effect": "fade",
-		"speed":"1000",
-		"autoplay":{
-			"delay": 3000, 
-			"disableOnInteraction": false
-		},
-		"pagination":{
-			"el":".swiper-pagination",
-			"clickable":"true"
-		}}'>
+      <Slider className="swiper-wrapper" {...sliderSettings}>
+        {slides.map((slide, index) => (
+          <div key={index} className="swiper-wrapper">
+            <div
+              className="swiper-slide"
+              style={{
+                backgroundImage: `url(assets/images/bg/10.jpg)`,
+              }}
+            >
+              <div className="overlay-dark"></div>
 
-        <div className="swiper-wrapper">
-          <div className="swiper-slide">
-            <div className="card overflow-hidden min-vh-100 rounded-0" style={{ background: 'url(assets/images/bg/10.jpg) no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-              <div className="bg-overlay bg-linear-overlay"></div>
+              <div className="card overflow-hidden min-vh-100 rounded-0" style={{ background: 'url(assets/images/bg/10.jpg) no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <div className="bg-overlay bg-linear-overlay"></div>
 
-              <div className="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9">
-                <div className="container">
-                  <div className="row">
-                    <div className="col-sm-11 col-lg-8 col-xl-7 text-center m-auto">
-                      {/* <span className="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2">🚀 #World's best software agency</span> */}
-                      <h1 className="text-white display-4 my-4">Building the Future of Property in West Africa</h1>
-                      <p className="text-white mb-5"> Opsera is the PropTech ecosystem powering the next generation of property, construction, and real-estate innovation—simplifying operations, amplifying revenue, and unlocking sustainable growth for every stakeholder.</p>
-                      <a className="btn btn-lg btn-white icon-link icon-link-hover mb-0" href="#">Get started now<i className="bi bi-arrow-right"></i> </a>
+                <div className="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9">
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-sm-11 col-lg-8 col-xl-7 text-center m-auto">
+                        <h1 className="text-white display-4 my-4">{slide.title}</h1>
+                        <p className="text-white mb-5"> { slide.description}</p>
+                        <a className="btn btn-lg btn-white icon-link icon-link-hover mb-0" href="#">Get started now<i className="bi bi-arrow-right"></i> </a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <div className="swiper-slide">
-            <div className="card overflow-hidden min-vh-100 rounded-0" style={{ background: 'url(assets/images/bg/09.jpg) no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-              <div className="bg-overlay bg-linear-overlay"></div>
-
-              <div className="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9">
-                <div className="container">
-                  <div className="row">
-                    <div className="col-sm-11 col-lg-8 mt-auto">
-                      <h1 className="text-white display-4 mb-4">Empower Your <span className="fw-light">Business</span> with <span className="fw-light">Innovation</span></h1>
-                      <p className="text-white mb-5"> Whether you're a gaming enthusiast or simply seeking an extraordinary escape from reality, our Virtual VR product is your portal to endless excitement. </p>
-                      <a className="btn btn-lg btn-primary icon-link icon-link-hover mb-0" href="#">Explore Our Services<i className="bi bi-arrow-right"></i> </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="swiper-pagination swiper-pagination-line position-absolute bottom-0 mb-3"></div>
-      </div>
+        ))}
+      </Slider>
       {/* </section> */}
 
       {/* Our Goal */}

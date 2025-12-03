@@ -35,8 +35,7 @@ function Header() {
         <div className="container-fluid">
 
           <a className="navbar-brand me-5" href="/">
-            <img className="light-mode-item navbar-brand-item" src="assets/images/logo.svg" alt="logo" />
-            <img className="dark-mode-item navbar-brand-item" src="assets/images/logo-light.svg" alt="logo" />
+            <img className="light-mode-item navbar-brand-item" src="assets/images/logos/opsera-footer-dark-4.svg" alt="logo" />
           </a>
 
           {/* Main collapse */}
@@ -55,14 +54,6 @@ function Header() {
                       <p style={{ fontWeight: 'normal' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </li>
                   </ul>
-                  {/* <hr />
-                  <div className="d-flex justify-content-between align-items-center px-2">
-                    <div>
-                      <h6 className="mb-1">Ready to get started?</h6>
-                      <small>Take your documents to the next level with Mizzle</small>
-                    </div>
-                    <a href="#" className="btn btn-sm btn-primary">Get in touch</a>
-                  </div> */}
                 </div>
               </li>
               <li className="nav-item dropdown">
@@ -83,21 +74,6 @@ function Header() {
               <li className="nav-item"><a className="nav-link" href="/#pricing" onClick={() => setIsMobileMenuOpen(false)}>Contact Us</a></li>
             </ul>
           </div>
-
-          {/* Main toggler */}
-          {/* <button
-            className="navbar-toggler ms-3 p-2"
-            type="button"
-            onClick={toggleMainMenu}
-          >
-            {isMainMenuOpen ? (
-              <span className="fs-2 fw-bold close-icon">&times;</span>
-            ) : (
-              <span className="navbar-toggler-animation">
-                <span></span><span></span><span></span>
-              </span>
-            )}
-          </button> */}
           <ul className="nav align-items-center dropdown-hover ms-sm-2 d-none d-xl-flex">
             <li className="nav-item d-none d-sm-block">
               <a href="/#get-started" className="btn btn-md btn-primary mb-0">Get Started!</a>
