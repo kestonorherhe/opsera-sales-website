@@ -28,13 +28,6 @@ function Header() {
   };
 
   return (
-    // <header
-    //   className={`header-absolute ${isSticky ? "is-sticky" : ""}`}
-    //   style={{
-    //     backgroundColor: '#191b1d',
-    //     color: '#ffffff',
-    //   }}
-    // >
     <header
       className={`header-absolute ${isSticky ? "is-sticky" : ""}`}
       style={{
@@ -58,15 +51,15 @@ function Header() {
                 <a className="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" style={{ color: "white" }}>Products</a>
                 <div className="dropdown-menu dropdown-menu-size-md p-3">
                   <ul className="list-unstyled">
-                    <li className="dropdown-item">
-                      <a className="fw-bold text-black" href="/sales"
+                    <li className="dropdown-item p-0">
+                      <a className="fw-bold text-black" href="/sales" style={{ fontSize: '12px' }}
                       >Opsera Sales
-                        <p style={{ fontWeight: 'normal' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p className="text-wrap" style={{ fontWeight: 'normal', }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                       </a>
                     </li>
-                    <li className="dropdown-item">
-                      <a className="fw-bold text-black" href="/buildsync">BuildSync
-                        <p style={{ fontWeight: 'normal' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <li className="dropdown-item p-0">
+                      <a className="fw-bold text-black" href="/buildsync" style={{ fontSize: '12px' }}>BuildSync
+                        <p className="text-wrap" style={{ fontWeight: 'normal' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                       </a>
                     </li>
                   </ul>
@@ -84,11 +77,11 @@ function Header() {
                 <a className="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" style={{ color: "white" }}>Partners</a>
                 <div className="dropdown-menu dropdown-menu-size-md p-3">
                   <ul className="list-unstyled">
-                    <li className="dropdown-item">
-                      <a className="fw-bold text-black" href="index-2.html">Work with a partner</a>
+                    <li className="dropdown-item p-0">
+                      <a className="fw-bold text-black" href="index-2.html" style={{ fontSize: '12px' }}>Work with a partner</a>
                     </li>
-                    <li className="dropdown-item">
-                      <a className="fw-bold text-black" href="index-2.html">Become a partner</a>
+                    <li className="dropdown-item p-0">
+                      <a className="fw-bold text-black" href="index-2.html" style={{ fontSize: '12px' }}>Become a partner</a>
                     </li>
                   </ul>
                 </div>
@@ -101,12 +94,17 @@ function Header() {
 
           {/* Main toggler */}
           <button
-            className="navbar-toggler ms-3 p-2"
+            className="navbar-toggler ms-3"
             type="button"
             onClick={toggleMainMenu}
+            style={{
+              padding: "4px 6px", transform: "scale(0.8)",
+              color: '#fff !important'
+              // backgroundColor: isSticky ? '#191b1d' : 'transparent',
+            }}
           >
             {isMainMenuOpen ? (
-              <span className="fs-2 fw-bold close-icon">&times;</span>
+              <span className="fs-2 close-icon">&times;</span>
             ) : (
               <span className="navbar-toggler-animation">
                 <span></span><span></span><span></span>
