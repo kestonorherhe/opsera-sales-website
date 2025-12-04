@@ -89,34 +89,6 @@ function Home() {
     <main>
       <Header />
 
-
-      {/* <section id="home" className="overflow-hidden pt-xl-8 mb-n6 parallax-wrap">
-        <div className="container position-relative zindex-5 pt-5">
-          <div className="row justify-content-xl-start justify-content-center flex-xl-nowrap">
-            <div className="col-xl-6 ps-xl-5 mb-8 mb-xl-0">
-              <span className="text-primary fw-bold text-uppercase" style={{ fontSize: 'small' }}>Built exclusively for real estate businesses.</span>
-              <h1 className="mt-4">Building the Future of Property in West Africa</h1>
-              <p className="mt-4">Opsera is the PropTech ecosystem powering the next generation of property, construction, and real-estate innovation—simplifying operations, amplifying revenue, and unlocking sustainable growth for every stakeholder.</p>
-              <div className="d-flex gap-3 gap-sm-4 flex-wrap mt-4 mt-md-5">
-                <a href="/#features" className="btn btn-lg btn-dark mb-0" type="button">Explore Our Products</a>
-                <a className="icon-link icon-link-hover heading-color text-primary-hover mb-0" href="/#get-started">Partner With Us<i className="bi bi-arrow-right"></i> </a>
-              </div>
-
-              <hr className="my-4 my-sm-6" />
-              <ul className="list-inline d-flex flex-wrap gap-2 gap-sm-4 mb-0 mt-4 mt-xl-5">
-                <li className="list-inline-item heading-color"> <i className="bi bi-stopwatch me-1"></i>24/7 Supports</li>
-                <li className="list-inline-item heading-color"> <i className="bi bi-fire me-1"></i>Free updates</li>
-                <li className="list-inline-item heading-color"> <i className="bi bi-life-preserver me-1"></i>Access premium doc</li>
-              </ul>
-            </div>
-
-            <div className="col-xl-10 d-flex rotate-343 position-relative aos z-index-2" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out">
-              <img src="assets/images/bg/hero.png" className="rounded-4 position-relative" alt="" />
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       <Slider className="swiper-wrapper" {...sliderSettings}>
         {slides.map((slide, index) => (
           <div key={index} className="swiper-wrapper">
@@ -136,7 +108,7 @@ function Home() {
                     <div className="row">
                       <div className="col-sm-11 col-lg-8 col-xl-7 text-center m-auto">
                         <h1 className="text-white display-4 my-4">{slide.title}</h1>
-                        <p className="text-white mb-5"> { slide.description}</p>
+                        <p className="text-white mb-5"> {slide.description}</p>
                         <a className="btn btn-lg btn-white icon-link icon-link-hover mb-0" href="#">Get started now<i className="bi bi-arrow-right"></i> </a>
                       </div>
                     </div>
@@ -147,7 +119,6 @@ function Home() {
           </div>
         ))}
       </Slider>
-      {/* </section> */}
 
       {/* Our Goal */}
       <section className="pb-0">
@@ -160,13 +131,13 @@ function Home() {
 
           <div className="row align-items-center">
             <div className="col-lg-7 pe-lg-5">
-              <p className="mb-5">Opsera was born from a simple belief:
+              <p className="mb-2">Opsera was born from a simple belief:
                 technology should make the complex simple, the opaque transparent, and the impossible achievable.</p>
               <p className="mb-3">Across Nigeria and West Africa, property owners, estate managers, investors, and construction teams struggle with fragmented processes, manual operations, poor accountability, costly delays, and unreliable data.</p>
               <p className="mb-5 fw-bold">We saw an opportunity—not just to fix these problems, but to reinvent how the entire industry works.</p>
               <p className="mb-2 fw-bold">Opsera is not just a company.</p>
               <p className="mb-2">It’s an ecosystem.</p>
-              <p className="mb-5">A platform of intelligent products that transform the way real estate is owned, built, managed, and grown.</p>
+              <p className="mb-3">A platform of intelligent products that transform the way real estate is owned, built, managed, and grown.</p>
               <p className="mb-5 fw-bold">We are building the digital foundation for the region’s next era of property excellence.</p>
             </div>
 
@@ -178,7 +149,6 @@ function Home() {
           </div>
         </div>
       </section>
-
 
       <section>
         <div className="container">
@@ -212,13 +182,12 @@ function Home() {
             </div>
 
             <div className="col-lg-6">
-              {/* <span className="heading-color bg-light small rounded-3 px-3 py-2">🤝 Your gateway to digital success</span> */}
-              <h5 className="my-4">Our Mission</h5>
+              <h4 className="my-4">Our Mission</h4>
               <p className="mb-4">To empower property owners, investors, managers, and construction professionals through innovative, integrated, and intelligent technology—simplifying operations, maximizing revenue, and enabling sustainable growth.</p>
-              <h5 className="my-4">Our Vision</h5>
+              <h4 className="my-4">Our Vision</h4>
               <p className="mb-4">To become West Africa’s leading PropTech ecosystem, redefining how real estate, construction, and property investment are managed through transparency, automation, and disruptive technology.</p>
 
-              <h5 className="my-4">Our Core Values</h5>
+              {/* <h5 className="my-4">Our Core Values</h5>
               <ul className="list-group list-group-borderless mb-4">
                 <li className="list-group-item heading-color d-flex mb-0"><b>Innovation</b> - We don’t follow trends; we create them.</li>
                 <li className="list-group-item heading-color d-flex mb-0"><b>Simplicity</b> - Complex processes should be effortlessly simple.</li>
@@ -227,7 +196,7 @@ function Home() {
                 <li className="list-group-item heading-color d-flex mb-0"><b>Sustainability</b> - Long-term thinking, responsible growth.</li>
                 <li className="list-group-item heading-color d-flex mb-0"><b>Excellence</b> - Every solution, every product, every time.</li>
                 <li className="list-group-item heading-color d-flex mb-0"><b>Collaboration</b> - We grow by lifting others.</li>
-              </ul>
+              </ul> */}
             </div>
 
           </div>
@@ -342,7 +311,7 @@ function Home() {
 
         </div>
         <div className="container mt-7 text-left">
-          <h6 className="mb-0 mt-4">Together, they form the Opsera Ecosystem—</h6>
+          <h6 className="mb-2 mt-4">Together, they form the Opsera Ecosystem—</h6>
           <p>Opsera is home to six powerful SaaS platforms, each solving a mission-critical need—yet designed to work together seamlessly.</p>
         </div>
       </section>
@@ -504,7 +473,7 @@ function Home() {
       {/* </section> */}
 
 
-      <section id="testimonials" className="pb-0">
+      {/* <section id="testimonials" className="pb-0">
         <div className="container">
           <div className="row">
             <div className="col-lg-11">
@@ -517,7 +486,6 @@ function Home() {
 
                         <div className="col-10 col-xl-9 card-body bg-body shadow rounded position-absolute end-0 bottom-0 p-xl-5 mb-4 me-4">
 
-                          {/* <h6>"Mizzle is essential tool for me and my team"</h6> */}
                           <p>We used to manage land sales manually, and it was messy. Since switching to Opsera Sales, we've seen a 60% reduction in delays and a huge boost in agent transparency.</p>
                           <ul className="list-inline mb-1">
                             <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
@@ -554,7 +522,6 @@ function Home() {
 
                 <div className="col-lg-6 ms-auto order-1 order-lg-2">
                   <span className="text-primary fw-bold text-uppercase">Testimonials</span>
-                  {/* <h2 className="my-3">Don't take our word for it. See what our client says.</h2> */}
                   <p className="mb-4">Hear what our satisfied clients have to say about their experiences with our platform. Discover how we've helped agencies like yours achieve remarkable results.</p>
                   <div className="d-sm-flex gap-3">
                     <a href="/#get-started" className="btn btn-lg btn-dark mb-2 mb-sm-0">Get Started</a>
@@ -588,9 +555,111 @@ function Home() {
             </div>
           </div>
         </div>
+      </section> */}
+
+      <section>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4">
+              <div className="avatar avatar-xl mb-md-4">
+                <div className="swiper swiper-img-scale overflow-hidden">
+                  <div className="swiper-wrapper">
+                    <div className="swiper-slide">
+                      <img className="avatar-img rounded-circle border border-2 border-white" src="assets/images/avatar/09.jpg" alt="avatar" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <h2 className="mb-lg-4">Hear from our satisfied clients ❤️</h2>
+              <p className="mb-5">Read what our satisfied clients have to say about their experiences with our platform.</p>
+            </div>
+
+            <div className="col-lg-7 d-flex flex-column ms-auto">
+              <div className="tab-content mb-lg-3" id="pills-tabContent">
+                <div className="tab-pane fade" id="testi-one" role="tabpanel" aria-labelledby="testi-one-tab" tabIndex={0}>
+                  <div className="icon-lg bg-dark text-white rounded-circle mb-3 mb-lg-4"><i className="bi bi-quote fa-xl"></i></div>
+                  <ul className="list-inline mb-3 mb-lg-4">
+                    <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                    <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                    <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                    <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                    <li className="list-inline-item me-0"><i className="fas fa-star-half-alt text-warning"></i></li>
+                  </ul>
+                  <h6 className="mb-2">"Transformed My Agency's Results"</h6>
+                  <p className="heading-color">As an employer, the platform exceeded my expectations. We swiftly found top-tier talent for our company, thanks to the user-friendly interface and the ability to connect with candidates that perfectly fit our requirements.</p>
+                </div>
+
+                <div className="tab-pane fade show active" id="testi-two" role="tabpanel" aria-labelledby="testi-two-tab" tabIndex={0}>
+                  <div className="icon-lg bg-dark text-white rounded-circle mb-3 mb-lg-4"><i className="bi bi-quote fa-xl"></i></div>
+                  <ul className="list-inline mb-3 mb-lg-4">
+                    <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                    <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                    <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                    <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                    <li className="list-inline-item me-0"><i className="fas fa-star-half-alt text-warning"></i></li>
+                  </ul>
+                  <h6 className="mb-2">"Transformed My Agency's Results"</h6>
+                  <p className="heading-color">As an employer, the platform exceeded my expectations. We swiftly found top-tier talent for our company, thanks to the user-friendly interface and the ability to connect with candidates that perfectly fit our requirements.</p>
+                </div>
+
+                <div className="tab-pane fade" id="testi-three" role="tabpanel" aria-labelledby="testi-three-tab" tabIndex={0}>
+                  <div className="icon-lg bg-dark text-white rounded-circle mb-3 mb-lg-4"><i className="bi bi-quote fa-xl"></i></div>
+                  <ul className="list-inline mb-3 mb-lg-4">
+                    <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                    <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                    <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                    <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                    <li className="list-inline-item me-0"><i className="fas fa-star-half-alt text-warning"></i></li>
+                  </ul>
+                  <h6 className="mb-2">"Transformed My Agency's Results"</h6>
+                  <p className="heading-color">As an employer, the platform exceeded my expectations. We swiftly found top-tier talent for our company, thanks to the user-friendly interface and the ability to connect with candidates that perfectly fit our requirements.</p>
+                </div>
+              </div>
+
+              <div className="nav nav-pills nav-pills-testimonial nav-justified mb-4 mb-lg-0" id="pills-tab" role="tablist">
+                <div className="nav-item" role="presentation">
+                  <div className="nav-link d-flex align-items-center text-start p-3" id="testi-one-tab" data-bs-toggle="pill" data-bs-target="#testi-one" role="tab" aria-controls="testi-one" aria-selected="true">
+                    <div className="avatar flex-shrink-0">
+                      <img className="avatar-img rounded-circle" src="assets/images/avatar/04.jpg" alt="avatar" />
+                    </div>
+                    <div className="ms-2">
+                      <h6 className="mb-0">Louis Ferguson</h6>
+                      <p className="mb-0 small">Web Developer</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="nav-item" role="presentation">
+                  <div className="nav-link d-flex align-items-center text-start p-3 active" id="testi-two-tab" data-bs-toggle="pill" data-bs-target="#testi-two" role="tab" aria-controls="testi-two" aria-selected="false">
+                    <div className="avatar flex-shrink-0">
+                      <img className="avatar-img rounded-circle" src="assets/images/avatar/05.jpg" alt="avatar" />
+                    </div>
+                    <div className="ms-2">
+                      <h6 className="mb-0">Emma Watson</h6>
+                      <p className="mb-0 small">Co-Founder</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="nav-item" role="presentation">
+                  <div className="nav-link d-flex align-items-center text-start p-3" id="testi-three-tab" data-bs-toggle="pill" data-bs-target="#testi-three" role="tab" aria-controls="testi-three" aria-selected="false">
+                    <div className="avatar flex-shrink-0">
+                      <img className="avatar-img rounded-circle" src="assets/images/avatar/06.jpg" alt="avatar" />
+                    </div>
+                    <div className="ms-2">
+                      <h6 className="mb-0">Samuel Bishop</h6>
+                      <p className="mb-0 small">Product designer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section id='faqs' className="bg-light mt-8">
+      {/* <section id='faqs' className="bg-light mt-8">
         <div className="container">
 
           <div className="row align-items-center">
@@ -705,6 +774,43 @@ function Home() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
+
+      <section className="position-relative z-index-2 py-0 mb-n7">
+        <div className="container position-relative">
+          <div className="bg-primary rounded position-relative overflow-hidden p-4 p-sm-5">
+
+            <figure className="position-absolute top-0 start-0 ms-n8">
+              <svg width="371" height="354" viewBox="0 0 371 354" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="172.5" cy="176.5" rx="131.5" ry="125.5" fill="url(#paint0_linear_195_2)"></ellipse>
+                <ellipse cx="185.5" cy="177" rx="185.5" ry="177" fill="url(#paint1_linear_195_2)"></ellipse>
+                <defs>
+                  <linearGradient id="paint0_linear_195_2" x1="172.5" y1="51" x2="172.5" y2="302" gradientUnits="userSpaceOnUse">
+                    <stop offset="0.0569271" stop-color="#D9D9D9" stop-opacity="0.5"></stop>
+                    <stop offset="0.998202" stop-color="#D9D9D9" stop-opacity="0"></stop>
+                  </linearGradient>
+                  <linearGradient id="paint1_linear_195_2" x1="185.5" y1="0" x2="185.5" y2="354" gradientUnits="userSpaceOnUse">
+                    <stop offset="0.0569271" stop-color="#D9D9D9" stop-opacity="0.2"></stop>
+                    <stop offset="0.998202" stop-color="#D9D9D9" stop-opacity="0"></stop>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </figure>
+
+            <div className="position-absolute end-0 bottom-0 me-sm-5">
+              <img src="assets/images/elements/cta-vector.svg" className="h-200px" alt="vector-img" />
+            </div>
+
+            <div className="row g-4 position-relative">
+              <div className="col-lg-7 mx-auto text-center">
+                <h2 className="text-white mb-4">Take Your Business to the Next Level</h2>
+                <p className="text-white mb-4">Explore the possibilities and discover how integrating with [Your SaaS Product] can take your business to the next level.</p>
+                <a href="#" className="btn btn-dark">Optimize Your Workflow</a>
+              </div>
+
             </div>
           </div>
         </div>

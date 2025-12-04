@@ -88,7 +88,7 @@ function Header() {
               </li>
               <li className="nav-item"><a className="nav-link" href="/#features" style={{ color: "white" }} onClick={() => setIsMobileMenuOpen(false)}>Testimonials</a></li>
               <li className="nav-item"><a className="nav-link" href="/#pricing" style={{ color: "white" }} onClick={() => setIsMobileMenuOpen(false)}>About Us</a></li>
-              <li className="nav-item"><a className="nav-link" href="/#pricing" style={{ color: "white" }} onClick={() => setIsMobileMenuOpen(false)}>Contact Us</a></li>
+              <li className="nav-item"><a className="nav-link" href="/#pricing" style={{ color: "white" }} onClick={() => setIsMobileMenuOpen(false)}>FAQs</a></li>
             </ul>
           </div>
 
