@@ -51,13 +51,13 @@ function Header() {
                 <a className="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" style={{ color: "white" }}>Products</a>
                 <div className="dropdown-menu dropdown-menu-size-md p-3">
                   <ul className="list-unstyled">
-                    <li className="dropdown-item p-0">
+                    <li className="dropdown-item p-2">
                       <a className="fw-bold text-black" href="/sales" style={{ fontSize: '12px' }}
                       >Opsera Sales
                         <p className="text-wrap" style={{ fontWeight: 'normal', }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                       </a>
                     </li>
-                    <li className="dropdown-item p-0">
+                    <li className="dropdown-item p-2">
                       <a className="fw-bold text-black" href="/buildsync" style={{ fontSize: '12px' }}>BuildSync
                         <p className="text-wrap" style={{ fontWeight: 'normal' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                       </a>
@@ -77,18 +77,17 @@ function Header() {
                 <a className="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" style={{ color: "white" }}>Partners</a>
                 <div className="dropdown-menu dropdown-menu-size-md p-3">
                   <ul className="list-unstyled">
-                    <li className="dropdown-item p-0">
+                    <li className="dropdown-item p-2">
                       <a className="fw-bold text-black" href="index-2.html" style={{ fontSize: '12px' }}>Work with a partner</a>
                     </li>
-                    <li className="dropdown-item p-0">
+                    <li className="dropdown-item p-2">
                       <a className="fw-bold text-black" href="index-2.html" style={{ fontSize: '12px' }}>Become a partner</a>
                     </li>
                   </ul>
                 </div>
               </li>
-              <li className="nav-item"><a className="nav-link" href="/#features" style={{ color: "white" }} onClick={() => setIsMobileMenuOpen(false)}>Testimonials</a></li>
-              <li className="nav-item"><a className="nav-link" href="/#pricing" style={{ color: "white" }} onClick={() => setIsMobileMenuOpen(false)}>About Us</a></li>
-              <li className="nav-item"><a className="nav-link" href="/#pricing" style={{ color: "white" }} onClick={() => setIsMobileMenuOpen(false)}>FAQs</a></li>
+              <li className="nav-item"><a className="nav-link" href="/about-us" style={{ color: "white" }} onClick={() => setIsMobileMenuOpen(false)}>About Us</a></li>
+              <li className="nav-item"><a className="nav-link" href="/faq" style={{ color: "white" }} onClick={() => setIsMobileMenuOpen(false)}>FAQs</a></li>
             </ul>
           </div>
 

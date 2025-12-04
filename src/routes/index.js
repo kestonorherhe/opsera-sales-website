@@ -3,9 +3,9 @@ import ContactUs from "../pages/ContactUs";
 import Home from "../pages/Home";
 import SalesHome from "../pages/products/sales/Home";
 import Legal from "../pages/Legal";
-import Portfolio from "../pages/Portfolio";
 import Services from "../pages/Services";
 import Terms from "../pages/terms";
+import Faq from "../pages/Faq";
 
 const publicRoutes = [
   {
@@ -25,8 +25,8 @@ const publicRoutes = [
     component: <ContactUs />,
   },
   {
-    path: "/projects",
-    component: <Portfolio />,
+    path: "/faq",
+    component: <Faq />,
   },
   {
     path: "/legal",

@@ -154,7 +154,7 @@ function Home() {
         <div className="container">
           <div className="row g-4 align-items-xl-center">
 
-            <div className="col-lg-6">
+            <div className="col-lg-7">
               <div className="row pe-xl-5">
                 <div className="col-sm-6">
                   <img src="assets/images/about/02.jpg" className="rounded" alt="about-img" />
@@ -181,7 +181,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-lg-5">
               <h4 className="my-4">Our Mission</h4>
               <p className="mb-4">To empower property owners, investors, managers, and construction professionals through innovative, integrated, and intelligent technology—simplifying operations, maximizing revenue, and enabling sustainable growth.</p>
               <h4 className="my-4">Our Vision</h4>
@@ -417,7 +417,6 @@ function Home() {
         </div>
       </section>
 
-      {/* <section className="pb-0"> */}
       <div className="container">
         <div className="row g-4 g-md-5">
 
@@ -470,92 +469,6 @@ function Home() {
           <p className="m-0">Through automation and optimization, we help businesses operate leaner, smarter, and more cost-effectively—directly increasing revenue and reducing waste.</p>
         </div>
       </div>
-      {/* </section> */}
-
-
-      {/* <section id="testimonials" className="pb-0">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-11">
-              <div className="row align-items-center">
-                <div className="col-lg-6 order-2 mt-5 mt-lg-0">
-                  <div className="slider-container align-items-center">
-                    <Slider {...sliderSettings2}>
-                      <div className="swiper-slide card bg-transparent p-0 pe-md-7">
-                        <img src="assets/images/team/03.jpg" className="rounded" alt="review-img" />
-
-                        <div className="col-10 col-xl-9 card-body bg-body shadow rounded position-absolute end-0 bottom-0 p-xl-5 mb-4 me-4">
-
-                          <p>We used to manage land sales manually, and it was messy. Since switching to Opsera Sales, we've seen a 60% reduction in delays and a huge boost in agent transparency.</p>
-                          <ul className="list-inline mb-1">
-                            <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
-                            <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
-                            <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
-                            <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
-                            <li className="list-inline-item small me-0"><i className="fas fa-star-half-alt text-primary"></i></li>
-                          </ul>
-                          <span className="heading-color fw-bold">Jacqueline Miller</span>
-                          <p className="small mb-0">Head of marketing</p>
-                        </div>
-                      </div>
-
-                      <div className="swiper-slide card bg-transparent p-0 pe-md-7">
-                        <img src="assets/images/team/02.jpg" className="rounded" alt="review-img" />
-
-                        <div className="col-10 col-xl-9 card-body bg-body shadow rounded position-absolute end-0 bottom-0 p-xl-5 mb-4 me-4">
-                          <h6>"Transformed My Agency's Results"</h6>
-                          <p>I can't say enough about the impact this platform has had on my agency. The automation tools, project management features, and seamless collaboration have transformed the way we work. </p>
-                          <ul className="list-inline mb-1">
-                            <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
-                            <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
-                            <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
-                            <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
-                            <li className="list-inline-item small me-0"><i className="fas fa-star-half-alt text-primary"></i></li>
-                          </ul>
-                          <span className="heading-color fw-bold">Allen Smith</span>
-                          <p className="small mb-0">Digital Marketing Agency Owner</p>
-                        </div>
-                      </div>
-                    </Slider>
-                  </div>
-                </div>
-
-                <div className="col-lg-6 ms-auto order-1 order-lg-2">
-                  <span className="text-primary fw-bold text-uppercase">Testimonials</span>
-                  <p className="mb-4">Hear what our satisfied clients have to say about their experiences with our platform. Discover how we've helped agencies like yours achieve remarkable results.</p>
-                  <div className="d-sm-flex gap-3">
-                    <a href="/#get-started" className="btn btn-lg btn-dark mb-2 mb-sm-0">Get Started</a>
-                    <a className="icon-link icon-link-hover heading-color text-primary-hover mb-0" href="/#features">Browse features<i className="bi bi-arrow-right"></i> </a>
-                  </div>
-
-                  <hr className="my-6" />
-
-                  <div className="row row-cols-2 row-cols-sm-3 g-4 g-md-5 align-items-center">
-                    <div className="col">
-                      <img src="assets/images/client/01.svg" className="grayscale px-2" alt="client-img" />
-                    </div>
-                    <div className="col">
-                      <img src="assets/images/client/02.svg" className="grayscale px-2" alt="client-img" />
-                    </div>
-                    <div className="col">
-                      <img src="assets/images/client/03.svg" className="grayscale px-2" alt="client-img" />
-                    </div>
-                    <div className="col">
-                      <img src="assets/images/client/04.svg" className="grayscale px-2" alt="client-img" />
-                    </div>
-                    <div className="col">
-                      <img src="assets/images/client/05.svg" className="grayscale px-2" alt="client-img" />
-                    </div>
-                    <div className="col">
-                      <img src="assets/images/client/07.svg" className="grayscale px-2" alt="client-img" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
 
       <section>
         <div className="container">

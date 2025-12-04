@@ -45,33 +45,43 @@ function Header() {
                 <a className="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Products</a>
                 <div className="dropdown-menu dropdown-menu-size-md p-3">
                   <ul className="list-unstyled">
-                    <li className="dropdown-item">
-                      <a className="fw-bold text-black" href="index-2.html">Opsera Sales</a>
-                      <p style={{ fontWeight: 'normal' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <li className="dropdown-item p-2">
+                      <a className="fw-bold text-black" href="/sales" style={{ fontSize: '12px' }}
+                      >Opsera Sales
+                        <p className="text-wrap" style={{ fontWeight: 'normal', }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                      </a>
                     </li>
-                    <li className="dropdown-item">
-                      <a className="fw-bold text-black" href="index-2.html">BuildSync</a>
-                      <p style={{ fontWeight: 'normal' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <li className="dropdown-item p-2">
+                      <a className="fw-bold text-black" href="/buildsync" style={{ fontSize: '12px' }}>BuildSync
+                        <p className="text-wrap" style={{ fontWeight: 'normal' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                      </a>
                     </li>
                   </ul>
+                  {/* <hr />
+                  <div className="d-flex justify-content-between align-items-center px-2">
+                    <div>
+                      <h6 className="mb-1">Ready to get started?</h6>
+                      <small>Take your documents to the next level with Mizzle</small>
+                    </div>
+                    <a href="#" className="btn btn-sm btn-primary">Get in touch</a>
+                  </div> */}
                 </div>
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Partners</a>
                 <div className="dropdown-menu dropdown-menu-size-md p-3">
                   <ul className="list-unstyled">
-                    <li className="dropdown-item">
-                      <a className="fw-bold text-black" href="index-2.html">Work with a partner</a>
+                    <li className="dropdown-item p-2">
+                      <a className="fw-bold text-black" href="index-2.html" style={{ fontSize: '12px' }}>Work with a partner</a>
                     </li>
-                    <li className="dropdown-item">
-                      <a className="fw-bold text-black" href="index-2.html">Become a partner</a>
+                    <li className="dropdown-item p-2">
+                      <a className="fw-bold text-black" href="index-2.html" style={{ fontSize: '12px' }}>Become a partner</a>
                     </li>
                   </ul>
                 </div>
               </li>
-              <li className="nav-item"><a className="nav-link" href="/#features" onClick={() => setIsMobileMenuOpen(false)}>Testimonials</a></li>
-              <li className="nav-item"><a className="nav-link" href="/#pricing" onClick={() => setIsMobileMenuOpen(false)}>About Us</a></li>
-              <li className="nav-item"><a className="nav-link" href="/#pricing" onClick={() => setIsMobileMenuOpen(false)}>Contact Us</a></li>
+              <li className="nav-item"><a className="nav-link" href="/about-us" onClick={() => setIsMobileMenuOpen(false)}>About Us</a></li>
+              <li className="nav-item"><a className="nav-link" href="/faq" onClick={() => setIsMobileMenuOpen(false)}>FAQs</a></li>
             </ul>
           </div>
           {/* <ul className="nav align-items-center dropdown-hover ms-sm-2 d-none d-xl-flex">
