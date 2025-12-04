@@ -470,6 +470,59 @@ function Home() {
         </div>
       </div>
 
+      <section className="pb-0">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6 mb-5 mb-lg-0">
+              <h2 className="mb-3 mb-lg-5">Opsera is actively powering:</h2>
+              
+
+              <div className="d-flex align-items-center gap-3 mb-3">
+                <div className="icon-md bg-primary bg-opacity-10 text-primary rounded-circle fw-bold">01</div>
+                <h6 className="fw-normal mb-0">More efficient construction projects</h6>
+              </div>
+
+              <div className="d-flex align-items-center gap-3 mb-3">
+                <div className="icon-md bg-primary bg-opacity-10 text-primary rounded-circle fw-bold">02</div>
+                <h6 className="fw-normal mb-0">More profitable property portfolios</h6>
+              </div>
+
+              <div className="d-flex align-items-center gap-3 mb-3">
+                <div className="icon-md bg-primary bg-opacity-10 text-primary rounded-circle fw-bold">03</div>
+                <h6 className="fw-normal mb-0">More transparent estate management</h6>
+              </div>
+
+              <div className="d-flex align-items-center gap-3 mb-3">
+                <div className="icon-md bg-primary bg-opacity-10 text-primary rounded-circle fw-bold">04</div>
+                <h6 className="fw-normal mb-0">More reliable rental operations</h6>
+              </div>
+
+              <div className="d-flex align-items-center gap-3 mb-3">
+                <div className="icon-md bg-primary bg-opacity-10 text-primary rounded-circle fw-bold">05</div>
+                <h6 className="fw-normal mb-0">More disciplined hospitality processes</h6>
+              </div>
+
+              <div className="d-flex align-items-center gap-3 mb-3">
+                <div className="icon-md bg-primary bg-opacity-10 text-primary rounded-circle fw-bold">06</div>
+                <h6 className="fw-normal mb-0">More confident real estate investments</h6>
+              </div>
+
+              <div className="row g-2 mt-3 mt-lg-5">
+                <h5>Our goal is clear:</h5>
+                <p className="mb-3 mb-lg-5">Transform Nigeria first, scale across West Africa, and lead the PropTech revolution shaping the region’s future.</p>
+              </div>
+            </div>
+
+            <div className="col-lg-5 position-relative ms-auto">
+              <div className="position-absolute top-50 start-0 translate-middle ms-n2">
+                <h2 className="heading-color opacity-1 display-4 text-uppercase rotate-270">since 2018</h2>
+              </div>
+              <img src="assets/images/about/14.jpg" className="rounded-3 position-relative" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section>
         <div className="container">
           <div className="row">
