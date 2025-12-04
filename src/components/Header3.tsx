@@ -74,18 +74,46 @@ function Header() {
               <li className="nav-item"><a className="nav-link" href="/#pricing" onClick={() => setIsMobileMenuOpen(false)}>Contact Us</a></li>
             </ul>
           </div>
-          <ul className="nav align-items-center dropdown-hover ms-sm-2 d-none d-xl-flex">
+          {/* <ul className="nav align-items-center dropdown-hover ms-sm-2 d-none d-xl-flex">
             <li className="nav-item d-none d-sm-block">
               <a href="/#get-started" className="btn btn-md btn-primary mb-0">Get Started!</a>
             </li>
             <li className="nav-item">
               <button
-                className="navbar-toggler ms-3 p-2"
+                className="navbar-toggler ms-3"
                 type="button"
                 onClick={toggleMainMenu}
+                style={{
+                  padding: "4px 6px", transform: "scale(0.8)",
+                  color: '#000 !important'
+                }}
               >
                 {isMainMenuOpen ? (
-                  <span className="fs-2 fw-bold close-icon">&times;</span>
+                  <span className="fs-2 close-icon">&times;</span>
+                ) : (
+                  <span className="navbar-toggler-animation">
+                    <span></span><span></span><span></span>
+                  </span>
+                )}
+              </button>
+            </li>
+          </ul> */}
+          <ul className="nav align-items-center dropdown-hover ms-sm-2">
+            <li className="nav-item d-none d-sm-block">
+              <a href="/#get-started" className="btn btn-md btn-primary mb-0">Get Started!</a>
+            </li>
+            <li className="nav-item white">
+              <button
+                className="navbar-toggler"
+                type="button"
+                onClick={toggleMainMenu}
+                style={{
+                  padding: "4px 6px", transform: "scale(0.8)",
+                  color: '#000 !important'
+                }}
+              >
+                {isMainMenuOpen ? (
+                  <span className="fs-2 close-icon">&times;</span>
                 ) : (
                   <span className="navbar-toggler-animation">
                     <span></span><span></span><span></span>
@@ -94,7 +122,6 @@ function Header() {
               </button>
             </li>
           </ul>
-
         </div>
       </nav>
 
@@ -105,19 +132,22 @@ function Header() {
           {/* Mobile Logo + toggler */}
           <div className="d-flex align-items-center d-xl-none">
             <button
-              className="btn-sm navbar-toggler me-3"
+              className="navbar-toggler"
               type="button"
               onClick={toggleSecondaryMenu}
+              style={{
+                padding: "4px 6px", transform: "scale(0.8)",
+                color: '#fff !important'
+              }}
             >
               {isSecondaryMenuOpen ? (
-                <span className="fs-3 fw-bold close-icon">&times;</span>
+                <span className="fs-2 close-icon">&times;</span>
               ) : (
                 <span className="navbar-toggler-animation">
                   <span></span><span></span><span></span>
                 </span>
               )}
             </button>
-
             <a className="navbar-brand me-0" href="/">
               <img className="light-mode-item navbar-brand-item" src="assets/images/logos/opsera-footer-light-4.svg" alt="logo" />
             </a>
@@ -144,10 +174,8 @@ function Header() {
               ))}
             </ul>
           </div>
-
         </div>
       </nav>
-
     </header>
   );
 }
