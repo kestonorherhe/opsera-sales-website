@@ -49,7 +49,7 @@ function Header() {
             <ul className="navbar-nav navbar-nav-scroll dropdown-hover">
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" style={{ color: "white" }}>Products</a>
-                <div className="dropdown-menu dropdown-menu-size-md p-3">
+                <div className="dropdown-menu dropdown-menu-size-md p-2">
                   <ul className="list-unstyled">
                     <li className="dropdown-item p-2">
                       <a className="fw-bold text-black" href="/sales" style={{ fontSize: '12px' }}

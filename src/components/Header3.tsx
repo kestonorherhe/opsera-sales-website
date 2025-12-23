@@ -28,7 +28,7 @@ function Header() {
   };
 
   return (
-    <header className={`header-absolute ${isSticky ? "is-sticky" : ""}`}>
+    <header style={{ backgroundColor: 'white' }} className={`header-absolute ${isSticky ? "is-sticky" : ""}`}>
 
       {/* ========= PRIMARY NAVBAR ========= */}
       <nav className="navbar navbar-expand-xl px-lg-5 primary-nav">

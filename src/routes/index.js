@@ -6,6 +6,7 @@ import Legal from "../pages/Legal";
 import Services from "../pages/Services";
 import Terms from "../pages/terms";
 import Faq from "../pages/Faq";
+import BuildSyncHome from "../pages/products/buildsync/Home";
 
 const publicRoutes = [
   {
@@ -39,6 +40,10 @@ const publicRoutes = [
   {
     path: "/sales",
     component: <SalesHome />,
+  },
+  {
+    path: "/buildsync",
+    component: <BuildSyncHome />,
   },
 ];
 
