@@ -159,13 +159,13 @@ function Header() {
               )}
             </button>
             <a className="navbar-brand me-0" href="/">
-              <img className="light-mode-item navbar-brand-item" src="assets/images/logos/opsera-footer-light-4.svg" alt="logo" />
+              <img className="light-mode-item navbar-brand-item" src="assets/images/logos/buildsync-logo.png" style={{ width: '100px' }} alt="logo" />
             </a>
           </div>
 
           {/* Desktop logo */}
           <a className="navbar-brand me-0 d-none d-xl-block" href="/">
-            <img className="light-mode-item navbar-brand-item" src="assets/images/logos/opsera-footer-light-4.svg" alt="logo" />
+            <img className="light-mode-item navbar-brand-item" src="assets/images/logos/buildsync-logo.png" style={{ width: '150px', height: '40px' }} alt="logo" />
           </a>
 
           {/* Secondary items */}

@@ -1,7 +1,6 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Header2 from "../../../components/Header2";
 import Header3 from "../../../components/Header3";
 
 function BuildSyncHome() {
@@ -31,25 +30,25 @@ function BuildSyncHome() {
   const sliderSettings2 = {
     dots: true,
     infinite: true,
-    speed: 200,
-    slidesToShow: 1,
+    speed: 500,
+    slidesToShow: 2,
     slidesToScroll: 1,
-    // responsive: [
-    //   {
-    //     breakpoint: 992,
-    //     settings: {
-    //       slidesToShow: 2,
-    //       slidesToScroll: 1,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 768,
-    //     settings: {
-    //       slidesToShow: 1,
-    //       slidesToScroll: 1,
-    //     },
-    //   },
-    // ],
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <main>
@@ -198,16 +197,6 @@ function BuildSyncHome() {
               <h3 className="mb-5">Easy project management that helps you win</h3>
               <p className="mb-5">Our passion for customer excellence is just one reason why we are the market leader. We've always worked very hard to give our customers the best experience.</p>
 
-              {/* <div className="swiper" data-swiper-options='{
-					"slidesPerView": 2, 
-					"spaceBetween": 40,
-					"breakpoints": { 
-						"576": {"slidesPerView": 3},
-						"768": {"slidesPerView": 5},
-						"992": {"slidesPerView": 3},
-						"1200": {"slidesPerView": 4}
-					}}'> */}
-
               <div className="align-items-center">
                 <Slider {...sliderSettings}>
                   <div className="swiper-slide d-flex justify-content-center">
@@ -237,7 +226,6 @@ function BuildSyncHome() {
                   </div>
                 </Slider>
               </div>
-              {/* </div> */}
 
             </div>
           </div>
@@ -307,7 +295,7 @@ function BuildSyncHome() {
         </div>
       </section>
 
-      <section id="features" className="bg-dark position-relative overflow-hidden" style={{ backgroundColor: '#100F0F' }} data-bs-theme="dark">
+      <section id="features" className="bg-dark position-relative overflow-hidden" data-bs-theme="dark">
 
         <figure className="position-absolute top-0 start-0 mt-n6 ms-n8">
           <svg className="opacity-3" width="371" height="354" viewBox="0 0 371 354" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -695,477 +683,143 @@ function BuildSyncHome() {
         </div>
       </section>
 
-      <section className="overflow-hidden">
-        <div className="container">
-          <div className="row g-4">
-            <div className="col-lg-6 mb-sm-6 mb-lg-0">
-              <h2 className="mb-4">Why Use Opsera Sales Platform</h2>
-              {/* <p className="mb-0">Supposing so be resolving breakfast am or perfectly. It drew a hill from me. Valley by oh twenty direct me so.</p> */}
 
-              <hr className="my-4 my-sm-5" />
-
-              <div className="row g-4 mb-4 mb-sm-5">
-                <div className="col-sm-12">
-                  <div className="d-flex">
-                    {/* <div className="icon-md flex-shrink-0 text-primary bg-primary bg-opacity-10 rounded-circle"><i className="bi bi-boxes fa-xl"></i></div> */}
-                    <div className="ms-3">
-                      <h6 className="mb-0 mb-sm-2 text-primary">Save Time</h6>
-                      <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Automate repetitive tasks like status updates, follow-ups, and commission reports</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Speed up onboarding of staff and agents</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="d-flex">
-                    {/* <div className="icon-md flex-shrink-0 text-primary bg-primary bg-opacity-10 rounded-circle"><i className="bi bi-boxes fa-xl"></i></div> */}
-                    <div className="ms-3">
-                      <h6 className="mb-0 mb-sm-2 text-primary">Boost Accountability</h6>
-                      <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Know exactly who is selling, what they’re selling, and how much they’ve earned</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Eliminate guesswork with full visibility into your entire sales process</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="d-flex">
-                    {/* <div className="icon-md flex-shrink-0 text-primary bg-primary bg-opacity-10 rounded-circle"><i className="bi bi-boxes fa-xl"></i></div> */}
-                    <div className="ms-3">
-                      <h6 className="mb-0 mb-sm-2 text-primary">Work from Anywhere</h6>
-                      <ul className="list-group list-group-borderless mb-4">
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Cloud-based platform accessible via web and mobile</li>
-                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Agents and staff can use it on the go—no desktop dependency</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="row">
-                <div className="col-lg-11 col-xl-9 position-relative ms-auto">
-                  <figure className="position-absolute top-50 start-0 translate-middle z-index-2">
-                    <svg width="159" height="155" viewBox="0 0 159 155" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path className="fill-primary" d="M14.2394 111.637C13.5965 111.365 12.9265 111.083 12.2734 110.839C10.1612 110.017 8.07613 109.206 5.88225 108.354C6.18466 107.629 6.68446 107.288 7.12302 106.862C8.19051 105.834 9.28521 104.815 10.1758 103.596C10.9576 102.585 11.4775 101.445 11.7254 100.202C11.7797 99.9745 11.7898 99.6988 11.5177 99.597C11.3272 99.5257 11.0449 99.4511 10.8681 99.5091C10.4294 99.6864 10.035 99.9113 9.6304 100.163C6.57033 102.123 4.06486 104.755 1.43689 107.217C1.2567 107.367 1.12074 107.565 0.984778 107.762C0.525929 108.491 0.553501 109.495 1.0979 110.195C1.43134 110.63 1.85998 110.977 2.36679 111.198C5.43823 112.441 8.5844 113.401 11.9004 113.742C12.5874 113.813 13.3322 113.812 13.985 113.56C14.4509 113.393 14.8385 113.103 14.8213 112.569C14.8551 112.147 14.6374 111.817 14.2394 111.637Z" />
-                      <path className="fill-primary" d="M14.8846 105.45C20.7137 105.459 26.5019 105.079 32.2524 104.22C34.1942 103.923 36.1122 103.523 37.9995 102.957C45.8716 100.656 51.4064 95.6497 55.0392 88.3477C56.5889 85.2023 57.6011 81.9178 58.2869 78.511C58.8572 75.7441 59.3459 72.9467 59.889 70.1696C60.4084 67.5388 60.9822 64.9284 62.0933 62.4571C64.0642 58.1033 67.4234 55.7593 72.1948 55.5273C73.3 55.4753 74.3815 55.5697 75.4767 55.7933C77.9595 56.288 80.2996 57.164 82.5752 58.2951C84.5345 59.2769 86.521 60.2688 88.4904 61.2233C92.5722 63.2479 96.5579 62.877 100.461 60.7368C101.709 60.0552 102.879 59.2511 104.004 58.3995C105.252 57.4694 106.449 56.4272 107.662 55.4224C109.492 53.9338 111.348 52.4554 113.221 51.0145C114.612 49.9517 116.104 49.1133 117.703 48.4076C121.273 46.8257 124.759 47.0439 128.126 48.9874C129.63 49.8606 131.066 50.8326 132.521 51.7501C134.651 53.106 136.821 54.353 139.287 55.0587C142.28 55.9306 145.171 55.8329 147.949 54.2959C148.231 54.3705 148.445 54.2955 148.557 53.9959L148.595 53.9789C149.016 54.0126 149.329 53.7571 149.649 53.5663C151.278 52.5305 152.773 51.3518 154.086 49.9182C155.694 48.6884 156.7 47.0781 157.349 45.1788C156.06 46.4661 154.888 47.8588 153.786 49.3093C152.154 50.9338 150.077 51.9258 148.183 53.1728C147.877 53.2445 147.571 53.3162 147.282 53.4254C144.551 54.4213 141.902 54.2058 139.259 53.0613C137.286 52.1987 135.585 50.9411 133.874 49.7107C132.36 48.6163 130.887 47.413 129.278 46.4072C125.251 43.9062 121.054 43.515 116.671 45.4447C115.223 46.0822 113.879 46.8524 112.577 47.762C110.775 49.0123 109.086 50.4599 107.45 51.9279C105.815 53.3959 104.153 54.8537 102.5 56.2842C101.303 57.3265 100.011 58.2089 98.58 58.8839C95.8563 60.1928 93.1459 60.3891 90.4213 58.9656C88.8158 58.1163 87.268 57.1955 85.6625 56.3462C82.4617 54.6203 79.2404 52.9489 75.6217 52.3394C69.4351 51.2966 64.2324 53.0126 60.4832 58.222C59.2425 59.9619 58.3896 61.909 57.8258 63.9953C56.7458 67.8754 56.1861 71.8571 55.4529 75.8049C54.6655 79.9807 53.6773 84.1125 51.662 87.9219C48.8956 93.1576 45.0678 97.251 39.5354 99.6818C37.349 100.633 35.1251 101.353 32.8161 101.886C29.1435 102.746 25.4062 103.365 21.6654 103.828C19.3189 104.129 16.9928 104.376 14.6463 104.678C14.2586 104.719 13.7553 104.655 13.5616 105.172C13.9324 105.59 14.4255 105.433 14.8846 105.45Z" />
-                      <path className="fill-primary" d="M157.352 45.087C157.342 45.1142 157.314 45.104 157.304 45.1313C157.294 45.1585 157.284 45.1857 157.274 45.213C157.284 45.1857 157.321 45.1687 157.321 45.1687C157.331 45.1414 157.342 45.1142 157.352 45.087Z" />
-                      <path className="fill-primary" d="M157.889 43.6438C157.655 44.2701 157.502 44.6786 157.349 45.087C157.91 44.583 157.92 44.5557 157.889 43.6438Z" />
-                    </svg>
-                  </figure>
-
-                  <figure className="position-absolute top-0 start-100 translate-middle mt-8 ms-5 d-none d-xl-block">
-                    <svg className="fill-mode" width="96" height="99" viewBox="0 0 96 99" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M66.5204 64.3653C68.4878 62.2239 69.8711 59.7411 70.3936 56.886C72.4225 45.5894 64.3072 35.5653 52.1035 36.6825C44.603 37.3653 38.9777 44.5653 39.8999 52.0446C40.6684 58.2205 45.9556 62.4101 51.8576 61.448C54.6549 60.9825 56.776 59.4929 58.0363 56.886C59.02 54.8377 58.7126 52.5101 57.2985 51.0205C55.7923 49.4377 51.8576 48.6308 49.798 49.4377C49.4599 49.5618 49.2447 50.2136 49.4599 50.5239C49.7673 50.9273 50.1054 51.2687 50.4743 51.6101C51.1506 52.2308 51.8576 52.8205 52.5031 53.4722C52.9028 53.8756 52.872 54.4032 52.4724 54.8067C51.5195 55.8618 50.3206 56.048 49.0603 55.6756C46.9393 55.0239 45.8019 53.4411 45.4023 51.2998C44.3571 45.7136 49.4292 42.0205 53.1487 41.7722C58.6511 41.3687 63.5694 44.7205 65.1679 49.9963C66.7356 55.086 65.2294 59.7411 60.9873 62.9377C59.7884 63.8377 58.4666 64.5515 57.0219 65.017C53.0872 66.3204 49.1525 66.3515 45.2793 65.017C37.9325 62.5032 34.1823 56.6377 35.1352 48.5998C35.7193 43.6963 37.7788 39.4446 41.0065 35.7825C42.3898 34.1998 43.8653 32.7101 46.0478 32.3067C46.14 32.3067 46.2015 32.2446 46.2937 32.2136C46.5089 32.0894 46.5396 31.5308 46.3245 31.3136C46.0478 30.9722 45.6789 30.7549 45.2793 30.7239C44.4493 30.5998 43.6501 30.7239 42.8201 31.0032C41.2832 31.5618 40.0536 32.4929 38.8855 33.6101C34.336 37.9239 31.6616 43.2308 31.0468 49.4998C30.1861 58.4377 34.2745 65.048 41.8365 68.7101C44.8182 70.1377 47.9844 70.7273 51.2736 70.7584C52.3494 70.6963 53.4253 70.6653 54.5012 70.5101C59.2351 69.8584 63.2928 67.9032 66.5204 64.3653Z" />
-                      <path d="M0.769309 44.5963C2.36777 45.8998 3.99697 47.2032 5.65692 48.4756C7.99313 50.2446 10.6367 51.0205 13.8337 51.1136C13.7722 51.1136 14.0488 51.1446 14.264 51.0825C14.4792 51.0205 14.7866 50.9274 14.8481 50.7412C14.9096 50.586 14.8173 50.2446 14.6944 50.0894C14.0796 49.5308 13.4955 48.9101 12.7885 48.4756C10.1449 46.8929 7.53204 45.3101 4.70399 44.0998C3.6281 43.6343 2.52147 43.3239 1.41484 42.9515C1.10745 42.8584 0.769309 42.8584 0.431173 42.8584C0.123776 42.8584 -0.152881 43.3549 0.00081747 43.6032C0.246735 43.9446 0.461913 44.3481 0.769309 44.5963Z" />
-                      <path d="M55.6683 15.2692C55.822 15.2692 56.0064 15.3002 56.1294 15.2071C56.6212 14.8657 56.8364 14.3071 57.0823 13.7795C58.4349 10.614 60.1563 7.66572 62.0007 4.77951C62.6462 3.78641 63.2303 2.79331 63.8451 1.8002C64.0602 1.45882 64.2447 1.05537 64.3676 0.68296C64.3984 0.558822 64.3369 0.372615 64.2447 0.217443C64.091 -0.0308331 63.8143 0.00020143 63.5991 0.0933049C63.384 0.186408 63.1688 0.341581 62.9536 0.465719C58.0967 3.91055 56.1601 8.93813 55.4531 14.6795C55.4839 14.7726 55.4839 14.9278 55.5453 15.114C55.5453 15.1761 55.6376 15.2692 55.6683 15.2692Z" />
-                      <path d="M24.5905 26.6586C23.3916 23.0896 22.1928 19.5207 20.9325 15.9827C20.3791 14.4 19.6721 12.8793 18.9959 11.3586C18.8729 11.0793 18.627 10.831 18.4425 10.6138C18.2274 10.7069 18.0122 10.7379 17.9507 10.831C17.7048 11.2034 17.797 11.6379 17.8278 12.0414C18.2888 17.9689 20.6251 23.1827 23.8835 28.0551C23.9757 28.1793 24.0986 28.3345 24.2216 28.3965C24.3446 28.4586 24.5597 28.5517 24.6827 28.4896C24.8057 28.4586 24.9286 28.2414 24.8979 28.1172C24.8364 27.6207 24.7442 27.1241 24.5905 26.6586Z" />
-                      <path d="M56.5302 83.9173C56.4072 83.8862 56.1613 83.9483 56.0998 84.0414C55.7924 84.7241 55.4851 85.4069 55.2699 86.1207C54.6243 88.1379 53.8251 90.0621 52.3189 91.5828C51.9192 91.9862 51.6119 92.5138 51.2737 93.0104C50.3208 94.4069 49.6753 95.9586 49.0912 97.5104C48.9682 97.8207 48.9682 98.1621 48.9375 98.5035C48.9375 98.6586 48.999 98.9379 49.0912 98.9379C49.3064 99 49.6445 99.0311 49.7675 98.9069C51.1815 97.2621 52.5033 95.5241 54.0095 93.9724C55.9461 91.8931 56.8376 89.4724 56.8683 86.6793C56.8683 86.3379 56.9298 85.9966 56.9606 85.469C56.9298 85.1897 56.9298 84.6931 56.8683 84.1966C56.8376 84.0724 56.6532 83.9173 56.5302 83.9173Z" />
-                      <path d="M80.4469 37.086C81.031 37.1481 81.615 37.1791 82.1683 37.055C83.8897 36.7136 85.6112 36.6205 87.3633 36.7136C89.8533 36.9308 92.3124 36.4033 94.7716 36.124C95.079 36.0929 95.4171 35.9377 95.6938 35.7826C95.8167 35.7205 96.0319 35.4722 96.0012 35.4412C95.8782 35.2239 95.7245 35.0067 95.5401 34.9136C95.3249 34.7895 95.079 34.7584 94.8331 34.7274C92.5276 34.4791 90.2221 34.2619 87.9166 34.0446C85.2423 33.7653 82.8753 34.7895 80.5391 35.8446C80.3854 35.9067 80.2625 36.0308 80.1702 36.155C80.078 36.2791 79.9551 36.4964 80.0165 36.5895C80.078 36.7757 80.2625 37.055 80.4469 37.086Z" />
-                      <path d="M78.4176 68.4311C78.2332 68.6173 78.1717 68.8656 78.3254 69.1139C78.4484 69.3311 78.5713 69.5484 78.7865 69.7035C80.7231 71.1001 82.0141 72.9932 83.2437 75.0104C84.3196 76.8104 85.7951 78.269 87.3936 79.6346C87.6088 79.8208 87.9469 80.069 88.2543 79.7587C88.3773 79.6035 88.4387 79.2311 88.3773 79.0759C87.0247 76.5001 85.7644 73.8621 84.0737 71.4725C82.8134 69.7346 80.8768 68.9277 78.9709 68.2139C78.6943 68.2759 78.5406 68.338 78.4176 68.4311Z" />
-                      <path d="M18.9031 80.3173C16.1058 81.0621 13.8311 82.6759 11.8023 84.7242C11.7408 84.7863 11.6793 84.8483 11.6793 84.9104C11.6486 84.9725 11.6486 85.0966 11.6793 85.1587C11.7715 85.2518 11.9252 85.4069 12.0174 85.4069C12.2634 85.3759 12.5093 85.2828 12.7245 85.1587C16.0443 83.1414 19.6409 82.0242 23.4526 81.5276C23.9444 81.4656 24.4363 81.3725 24.8974 80.7207C22.8071 79.7897 20.8397 79.7897 18.9031 80.3173Z" />
-                    </svg>
-                  </figure>
-
-                  <div className="card border p-4">
-                    <h6>Recent Project</h6>
-                    <img src="assets/images/about/07.jpg" className="card-img mb-3" alt="card image" />
-                    <h6>Design webflow multipurpose SaaS theme</h6>
-                    <ul className="nav nav-divider mb-2 mb-sm-3">
-                      <li className="nav-item">Tuesday, Jan 28</li>
-                      <li className="nav-item">11:30 PM</li>
-                    </ul>
-                    <div className="d-flex align-items-center mb-3">
-                      <div className="avatar avatar-sm">
-                        <img className="avatar-img rounded-circle" src="assets/images/avatar/02.jpg" alt="avatar" />
-                      </div>
-                      <div className="ms-2">
-                        <small className="mb-0 fw-bold">Emma Watson</small>
-                      </div>
-                    </div>
-                    <a href="#" className="btn btn-dark-soft mb-0">View case study</a>
-                  </div>
-
-                  <div className="bg-body rounded-4 shadow d-flex align-items-center position-absolute top-0 end-0 d-none d-sm-flex mt-n5 me-xl-n6 p-3">
-                    <div className="avatar">
-                      <img className="avatar-img rounded-circle" src="assets/images/avatar/05.jpg" alt="avatar" />
-                    </div>
-                    <div className="mx-3">
-                      <h6 className="mb-0">Followers Gain</h6>
-                      <small>Form the last 7 days</small>
-                    </div>
-                    <div className="badge bg-primary">24.7%</div>
-                  </div>
-
-                  <ul className="list-inline bg-body d-flex flex-column rounded shadow position-absolute top-0 start-0 d-none d-sm-flex p-2 mb-0 mt-3 ms-xl-n5">
-                    <li className="list-inline-item me-0"> <a className="btn btn-xs btn-icon bg-facebook" href="#"><i className="fab fa-fw fa-facebook-f lh-base"></i></a> </li>
-                    <li className="list-inline-item me-0"> <a className="btn btn-xs btn-icon bg-instagram" href="#"><i className="fab fa-fw fa-instagram lh-base"></i></a> </li>
-                    <li className="list-inline-item me-0"> <a className="btn btn-xs btn-icon bg-twitter" href="#"><i className="fab fa-fw fa-twitter lh-base"></i></a> </li>
-                    <li className="list-inline-item me-0"> <a className="btn btn-xs btn-icon bg-linkedin" href="#"><i className="fab fa-fw fa-linkedin-in lh-base"></i></a> </li>
-                    <li className="list-inline-item me-0"> <a className="btn btn-xs btn-icon bg-youtube" href="#"><i className="fab fa-fw fa-youtube lh-base"></i></a> </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="pricing" className="bg-dark position-relative price-wrap" data-bs-theme="dark">
-
-        <figure className="position-absolute top-0 start-0 ms-n9">
-          <svg className="opacity-2" width="424" height="405" viewBox="0 0 424 405" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <ellipse cx="212" cy="202.5" rx="212" ry="202.5" fill="url(#paint0_linear_153_3831)"></ellipse>
-            <defs>
-              <linearGradient id="paint0_linear_153_3831" x1="212" y1="0" x2="212" y2="405" gradientUnits="userSpaceOnUse">
-                <stop offset="0.0569271" stop-color="#D9D9D9" stop-opacity="0"></stop>
-                <stop offset="0.998202" stop-color="#D9D9D9" stop-opacity="0.5"></stop>
-              </linearGradient>
-            </defs>
-          </svg>
-        </figure>
-
-        <div className="container position-relative">
-          <div className="row g-4 g-lg-6">
-            <div className="col-xl-12 text-center">
-              <span className="text-primary fw-bold text-uppercase">Pricing</span>
-              <h2 className="mb-4 mt-3">Budget-friendly pricing solutions</h2>
-              <p className="mb-5">Choose the plan that fits your real estate business. Whether you're just starting out or scaling rapidly, Opsera Sales Platform grows with you.</p>
-              {/* <form className="d-flex align-items-center">
-                <span className="fw-semibold heading-color">Monthly</span>
-                <div className="form-check form-switch form-check-lg mx-2 mb-0">
-                  <input className="form-check-input mt-0 price-toggle" type="checkbox" id="flexSwitchCheckDefault" />
-                </div>
-                <div className="position-relative">
-                  <span className="fw-semibold heading-color">Yearly</span>
-                  <span className="badge bg-danger position-absolute top-0 start-100 translate-middle mt-n2 ms-2 ms-md-5">20% save</span>
-                </div>
-              </form> */}
-            </div>
-
-
-
-            <div className="col-md-6 col-xl-4">
-              <div className="card card-body p-4 p-sm-5">
-                <figure className="position-absolute top-0 start-0 translate-middle mt-n4 ms-n5 d-none d-md-block">
-                  <svg className="fill-mode" width="86" height="105" viewBox="0 0 86 105" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M50.9805 4.63769C51.6165 4.24345 56.4262 10.3524 61.7246 18.1163C67.0564 25.8003 72.7966 35.1061 75.9634 40.6314C82.2158 51.6489 85.8889 61.2748 84.5362 62.0301C83.1029 62.7522 77.2708 54.3462 71.0415 43.3853C67.8986 37.9165 62.7042 28.3199 58.293 20.1246C53.8819 11.9293 50.2874 5.05535 50.9805 4.63769Z"></path>
-                    <path d="M64.0889 66.7297C63.5001 67.2372 60.6142 65.1098 57.1179 62.637C53.6451 60.2207 49.5285 57.539 47.2336 56.0303C42.5967 52.8997 39.0022 49.8707 39.6599 48.4069C40.2841 47.0231 45.3294 47.9307 50.3923 51.2838C52.9286 52.892 56.9393 56.2802 59.8742 59.6469C62.809 63.0137 64.6779 66.2223 64.0889 66.7297Z"></path>
-                    <path d="M55.1316 86.0595C55.1297 86.856 48.7063 87.4433 40.9853 87.6368C33.2643 87.8295 24.2555 87.492 19.0669 87.0413C8.68981 86.139 0.434871 83.7683 0.656712 82.218C0.878555 80.6685 9.34356 80.5005 19.5833 81.393C24.7149 81.867 33.5706 82.7978 41.1895 83.6415C48.832 84.5408 55.1571 85.32 55.1316 86.0595Z"></path>
-                  </svg>
-                </figure>
-                <h5>Free Plan</h5>
-                <p className="small mb-0">Perfect for small teams or individual agents starting out.</p>
-                <hr className="my-4" />
-                <p className="heading-color fw-normal mb-2">Quick look at all the features</p>
-                <ul className="list-group list-group-borderless mb-2 mb-sm-4">
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Manage up to 10 properties</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Up to 3 team members</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Sales application tracking</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Basic lead management</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Access to affiliate tools</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Basic reports and analytics</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Email support</li>
-                </ul>
-
-                <span className="mb-4 heading-color"><span className="h2 plan-price" data-monthly-price="$299" data-annual-price="$250">$0</span> /month</span>
-                <a className="btn btn-primary icon-link icon-link-hover justify-content-center" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
-              </div>
-            </div>
-            <div className="col-md-6 col-xl-4">
-              <div className="card card-body p-4 p-sm-5">
-                <h5>Basic Plan</h5>
-                <p className="small mb-0">Best for growing real estate agencies and small firms.</p>
-                <hr className="my-4" />
-                <p className="heading-color fw-normal mb-2">Quick look at all the features</p>
-                <ul className="list-group list-group-borderless mb-2 mb-sm-4">
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Everything in Free Plan</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Unlimited properties</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Up to 20 team members</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Full sales application workflows</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Commission and affiliate tracking</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Access control for staff</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Advanced lead conversion tools</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Standard analytics dashboard</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Email support</li>
-                </ul>
-
-                <span className="mb-4 heading-color"><span className="h2 plan-price" data-monthly-price="$299" data-annual-price="$250">$299</span> /month</span>
-                <a className="btn btn-primary icon-link icon-link-hover justify-content-center" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
-              </div>
-            </div>
-            <div className="col-md-6 col-xl-4">
-              <div className="card card-body bg-light p-4 p-sm-5">
-
-
-                <h5>Enterprise Plan</h5>
-                <p className="small mb-0">For large agencies managing high-volume sales operations.</p>
-
-                <hr className="my-4" />
-                <p className="heading-color fw-normal mb-2">Quick look at all the features</p>
-                <ul className="list-group list-group-borderless mb-2 mb-sm-4">
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Everything in Basic Plan</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Unlimited team members</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Custom affiliate packages</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Enterprise-grade property manager</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>White-label branding</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Custom reports & KPIs</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Dedicated account manager</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>API access & integrations</li>
-                  <li className="list-group-item d-flex small mb-0"><i className="bi bi-patch-check-fill me-1" style={{ color: '#FFA600' }}></i>Priority support</li>
-                </ul>
-                <a className="btn btn-primary icon-link icon-link-hover justify-content-center" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="testimonials" className="pb-0">
+      <section>
         <div className="container">
           <div className="row">
-            <div className="col-lg-11">
-              <div className="row align-items-center">
-                <div className="col-lg-6 order-2 mt-5 mt-lg-0">
-                  <div className="slider-container align-items-center">
-                    <Slider {...sliderSettings2}>
-                      <div className="swiper-slide card bg-transparent p-0 pe-md-7">
-                        <img src="assets/images/team/03.jpg" className="rounded" alt="review-img" />
+            <div className="col-sm-10 col-lg-6 col-xl-5 position-relative ms-xl-auto">
+              <img src="assets/images/about/03.jpg" className="rounded" alt="testimonial-img" />
 
-                        <div className="col-10 col-xl-9 card-body bg-body shadow rounded position-absolute end-0 bottom-0 p-xl-5 mb-4 me-4">
+              <figure className="position-absolute top-50 start-0 translate-middle ms-n5 d-none d-xl-block">
+                <svg width="144" height="166" viewBox="0 0 144 166" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path className="fill-mode" d="M113.199 50.9244C112.596 46.339 111.938 41.4066 111.26 36.313C112.477 36.3608 113.16 36.4563 113.239 37.7452C113.369 39.8372 113.688 41.9264 113.989 44.0007C114.229 45.6329 114.566 47.2491 114.897 49.0506C117.03 47.6646 117.874 46.1495 117.754 43.8625C117.641 41.7025 118.148 39.5274 118.187 37.3447C118.221 35.5034 117.932 33.6609 117.853 31.811C117.829 31.3058 118.035 30.7983 118.146 30.2141C119.83 30.6233 119.847 31.8334 119.855 32.9165C119.897 35.9832 119.846 39.0464 119.837 42.1101C119.837 42.3492 119.859 42.5836 119.875 42.8375C122.111 41.9771 122.784 40.9163 122.955 38.5496C123.128 36.2147 123.525 33.8969 123.718 31.5671C123.824 30.3267 123.712 29.0814 123.71 27.8129C125.609 27.9977 125.795 28.2023 125.63 29.7908C125.378 32.1883 125.114 34.5929 124.879 37.0052C124.83 37.4706 124.935 37.945 124.983 38.5602C126.484 38.2771 127.287 37.8324 127.854 36.2239C128.914 33.2062 129.092 30.0932 129.676 27.0238C129.805 26.33 129.876 25.621 130.006 24.6052C130.829 24.9658 131.427 25.2262 131.756 25.364C131.26 28.4149 130.848 31.1862 130.345 33.9443C130.06 35.5121 130.568 36.5179 131.95 37.3262C134.454 38.8228 136.874 40.4429 139.316 42.0169C139.513 42.1411 139.64 42.3718 139.879 42.6526C139.608 43.091 139.335 43.5392 139.074 43.9802C138.723 43.8885 138.454 43.8806 138.277 43.7615C136.522 42.5855 134.718 41.4798 133.055 40.1926C130.88 38.5119 128.793 38.5274 126.425 40.2157C128.777 43.1693 132.676 43.9498 135.203 46.7932C134.962 47.1564 134.722 47.5196 134.379 48.0328C130.718 46.4208 127.533 44.1018 124.116 41.5972C122.968 42.721 121.793 43.8689 120.334 45.3063C123.046 46.8053 125.495 48.1525 127.944 49.4997C128.508 49.8134 129.18 50.0307 129.603 50.4843C129.954 50.8566 130.013 51.5061 130.36 52.4906C125.841 51.569 122.873 48.6621 118.973 47.2059C118.045 48.2834 117.073 49.4117 115.864 50.8104C118.379 51.9876 120.706 53.0846 123.041 54.1525C123.403 54.32 123.991 54.2241 124.184 54.4824C124.526 54.9254 124.654 55.5513 124.866 56.0952C124.383 56.2703 123.817 56.6835 123.432 56.562C122.211 56.1702 121.037 55.6033 119.87 55.0487C117.99 54.1518 116.123 53.2063 114.36 52.3401C101.683 64.3771 98.5715 79.9025 96.6302 95.9314C98.838 96.7685 100.8 97.4687 102.733 98.2442C105.629 99.3964 107.415 101.766 109.175 104.159C112.643 108.818 113.566 114.173 113.972 119.829C114.177 122.71 112.879 124.366 111.236 126.109C109.163 128.301 106.714 129.781 103.514 129.432C100.468 129.093 98.4789 127.419 97.3542 124.631C95.5645 120.203 95.1947 115.523 95.0572 110.83C94.951 107.372 95.1356 103.918 95.1638 100.464C95.1655 99.8203 95.0939 99.1779 95.0524 98.4603C93.7898 97.9119 92.5297 98.0709 91.25 98.2249C85.6593 98.8938 80.6937 101.275 75.9535 104.068C71.1493 106.907 66.5711 110.117 63.3385 114.833C62.6662 115.811 62.0884 116.865 61.467 117.888C63.1573 118.673 64.6318 119.526 66.2098 120.063C68.5452 120.85 70.6979 122.058 72.4806 123.605C73.9072 124.84 74.7815 126.794 75.68 128.536C76.2551 129.643 76.4419 130.96 76.7886 132.183C77.2903 134.009 76.8058 135.265 75.2357 136.33C70.9711 139.217 66.3749 137.516 63.3267 134.515C59.5648 130.819 57.9099 126.354 58.8783 121.056C58.9376 120.75 58.8995 120.418 58.9114 119.735C56.044 119.827 53.2131 119.7 50.4457 120.047C39.6355 121.399 29.0725 123.678 19.2226 128.607C15.317 130.558 11.2246 132.149 7.23048 133.921C6.44252 134.266 5.70244 134.707 4.77628 135.182C8.44174 136.14 11.7953 137.017 15.2073 137.909C15.1894 139.172 14.7731 139.729 13.5952 139.494C12.8832 139.349 12.1639 139.192 11.4442 139.077C8.9676 138.71 6.49146 138.301 4.00173 138.025C2.4322 137.853 0.871129 137.809 0.406275 135.723C2.35553 129.622 4.3726 123.342 6.45539 116.85C7.20773 117.119 7.83587 117.346 8.51997 117.597C6.46861 122.933 3.95908 127.911 3.54167 133.809C5.90092 132.753 8.06434 131.728 10.2659 130.797C16.6519 128.122 22.9218 125.094 29.4786 122.921C35.9446 120.777 42.5734 118.966 49.4688 118.565C51.1413 118.462 52.8063 118.149 54.486 118.058C56.0899 117.978 57.7044 118.058 59.7423 118.071C62.8516 111.556 68.2989 106.775 74.7006 103.044C80.9918 99.378 87.3981 95.9081 95.2331 96.3353C95.5427 94.036 95.8141 91.6437 96.1881 89.2573C97.7904 78.8668 100.196 68.7487 106.203 59.9151C108.283 56.8625 110.728 54.0824 113.199 50.9244ZM96.5665 98.087C96.4799 99.374 96.3642 100.414 96.3387 101.468C96.1764 107.745 95.9505 114.026 97.1035 120.252C97.2721 121.2 97.4403 122.19 97.8642 123.039C98.8148 124.94 99.834 126.817 102.03 127.662C106.876 129.521 112.689 124.576 112.545 120.547C112.401 116.675 112.304 112.824 110.609 109.19C107.868 103.339 103.835 99.1664 96.5665 98.087ZM60.8018 120.073C59.5762 123.526 60.0775 126.827 61.4557 129.921C62.583 132.46 64.8013 134.173 67.2834 135.436C69.8578 136.743 72.7973 136.534 74.5229 134.834C74.9303 134.431 75.3948 133.69 75.2872 133.225C74.4812 129.616 73.8495 125.938 70.0607 123.897C67.1494 122.325 64.3622 120.557 60.8018 120.073Z" fill="#202124" />
+                </svg>
+              </figure>
 
-                          {/* <h6>"Mizzle is essential tool for me and my team"</h6> */}
-                          <p>We used to manage land sales manually, and it was messy. Since switching to Opsera Sales, we've seen a 60% reduction in delays and a huge boost in agent transparency.</p>
-                          <ul className="list-inline mb-1">
-                            <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
-                            <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
-                            <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
-                            <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
-                            <li className="list-inline-item small me-0"><i className="fas fa-star-half-alt text-primary"></i></li>
-                          </ul>
-                          <span className="heading-color fw-bold">Jacqueline Miller</span>
-                          <p className="small mb-0">Head of marketing</p>
-                        </div>
-                      </div>
-
-                      <div className="swiper-slide card bg-transparent p-0 pe-md-7">
-                        <img src="assets/images/team/02.jpg" className="rounded" alt="review-img" />
-
-                        <div className="col-10 col-xl-9 card-body bg-body shadow rounded position-absolute end-0 bottom-0 p-xl-5 mb-4 me-4">
-                          <h6>"Transformed My Agency's Results"</h6>
-                          <p>I can't say enough about the impact this platform has had on my agency. The automation tools, project management features, and seamless collaboration have transformed the way we work. </p>
-                          <ul className="list-inline mb-1">
-                            <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
-                            <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
-                            <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
-                            <li className="list-inline-item small me-0"><i className="fas fa-star text-primary"></i></li>
-                            <li className="list-inline-item small me-0"><i className="fas fa-star-half-alt text-primary"></i></li>
-                          </ul>
-                          <span className="heading-color fw-bold">Allen Smith</span>
-                          <p className="small mb-0">Digital Marketing Agency Owner</p>
-                        </div>
-                      </div>
-                    </Slider>
+              <div className="col-11 col-sm-8 position-absolute top-0 start-0 mt-n2 mt-sm-7 ms-n2 ms-sm-n7">
+                <div className="bg-dark rounded d-flex align-items-center px-3 py-2">
+                  <div className="avatar avatar-sm flex-shrink-0 me-2">
+                    <img className="avatar-img rounded-circle" src="assets/images/avatar/09.jpg" alt="avatar" />
                   </div>
-                </div>
-
-                <div className="col-lg-6 ms-auto order-1 order-lg-2">
-                  <span className="text-primary fw-bold text-uppercase">Testimonials</span>
-                  {/* <h2 className="my-3">Don't take our word for it. See what our client says.</h2> */}
-                  <p className="mb-4">Hear what our satisfied clients have to say about their experiences with our platform. Discover how we've helped agencies like yours achieve remarkable results.</p>
-                  <div className="d-sm-flex gap-3">
-                    <a href="/#get-started" className="btn btn-lg btn-dark mb-2 mb-sm-0">Get Started</a>
-                    <a className="icon-link icon-link-hover heading-color text-primary-hover mb-0" href="/#features">Browse features<i className="bi bi-arrow-right"></i> </a>
-                  </div>
-
-                  <hr className="my-6" />
-
-                  <div className="row row-cols-2 row-cols-sm-3 g-4 g-md-5 align-items-center">
-                    <div className="col">
-                      <img src="assets/images/client/01.svg" className="grayscale px-2" alt="client-img" />
-                    </div>
-                    <div className="col">
-                      <img src="assets/images/client/02.svg" className="grayscale px-2" alt="client-img" />
-                    </div>
-                    <div className="col">
-                      <img src="assets/images/client/03.svg" className="grayscale px-2" alt="client-img" />
-                    </div>
-                    <div className="col">
-                      <img src="assets/images/client/04.svg" className="grayscale px-2" alt="client-img" />
-                    </div>
-                    <div className="col">
-                      <img src="assets/images/client/05.svg" className="grayscale px-2" alt="client-img" />
-                    </div>
-                    <div className="col">
-                      <img src="assets/images/client/07.svg" className="grayscale px-2" alt="client-img" />
-                    </div>
-                  </div>
+                  <p className="text-white small mb-0">The best Bootstrap theme we've ever used 🔥</p>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section id='faqs' className="bg-light mt-8 mb-8">
-        <div className="container">
-
-          <div className="row align-items-center">
-            <div className="col-lg-5 mb-5 mb-sm-0">
-              <h2 className="mb-4">Frequently Asked Questions</h2>
-              <p className="mb-4">Need a help with something? Here are our most frequently asked questions.</p>
-            </div>
-
-            <div className="col-lg-7 ps-xl-6">
-              <div className="accordion accordion-icon accordion-border" id="accordionFaq">
-                <div className="accordion-item mb-3">
-                  <div className="accordion-header font-base" id="heading-1">
-                    <button className="accordion-button fw-semibold rounded collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
-                      How many items are there on this list?
-                    </button>
-                  </div>
-                  <div id="collapse-1" className="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#accordionFaq">
-                    <div className="accordion-body mt-3 pb-0">
-                      Was out laughter raptures returned outweigh. Luckily cheered colonel I do we attack highest enabled. Tried law yet style child. The bore of true of no be deal. Drawings offended yet answered Jennings perceive laughing six did far. Rooms oh fully taken by worse do. Points afraid but may end law lasted.
-                    </div>
-                  </div>
+              <div className="bg-white rounded shadow d-flex align-items-center position-absolute bottom-0 start-0 mb-sm-5 ms-sm-n5 px-3 py-2">
+                <div className="avatar avatar-sm flex-shrink-0 me-2">
+                  <img className="avatar-img rounded-circle" src="assets/images/avatar/03.jpg" alt="avatar" />
                 </div>
-
-                <div className="accordion-item mb-3">
-                  <div className="accordion-header font-base" id="heading-2">
-                    <button className="accordion-button fw-semibold rounded collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
-                      Can you describe mizzle in just one sentence?
-                    </button>
-                  </div>
-                  <div id="collapse-2" className="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#accordionFaq">
-                    <div className="accordion-body mt-3">
-                      September how men saw tolerably two behavior arranging. She offices for highest and replied one venture pasture. Applauded no discovery in newspaper allowance am northward. Frequently partiality possession resolution at or appearance unaffected me. Engaged its was the evident pleased husband. Ye goodness felicity do disposal dwelling no. First am plate jokes to began to cause a scale. Subjects he prospect elegance followed no overcame possible it on. Improved own provided blessing may peculiar domestic. Sight house has sex never. No visited raising gravity outward subject my cottage Mr be.
-                    </div>
-                  </div>
-                </div>
-
-                <div className="accordion-item mb-3">
-                  <div className="accordion-header font-base" id="heading-3">
-                    <button className="accordion-button fw-semibold collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
-                      What services do agencies provide?
-                    </button>
-                  </div>
-                  <div id="collapse-3" className="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#accordionFaq">
-                    <div className="accordion-body mt-3">
-                      Agencies provide a wide range of services depending on their specialization. Some common services include advertising campaigns, digital marketing, branding, creative design, media planning and buying, public relations, talent management, event planning, and market research.
-                    </div>
-                  </div>
-                </div>
-
-                <div className="accordion-item mb-3">
-                  <div className="accordion-header font-base" id="heading-4">
-                    <button className="accordion-button fw-semibold collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
-                      How do I choose the right agency for my needs?
-                    </button>
-                  </div>
-                  <div id="collapse-4" className="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#accordionFaq">
-                    <div className="accordion-body mt-3">
-                      When selecting an agency, consider your specific requirements, budget, and the agency's expertise and track record in your industry. Research their portfolio, client testimonials, and case studies to gauge their capabilities. It's also important to meet with the agency to assess their communication style and ensure they align with your goals.
-                    </div>
-                  </div>
-                </div>
-
-                <div className="accordion-item mb-3">
-                  <div className="accordion-header font-base" id="heading-5">
-                    <button className="accordion-button fw-semibold collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
-                      What are the advantages of hiring an agency?
-                    </button>
-                  </div>
-                  <div id="collapse-5" className="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#accordionFaq">
-                    <div className="accordion-body mt-3">
-                      Hiring an agency offers several benefits, such as access to specialized skills and expertise, industry insights, creative thinking, established networks, and resources. Agencies can provide fresh perspectives, save time and effort, and help you achieve your objectives more effectively.
-                    </div>
-                  </div>
-                </div>
-
-                <div className="accordion-item mb-3">
-                  <div className="accordion-header font-base" id="heading-6">
-                    <button className="accordion-button fw-semibold collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
-                      How long does it take for an agency to deliver results?
-                    </button>
-                  </div>
-                  <div id="collapse-6" className="accordion-collapse collapse" aria-labelledby="heading-6" data-bs-parent="#accordionFaq">
-                    <div className="accordion-body mt-3">
-                      The timeframe for achieving results depends on the nature of the project and its complexity. Short-term campaigns may yield results within weeks, while long-term strategies may take several months or even years to show significant impact. Effective collaboration, clear goals, and realistic expectations can help expedite the process.
-                    </div>
-                  </div>
-                </div>
-
-                <div className="accordion-item mb-3">
-                  <div className="accordion-header font-base" id="heading-7">
-                    <button className="accordion-button fw-semibold collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7">
-                      How can I measure the success of agency campaigns or services?
-                    </button>
-                  </div>
-                  <div id="collapse-7" className="accordion-collapse collapse" aria-labelledby="heading-7" data-bs-parent="#accordionFaq">
-                    <div className="accordion-body mt-3">
-                      Success metrics depend on the goals and objectives of your project. Common metrics include increased sales or revenue, improved brand recognition, website traffic growth, social media engagement, lead generation, customer acquisition, or positive media coverage. Work with the agency to define key performance indicators (KPIs) and establish measurement mechanisms.
-                    </div>
-                  </div>
-                </div>
-
-                <div className="accordion-item mb-3">
-                  <div className="accordion-header font-base" id="heading-8">
-                    <button className="accordion-button fw-semibold collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8">
-                      Can I terminate my contract with an agency if I'm not satisfied?
-                    </button>
-                  </div>
-                  <div id="collapse-8" className="accordion-collapse collapse" aria-labelledby="heading-8" data-bs-parent="#accordionFaq">
-                    <div className="accordion-body mt-3">
-                      Yes, you can terminate your contract with an agency if you're not satisfied, although the specific terms of termination should be outlined in the contract. It's advisable to communicate any concerns or issues with the agency first to see if they can address them. If the relationship is not salvageable, you may need to follow the agreed-upon termination procedures.
-                    </div>
-                  </div>
-                </div>
+                <p className="text-dark small mb-0">Excellent Theme 💗</p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
 
-      <section id="get-started" className="pt-0">
-        <div className="container">
+            <div className="col-lg-6 mb-5 mb-lg-0">
+              <span className="heading-color bg-light small rounded-3 px-3 py-2">💖 Real results from real clients</span>
+              <h2 className="my-4">See how we've helped our clients succeed</h2>
 
-          <div className="inner-container-small mx-auto">
-            <div className="text-center mb-6">
-              <h2 className="mb-">We've been waiting for you</h2>
-              <p className="mb-0">You can watch your business bloom and glow, achieving new heights of success and radiating prosperity.</p>
-            </div>
-          </div>
+              <h6 className="mb-0">More than 1500+ agencies using Mizzle</h6>
 
-          <div className="row">
-            <div className="col-lg-8 mx-auto">
-              <form className="row g-4">
-                <div className="col-md-6">
-                  <label className="form-label heading-color">Your name *</label>
-                  <input type="text" className="form-control form-control-lg" placeholder="Full name" />
-                </div>
+              <div className="pb-5">
+                <Slider {...sliderSettings2}>
+                  <div className="swiper-slide">
+                    <div className="card bg-transparent h-100">
+                      <div className="card-body p-0">
+                        <ul className="list-inline mb-2">
+                          <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                          <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                          <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                          <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                          <li className="list-inline-item me-0"><i className="fas fa-star-half-alt text-warning"></i></li>
+                        </ul>
+                        <p className="heading-color fw-normal">Mizzle is the perfect theme for businesses that want to create a stylish and functional website.</p>
+                      </div>
 
-                <div className="col-md-6">
-                  <label className="form-label heading-color">Email address *</label>
-                  <input type="email" className="form-control form-control-lg" id="floatingInput" placeholder="name@example.com" />
-                </div>
+                      <div className="card-footer bg-transparent p-0">
+                        <div className="d-flex align-items-center">
+                          <div className="avatar avatar-sm flex-shrink-0 me-2">
+                            <img className="avatar-img rounded" src="assets/images/avatar/03.jpg" alt="avatar" />
+                          </div>
+                          <p className="mb-0">By Nix Maxwell</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-                <div className="col-md-6">
-                  <label className="form-label heading-color">Phone number *</label>
-                  <input type="text" className="form-control form-control-lg" placeholder="(xxx) xx xxxx" />
-                </div>
+                  <div className="swiper-slide">
+                    <div className="card bg-transparent h-100">
+                      <div className="card-body p-0">
+                        <ul className="list-inline mb-2">
+                          <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                          <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                          <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                          <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                          <li className="list-inline-item me-0"><i className="fas fa-star-half-alt text-warning"></i></li>
+                        </ul>
+                        <p className="heading-color fw-normal">The best Bootstrap theme we've ever used - it's easy to customize and comes with all the features we need.</p>
+                      </div>
 
-                <div className="col-md-6">
-                  <label className="form-label heading-color">Company *</label>
-                  <input type="text" className="form-control form-control-lg" placeholder="Company name" />
-                </div>
+                      <div className="card-footer bg-transparent p-0">
+                        <div className="d-flex align-items-center">
+                          <div className="avatar avatar-sm flex-shrink-0 me-2">
+                            <img className="avatar-img rounded" src="assets/images/avatar/01.jpg" alt="avatar" />
+                          </div>
+                          <p className="mb-0">By Dennis Barrett</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-                <div className="col-12">
-                  <label className="form-label heading-color">Message *</label>
-                  <textarea className="form-control" placeholder="Write your message here...." id="floatingTextarea2" style={{ height: "150px" }}></textarea>
-                </div>
-                <div className="col-12 d-grid">
-                  <button className="btn btn-lg btn-primary mb-0">Get Started</button>
-                </div>
-              </form>
+                  <div className="swiper-slide">
+                    <div className="card bg-transparent h-100">
+                      <div className="card-body p-0">
+                        <ul className="list-inline mb-2">
+                          <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                          <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                          <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                          <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                          <li className="list-inline-item me-0"><i className="fas fa-star-half-alt text-warning"></i></li>
+                        </ul>
+                        <p className="heading-color fw-normal">Webestica helped us create a stunning website that reflects our brand perfectly.</p>
+                      </div>
+
+                      <div className="card-footer bg-transparent p-0">
+                        <div className="d-flex align-items-center">
+                          <div className="avatar avatar-sm flex-shrink-0 me-2">
+                            <img className="avatar-img rounded" src="assets/images/avatar/02.jpg" alt="avatar" />
+                          </div>
+                          <p className="mb-0">By Nix Maxwell</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="swiper-slide">
+                    <div className="card bg-transparent h-100">
+                      <div className="card-body p-0">
+                        <ul className="list-inline mb-2">
+                          <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                          <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                          <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                          <li className="list-inline-item me-0"><i className="fas fa-star text-warning"></i></li>
+                          <li className="list-inline-item me-0"><i className="fas fa-star-half-alt text-warning"></i></li>
+                        </ul>
+                        <p className="heading-color fw-normal">I highly recommend Mizzle to anyone looking for a high-quality Bootstrap theme.</p>
+                      </div>
+
+                      <div className="card-footer bg-transparent p-0">
+                        <div className="d-flex align-items-center">
+                          <div className="avatar avatar-sm flex-shrink-0 me-2">
+                            <img className="avatar-img rounded" src="assets/images/avatar/05.jpg" alt="avatar" />
+                          </div>
+                          <p className="mb-0">By Carolyn Ortiz</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Slider>
+              </div>
+
+              <div className="swiper-pagination swiper-pagination-primary position-relative text-start"></div>
             </div>
           </div>
         </div>
