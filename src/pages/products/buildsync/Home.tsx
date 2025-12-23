@@ -6,11 +6,11 @@ import Header3 from "../../../components/Header3";
 
 function BuildSyncHome() {
   const sliderSettings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     responsive: [
       {
         breakpoint: 992,
@@ -198,7 +198,7 @@ function BuildSyncHome() {
               <h3 className="mb-5">Easy project management that helps you win</h3>
               <p className="mb-5">Our passion for customer excellence is just one reason why we are the market leader. We've always worked very hard to give our customers the best experience.</p>
 
-              <div className="swiper" data-swiper-options='{
+              {/* <div className="swiper" data-swiper-options='{
 					"slidesPerView": 2, 
 					"spaceBetween": 40,
 					"breakpoints": { 
@@ -206,42 +206,108 @@ function BuildSyncHome() {
 						"768": {"slidesPerView": 5},
 						"992": {"slidesPerView": 3},
 						"1200": {"slidesPerView": 4}
-					}}'>
+					}}'> */}
 
-                <div className="swiper-wrapper align-items-center">
+              <div className="align-items-center">
+                <Slider {...sliderSettings}>
+                  <div className="swiper-slide d-flex justify-content-center">
+                    <img src="assets/images/client/05.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
+                  </div>
+                  <div className="swiper-slide d-flex justify-content-center">
+                    <img src="assets/images/client/01.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
+                  </div>
+
                   <div className="swiper-slide">
-                    <img src="assets/images/client/05.svg" className="grayscale" alt="client-img" />
+                    <img src="assets/images/client/07.svg" className="grayscale items-center" style={{ width: '150px' }} alt="client-img" />
                   </div>
                   <div className="swiper-slide">
-                    <img src="assets/images/client/01.svg" className="grayscale" alt="client-img" />
+                    <img src="assets/images/client/02.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
                   </div>
                   <div className="swiper-slide">
-                    <img src="assets/images/client/07.svg" className="grayscale" alt="client-img" />
+                    <img src="assets/images/client/03.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
                   </div>
                   <div className="swiper-slide">
-                    <img src="assets/images/client/02.svg" className="grayscale" alt="client-img" />
+                    <img src="assets/images/client/04.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
                   </div>
                   <div className="swiper-slide">
-                    <img src="assets/images/client/03.svg" className="grayscale" alt="client-img" />
+                    <img src="assets/images/client/06.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
                   </div>
                   <div className="swiper-slide">
-                    <img src="assets/images/client/04.svg" className="grayscale" alt="client-img" />
+                    <img src="assets/images/client/07.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
                   </div>
-                  <div className="swiper-slide">
-                    <img src="assets/images/client/06.svg" className="grayscale" alt="client-img" />
-                  </div>
-                  <div className="swiper-slide">
-                    <img src="assets/images/client/07.svg" className="grayscale" alt="client-img" />
-                  </div>
-                </div>
+                </Slider>
               </div>
+              {/* </div> */}
 
             </div>
           </div>
         </div>
       </section>
 
-      <section id="features" className="bg-dark position-relative overflow-hidden" data-bs-theme="dark">
+      <section>
+        <div className="container">
+          <div className="row g-4 align-items-xl-center">
+
+            <div className="col-lg-7">
+              <div className="row pe-xl-5">
+                <div className="col-sm-6">
+                  <img src="assets/images/about/02.jpg" className="rounded" alt="about-img" />
+
+                  <figure className="text-end me-3 mt-n3">
+                    <svg className="fill-primary" width="106px" height="96px" viewBox="0 0 106 96">
+                      <path d="M104.7,50.4c0,0.1-0.1,0.4-0.3,0.7c0.1,0.1,0.2,0.1,0.4,0.2c0.1,0.3,0.5,0.6,0.3,1c-0.2,0.4,0.4,0.7-0.1,1 c0.1,0.7-0.4,1.3-0.8,1.8c-0.3,0.5-0.4,1.1-0.9,1.5c-0.4,0.4-0.6,0.9-1,1.4c-0.3,0-0.5,0-0.9,0c0.1,0.2,0.1,0.4,0.2,0.6 c-0.1,0.1-0.2,0.3-0.4,0.5c0.1,0.3,0.2,0.6,0.3,1c-0.2,0.2-0.3,0.4-0.5,0.6c0.1,0,0.3,0.1,0.5,0.2c-0.3,0.2-0.5,0.3-0.7,0.5 c0,0.1,0.1,0.1,0.2,0.2c-0.7,0.3-1.4-0.4-2.2-0.1c-0.5,0.4-0.9,1.1-1.6,1.4c-0.3,0.1,0,0.6-0.5,0.6c-0.2,0,0,0.6-0.5,0.4 c-0.2,0.5-0.6,0.7-1,1.1c-0.3,0.3-0.6,0.6-0.8,1c-0.2,0.3-0.4,0.6-0.6,0.9c-0.2,0.3-0.4,0.5-0.6,0.8c-0.1,0.2-0.1,0.6-0.3,0.8 c-0.2,0.1-0.4,0.3-0.5,0.6c-0.2-0.1-0.4-0.2-0.5-0.3c-0.5,0.2-0.9,0.4-1.4-0.1v-1.2c-0.9-0.5-1.8-0.9-2.2-2.1c0-0.4-0.1-0.9,0.2-1.3 c-0.5-1-0.1-1.9,0.4-2.8c0.6-1.1,1.4-1.9,2.3-2.8c-0.5-0.8-1.1-1.6-1.6-2.4c-0.3-0.6-0.7-1.2-0.7-1.8c0-0.7-0.2-1.4,0.2-2.1 c0.2-0.3,0-0.8,0.2-1.2c0.1-0.2,0.2-0.5,0.4-0.7c0.1-0.1,0.1-0.3,0.2-0.7c0.2-0.2,0.7-0.4,0.7-0.7c0.1-0.5,0.8-0.3,0.8-0.9 c0.2,0.1,0.2,0.2,0.3,0.3c0.3-0.1,0.6-0.2,0.9-0.3c0.1,0.2,0.2,0.4,0.3,0.6c-0.2,0.4-0.5,0.9-0.8,1.4c0.6-0.1,1-0.1,1.4-0.1 c0.2,0.2,0.2,0.2,0.3,0.3c-0.2,0.3-0.3,0.6-0.5,1c0.4,0,0.6,0.1,1,0.1c-0.1,0.4-0.2,0.8-0.3,1.2c-0.1,0.1-0.3,0.3-0.5,0.4 c0.1,0.1,0.1,0.2,0.2,0.2c0.1-0.1,0.3-0.2,0.5-0.3c0.1,0.2,0.1,0.3,0.1,0.4c-0.3,0.2-0.6,0.3-1,0.5c0.2,0.1,0.3,0.1,0.5,0.2 c-0.3,0.3-0.5,0.5-0.8,0.8c0.4,0.3,0.7,0.6,1.1,0.9c0.6,0.1,1-0.1,1.4-0.5c1-0.9,2.1-1.6,3.1-2.5c1-0.9,2.1-1.8,2.8-3 c0.2-0.3,0.5-0.5,0.7-0.7h1.2c0.1,0.1,0.2,0.2,0.3,0.4c-0.1,0.4-0.3,0.8-0.4,1.2c0.4-0.1,0.7-0.2,1-0.3 C104.4,50,104.5,50.1,104.7,50.4" />
+                      <path d="M33,74.2c-0.4,0.1-0.7,0.2-1.1,0.3c0.1-0.2,0.2-0.3,0.2-0.5c-0.3-0.4-0.6-0.7-1.1-0.7c0-0.2-0.1-0.3-0.1-0.4H30 c-0.1-0.1-0.2-0.1-0.2-0.2c-0.1-0.4-0.2-0.9-0.4-1.3c-0.3-0.4-0.2-0.9-0.2-1.3c0-0.3,0.1-0.7,0.2-1c0.3-1.2,0.8-2.4,1.4-3.5 c0.4-0.7,0.8-1.3,1.2-2c0.4-0.6,1-1.2,1.4-1.8c-0.1-0.1-0.3-0.2-0.4-0.3c-1.5-0.9-2.8-2-4-3.2c-0.6-0.6-0.6-1.4-0.7-2.1 c-0.1-0.3,0-0.6,0-0.9c0.3-0.6,0.9-0.6,1.5-0.9c0.2,0.4,0.4,0.7,0.6,1.1c0,0,0.1-0.1,0.2-0.2c0.1,0.1,0.2,0.2,0.3,0.3 c0.2,0.7,0.8,1,1.4,1.3c1.2,0.6,2.4,1.2,3.7,1.8c0.3-0.3,0.6-0.8,1-1c0.4-0.2,0.4-0.9,1-0.8c-0.1-0.1-0.2-0.2-0.2-0.3 c0.2-0.1,0.4-0.3,0.7-0.5c0.1-0.2,0.2-0.5,0.3-0.8c0.2,0,0.4,0,0.6,0c-0.1-0.1-0.2-0.2-0.3-0.3c0.5-0.1,0.5-0.6,0.8-0.8 c0.3-0.3,0.5-0.7,0.8-1.1c0.1,0,0.1,0.1,0.3,0.2c0.1-0.1,0.1-0.3,0.2-0.4c0.1,0.1,0.2,0.1,0.3,0.2c0.1-0.8,0.6-1.4,1.1-2 c0.5-0.6,0.9-1.3,1.7-1.7c0.1,0.1,0.2,0.2,0.4,0.3c-0.3,0.6-0.6,1.2-1.3,1.5v0.9c0.2,0,0.3,0,0.3-0.1c0.1-0.2,0.2-0.5,0.3-0.6 c0.5-0.4,1-0.8,1.5-1.3c0,0.4,0.1,0.7,0.1,1c-0.2,0.1-0.3,0.1-0.4,0.2c0,0,0.1,0.1,0.1,0.1c0.3-0.1,0.5-0.1,0.9-0.2 c0.1,0.2,0.2,0.4,0.3,0.6c-0.1,0.1-0.1,0.2-0.2,0.2c0,0.3,0.4,0.6,0.1,1c-0.1-0.1-0.2-0.2-0.2-0.2c0,0.1-0.1,0.1-0.1,0.2 c0,0.1,0.1,0.3,0.2,0.4c-0.1,0.6-0.5,1-0.9,1.3c-0.4,0.4-0.8,0.7-1.4,1.1c0.2,0.1,0.4,0.2,0.6,0.3c-0.1,0.2-0.2,0.4-0.3,0.6 c0,0.1,0.1,0.1,0.2,0.3c-0.2,0-0.5,0.1-0.7,0.1c0.1,0.2,0.1,0.4,0.2,0.6h-0.8c-0.1,0.3-0.3,0.5-0.4,0.8c0.1,0.1,0.2,0.2,0.3,0.3 c-0.2,0-0.4,0.1-0.7,0.1c0.1,0.2,0.1,0.4,0.2,0.6c-0.2,0-0.4,0.1-0.7,0.1c0.1,0.2,0.1,0.4,0.3,0.7c-0.3-0.1-0.5-0.2-0.8-0.3 c-0.1,0.2-0.2,0.5-0.4,0.7c0,0.1,0.1,0.2,0.1,0.2c0.1,0,0.2,0,0.3,0.1c0.3,0.2,0.4,0.6,0.8,0.8c0.4,0.2,0.5,0.6,0.8,0.9 c0.2,0.3,0.4,0.5,0.3,0.9c0,0.1,0.1,0.3,0.2,0.4c-0.1,0.1-0.1,0.2-0.3,0.4c-0.3,0-0.5,0.4-1.1,0.2c-1-0.4-2-0.7-3-0.8 c-0.1,0-0.1-0.1-0.2-0.2c-0.3,0.3-0.6,0.7-1,1.1c0,0,0,0.2,0,0.4c-0.2,0-0.4,0.1-0.7,0.1c0.2,0.3,0.4,0.5,0.6,0.9 c-0.3-0.1-0.4-0.1-0.7-0.2c0,0.1-0.1,0.2-0.2,0.3c0.1,0.4,0,0.6-0.4,0.8c-0.1,0.5-0.2,0.9-0.4,1.3c-0.2,0.1-0.3,0.1-0.4,0.2L36,69 c-0.3,0.3-0.7,0.5-1,0.8c-0.2,0.3-0.3,0.7-0.5,1.1c0,0,0.1,0.1,0.2,0.3c-0.2,0.3-0.5,0.5-0.7,0.8c0.1,0.1,0.2,0.2,0.3,0.3 c-0.2,0.2-0.3,0.4-0.5,0.6v0.7C33.4,73.7,33.2,74,33,74.2" />
+                      <path d="M60.7,78.7c0.5,0.6,0.5,0.6,1.2,0.3c0,0.2,0,0.4,0.1,0.5c0,0.1,0.1,0.2,0.2,0.3C62.1,79.9,62,80,62,80 c0.2,0.1,0.3,0.1,0.6,0.3c-0.3,0.4-0.5,0.7-0.7,1.1c0.3,0.6-0.3,0.7-0.4,1c-0.1,0.5-0.7,0.6-0.7,1.1c0,0.6-0.6,0.6-0.9,1 c-0.2,0.3-0.6,0.5-0.7,0.9c0.1,0.2,0.2,0.3,0.3,0.5c-0.3,0.2-0.6,0.4-0.9,0.5l-0.7,0.3c-0.2,0.3-0.4,0.5-0.7,0.8v0.2 c-0.7,0.5-1.4,1-2.2,1.6c0.2,0.1,0.4,0.2,0.6,0.3c-0.3,0.4-0.6,0.9-1,1.3c0.9,0.3,1.7,0.6,2.5,0.9c-0.1,0.2-0.2,0.3-0.2,0.5 c0.4,0.1,0.7,0.3,1.1,0.4v0.5c0.3,0.2,0.5,0.4,0.7,0.6c0,0.3,0,0.5,0,0.8l0.4,0.4l-1,0.9c-0.2,0.3-0.5,0.2-0.8,0 c-0.1-0.1-0.2-0.1-0.3-0.1c-1.2,0-2.2-0.4-3.3-0.8c-0.8-0.3-1.5-0.7-2.3-1c-0.2,0.2-0.6,0.4-0.6,0.8c-0.5,0.1-0.9,0.2-1.4,0.3 c-0.2-0.2-0.4-0.4-0.6-0.6c0.1-0.1,0.1-0.2,0.3-0.3c-0.1-0.2-0.2-0.5-0.3-0.6c-0.3,0.1-0.7,0.1-1,0.1c-0.2-0.3-0.3-0.6-0.5-0.9 c-0.1,0.1-0.1,0.1-0.1,0.1c-0.2-0.3-0.5-0.5-0.8-0.9c0.1-0.8-0.4-1.7-0.3-2.7c0-0.2-0.1-0.5-0.3-0.7c-0.7-0.6-0.7-1.5-1-2.3 c-0.1-0.3-0.2-0.7-0.3-1c0-0.6-0.1-1.1,0-1.7c0.2-0.9,0.3-1.8,1.3-2.1c0.3-0.1,0.7-0.1,1.1-0.2v1.8c0.4-0.2,0.6-0.4,1-0.7 c0.1,0.2,0.1,0.3,0.2,0.5c0.1,0,0.1-0.1,0.2-0.1v1c0.2-0.1,0.3-0.2,0.5-0.2c0.5,0.4,0.5,1,0.4,1.5c0.2,0.1,0.3,0.1,0.5,0.2 c-0.1,0.2-0.2,0.5-0.3,0.8c0.1,0,0.2,0,0.2,0c0.1-0.1,0.1-0.2,0.2-0.2c1-0.4,1.5-1.4,2.4-1.7c0.2-0.7,0.9-0.9,1.4-1.3 c0.4-0.5,1.1-0.8,1.6-1.2c0.5-0.4,0.8-1.1,1.5-1.3c0.4-0.8,1.1-1.4,1.9-1.9c0-0.6,0.7-0.6,0.7-1.2h1c0.1,0.1,0.2,0.2,0.3,0.3 c-0.5,0.2-0.7,0.7-1,1.2c0.7,0.1,1.1-0.7,1.7-0.3C61.1,78.5,61,78.6,60.7,78.7" />
+                      <path d="M58.1,66.7c-0.1-0.5,0.7-0.6,0.3-1.1c-0.1,0.1-0.2,0.2-0.2,0.2c0,0-0.1-0.1-0.1-0.1c-0.1-0.6-0.1-1.1,0.3-1.5 c0.4-0.5,0.9-1,1.3-1.5c0.1-0.2,0.2-0.4,0.3-0.6c-0.2-0.5-0.5-1.1-0.7-1.6c-0.3-0.6-0.3-1.2-0.5-1.8c-0.2-0.3,0.2-0.9,0.2-1.2 c-0.1-0.4-0.4-0.8,0-1.2c0-1.1,0.8-1.8,1.4-2.6h1.9c0.1,0.1,0.2,0.2,0.4,0.4c-0.3,0.4-0.6,0.7-0.9,1.1c0,0.1,0.1,0.3,0.2,0.5 c0.1,0,0.3,0.1,0.4,0c0.3-0.3,0.7-0.2,1-0.2c0.1,0.3,0.2,0.5,0.3,0.7c-0.2,0.2-0.3,0.4-0.6,0.8c0.4,0.1,0.7,0.1,1,0.1v1.1 c0.8,0,0.8-0.9,1.5-0.9c0.3-0.4,0.7-0.8,1.1-1.1c0.4-0.4,0.9-0.8,1.3-1.3c0.4-0.4,0.8-0.8,1.1-1.2c0.4-0.4,0.7-0.9,0.9-1.2 c0.5-0.2,0.7-0.3,1.1-0.4c0.1,0.2,0.3,0.3,0.3,0.5c0,0.1-0.1,0.3-0.2,0.5c-0.1,0.2-0.2,0.3-0.2,0.6c0.3-0.1,0.7-0.3,1-0.4 c0.2,0.4,0.4,0.8,0.7,1.4c0,0,0,0.2,0,0.4c0,0.2,0.1,0.3,0.2,0.5c0,0.1-0.1,0.2-0.2,0.4c0.1,0.1,0.2,0.2,0.3,0.3 c-0.7,1-1.2,2.1-2,3.1c-0.6,0.9-0.5,0.9-1,1.2c0.1,0.1,0.1,0.2,0.2,0.2c-0.9,1-1.8,2-2.7,3v0.4c0.7,0.5,1.4,0.9,2.1,1.3 c-0.1,0.2-0.2,0.3-0.3,0.5c0.3,0.2,0.5,0.7,1,0.5c0.1,0.2,0.2,0.4,0.3,0.6c-0.1,0.1-0.1,0.2-0.3,0.4c0.3,0.3,0.5,0.5,0.8,0.8 c-0.1,0.3-0.2,0.5-0.3,0.8c0.1,0.1,0.2,0.3,0.2,0.4c0,0.1-0.1,0.2-0.1,0.2c-0.1,0.1-0.3,0.1-0.4,0.2c-0.5,0.5-0.6,0.6-1.2,0.4 c-0.8-0.3-1.6-0.4-2.4-0.8c-1-0.5-1.8-1.2-2.8-1.9c-0.4,0.3-0.9,0.7-1.3,1.2c-0.4,0.5-1,0.8-1.8,1.1c0.1-0.2,0.2-0.3,0.3-0.5 c-0.5,0.1-0.9,0.2-1.3,0.3l-0.1-0.1c0.3-0.2,0.5-0.4,0.8-0.6l-0.4-0.4h-0.8c-0.1-0.3-0.2-0.5-0.4-0.9h-0.9 C58.3,67.2,58.2,66.9,58.1,66.7" />
+                      <path d="M63,44.6c-0.4,0.1-0.7,0.2-1.2,0.3c-0.5-0.4-1.1-0.8-1.7-1.2c-0.7-0.5-1.4-1.2-2.2-1.5 c-0.2-0.1-0.4-0.1-0.7-0.2c-0.3-0.5-0.4-1.4-1.3-1.3c-0.4-0.4-0.5-1.1-1.1-1.1c-0.2-0.4-0.3-0.8-0.6-1c-1.2-1.1-2.1-2.5-2.9-4.2 c-0.1-0.5-0.1-1.2-0.2-1.9c-0.2-1.1,0.4-2,1.3-2.6c0.3-0.2,0.4-0.5,0.8-0.5c0.3,0,0.6-0.1,1-0.2c0.1,0.1,0.3,0.2,0.5,0.4 c-0.3,0.5-0.9,0.9-1,1.6c0.7,0.2,1-0.6,1.7-0.6c0.1,0.1,0.2,0.2,0.4,0.3c-0.3,0.4-0.4,0.6-0.7,1.1c0.5-0.2,0.8-0.2,1-0.3 c0.3-0.4,0.8-0.6,1.2-1.1c0.3-0.4,0.7-0.8,1.2-1.1c0.7-0.4,1.2-1.1,1.8-1.6c0.9-0.7,1.8-1.6,2.8-2.2c0.4-0.2,0.7-0.7,1-1 c0.3-0.3,0.8-0.5,0.9-0.9h1.5v1c0,0-0.2,0.2-0.4,0.4c0.2,0,0.4-0.1,0.6-0.1c0.2,0,0.4-0.1,0.7-0.2c0,0.7,0,1.4,0.5,1.8 c-0.1,0.1-0.2,0.2-0.3,0.4c0.2,0.1,0.3,0.2,0.7,0.4c-0.4,0.1-0.5,0.1-0.6,0.2c0.1,0.1,0.1,0.3,0.2,0.4c0,0.1,0,0.3,0,0.4 c-0.4,0.6-0.8,1.1-1.3,1.8c-0.1,0-0.3,0-0.5,0.1c0.1,0.1,0.1,0.2,0.2,0.3c-0.1,0.2-0.1,0.3-0.2,0.5c-1,0-1,1-1.6,1.4 c0.1,0.2,0.2,0.3,0.2,0.3c-0.4,0.4-0.8,0.8-1.2,1.2c0,0,0,0,0,0c-0.2,0.2-0.4,0.4-0.6,0.6c-0.1,0-0.1-0.1-0.2-0.1V35 c-0.1-0.1-0.2-0.2-0.4-0.3c0,0.3,0.1,0.4,0.1,0.7c-0.3,0.4-0.6,0.8-1,1.3c-0.2-0.1-0.3-0.2-0.4-0.3c-0.4,0.5-0.8,1-1.2,1.5 c0.2,0.1,0.3,0.2,0.5,0.3c-0.2,0.3-0.4,0.5-0.5,0.7c0,0.1,0,0.2,0.1,0.2c0.7,0.8,1.5,1.5,2,2.3C62.6,42.3,63.4,43.3,63,44.6" />
+                      <path d="M78.7,28.3c0.1-0.1,0.1-0.1,0.2-0.2c0-0.1-0.1-0.1-0.1-0.2c-0.3-0.3-0.7-0.5-0.9-0.8c-0.2-0.3-0.5-0.5-0.7-0.7 c-0.3-0.3-0.7-0.8-0.7-1.2c0-0.7-0.1-1.4,0.1-2.2c0.3-1.3,1-2.3,1.9-3.2c1.1-1.1,2.3-2.3,3.5-3.5c-0.5-0.4-0.5-1.1-1.2-1.3 c-0.3-0.6-0.6-1.2-0.9-1.8c-0.3-0.5-0.2-1.1-0.2-1.7c0-0.4,0-0.8,0-1.2c0.4-0.5,0.8-1,1.1-1.4h1.9c-0.3,0.5-0.6,1-0.8,1.4 c0.7,0.5,1-0.6,1.6-0.3c0.4,0.5-0.3,0.8-0.6,1.3c0.4-0.1,0.7-0.2,1-0.2c0.2,0.5,0.1,1-0.2,1.5c0.2,0.1,0.3,0.1,0.5,0.2 c0.1,0.1-0.1,0.2-0.2,0.4c0.2,0.3,0.4,0.6,0.7,1c1.9-2,4.2-3.3,5.7-5.5h1.1c-0.1,0.4-0.2,0.7-0.3,1.1c0.3-0.1,0.6-0.2,0.9-0.3v0.9 c0.2,0,0.3,0.1,0.4,0.1c0,0.1,0.1,0.1,0.1,0.2c0,0.1,0,0.2,0,0.3c0.2,1.2-0.4,2.1-1,3c-0.7,1-1.4,1.8-2.2,2.8c0.6,0.7,1.4,1,2.2,1.6 c0,0.1,0,0.3,0.1,0.5c0.2,0.3,0.5,0.5,0.6,0.8c0.2,0.7,0.7,1.4,0.4,2.3c-0.1,0-0.3,0.1-0.5,0.2c-0.2,0.1-0.4,0.2-0.6,0.2 c-0.3-0.3-1-0.2-0.9-0.8c-0.7-0.2-1.3-0.4-1.9-0.5c-0.1-0.2-0.3-0.4-0.4-0.7h-1.2c0-0.1-0.1-0.2-0.1-0.4c-0.5-0.4-0.8,0.1-1.1,0.1 c-0.4,0.4-0.7,0.8-1,1.1c-0.1-0.1-0.2-0.1-0.3-0.2c-0.1,0.2-0.3,0.4-0.5,0.6c0,0,0,0,0.1,0.2c-0.5,0.1-0.6,0.7-0.8,1.1 c-0.2-0.1-0.3-0.2-0.5-0.3c0,0.2-0.1,0.4-0.1,0.6c-0.1,0-0.2,0-0.4,0.1c0,0.5-0.1,1-0.8,0.9c-0.2,0.3-0.6,0.6-0.6,0.8 c0.1,0.7-0.5,1-0.7,1.6c-0.1,0.7-0.1,0.7,0.1,1.1c-0.5,0.4-1,0.7-1.7,0.8C78.9,28.5,78.8,28.4,78.7,28.3" />
+                      <path d="M12.6,15.5c-0.3,0-0.5,0.1-0.7,0.1c0.1,0.1,0.2,0.2,0.3,0.4c-0.3,0.5-0.8,0.8-1.2,1.3l0.2,0.2 c-0.3,0.2-0.6,0.5-0.8,0.6c-0.1,0.4,0.2,0.8-0.3,1c0.4,0.3,0.8,0.5,1.2,0.8c1.2,0.8,2.5,1.5,3.4,2.6c0.6,0.6,1.1,1.2,1.1,2.1 c0,0.2,0.2,0.3,0.3,0.5c-0.3,0.2-0.7,0.4-1.1,0.7c-2.3-1.3-4.6-2.5-6.7-4.2c-0.2,0.1-0.5,0.2-0.5,0.3c-0.2,0.7-0.7,1.2-1.2,1.6 c-0.1,0.1,0,0.2-0.1,0.3c-0.2,0-0.4,0-0.7,0.1C6,24.1,6,24.2,6.1,24.5c-0.4,0.4-0.8,0.9-0.9,1.6c-0.1,0.4-0.5,0.7-0.8,1.2v2.5 c-0.2,0-0.4,0-0.6,0c0,0.1-0.1,0.3-0.1,0.4H2.8c-0.1-0.4-0.2-0.7-0.4-1.1c-0.2,0.1-0.4,0.2-0.7,0.3c-0.1-0.2-0.1-0.3-0.1-0.4 c-0.1,0-0.1-0.1-0.2-0.1c-0.5,0.1-0.8-0.3-0.9-0.6c-0.2-1-0.9-2.1-0.3-3.2c0-1.1,0.7-2,1.1-2.9c0.1-0.3,0.7-0.3,0.5-0.8 c-0.1-0.2,0.3-0.6,0.5-0.9c0.2-0.3,0.4-0.5,0.6-0.8c0.2-0.3,0.5-0.5,0.8-0.8c0.2-0.2,0.4-0.5,0.6-0.8c-1.4-1-2.2-2.5-3.2-3.9 c-0.3-1.3-0.8-2.6-0.6-4.2c0.3-0.4,0.7-0.8,1.2-1.3c0.5,0.1,1-0.2,1.5,0.3c-0.3,0.4-0.6,0.8-0.9,1.2c0.1,0.1,0.2,0.2,0.2,0.2 C3.1,10.6,3.4,9.7,4,9.9c0.1,0.2,0.2,0.4,0.3,0.6c-0.2,0.1-0.4,0.3-0.7,0.4C3.8,11,3.9,11.1,4,11.2c0.3-0.3,0.6-0.3,1,0.1 c0,0.3,0.2,0.6-0.2,0.9c0.2,0.1,0.3,0.1,0.5,0.3C5.1,12.7,5,13,4.8,13.2c0.2,0.1,0.3,0.1,0.6,0.2c-0.3,0.1-0.4,0.1-0.6,0.2 c0,0.2,0,0.4,0.1,0.6c0.4,0.6,0.9,1.1,1.4,1.8c0.3-0.3,0.5-0.4,0.7-0.6c1.2-1.2,2.3-2.5,3.8-3.4c0-0.4,0.4-0.4,0.6-0.6 c0.2-0.3,0.5-0.5,0.6-0.7h0.8c-0.3,0.5-0.9,0.8-0.7,1.5c0.5-0.3,1-0.6,1.6-0.9c-0.1,0.3-0.1,0.6-0.1,0.9c0.2,0.1,0.5,0.3,0.8,0.4 c-0.1,0.2-0.2,0.3-0.2,0.5c0.1,0,0.2,0,0.3,0.1c0,0,0.1,0.1,0,0.1c-0.3,0.4-0.6,0.7-0.8,1.1C13.4,14.8,12.9,15.1,12.6,15.5" />
+                      <path d="M33.3,27c0.9-1.1,1.7-2,2.4-3c0.7-0.9,1.3-1.8,1.9-2.8c-0.1-0.1-0.1-0.2-0.3-0.3c0.2-0.2,0.4-0.4,0.6-0.7h0.7 c0.3,0.3,0.5,0.7,0.8,0.8c0.4,0.1,0.4,0.4,0.6,0.7c0.5,0.8,0.9,1.6,0.5,2.7c-0.3,0.6-0.5,1.3-0.8,1.9c-0.1,0.2-0.1,0.4-0.2,0.7 l-0.6,0.6v0.7c-0.4,0.8-0.8,1.5-1.2,2.2c0.6,0.4,1.1,0.8,1.6,1.1c1.1,0.7,1.9,1.5,2.5,2.7c0.1,0.3,0.2,0.5,0.3,0.9 c0,0.1-0.1,0.3-0.2,0.5c-0.2,0.1-0.5,0.2-0.7,0.3c-0.5-0.2-1-0.3-1.4-0.5c-0.4-0.2-0.9-0.4-1.3-0.6c-0.1-0.7-0.8-0.4-1.1-0.8 c-0.3-0.4-0.8-0.5-1.3-0.8c-1.5,1.5-2.8,3.1-4,4.9c-0.1,0.1-0.1,0.3-0.1,0.5c-0.5,0.4-1,0.3-1.5,0v-0.4c-0.7-0.4-1.3-0.8-2-1.2 c-0.3-0.4-0.2-1-0.4-1.5c-0.2-0.5,0-1-0.1-1.4c0.7-1.7,1.6-3.1,2.9-4.4v-0.8c-0.7-0.5-1.2-1.3-1.6-2.1c-0.2-0.3-0.2-0.6-0.2-0.9 c-0.1-0.6-0.4-1.2-0.3-1.9c0-1.3,0.8-2.2,2-2.6c0.8-0.3,1.5-0.1,2.3-0.2c-0.4,0.9-1.5,0.8-2.1,1.6c1.1,0,1.7-1.1,2.8-0.9 c0,0.3-0.1,0.5-0.1,0.8c0.2,0.1,0.5,0.2,0.8,0.3v1.4c-0.3,0.5-0.6,1-0.9,1.5C33.2,26.3,33.3,26.6,33.3,27" />
+                      <path d="M52.3,13c-0.4,0.5-0.8,1-1.2,1.6V16c-0.4,0.2-0.8,0.3-1.2,0.5c-0.5-0.5-0.7-1.2-0.9-1.8 c-0.2,0.1-0.4,0.2-0.7,0.3c-0.2-0.3-0.5-0.6-0.7-1c-0.4-1-0.4-2.1-0.4-3.2c0.2-0.4,0.4-0.8,0.6-1.3c-0.3,0-0.6,0-0.7-0.1 c-0.7-0.7-1.5-1.5-2.1-2.3c-0.4-0.4-0.7-0.9-0.9-1.4c-0.2-0.8-0.2-1.6-0.3-2.4c0.3-0.5,0.6-1,1.1-1.4c0.4-0.4,1-0.5,1.6-0.8 c0.1,0.2,0.3,0.3,0.4,0.5c-0.1,0.1-1.2,1.1-1.2,1.1c0.1,0.1,0.2,0.2,0.3,0.3c0.5-0.4,1-0.8,1.8-0.5c-0.2,0.3-0.4,0.5-0.6,0.9 c0.4-0.1,0.6-0.2,0.9-0.3c0.1,0.2,0.3,0.4,0.5,0.7c-0.3,0.3-0.6,0.6-0.9,0.9c0.2,0,0.3,0.1,0.5,0.1c-0.3,0.4-0.1,1-0.8,1.2 C48,6.5,48.7,7,49.5,7.5c2.5-2.1,4.9-4.1,7.4-6.1H58c-0.2,0.4-0.3,0.7-0.5,1c0.3,0.2,0.6,0,0.9-0.2c0.8,0.8,1,1.8,0.9,2.8 c-0.3,0.4-0.7,0.9-1.1,1.4c0,0,0.1,0.1,0.2,0.2c-0.2,0-0.4,0.1-0.6,0.1c0.1,0.1,0.2,0.2,0.2,0.2h-0.4c-0.8,1.5-2.1,2.4-3,3.8 c1.3,0.7,2.8,1.3,4.2,2.1c0,0.2,0.1,0.4,0.1,0.7c0.2-0.2,0.3-0.3,0.4-0.4c0.6,0.1,0.5,0.7,1,1c0.4,0.2,0.7,0.8,1,1.2v1.3 c-0.1,0.1-0.2,0.2-0.4,0.4c-1.2-0.1-2.1-0.8-3.2-1.3c0,0-0.1,0.1-0.1,0.1c-0.7-0.2-1.2-1-2-0.9c-0.4-0.5-1.1-0.6-1.6-0.9 C53.5,13.7,53,13.3,52.3,13" />
+                      <path d="M85.2,31c0.2,0.1,0.4,0.2,0.7,0.4c-0.1,0.4-0.1,0.7-0.2,1.2c0.2,0.3,0.3,0.8,0.9,1c0.3-0.4,0.4-0.8,0.9-1 c0.3-0.1,0.6-0.6,0.8-1c0.3-0.4,0.7-0.6,0.9-1.1c0.2-0.4,0.6-0.6,0.9-1c0.3-0.4,0.5-0.8,0.7-1.2h1.3c0.1,0.4,0.2,0.7-0.2,1.1 c0.4,0,0.6,0,0.9,0c0.1,0.5,0.2,1,0.3,1.5c-0.2,0.1-0.3,0.1-0.5,0.2c0,0.1,0,0.2,0.1,0.3c0.3,0.8,0.3,1-0.3,1.6 c-0.3,0.3-0.4,0.6-0.3,0.9c0.2,0.4-0.3,0.2-0.1,0.6c-0.2-0.2-0.3-0.3-0.5-0.4v0.6c-0.2,0-0.4,0.1-0.7,0.1v0.6 c-0.3,0.3-0.5,0.5-0.7,0.7c0.4,0.4,0.8,0.7,1.1,1v0.9c0.2,0.2,0.5,0.5,0.8,0.8c-0.1,0.1-0.1,0.2-0.2,0.4c0.1,0.2,0.3,0.5,0.5,0.9 c-0.2,0.5-0.5,1-0.7,1.4h-0.9c-1.1-0.6-2.2-1.2-3.2-1.8c-0.2,0.3-0.3,0.5-0.5,0.7c-0.2-0.1-0.3-0.2-0.6-0.3v1.1 c-0.3-0.1-0.6-0.2-1-0.4c0.2,0.3,0.2,0.3,0.3,0.5c-0.2,0.2-0.4,0.4-0.8,0.7c-0.1-0.4-0.1-0.7-0.2-1c0.2-0.1,0.3-0.1,0.5-0.2 c0-0.1,0-0.2,0.1-0.3c-0.1,0-0.3-0.1-0.4-0.1c0-0.2,0.1-0.4,0.2-0.7c-0.2,0.2-0.3,0.3-0.3,0.3c-0.5-0.1-0.9-0.2-1.4-0.3 c-0.1-0.1-0.2-0.3-0.3-0.5c0.1-0.3,0.2-0.7,0.3-1.1c0.2,0,0.5,0.1,0.8,0.1c0,0,0-0.1,0-0.1c-0.3-0.1-0.6-0.3-0.8-0.4 c0.2-0.3,0.3-0.6,0.5-0.9c-0.7-1.3-1.6-2.5-2-3.8c-0.3-0.9,0.1-1.9,0.2-2.8c0.1-0.7,0.7-1.2,1.4-1.6c0.1-0.1,0.2-0.1,0.3-0.2h1.1 c0.2,0.2,0.3,0.3,0.4,0.4c-0.2,0.2-0.4,0.4-0.6,0.6v0.7c0.2-0.1,0.5-0.1,0.8-0.2c0.1,0.1,0.3,0.3,0.5,0.4 C85.6,30.6,85.4,30.8,85.2,31" />
+                      <path d="M17.3,42.6c0.1,0.1,0.2,0.2,0.4,0.4c-0.7,0.6-1.4,1.2-2.1,1.8c0,0,0,0.1,0,0.1c0.1,0,0.3,0,0.4-0.1 c0.2-0.2,0.4-0.4,0.6-0.4c0.5-0.3,1-0.5,1.4-0.8c0.4,0.3,0.1,0.6-0.1,1c0.3-0.1,0.4-0.2,0.6-0.2c0.1,0.1,0.2,0.2,0.3,0.3 c0,0.5,0,0.9,0,1.4c-0.1,0.1-0.3,0.3-0.4,0.4c0,0.1,0,0.1,0.1,0.2c0.3,0.2,0.5,0.4,0.8,0.6c0.3,0.2,0.7,0.2,0.7,0.7 c0,0.1,0.1,0.1,0.2,0.2c0.2,0.2,0.5,0.3,0.7,0.5c0.2,0.2,0.3,0.5,0.5,0.8c0,0.2,0,0.5,0,0.8c-0.2,0.2-0.4,0.4-0.5,0.5 c-1.4-0.5-2.8-1-4.2-1.5c-0.3,0.2-0.6,0.3-1,0.5c0,0,0,0,0-0.1c-0.3,0.3-0.6,0.6-1,1c0,0.1,0,0.3,0,0.5c-0.6,0.6-1.2,1.2-1.7,1.7 c-0.3,0.8-0.1,1.6-1.2,1.7c-0.2-0.3-1-0.4-0.8-1.2c-0.2-0.1-0.5-0.1-0.8-0.2c-0.1,0-0.2,0.1-0.3,0.2c-0.3-0.3-0.5-0.6-0.9-1 c-0.1-0.7-0.2-1.6-0.3-2.6c0.9-1,1.9-2,2.8-3.1c-0.4-0.2-0.8-0.4-1.1-0.7c-0.4-0.3-0.6-0.6-1-1c0.1-0.3,0.2-0.6,0.3-0.9 c-0.2-0.1-0.3-0.1-0.5-0.2v-0.8c0.1-0.1,0.1-0.1,0.2-0.2c0.3-0.1,0.7-0.1,1.1-0.2c1.1,0.6,2.3,1.3,3.5,2C15.4,44,16.1,43,17.3,42.6" />
+                    </svg>
+                  </figure>
+                </div>
+
+                <div className="col-sm-6">
+                  <div className="row mb-4">
+                    <div className="col-sm-6 mb-4 mb-sm-0">
+                      <div className="bg-dark text-white rounded text-center p-3">
+                        <span className="h2 text-white">10+</span>
+                        <p className="mb-0">Years of experience</p>
+                      </div>
+                    </div>
+                    <div className="col-sm-6">
+                      <div className="bg-primary rounded text-center p-3">
+                        <span className="h2 text-white">1.2K</span>
+                        <p className="mb-0 text-white">Happy customers</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <img src="assets/images/about/01.jpg" className="rounded" alt="about-img-2" />
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-5">
+              <span className="heading-color bg-light small rounded-3 px-3 py-2">🤝 Your gateway to digital success</span>
+              <h2 className="my-4">Defining the future of online experiences!</h2>
+              <p className="mb-4">Embrace a new era of digital success with Mizzle. Our team combines cutting-edge design with robust development to deliver websites that captivate and convert.</p>
+              <ul className="list-group list-group-borderless mb-4">
+                <li className="list-group-item heading-color d-flex mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Emphasis on ROI-driven solutions</li>
+                <li className="list-group-item heading-color d-flex mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Expert team with diverse skill</li>
+                <li className="list-group-item heading-color d-flex mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Proven track record of delivering results</li>
+              </ul>
+              <a href="about-v1.html" className="btn btn-dark mb-0">Discover more</a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="features" className="bg-dark position-relative overflow-hidden" style={{ backgroundColor: '#100F0F' }} data-bs-theme="dark">
 
         <figure className="position-absolute top-0 start-0 mt-n6 ms-n8">
           <svg className="opacity-3" width="371" height="354" viewBox="0 0 371 354" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -445,196 +511,184 @@ function BuildSyncHome() {
         </div>
       </section>
 
-      <section className="pb-0">
-        <div className="container">
-          <div className="row align-items-center mb-4 mb-md-6">
-            <div className="col-md-6 mb-3 mb-md-0">
-              <h2 className="mb-0">Trusted by Real Estate Businesses of All Sizes</h2>
-              <p className="mb-0">Whether you’re selling plots of land or luxury buildings, Opsera Sales gives you the tools to simplify property sales, manage agents, and scale your business.</p>
+      <section className="bg-dark position-relative overflow-hidden" data-bs-theme="dark">
+
+        <div className="container position-relative">
+          <div className="inner-container-small text-center">
+            <span className="bg-light heading-color small rounded-3 px-3 py-2">🚀 Innovative solutions, Measurable results</span>
+            <h2 className="mb-0 mt-4">A Unified PropTech Platform for the Entire Property Lifecycle</h2>
+            <p>Opsera is home to six powerful SaaS platforms, each solving a mission-critical need—yet designed to work together seamlessly.</p>
+          </div>
+
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-5 gy-md-7 mt-3">
+            <div className="col">
+              <div className="card bg-light h-100">
+                <div className="card-body pb-0">
+                  <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
+                    <i className="bi bi-stack fa-fw fs-5"></i>
+                  </div>
+                  <h5 className="mb-3"><a href="#" className="text-white">Hotel Management Software (HMS)</a></h5>
+                  <p>Smart hospitality management for hotels of all sizes.</p>
+                  <p>Automate bookings, optimize operations, increase occupancy, and deliver memorable guest experiences.</p>
+                </div>
+                <div className="card-footer bg-light mt-auto pt-2">
+                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card bg-light h-100">
+                <div className="card-body pb-0">
+                  <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
+                    <i className="bi bi-boxes fa-fw fs-5"></i>
+                  </div>
+                  <h5 className="mb-3"><a href="#" className="text-white">Property Management Software (PMS)</a></h5>
+                  <p>A modern system for managing rentals, maintenance, tenants, facilities, and property finance—built for landlords, facility managers, and property companies.</p>
+                </div>
+                <div className="card-footer bg-light mt-auto pt-2">
+                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card bg-light h-100">
+                <div className="card-body pb-0">
+                  <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
+                    <i className="bi bi-circle-square fa-fw fs-5"></i>
+                  </div>
+                  <h5 className="mb-3"><a href="#" className="text-white">Estate Management Software (EMS)</a></h5>
+                  <p>Digitize and automate estate governance.</p>
+                  <p>Payments. Security. Maintenance. Communication. All in one place.</p>
+                </div>
+                <div className="card-footer bg-light mt-auto pt-2">
+                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card bg-light h-100">
+                <div className="card-body pb-0">
+                  <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
+                    <i className="bi bi-vector-pen fa-fw fs-5"></i>
+                  </div>
+                  <h5 className="mb-3"><a href="#" className="text-white">Construction Management Software (CMS)</a></h5>
+                  <p>The future of construction project management.</p>
+                  <p>Plan, track, collaborate, and deliver projects with precision, transparency, and cost control.</p>
+                </div>
+                <div className="card-footer bg-light mt-auto pt-2">
+                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card bg-light h-100">
+                <div className="card-body pb-0">
+                  <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
+                    <i className="bi bi-briefcase fa-fw fs-5"></i>
+                  </div>
+                  <h5 className="mb-3"><a href="#" className="text-white">Real Estate Investment Software (REIS)</a></h5>
+                  <p>A platform that empowers investors with data-driven insights, risk analysis, portfolio tracking, and smart investment tools for wealth creation.</p>
+                </div>
+                <div className="card-footer bg-light mt-auto pt-2">
+                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card bg-light h-100">
+                <div className="card-body pb-0">
+                  <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
+                    <i className="bi bi-binoculars fa-fw fs-5"></i>
+                  </div>
+                  <h5 className="mb-3"><a href="#" className="text-white">Sales Management Software (SMS)</a></h5>
+                  <p>A sales engine built for real-estate developers and agencies.</p>
+                  <p>Lead management, automation, customer engagement, and revenue tracking in one streamlined workflow.</p>
+                </div>
+                <div className="card-footer bg-light mt-auto pt-2">
+                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className="slider-container">
-            <Slider {...sliderSettings}>
-
-              <div className="swiper-slide">
-                <div className="card bg-primary p-5 mt-lg-7">
-                  <div className="card-header bg-transparent d-flex justify-content-between p-0 pb-6">
-                    <h5 className="me-4 mb-0"><a href="#" className="stretched-link text-white">For Agencies</a></h5>
-                    <a href="#" className="btn btn-round btn-light border flex-shrink-0"><i className="bi bi-arrow-up-right"></i></a>
-                  </div>
-
-                  <div className="card-body p-0">
-
-                    <figure className="mb-5 text-white">
-                      <svg width="79" height="90" viewBox="0 0 79 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M78.3117 35.252L62.0851 26.4733C61.7532 26.2904 61.3476 26.2904 61.0341 26.4733L56.7562 28.7777V9.88519C56.7562 9.48283 56.5349 9.11705 56.1846 8.91587L39.958 0.137167C39.6261 -0.0457224 39.2204 -0.0457224 38.9069 0.137167L22.6803 8.91587C22.33 9.11705 22.1087 9.48283 22.1087 9.88519V28.7777L17.8492 26.4733C17.5173 26.2904 17.1117 26.2904 16.7982 26.4733L0.571618 35.252C0.221271 35.4532 0 35.8189 0 36.2213V68.4099C0 68.8122 0.221271 69.178 0.571618 69.3792L16.7982 78.1579C17.1301 78.3408 17.5358 78.3408 17.8492 78.1579L22.1087 75.8535V80.1148C22.1087 80.5172 22.33 80.883 22.6803 81.0841L38.9069 89.8628C39.2388 90.0457 39.6445 90.0457 39.958 89.8628L56.1846 81.0841C56.5349 80.883 56.7562 80.5172 56.7562 80.1148V75.8535L61.0157 78.1579C61.3476 78.3408 61.7532 78.3408 62.0667 78.1579L78.2933 69.3792C78.6436 69.178 78.8649 68.8122 78.8649 68.4099V36.2213C78.8833 35.8189 78.6621 35.4532 78.3117 35.252ZM61.5504 28.6862L75.4721 36.2213L61.5504 43.7564L47.6287 36.2213L61.5504 28.6862ZM39.4232 65.7031L25.5016 58.1681L39.4232 50.633L53.3449 58.1681L39.4232 65.7031ZM34.629 36.2213C34.629 35.8189 34.4077 35.4532 34.0574 35.252L24.303 29.9848V11.7324L38.3169 19.3223V48.7492L34.629 50.7427V36.2213ZM54.5435 29.9848L44.7891 35.252C44.4387 35.4532 44.2175 35.8189 44.2175 36.2213V50.7244L40.5296 48.7309V19.3223L54.5435 11.7324V29.9848ZM56.1846 57.1987L46.4302 51.9315V38.0685L60.444 45.6584V75.3414L56.7562 73.3479V58.1681C56.7562 57.7657 56.5349 57.3999 56.1846 57.1987ZM39.4232 2.35013L53.3449 9.88519L39.4232 17.4202L25.5016 9.88519L39.4232 2.35013ZM17.2961 28.6862L31.2177 36.2213L17.2961 43.7564L3.37439 36.2213L17.2961 28.6862ZM2.17584 38.0685L16.1897 45.6584V75.3414L2.17584 67.7515V38.0685ZM18.4024 75.3414V45.6584L32.4163 38.0685V51.9315L22.6619 57.1987C22.3116 57.3999 22.0903 57.7657 22.0903 58.1681V73.3479L18.4024 75.3414ZM24.303 73.988V60.0152L38.3169 67.6052V87.0463L24.303 79.4564V73.988ZM54.5435 79.4564L40.5296 87.0463V67.6052L54.5435 60.0152V73.988V79.4564ZM62.6568 75.3414V45.6584L76.6706 38.0685V67.7515L62.6568 75.3414Z" fill="currentColor" />
-                      </svg>
-
-                    </figure>
-
-                    {/* <span className="text-white">What included:</span> */}
-                    <p className="fw-semibold mb-0 mt-2 text-white">Manage listings, applications, and commissions with full transparency.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="swiper-slide">
-                <div className="card bg-dark p-5 mt-lg-4" data-bs-theme="dark">
-                  <div className="card-header bg-transparent d-flex justify-content-between p-0 pb-6">
-                    <h5 className="me-4 mb-0"><a href="#" className="stretched-link text-white">For Agents & Affiliates</a></h5>
-                    <a href="#" className="btn btn-round btn-light border flex-shrink-0"><i className="bi bi-arrow-up-right"></i></a>
-                  </div>
-
-                  <div className="card-body p-0">
-
-                    <figure className="heading-color mb-5">
-                      <svg width="74" height="90" viewBox="0 0 74 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M36.582 90C36.3791 90 36.1898 89.942 36.0297 89.8412L0.501132 68.337C0.190185 68.1489 0 67.8116 0 67.448C0 67.448 0 58.0947 0 58.0855C0.00332564 57.722 0.203487 57.3791 0.516721 57.1961L5.98635 53.8859L0.500925 50.5657C0.190186 50.3776 0 50.0402 0 49.6767C0 49.6767 0 40.3233 0 40.3142C0.00332564 39.9511 0.203695 39.6073 0.516721 39.4248L5.98614 36.1143L0.501132 32.7945C0.190185 32.6062 0 32.2691 0 31.9053C0 31.9053 0 22.552 0 22.5428C0.00332564 22.1703 0.216582 21.828 0.516928 21.6534L36.0439 0.150277C36.3748 -0.0500924 36.7892 -0.0500924 37.1201 0.150277C37.1201 0.150277 72.5965 21.6229 72.6473 21.6534C72.9651 21.8459 73.1609 22.1797 73.164 22.552V31.9053C73.164 32.2691 72.974 32.6062 72.6628 32.7943L67.1778 36.1143C67.1778 36.1143 72.6429 39.4225 72.647 39.425C72.9538 39.6106 73.1606 39.9482 73.1638 40.3235V49.6769C73.1638 50.0404 72.9738 50.3778 72.6626 50.5659L67.1774 53.8859C67.1774 53.8859 72.6441 57.1947 72.6466 57.1961C72.9534 57.3818 73.1606 57.7164 73.1638 58.0949V67.4482C73.1638 67.8118 72.9738 68.1491 72.6626 68.3372L37.1343 89.8412C36.9742 89.942 36.7851 90 36.582 90ZM37.6212 80.1931V87.1169L71.0854 66.8623V59.9385L37.6212 80.1931ZM2.07852 66.8623L35.5427 87.1169V80.1931L2.07852 59.9385V66.8623ZM3.04649 58.0947L36.582 78.3925L70.1177 58.0947L65.1706 55.1006L37.1343 72.07C36.9742 72.1706 36.7851 72.2286 36.582 72.2286C36.3791 72.2286 36.1898 72.1706 36.0297 72.0698L7.99358 55.1006L3.04649 58.0947ZM37.6212 62.4218V69.3455L71.0854 49.0909V42.1672L37.6212 62.4218ZM2.07852 49.0909L35.5427 69.3455V62.4218L2.07852 42.1672V49.0909ZM3.04628 40.3233L36.582 60.6211L70.1177 40.3233L65.1708 37.329L37.1343 54.2985C36.974 54.3991 36.7848 54.4573 36.582 54.4573C36.3791 54.4573 36.1898 54.3993 36.0297 54.2985L7.99296 37.329L3.04628 40.3233ZM37.6212 44.6504V51.5742L71.0854 31.3196V24.3958L37.6212 44.6504ZM2.07852 31.3196L35.5427 51.5742V44.6504L2.07852 24.3958V31.3196ZM3.04628 22.552L36.582 42.8498L70.1177 22.552L36.582 2.25416L3.04628 22.552Z" fill="currentColor" />
-                      </svg>
-                    </figure>
-
-                    {/* <span>What included:</span> */}
-                    <p className="fw-semibold heading-color mb-0 mt-2">Track sales, commissions, and client engagement in real-time.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="swiper-slide">
-                <div className="card bg-light border p-5">
-                  <div className="card-header bg-transparent d-flex justify-content-between p-0 pb-6">
-                    <h5 className="me-4 mb-0"><a href="#" className="stretched-link">For Buyers</a></h5>
-                    <a href="#" className="btn btn-round btn-white border flex-shrink-0"><i className="bi bi-arrow-up-right"></i></a>
-                  </div>
-
-                  <div className="card-body p-0">
-                    <figure className="heading-color mb-5">
-                      <svg width="82" height="91" viewBox="0 0 82 91" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0.894531 65.0129C0.894523 65.2227 0.948005 65.4291 1.04993 65.6126C1.15185 65.796 1.29885 65.9505 1.47705 66.0613L40.453 90.313C40.6524 90.4373 41.4679 90.6552 41.8211 90.3106L80.4581 66.0589C80.6352 65.9478 80.7811 65.7935 80.8823 65.6105C80.9835 65.4276 81.0366 65.2219 81.0366 65.0129C81.0366 65.0129 81.0334 25.8976 81.0331 25.8856C81.0413 25.6708 80.9918 25.4577 80.8899 25.2684C80.7879 25.0791 80.6372 24.9205 80.4533 24.8091L41.6173 0.682433C41.4217 0.560647 41.196 0.496094 40.9656 0.496094C40.7352 0.496094 40.5095 0.560647 40.3139 0.682433L1.47787 24.8092C1.29278 24.9193 1.14107 25.0776 1.03895 25.2672C0.936835 25.4568 0.88814 25.6705 0.898072 25.8857C0.897742 25.8976 0.894531 65.0129 0.894531 65.0129ZM59.1999 58.2046L41.0757 69.4641L22.9514 58.2046L41.0757 46.9451L59.1999 58.2046ZM39.9145 44.7586L21.8461 55.9836V38.1889L39.9145 26.8151V44.7586ZM60.3054 38.1922V55.9836L42.4156 44.8697V27.0275L60.3054 38.1922ZM3.36457 28.0789L19.2641 37.9566V58.0645C19.2588 58.3076 19.321 58.5473 19.4438 58.7572C19.5665 58.967 19.745 59.1387 19.9594 59.2533L39.8705 71.6231V87.0413L3.36457 64.3268V28.0789ZM42.3995 87.0313V71.5791L62.1919 59.2536C62.402 59.1535 62.573 58.9868 62.6785 58.7794C62.784 58.5721 62.818 58.3357 62.7753 58.107V37.8891L78.5664 28.0789V64.3297L42.3995 87.0313ZM77.4612 25.858L61.303 35.8962L42.2878 24.0194C41.964 23.8172 41.5903 23.709 41.2085 23.7069C40.8267 23.7048 40.4518 23.809 40.1258 24.0078L20.6277 35.8961L4.46955 25.8579L40.9656 3.18545L77.4612 25.858Z" fill="currentColor" />
-                      </svg>
-                    </figure>
-
-                    {/* <span>What included:</span> */}
-                    <p className="fw-semibold heading-color mb-0 mt-2">Seamless application and allocation experience.</p>
-                  </div>
-                </div>
-              </div>
-            </Slider>
-          </div>
+        </div>
+        <div className="container mt-7 text-left">
+          <h6 className="mb-2 mt-4">Together, they form the Opsera Ecosystem—</h6>
+          <p>Opsera is home to six powerful SaaS platforms, each solving a mission-critical need—yet designed to work together seamlessly.</p>
         </div>
       </section>
 
-      <section id="benefits" className="pb-0">
-        <div className="container">
-          <div className="inner-container text-center mb-4 mb-sm-6">
-            <h2 className="mb-0">Why Real Estate Businesses Choose Opsera</h2>
-          </div>
+      <section className="position-relative price-wrap">
 
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
-            <div className="col">
-              <div className="card card-hover-shadow border h-100 p-4">
-                <div className="card-body p-0">
-                  <figure className="text-primary mb-4">
-                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M2.25 12C2.25 17.3848 6.61522 21.75 12 21.75C16.567 21.75 20.4006 18.6099 21.4597 14.371C21.6257 13.7068 21.7086 13.3746 21.5327 13.0378C21.4825 12.9418 21.3914 12.8252 21.3104 12.7532C21.0263 12.5009 20.6322 12.5009 19.844 12.5009H13.3C12.5501 12.5009 12.1751 12.5009 11.9122 12.3099C11.8273 12.2482 11.7527 12.1736 11.691 12.0887C11.5 11.8258 11.5 11.4508 11.5 10.7009V4.15582C11.5 3.36765 11.5 2.97356 11.2477 2.68947C11.1758 2.60848 11.0591 2.51736 10.9631 2.4672C10.6263 2.29125 10.2942 2.37418 9.63002 2.54005C5.39056 3.59874 2.25 7.43262 2.25 12Z" fill="currentColor" fill-opacity="0.25" />
-                      <path d="M12.8 9.4V4.25994C12.8 3.42978 12.8 3.0147 13.0698 2.72637C13.1465 2.64435 13.2702 2.55404 13.3717 2.50592C13.7284 2.33679 14.0733 2.44702 14.7632 2.6675C17.8775 3.66283 20.3372 6.12259 21.3326 9.23688C21.553 9.92672 21.6633 10.2716 21.4941 10.6284C21.446 10.7299 21.3557 10.8536 21.2737 10.9303C20.9853 11.2 20.5703 11.2 19.7401 11.2H14.6C13.8501 11.2 13.4751 11.2 13.2123 11.009C13.1274 10.9473 13.0527 10.8727 12.991 10.7878C12.8 10.5249 12.8 10.1499 12.8 9.4Z" fill="currentColor" />
-                    </svg>
-                  </figure>
+        <figure className="position-absolute top-0 start-0 ms-n9">
+          <svg className="opacity-2" width="424" height="405" viewBox="0 0 424 405" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="212" cy="202.5" rx="212" ry="202.5" fill="url(#paint0_linear_153_3831)"></ellipse>
+            <defs>
+              <linearGradient id="paint0_linear_153_3831" x1="212" y1="0" x2="212" y2="405" gradientUnits="userSpaceOnUse">
+                <stop offset="0.0569271" stop-color="#D9D9D9" stop-opacity="0"></stop>
+                <stop offset="0.998202" stop-color="#D9D9D9" stop-opacity="0.5"></stop>
+              </linearGradient>
+            </defs>
+          </svg>
+        </figure>
 
-                  <h5 className="mb-3"><a href="#">Tailored for Real Estate Workflows</a></h5>
-                  <p>Unlike generic CRM or sales platforms, Opsera is purpose-built for real estate companies. From land and housing sales to affiliate and commission management, every feature is designed around how real estate teams actually operate.
-                    No need to bend a general tool to fit your workflow—Opsera speaks your language.</p>
+        <div className="container position-relative">
+          <div className="row g-4 g-lg-6">
+            <div className="col-xl-4">
+              <span className="text-primary fw-bold text-uppercase">Pricing</span>
+              <h2 className="mb-4 mt-3">Budget-friendly pricing solutions</h2>
+              <p className="mb-5 text-black">Our pricing model is designed with your agency in mind. Discover our transparent rates and flexible options tailored to fit your unique needs.</p>
+              <form className="d-flex align-items-center">
+                <span className="fw-semibold heading-color">Monthly</span>
+                <div className="form-check form-switch form-check-lg mx-2 mb-0">
+                  <input className="form-check-input mt-0 price-toggle" type="checkbox" id="flexSwitchCheckDefault" />
                 </div>
+                <div className="position-relative">
+                  <span className="fw-semibold heading-color">Yearly</span>
+                  <span className="badge bg-danger position-absolute top-0 start-100 translate-middle mt-n2 ms-2 ms-md-5">20% save</span>
+                </div>
+              </form>
+            </div>
+
+            <div className="col-md-6 col-xl-4">
+              <div className="card card-body p-4 p-sm-5" style={{ backgroundColor: '#F97316' }}>
+                <figure className="position-absolute top-0 start-0 translate-middle mt-n4 ms-n5 d-none d-md-block">
+                  <svg className="fill-mode" width="86" height="105" viewBox="0 0 86 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50.9805 4.63769C51.6165 4.24345 56.4262 10.3524 61.7246 18.1163C67.0564 25.8003 72.7966 35.1061 75.9634 40.6314C82.2158 51.6489 85.8889 61.2748 84.5362 62.0301C83.1029 62.7522 77.2708 54.3462 71.0415 43.3853C67.8986 37.9165 62.7042 28.3199 58.293 20.1246C53.8819 11.9293 50.2874 5.05535 50.9805 4.63769Z"></path>
+                    <path d="M64.0889 66.7297C63.5001 67.2372 60.6142 65.1098 57.1179 62.637C53.6451 60.2207 49.5285 57.539 47.2336 56.0303C42.5967 52.8997 39.0022 49.8707 39.6599 48.4069C40.2841 47.0231 45.3294 47.9307 50.3923 51.2838C52.9286 52.892 56.9393 56.2802 59.8742 59.6469C62.809 63.0137 64.6779 66.2223 64.0889 66.7297Z"></path>
+                    <path d="M55.1316 86.0595C55.1297 86.856 48.7063 87.4433 40.9853 87.6368C33.2643 87.8295 24.2555 87.492 19.0669 87.0413C8.68981 86.139 0.434871 83.7683 0.656712 82.218C0.878555 80.6685 9.34356 80.5005 19.5833 81.393C24.7149 81.867 33.5706 82.7978 41.1895 83.6415C48.832 84.5408 55.1571 85.32 55.1316 86.0595Z"></path>
+                  </svg>
+                </figure>
+
+                <h5>Customization</h5>
+                <p className="small mb-6 text-white">Our essential plan is self-service solution for businesses to handle website messaging and personalization</p>
+
+                <span className="mb-4 text-white"> <span className="h2 text-white" data-monthly-price="$25" data-annual-price="$20">$25</span> /month</span>
+                <a className="btn icon-link icon-link-hover justify-content-center" style={{ backgroundColor: 'black', color: 'white' }} href="#">Get started<i className="bi bi-arrow-right"></i> </a>
               </div>
             </div>
 
-            <div className="col">
-              <div className="card card-hover-shadow border h-100 p-4">
-                <div className="card-body p-0">
-                  <figure className="text-primary mb-4">
-                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M3 5.75H5M10.5 5.75H21M3 18.25H5M10.5 18.25H21M21 12H19M13.5 12H3" stroke="currentColor" stroke-opacity="0.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                      <path d="M4.25 5.75C4.25 3.817 5.817 2.25 7.75 2.25V2.25C9.683 2.25 11.25 3.817 11.25 5.75V5.75C11.25 7.683 9.683 9.25 7.75 9.25V9.25C5.817 9.25 4.25 7.683 4.25 5.75V5.75Z" fill="currentColor" />
-                      <path d="M4.25 18.25C4.25 16.317 5.817 14.75 7.75 14.75V14.75C9.683 14.75 11.25 16.317 11.25 18.25V18.25C11.25 20.183 9.683 21.75 7.75 21.75V21.75C5.817 21.75 4.25 20.183 4.25 18.25V18.25Z" fill="currentColor" />
-                      <path d="M12.75 12C12.75 10.067 14.317 8.5 16.25 8.5V8.5C18.183 8.5 19.75 10.067 19.75 12V12C19.75 13.933 18.183 15.5 16.25 15.5V15.5C14.317 15.5 12.75 13.933 12.75 12V12Z" fill="currentColor" />
-                    </svg>
-                  </figure>
+            <div className="col-md-6 col-xl-4">
+              <div className="card card-body p-4 p-sm-5" style={{ backgroundColor: 'black' }}>
+                <h5 className="text-white">Boss mode</h5>
+                <p className="small mb-0 text-white">In no impression, assistance contrasted Manners she wishing justice.</p>
+                <hr className="my-4 text-white" />
+                <p className="fw-normal mb-2 text-white">Quick look at all the features</p>
+                <ul className="list-group list-group-borderless mb-2 mb-sm-4">
+                  <li className="list-group-item d-flex small mb-0 text-white"><i className="bi bi-patch-check-fill text-secondary me-1"></i>Unlimited monthly visitors</li>
+                  <li className="list-group-item d-flex small mb-0 text-white"><i className="bi bi-patch-check-fill text-secondary me-1"></i>Dedicated SEO strategists</li>
+                  <li className="list-group-item d-flex small mb-0 text-white"><i className="bi bi-patch-check-fill text-secondary me-1"></i>Google Docs style editors</li>
+                  <li className="list-group-item d-flex small mb-0 text-white"><i className="bi bi-patch-check-fill text-secondary me-1"></i>Basic chat and email support</li>
+                  <li className="list-group-item d-flex small mb-0 text-white"><i className="bi bi-patch-check-fill text-secondary me-1"></i>AI powered product recommendation engine</li>
+                </ul>
 
-                  <h5 className="mb-3"><a href="#">End-to-End Sales Automation</a></h5>
-                  <p>From capturing leads to allocating properties and paying commissions, Opsera automates repetitive tasks so your team can focus on closing more deals.
-                    Sales pipelines move faster. Errors are reduced. Revenue grows.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="card card-hover-shadow border h-100 p-4">
-                <div className="card-body p-0">
-                  <figure className="text-primary mb-4">
-                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M20.2402 6.75391C21.2543 9.81065 21.2543 11.8485 20.2402 14.9052" stroke="currentColor" stroke-opacity="0.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                      <path d="M2.25047 12.9739C2.25055 14.0922 3.15715 14.9988 4.27547 14.9988V14.9988L4.25651 19.4911C4.25125 20.7361 5.25945 21.7481 6.50452 21.7474V21.7474C7.74497 21.7468 8.75021 20.741 8.75021 19.5006V15.1105H10V6.55981H6.46978C5.09959 6.55981 4.41449 6.55981 3.87962 6.79848C3.26038 7.07479 2.76505 7.57015 2.48879 8.18941C2.25016 8.72431 2.25021 9.4094 2.25031 10.7796L2.25047 12.9739Z" fill="currentColor" />
-                      <path d="M11.0002 15.8122C13.9211 18.3111 15.3815 19.5606 16.6274 19.37C17.1377 19.2919 17.6157 19.0718 18.0068 18.7348C18.9616 17.912 18.9616 15.99 18.9616 12.146V9.4287C18.9616 5.58267 18.9616 3.65966 18.0199 2.83775C17.6138 2.48322 17.1124 2.2559 16.5781 2.18405C15.3393 2.01748 13.893 3.28476 11.0002 5.81933V5.81933V15.8122V15.8122Z" fill="currentColor" fill-opacity="0.25" />
-                    </svg>
-                  </figure>
-
-                  <h5 className="mb-3"><a href="#">Smart Affiliate & Agent Management</a></h5>
-                  <p>Whether you work with in-house sales reps, freelance marketers, or referral partners, Opsera helps you manage them all transparently.
-                    Agents can view their applications, earnings, and commissions—reducing back-and-forth and disputes. </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="card card-hover-shadow border h-100 p-4">
-                <div className="card-body p-0">
-                  <figure className="text-primary mb-4">
-                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M17.523 8.92914C17.523 9.94279 16.6746 10.7645 15.6281 10.7645C14.5816 10.7645 13.7333 9.94279 13.7333 8.92914C13.7333 7.91548 14.5816 7.09375 15.6281 7.09375C16.6746 7.09375 17.523 7.91548 17.523 8.92914Z" fill="currentColor" />
-                      <path d="M10.485 8.92914C10.485 9.94279 9.63664 10.7645 8.59015 10.7645C7.54366 10.7645 6.69531 9.94279 6.69531 8.92914C6.69531 7.91548 7.54366 7.09375 8.59015 7.09375C9.63664 7.09375 10.485 7.91548 10.485 8.92914Z" fill="currentColor" />
-                      <path d="M11.0264 15.2219C11.0264 16.2355 10.178 17.0573 9.13154 17.0573C8.08504 17.0573 7.2367 16.2355 7.2367 15.2219C7.2367 14.2082 8.08504 13.3865 9.13154 13.3865C10.178 13.3865 11.0264 14.2082 11.0264 15.2219Z" fill="currentColor" />
-                      <path d="M21.748 9.45998C21.4753 4.55256 14.4854 1.4706 9.28231 2.41642C4.07925 3.36223 1.56208 8.48915 2.41245 13.4547C3.23924 18.2826 8.68956 21.7459 12.1134 21.7459C15 21.7459 17.25 20.6058 17.25 18.9959C17.25 18.9959 17.2846 18.5254 16.98 17.9961C16.7157 17.5369 16.4642 17.3392 16.07 16.9961C15.8584 16.8119 15.5273 16.5296 15.15 15.9959C14.9079 15.6534 14.8139 15.4137 14.8 15.3435C14.7846 14.9174 15.0127 14.407 15.5 14.2561C15.6439 14.2115 15.8105 14.2221 16 14.2459C18 14.3961 22 13.9961 21.748 9.45998Z" fill="currentColor" fill-opacity="0.25" />
-                    </svg>
-                  </figure>
-
-                  <h5 className="mb-3"><a href="#">Built for Teams of Any Size</a></h5>
-                  <p>From a one-person agency to large firms with dozens of agents, Opsera scales with you. You control who gets access to what with staff roles and permission settings.
-                    No extra cost or complexity as your business grows.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="card card-hover-shadow border h-100 p-4">
-                <div className="card-body p-0">
-                  <figure className="text-primary mb-4">
-                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M8 18V15M12 13V18M16 18V11M6.5 11.5L7.9646 9.7913C8.91547 8.68195 10.3837 8.16067 11.8212 8.42204V8.42204C13.812 8.78401 15.8538 8.14622 17.2846 6.71542L17.5 6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                      <path d="M13.2 2.25H10.8C7.23775 2.25 5.45663 2.25 4.20802 3.15717C3.80477 3.45015 3.45015 3.80477 3.15717 4.20802C2.25 5.45663 2.25 7.23775 2.25 10.8V13.2C2.25 16.7622 2.25 18.5434 3.15717 19.792C3.45015 20.1952 3.80477 20.5499 4.20802 20.8428C5.45663 21.75 7.23775 21.75 10.8 21.75H13.2C16.7622 21.75 18.5434 21.75 19.792 20.8428C20.1952 20.5499 20.5499 20.1952 20.8428 19.792C21.75 18.5434 21.75 16.7622 21.75 13.2V10.8C21.75 7.23775 21.75 5.45663 20.8428 4.20802C20.5499 3.80477 20.1952 3.45015 19.792 3.15717C18.5434 2.25 16.7622 2.25 13.2 2.25Z" fill="currentColor" fill-opacity="0.25" />
-                    </svg>
-                  </figure>
-
-                  <h5 className="mb-3"><a href="#">Data You Can Act On</a></h5>
-                  <p>With real-time reporting, sales analytics, and performance dashboards, you’re never in the dark.
-                    Understand what’s working, who’s performing, and where you’re losing opportunities.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="card card-hover-shadow border h-100 p-4">
-                <div className="card-body p-0">
-                  <figure className="text-primary mb-4">
-                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M12 21.75C17.3848 21.75 21.75 17.3848 21.75 12C21.75 6.61522 17.3848 2.25 12 2.25C6.61522 2.25 2.25 6.61522 2.25 12C2.25 17.3848 6.61522 21.75 12 21.75Z" fill="currentColor" fill-opacity="0.25" />
-                      <path d="M14.5 10V10C14.5 8.89543 13.6046 8 12.5 8H12M12 8H11.5C10.3954 8 9.5 8.89543 9.5 10V10C9.5 11.1046 10.3954 12 11.5 12H12M12 8V6.5M12 8V12M12 12H12.5C13.6046 12 14.5 12.8954 14.5 14V14C14.5 15.1046 13.6046 16 12.5 16H12M12 12V16M12 16H11.5C10.3954 16 9.5 15.1046 9.5 14V14M12 16V17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                  </figure>
-
-                  <h5 className="mb-3"><a href="#">Secure, Cloud-Based, and Always Accessible</a></h5>
-                  <p>Your data is safely stored in the cloud and accessible anywhere—on-site, in the office, or on mobile.
-                    Stay connected to your sales operation no matter where you are.</p>
-                </div>
+                <span className="mb-4 text-white"><span className="h2 text-white" data-monthly-price="$299" data-annual-price="$250">$299</span> /month</span>
+                <a className="btn btn-secondary icon-link icon-link-hover justify-content-center" href="#">Get started<i className="bi bi-arrow-right"></i> </a>
               </div>
             </div>
           </div>

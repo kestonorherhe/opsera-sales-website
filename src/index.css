@@ -129,7 +129,8 @@
 }
 
 .secondary-nav {
-  background: #071437; /* blue or your brand color */
+  /* background: #071437; blue or your brand color */
+  background: #100F0F;
 }
 
 .secondary-nav .nav-link {
