@@ -62,6 +62,11 @@ function Header() {
                         <p className="text-wrap" style={{ fontWeight: 'normal' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                       </a>
                     </li>
+                    <li className="dropdown-item p-2">
+                      <a className="fw-bold text-black" href="/hotel" style={{ fontSize: '12px' }}>Opsera Hotel
+                        <p className="text-wrap" style={{ fontWeight: 'normal' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                      </a>
+                    </li>
                   </ul>
                   {/* <hr />
                   <div className="d-flex justify-content-between align-items-center px-2">

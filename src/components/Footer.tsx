@@ -2,7 +2,7 @@ function Footer() {
   const currentYear = new Date().getFullYear();
   return (
     <>
-      <section className="position-relative z-index-2 py-0 mb-n7">
+      {/* <section className="position-relative z-index-2 py-0 mb-n7">
         <div className="container position-relative">
           <div className="bg-primary rounded position-relative overflow-hidden p-4 p-sm-5">
 
@@ -37,15 +37,25 @@ function Footer() {
             </div>
           </div>
         </div>
-      </section>
-      <footer className="bg-dark position-relative overflow-hidden pt-6" data-bs-theme="dark">
-
+      </section> */}
+      <footer
+        className="bg-dark position-relative overflow-hidden pt-6"
+        data-bs-theme="dark"
+      >
         <div className="container position-relative mt-5">
           <div className="row g-4">
             <div className="col-xl-3 text-lg-center text-xl-start mb-4 mb-xl-0">
               <a href="index.html">
-                <img className="light-mode-item h-60px" src="assets/images/logos/opsera-footer-light-4.svg" alt="logo" />
-                <img className="dark-mode-item h-60px" src="assets/images/logos/opsera-footer-light-4.svg" alt="logo" />
+                <img
+                  className="light-mode-item h-60px"
+                  src="assets/images/logos/opsera-footer-light-4.svg"
+                  alt="logo"
+                />
+                <img
+                  className="dark-mode-item h-60px"
+                  src="assets/images/logos/opsera-footer-light-4.svg"
+                  alt="logo"
+                />
               </a>
             </div>
 
@@ -54,21 +64,66 @@ function Footer() {
               <div className="row g-0">
                 <div className="col-lg-6">
                   <ul className="nav flex-column">
-                    <li className="nav-item"><a className="nav-link pt-0" href="about-v1.html">About us</a></li>
-                    <li className="nav-item"><a className="nav-link" href="contact-v1.html">Contact us</a></li>
-                    <li className="nav-item"><a className="nav-link" href="services-v1.html">Services</a></li>
-                    <li className="nav-item"><a className="nav-link" href="career.html">Career <span className="badge text-bg-danger ms-2">2 Job</span></a></li>
-                    <li className="nav-item"><a className="nav-link" href="career-single.html">Career detail</a></li>
-                    <li className="nav-item"><a className="nav-link" href="portfolio-showcase.html">Case studies</a></li>
-                    <li className="nav-item"><a className="nav-link" href="portfolio-showcase.html">Team</a></li>
+                    <li className="nav-item">
+                      <a className="nav-link pt-0" href="about-v1.html">
+                        About us
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="contact-v1.html">
+                        Contact us
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="services-v1.html">
+                        Services
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="career.html">
+                        Career{" "}
+                        <span className="badge text-bg-danger ms-2">2 Job</span>
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="career-single.html">
+                        Career detail
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="portfolio-showcase.html">
+                        Case studies
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="portfolio-showcase.html">
+                        Team
+                      </a>
+                    </li>
                   </ul>
                 </div>
                 <div className="col-lg-6">
                   <ul className="nav flex-column">
-                    <li className="nav-item"><a className="nav-link" href="contact-v1.html">Become a partner</a></li>
-                    <li className="nav-item"><a className="nav-link" href="customer-stories.html">Customer stories</a></li>
-                    <li className="nav-item"><a className="nav-link" href="sign-in.html">Sign in</a></li>
-                    <li className="nav-item"><a className="nav-link" href="sign-up.html">Sign up</a></li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="contact-v1.html">
+                        Become a partner
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="customer-stories.html">
+                        Customer stories
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="sign-in.html">
+                        Sign in
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="sign-up.html">
+                        Sign up
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -77,12 +132,37 @@ function Footer() {
             <div className="col-6 col-md-4 col-lg-3 col-xl-2">
               <h6 className="mb-2 mb-md-4">Resources</h6>
               <ul className="nav flex-column">
-                <li className="nav-item"><a className="nav-link" href="#">Privacy Policy</a></li>
-                <li className="nav-item"><a className="nav-link pt-0" href="#">Legal</a></li>
-                <li className="nav-item"><a className="nav-link" href="#">Supports <i className="bi bi-box-arrow-up-right small ms-1"></i></a></li>
-                <li className="nav-item"><a className="nav-link" href="faq.html">Faqs</a></li>
-                <li className="nav-item"><a className="nav-link" href="blog-grid.html">News and blogs</a></li>
-                <li className="nav-item"><a className="nav-link" href="#">Terms &amp; condition</a></li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link pt-0" href="#">
+                    Legal
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    Supports{" "}
+                    <i className="bi bi-box-arrow-up-right small ms-1"></i>
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="faq.html">
+                    Faqs
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="blog-grid.html">
+                    News and blogs
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    Terms &amp; condition
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -134,8 +214,17 @@ function Footer() {
                   <i className="bi bi-telephone heading-color"></i>
                 </div>
                 <div className="nav flex-column ps-3">
-                  <div className="small text-body-secondary">Give us a call</div>
-                  <p className="fw-semibold mt-1 mb-0"><a href="#" className="heading-color text-primary-hover stretched-link p-0">469-537-2410</a></p>
+                  <div className="small text-body-secondary">
+                    Give us a call
+                  </div>
+                  <p className="fw-semibold mt-1 mb-0">
+                    <a
+                      href="#"
+                      className="heading-color text-primary-hover stretched-link p-0"
+                    >
+                      469-537-2410
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -146,8 +235,17 @@ function Footer() {
                   <i className="bi bi-envelope heading-color"></i>
                 </div>
                 <div className="nav flex-column ps-3">
-                  <div className="small text-body-secondary">Send us an email</div>
-                  <p className="fw-semibold mt-1 mb-0"><a href="#" className="heading-color text-primary-hover stretched-link p-0">example@gmail.com</a></p>
+                  <div className="small text-body-secondary">
+                    Send us an email
+                  </div>
+                  <p className="fw-semibold mt-1 mb-0">
+                    <a
+                      href="#"
+                      className="heading-color text-primary-hover stretched-link p-0"
+                    >
+                      example@gmail.com
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -168,17 +266,51 @@ function Footer() {
           <hr className="opacity-1 mt-6 mb-0" />
 
           <div className="d-md-flex justify-content-between align-items-center text-center text-lg-start py-4">
-            <div className="text-body mb-3 mb-md-0"> Copyrights {currentYear} Mizzle. Build by <a href="https://www.webestica.com/" className="text-body text-primary-hover">Webestica</a>. </div>
+            <div className="text-body mb-3 mb-md-0">
+              {" "}
+              Copyrights {currentYear} Mizzle. Build by{" "}
+              <a
+                href="https://www.webestica.com/"
+                className="text-body text-primary-hover"
+              >
+                Webestica
+              </a>
+              .{" "}
+            </div>
 
             <ul className="list-inline mb-0">
-              <li className="list-inline-item"> <a className="btn btn-xs btn-icon btn-light" href="#"><i className="fab fa-fw fa-facebook-f lh-base"></i></a> </li>
-              <li className="list-inline-item"> <a className="btn btn-xs btn-icon btn-light" href="#"><i className="fab fa-fw fa-instagram lh-base"></i></a> </li>
-              <li className="list-inline-item"> <a className="btn btn-xs btn-icon btn-light" href="#"><i className="fab fa-fw fa-twitter lh-base"></i></a> </li>
-              <li className="list-inline-item"> <a className="btn btn-xs btn-icon btn-light" href="#"><i className="fab fa-fw fa-linkedin-in lh-base"></i></a> </li>
-              <li className="list-inline-item"> <a className="btn btn-xs btn-icon btn-light" href="#"><i className="fab fa-fw fa-youtube lh-base"></i></a> </li>
+              <li className="list-inline-item">
+                {" "}
+                <a className="btn btn-xs btn-icon btn-light" href="#">
+                  <i className="fab fa-fw fa-facebook-f lh-base"></i>
+                </a>{" "}
+              </li>
+              <li className="list-inline-item">
+                {" "}
+                <a className="btn btn-xs btn-icon btn-light" href="#">
+                  <i className="fab fa-fw fa-instagram lh-base"></i>
+                </a>{" "}
+              </li>
+              <li className="list-inline-item">
+                {" "}
+                <a className="btn btn-xs btn-icon btn-light" href="#">
+                  <i className="fab fa-fw fa-twitter lh-base"></i>
+                </a>{" "}
+              </li>
+              <li className="list-inline-item">
+                {" "}
+                <a className="btn btn-xs btn-icon btn-light" href="#">
+                  <i className="fab fa-fw fa-linkedin-in lh-base"></i>
+                </a>{" "}
+              </li>
+              <li className="list-inline-item">
+                {" "}
+                <a className="btn btn-xs btn-icon btn-light" href="#">
+                  <i className="fab fa-fw fa-youtube lh-base"></i>
+                </a>{" "}
+              </li>
             </ul>
           </div>
-
         </div>
       </footer>
     </>
