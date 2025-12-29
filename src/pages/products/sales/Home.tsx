@@ -58,7 +58,7 @@ function SalesHome() {
 
 
       <section id="home" className="overflow-hidden pt-xl-8 mb-n6 parallax-wrap">
-        <div className="container position-relative zindex-5 pt-5">
+        <div className="container position-relative zindex-5 pt-5" style={{ height: '100vh' }}>
           <div className="row justify-content-xl-start justify-content-center flex-xl-nowrap">
             <div className="col-xl-6 ps-xl-5 mb-8 mb-xl-0">
               <span className="text-primary fw-bold text-uppercase" style={{ fontSize: 'small' }}>Built exclusively for real estate businesses 2.</span>
@@ -85,7 +85,6 @@ function SalesHome() {
       </section>
 
       <section id="features" className="bg-dark position-relative overflow-hidden" data-bs-theme="dark">
-
         <figure className="position-absolute top-0 start-0 mt-n6 ms-n8">
           <svg className="opacity-3" width="371" height="354" viewBox="0 0 371 354" fill="none" xmlns="http://www.w3.org/2000/svg">
             <ellipse cx="172.5" cy="176.5" rx="131.5" ry="125.5" fill="url(#paint0_linear_195_2)"></ellipse>
