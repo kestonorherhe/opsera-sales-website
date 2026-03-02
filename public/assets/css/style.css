@@ -11117,6 +11117,17 @@ fieldset:disabled .btn {
   background-color: #100F0F;
 }
 
+.bg-secondary {
+  --bs-bg-opacity: 1;
+  /* background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; */
+  background-color: #100F0F;
+}
+
+.bg-opsera {
+  --bs-bg-opacity: 1;
+  background-color: #F97316;
+}
+
 .bg-black {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
@@ -18645,6 +18656,41 @@ a.badge:hover {
   background-color: rgba(var(--bs-primary-rgb), 0.1);
 }
 
+.nav-pills-opsera .nav-item {
+  padding: 0 !important;
+  margin-right: 2px;
+  margin-left: 2px;
+  border-bottom: 0 !important;
+}
+.nav-pills-opsera .nav-link {
+  padding: 0.5rem 0.8rem !important;
+  color: var(--bs-gray-800);
+  font-weight: 500;
+  border-radius: 0.313rem;
+}
+.nav-pills-opsera .nav-link.active,
+.nav-pills-opsera .nav-link:hover {
+  color: var(--bs-white);
+  background-color: #F97316;;
+}
+
+.nav-pills-opsera.flex-column .nav-item {
+  margin-bottom: 3px;
+  margin-right: 0;
+}
+
+.nav-pills-opsera-soft .nav-link {
+  background-color: transparent;
+  color: var(--bs-body-color);
+  border: none;
+  font-weight: 500;
+}
+.nav-pills-opsera-soft .nav-link.active,
+.nav-pills-opsera-soft .nav-link:hover {
+  color: var(--bs-primary);
+  background-color: rgba(var(--bs-primary-rgb), 0.1);
+}
+
 .nav-pills-dark .nav-link {
   background-color: transparent;
   color: var(--bs-gray-900);
@@ -18733,6 +18779,31 @@ a.badge:hover {
 }
 
 .nav-pills-primary-border-start.flex-column .nav-item {
+  margin-bottom: 4px;
+  margin-right: 0;
+}
+
+.nav-pills-opsera-border-start .nav-item {
+  padding: 0 !important;
+  margin-right: 2px;
+  margin-left: 2px;
+  border-bottom: 0 !important;
+}
+.nav-pills-opsera-border-start .nav-link {
+  padding: 0.5rem 0.8rem !important;
+  color: var(--bs-gray-800);
+  font-weight: 500;
+  border-radius: 0.313rem;
+  border-left: 2px solid transparent;
+}
+.nav-pills-opsera-border-start .nav-link.active,
+.nav-pills-opsera-border-start .nav-link:hover {
+  color: var(--bs-primary);
+  background-color: rgba(var(--bs-primary-rgb), 0.1);
+  border-left: 2px solid var(--bs-primary);
+}
+
+.nav-pills-opsera-border-start.flex-column .nav-item {
   margin-bottom: 4px;
   margin-right: 0;
 }

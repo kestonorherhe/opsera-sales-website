@@ -24,7 +24,7 @@ function Footer() {
             </figure>
 
             <div className="position-absolute end-0 bottom-0 me-sm-5">
-              <img src="assets/images/elements/cta-vector.svg" className="h-200px" alt="vector-img" />
+              <img src="../assets/images/elements/cta-vector.svg" className="h-200px" alt="vector-img" />
             </div>
 
             <div className="row g-4 position-relative">
@@ -48,12 +48,12 @@ function Footer() {
               <a href="index.html">
                 <img
                   className="light-mode-item h-60px"
-                  src="assets/images/logos/opsera-footer-light-4.svg"
+                  src="../assets/images/logos/opsera-footer-light-4.svg"
                   alt="logo"
                 />
                 <img
                   className="dark-mode-item h-60px"
-                  src="assets/images/logos/opsera-footer-light-4.svg"
+                  src="../assets/images/logos/opsera-footer-light-4.svg"
                   alt="logo"
                 />
               </a>
@@ -65,39 +65,23 @@ function Footer() {
                 <div className="col-lg-6">
                   <ul className="nav flex-column">
                     <li className="nav-item">
-                      <a className="nav-link pt-0" href="about-v1.html">
-                        About us
+                      <a className="nav-link pt-0" href="/sales">
+                        Opsera Sales
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="contact-v1.html">
-                        Contact us
+                      <a className="nav-link pt-0" href="/hotel">
+                        Opsera Hotel
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="services-v1.html">
-                        Services
+                      <a className="nav-link pt-0" href="/">
+                        Opsera Assets
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="career.html">
-                        Career{" "}
-                        <span className="badge text-bg-danger ms-2">2 Job</span>
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="career-single.html">
-                        Career detail
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="portfolio-showcase.html">
-                        Case studies
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="portfolio-showcase.html">
-                        Team
+                      <a className="nav-link pt-0" href="/buildsync">
+                        Opsera BuildSync
                       </a>
                     </li>
                   </ul>
@@ -105,25 +89,30 @@ function Footer() {
                 <div className="col-lg-6">
                   <ul className="nav flex-column">
                     <li className="nav-item">
-                      <a className="nav-link" href="contact-v1.html">
+                      <a className="nav-link" href="/work-with-a-partner">
+                        Work with a partner
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="/become-a-partner">
                         Become a partner
                       </a>
                     </li>
                     <li className="nav-item">
+                      <a className="nav-link" href="/about-us">
+                        About us
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="/contact-us">
+                        Contact us
+                      </a>
+                    </li>
+                    {/* <li className="nav-item">
                       <a className="nav-link" href="customer-stories.html">
                         Customer stories
                       </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="sign-in.html">
-                        Sign in
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="sign-up.html">
-                        Sign up
-                      </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -142,12 +131,12 @@ function Footer() {
                     Legal
                   </a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a className="nav-link" href="#">
                     Supports{" "}
                     <i className="bi bi-box-arrow-up-right small ms-1"></i>
                   </a>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <a className="nav-link" href="faq.html">
                     Faqs
@@ -222,7 +211,7 @@ function Footer() {
                       href="#"
                       className="heading-color text-primary-hover stretched-link p-0"
                     >
-                      469-537-2410
+                      +234-814-811-7066
                     </a>
                   </p>
                 </div>
@@ -243,7 +232,7 @@ function Footer() {
                       href="#"
                       className="heading-color text-primary-hover stretched-link p-0"
                     >
-                      example@gmail.com
+                      info@opsera.com.ng
                     </a>
                   </p>
                 </div>
@@ -268,13 +257,14 @@ function Footer() {
           <div className="d-md-flex justify-content-between align-items-center text-center text-lg-start py-4">
             <div className="text-body mb-3 mb-md-0">
               {" "}
-              Copyrights {currentYear} Mizzle. Build by{" "}
+              Copyrights {currentYear} Opsera 
+              {/* Build by{" "}
               <a
                 href="https://www.webestica.com/"
                 className="text-body text-primary-hover"
               >
                 Webestica
-              </a>
+              </a> */}
               .{" "}
             </div>
 

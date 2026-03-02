@@ -91,26 +91,43 @@ function Home() {
 
       <Slider className="swiper-wrapper" {...sliderSettings}>
         {slides.map((slide, index) => (
-          <div key={index} className="swiper-wrapper">
-            <div
-              className="swiper-slide"
-              style={{
-                backgroundImage: `url(assets/images/bg/10.jpg)`,
-              }}
-            >
-              <div className="overlay-dark"></div>
+          // <div key={index} className="swiper-wrapper">
+          //   <div
+          //     className="swiper-slide"
+          //     style={{
+          //       backgroundImage: `url(assets/images/bg/10.jpg)`,
+          //     }}
+          //   >
+          //     <div className="overlay-dark"></div>
 
-              <div className="card overflow-hidden min-vh-100 rounded-0" style={{ background: 'url(assets/images/bg/10.jpg) no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                <div className="bg-overlay bg-linear-overlay"></div>
+          //     <div className="card overflow-hidden min-vh-100 rounded-0" style={{ background: 'url(assets/images/bg/10.jpg) no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+          //       <div className="bg-overlay bg-linear-overlay"></div>
 
-                <div className="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-sm-11 col-lg-8 col-xl-7 text-center m-auto">
-                        <h1 className="text-white display-4 my-4">{slide.title}</h1>
-                        <p className="text-white mb-5"> {slide.description}</p>
-                        <a className="btn btn-lg btn-white icon-link icon-link-hover mb-0" href="#">Get started now<i className="bi bi-arrow-right"></i> </a>
-                      </div>
+          //       <div className="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9">
+          //         <div className="container">
+          //           <div className="row">
+          //             <div className="col-sm-11 col-lg-8 col-xl-7 text-center m-auto">
+          //               <h1 className="text-white display-4 my-4">{slide.title}</h1>
+          //               <p className="text-white mb-5"> {slide.description}</p>
+          //               <a className="btn btn-lg btn-white icon-link icon-link-hover mb-0" href="#">Get started now<i className="bi bi-arrow-right"></i> </a>
+          //             </div>
+          //           </div>
+          //         </div>
+          //       </div>
+          //     </div>
+          //   </div>
+          // </div>
+          <div className="swiper-slide">
+            <div className="card overflow-hidden min-vh-100 rounded-0" style={{ background: "url(assets/images/bg/09.jpg) no-repeat", backgroundSize: "cover", backgroundPosition: "center" }}>
+              <div className="bg-overlay bg-linear-overlay"></div>
+
+              <div className="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-sm-11 col-lg-8 mt-auto">
+                      <h1 className="text-white display-4 mb-4">Empower Your <span className="fw-light">Business</span> with <span className="fw-light">Innovation</span></h1>
+                      <p className="text-white mb-5"> Whether you're a gaming enthusiast or simply seeking an extraordinary escape from reality, our Virtual VR product is your portal to endless excitement. </p>
+                      <a className="btn btn-lg btn-primary icon-link icon-link-hover mb-0" href="#">Explore Our Services<i className="bi bi-arrow-right"></i> </a>
                     </div>
                   </div>
                 </div>
@@ -475,7 +492,7 @@ function Home() {
           <div className="row align-items-center">
             <div className="col-lg-6 mb-5 mb-lg-0">
               <h2 className="mb-3 mb-lg-5">Opsera is actively powering:</h2>
-              
+
 
               <div className="d-flex align-items-center gap-3 mb-3">
                 <div className="icon-md bg-primary bg-opacity-10 text-primary rounded-circle fw-bold">01</div>

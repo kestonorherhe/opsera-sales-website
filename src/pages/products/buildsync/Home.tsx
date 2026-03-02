@@ -2,8 +2,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Header3 from "../../../components/Header3";
+import { useEffect } from "react";
 
 function BuildSyncHome() {
+  useEffect(() => {
+    window.location.href = '/buildsync/#home'
+  })
   const sliderSettings = {
     // dots: true,
     infinite: true,
@@ -53,7 +57,7 @@ function BuildSyncHome() {
   return (
     <main>
       {/* <Header2 /> */}
-      <Header3 />
+      <Header3 productLogo='../assets/images/logos/buildsync-logo.png' subNavMenuItems={[{ link: 'buildsync/#home', label: 'Home' }, { link: 'buildsync/#features', label: 'Features' }, { link: 'buildsync/#benefits', label: 'Benefits' }, { link: 'buildsync/#pricing', label: 'Pricing' }, { link: 'buildsync/#testimonials', label: 'Testimonials' }, { link: 'buildsync/#faqs', label: 'FAQs' }]} />
 
 
       <section className="position-relative overflow-hidden pt-xl-9" style={{ backgroundColor: '#100F0F' }} data-bs-theme="dark">
@@ -77,12 +81,12 @@ function BuildSyncHome() {
 
             <div className="col-lg-10 col-xl-6 ms-xl-auto position-relative">
               <div className="position-relative z-index-2">
-                <img src="assets/images/bg/06.jpg" className="rounded-3 ps-sm-8" alt="Main-img" />
+                <img src="../assets/images/opsera-buildsync/buildsync_hero.png" className="rounded-3 ps-sm-8" alt="Main-img" />
 
-                <img src="assets/images/elements/saas-decoration/05.png" className="rounded-3 shadow position-absolute bottom-0 start-0 z-index-2 ms-n6 mb-n6 d-none d-sm-block" alt="decoration-img" />
+                <img src="../assets/images/elements/saas-decoration/05.png" className="rounded-3 shadow position-absolute bottom-0 start-0 z-index-2 ms-n6 mb-n6 d-none d-sm-block" alt="decoration-img" />
 
                 <div className="bg-dark border border-opacity-25 rounded-4 d-flex align-items-center position-absolute top-0 start-0 mt-n5 p-3">
-                  <img src="assets/images/elements/gicon.svg" alt="google-icon" />
+                  <img src="../assets/images/elements/gicon.svg" alt="google-icon" />
                   <div className="ms-3">
                     <ul className="list-inline mb-1">
                       <li className="list-inline-item me-0 text-white fw-bold">4.8/5.0</li>
@@ -194,35 +198,35 @@ function BuildSyncHome() {
             </div>
 
             <div className="col-lg-6 ms-auto">
-              <h3 className="mb-5">Easy project management that helps you win</h3>
-              <p className="mb-5">Our passion for customer excellence is just one reason why we are the market leader. We've always worked very hard to give our customers the best experience.</p>
+              <h3 className="mb-5">Trusted by construction teams across Africa</h3>
+              <p className="mb-5">Stop switching between tools. Start delivering projects with clarity & control.</p>
 
               <div className="align-items-center">
                 <Slider {...sliderSettings}>
                   <div className="swiper-slide d-flex justify-content-center">
-                    <img src="assets/images/client/05.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
+                    <img src="../assets/images/client/05.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
                   </div>
                   <div className="swiper-slide d-flex justify-content-center">
-                    <img src="assets/images/client/01.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
+                    <img src="../assets/images/client/01.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
                   </div>
 
                   <div className="swiper-slide">
-                    <img src="assets/images/client/07.svg" className="grayscale items-center" style={{ width: '150px' }} alt="client-img" />
+                    <img src="../assets/images/client/07.svg" className="grayscale items-center" style={{ width: '150px' }} alt="client-img" />
                   </div>
                   <div className="swiper-slide">
-                    <img src="assets/images/client/02.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
+                    <img src="../assets/images/client/02.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
                   </div>
                   <div className="swiper-slide">
-                    <img src="assets/images/client/03.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
+                    <img src="../assets/images/client/03.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
                   </div>
                   <div className="swiper-slide">
-                    <img src="assets/images/client/04.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
+                    <img src="../assets/images/client/04.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
                   </div>
                   <div className="swiper-slide">
-                    <img src="assets/images/client/06.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
+                    <img src="../assets/images/client/06.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
                   </div>
                   <div className="swiper-slide">
-                    <img src="assets/images/client/07.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
+                    <img src="../assets/images/client/07.svg" className="grayscale" style={{ width: '150px' }} alt="client-img" />
                   </div>
                 </Slider>
               </div>
@@ -239,7 +243,7 @@ function BuildSyncHome() {
             <div className="col-lg-7">
               <div className="row pe-xl-5">
                 <div className="col-sm-6">
-                  <img src="assets/images/about/02.jpg" className="rounded" alt="about-img" />
+                  <img src="../assets/images/opsera-buildsync/problem_statement_1.png" className="rounded" alt="about-img" />
 
                   <figure className="text-end me-3 mt-n3">
                     <svg className="fill-primary" width="106px" height="96px" viewBox="0 0 106 96">
@@ -261,34 +265,38 @@ function BuildSyncHome() {
                 <div className="col-sm-6">
                   <div className="row mb-4">
                     <div className="col-sm-6 mb-4 mb-sm-0">
-                      <div className="bg-dark text-white rounded text-center p-3">
+                      <div className="bg-opsera text-white rounded text-center p-3">
                         <span className="h2 text-white">10+</span>
                         <p className="mb-0">Years of experience</p>
                       </div>
                     </div>
                     <div className="col-sm-6">
-                      <div className="bg-primary rounded text-center p-3">
+                      <div className="bg-black rounded text-center p-3">
                         <span className="h2 text-white">1.2K</span>
-                        <p className="mb-0 text-white">Happy customers</p>
+                        <p className="mb-0 text-white">Happy clients</p>
                       </div>
                     </div>
                   </div>
 
-                  <img src="assets/images/about/01.jpg" className="rounded" alt="about-img-2" />
+                  <img src="../assets/images/opsera-buildsync/problem_statement_2.png" className="rounded" alt="about-img-2" />
                 </div>
               </div>
             </div>
 
             <div className="col-lg-5">
-              <span className="heading-color bg-light small rounded-3 px-3 py-2">🤝 Your gateway to digital success</span>
-              <h2 className="my-4">Defining the future of online experiences!</h2>
-              <p className="mb-4">Embrace a new era of digital success with Mizzle. Our team combines cutting-edge design with robust development to deliver websites that captivate and convert.</p>
+              <span className="text-secondary small rounded-3 px-3 py-2 text-uppercase fw-bold">The business impact</span>
+              <h2 className="my-4">The Problem with Modern Construction Projects</h2>
+              <p className="mb-4">Construction projects are complex, fast-moving, and expensive. Yet many teams still rely on spreadsheets, WhatsApp threads, scattered files, and disconnected software.</p>
               <ul className="list-group list-group-borderless mb-4">
-                <li className="list-group-item heading-color d-flex mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Emphasis on ROI-driven solutions</li>
-                <li className="list-group-item heading-color d-flex mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Expert team with diverse skill</li>
-                <li className="list-group-item heading-color d-flex mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Proven track record of delivering results</li>
+                <li className="list-group-item heading-color d-flex mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Poor communication across teams.</li>
+                <li className="list-group-item heading-color d-flex mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Manual reporting and slow decision-making.</li>
+                <li className="list-group-item heading-color d-flex mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Budget overruns and weak financial visibility.</li>
+                <li className="list-group-item heading-color d-flex mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Unclear responsibilities and poor documentation.</li>
+                <li className="list-group-item heading-color d-flex mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Zero real-time project visibility.</li>
+                <li className="list-group-item heading-color d-flex mb-0"><i className="bi bi-patch-check-fill text-primary me-2"></i>Delays caused by fragmented workflows.</li>
               </ul>
-              <a href="about-v1.html" className="btn btn-dark mb-0">Discover more</a>
+              <strong className="text-black" style={{ fontStyle: 'italic' }}>Construction is already hard. Your tools shouldn’t make it harder.</strong>
+              {/* <a href="about-v1.html" className="btn btn-dark mb-0">Discover more</a> */}
             </div>
 
           </div>
@@ -331,31 +339,34 @@ function BuildSyncHome() {
 
         <div className="container pb-6 position-relative">
           <div className="inner-container-small text-center mb-4 mb-sm-5">
-            <span className="fw-bold text-uppercase" style={{ color: '#FFA600' }}>Features</span>
-            <h2 className="mb-0 mt-3">Designed for Real Estate Sales agencies</h2>
+            <span className="text-secondary fw-bold text-uppercase">Why BuildSync WINS</span>
+            <h2 className="mb-0 mt-3">Everything your construction team needs — all in one place</h2>
           </div>
 
           <div className="row">
-            <div className="col-lg-12 col-xl-10 col-xxl-8 mx-auto mb-6 mb-xl-8">
+            <div className="col-lg-12 col-xl-10 col-xxl-10 mx-auto mb-6 mb-xl-8">
               <div className="bg-light rounded-pill p-2">
-                <ul className="nav nav-pills nav-pills-primary nav-responsive justify-content-between">
-                  <li className="nav-item" role="presentation">
-                    <button className="nav-link rounded-pill active" id="pills-analytics-tab" data-bs-toggle="pill" data-bs-target="#pills-analytics" type="button" role="tab" aria-controls="pills-analytics" aria-selected="true"><i className="bi bi-funnel me-2"></i>Leads</button>
+                <ul className="nav nav-pills nav-pills-opsera nav-responsive justify-content-between">
+                  <li className="nav-item" role="project">
+                    <button className="nav-link rounded-pill active" id="pills-project-tab" data-bs-toggle="pill" data-bs-target="#pills-project" type="button" role="tab" aria-controls="pills-project" aria-selected="true">Project</button>
                   </li>
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link rounded-pill" id="pills-collaboration-tab" data-bs-toggle="pill" data-bs-target="#pills-collaboration" type="button" role="tab" aria-controls="pills-collaboration" aria-selected="false"><i className="bi bi-basket me-2"></i>Sales</button>
+                    <button className="nav-link rounded-pill" id="pills-budget-tab" data-bs-toggle="pill" data-bs-target="#pills-budget" type="button" role="tab" aria-controls="pills-budget" aria-selected="false">Budget</button>
                   </li>
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link rounded-pill" id="pills-commissions-tab" data-bs-toggle="pill" data-bs-target="#pills-commissions" type="button" role="tab" aria-controls="pills-commissions" aria-selected="false"><i className="bi bi-basket me-2"></i>Commissions & Rewards</button>
+                    <button className="nav-link rounded-pill" id="pills-procurement-tab" data-bs-toggle="pill" data-bs-target="#pills-procurement" type="button" role="tab" aria-controls="pills-procurement" aria-selected="false">Procurement</button>
                   </li>
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link rounded-pill" id="pills-properties-tab" data-bs-toggle="pill" data-bs-target="#pills-properties" type="button" role="tab" aria-controls="pills-properties" aria-selected="false"><i className="bi bi-basket me-2"></i>Properties</button>
+                    <button className="nav-link rounded-pill" id="pills-documents-tab" data-bs-toggle="pill" data-bs-target="#pills-documents" type="button" role="tab" aria-controls="pills-documents" aria-selected="false">Documents</button>
                   </li>
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link rounded-pill" id="pills-affiliates-tab" data-bs-toggle="pill" data-bs-target="#pills-affiliates" type="button" role="tab" aria-controls="pills-affiliates" aria-selected="false"><i className="bi bi-basket me-2"></i>Affiliates</button>
+                    <button className="nav-link rounded-pill" id="pills-collaboration-tab" data-bs-toggle="pill" data-bs-target="#pills-collaboration" type="button" role="tab" aria-controls="pills-collaboration" aria-selected="false">Collaboration</button>
                   </li>
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link rounded-pill" id="pills-reports-tab" data-bs-toggle="pill" data-bs-target="#pills-reports" type="button" role="tab" aria-controls="pills-reports" aria-selected="false"><i className="bi bi-basket me-2"></i>Reports</button>
+                    <button className="nav-link rounded-pill" id="pills-reporting-tab" data-bs-toggle="pill" data-bs-target="#pills-reporting" type="button" role="tab" aria-controls="pills-reporting" aria-selected="false">Reporting</button>
+                  </li>
+                  <li className="nav-item" role="presentation">
+                    <button className="nav-link rounded-pill" id="pills-automation-tab" data-bs-toggle="pill" data-bs-target="#pills-automation" type="button" role="tab" aria-controls="pills-automation" aria-selected="false">Automation</button>
                   </li>
                 </ul>
               </div>
@@ -363,12 +374,13 @@ function BuildSyncHome() {
 
             <div className="col-11 mx-auto">
               <div className="tab-content" id="pills-tabContent">
-                <div className="tab-pane fade show active" id="pills-analytics" role="tabpanel" aria-labelledby="pills-analytics-tab" tabIndex={0}>
+                <div className="tab-pane fade show active" id="pills-project" role="tabpanel" aria-labelledby="pills-project-tab" tabIndex={0}>
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary text-uppercase text-white rounded small px-3 py-2">Leads</span>
-                      <h3 className="my-4">Convert More Leads Without Dropping the Ball</h3>
-                      <p>Turn raw inquiries into closed deals faster. Organize, assign, and follow up with leads without letting anyone slip through the cracks.</p>
+                      <span className="bg-opsera text-uppercase text-white btn-rounded rounded small px-3 py-2">Projects</span>
+                      <h3 className="my-4">Visual Project Planner</h3>
+                      <p>BuildSync gives you a complete project planning suite made specifically for construction teams — not generic task lists.</p>
+                      <p>Plan, schedule, and track every phase with crystal clarity. Stay ahead of delays, coordinate teams with confidence, and deliver on time without the usual chaos.</p>
                       <ul className="list-group list-group-borderless mb-4">
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Automatically collect and qualify leads from forms or campaigns</li>
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Assign leads to in-house staff or affiliates</li>
@@ -379,17 +391,18 @@ function BuildSyncHome() {
                     </div>
 
                     <div className="col-lg-5 position-relative ms-auto">
-                      <img src="assets/images/services/leeds.png" alt="feature-img" />
+                      <img src="../assets/images/opsera-buildsync/services/service_1.png" alt="feature-img" />
                     </div>
                   </div>
                 </div>
 
-                <div className="tab-pane fade" id="pills-collaboration" role="tabpanel" aria-labelledby="pills-collaboration-tab" tabIndex={0}>
+                <div className="tab-pane fade" id="pills-budget" role="tabpanel" aria-labelledby="pills-budget-tab" tabIndex={0}>
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Sales</span>
-                      <h3 className="my-4">Streamline Sales Application from Start to Finish</h3>
-                      <p className="mb-5">Track every sales application—from initial submission to final allocation—in one clean dashboard.</p>
+                      <span className="bg-opsera text-white text-uppercase rounded small px-3 py-2">Budget</span>
+                      <h3 className="my-4">Smart Budget Engine</h3>
+                      <p className="mb-5">Budget overruns end when visibility begins., use the real-time financial intelligence built into every task, activity, and decision.</p>
+                      <p className="mb-5">No more guessing. No more end-of-month shocks. Just full financial control at every step of construction.</p>
 
                       <ul className="list-group list-group-borderless mb-4">
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Approve or reject applications with full documentation</li>
@@ -401,17 +414,18 @@ function BuildSyncHome() {
                     </div>
 
                     <div className="col-lg-5 position-relative ms-auto">
-                      <img src="assets/images/services/sales.png" className="rounded" alt="feature-img" />
+                      <img src="../assets/images/opsera-buildsync/services/service_2.png" className="rounded" alt="feature-img" />
                     </div>
                   </div>
                 </div>
 
-                <div className="tab-pane fade" id="pills-commissions" role="tabpanel" aria-labelledby="pills-commissions-tab" tabIndex={0}>
+                <div className="tab-pane fade" id="pills-procurement" role="tabpanel" aria-labelledby="pills-procurement-tab" tabIndex={0}>
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Commissions & Rewards</span>
-                      <h3 className="my-4">Effortless Commission Tracking for Agents & Affiliates</h3>
-                      <p className="mb-5">Stop managing commissions with spreadsheets. Let affiliates track their earnings and focus on selling.</p>
+                      <span className="bg-opsera text-white text-uppercase rounded small px-3 py-2">Procurement</span>
+                      <h3 className="my-4">Procurement Workflow</h3>
+                      <p className="mb-5">Procurement delays cause 60% of project slowdowns. BuildSync eliminates them. A single, streamlined flow from request → approval → delivery.</p>
+                      <p className="mb-5">Ensure materials arrive on time, reduce wastage, and keep the project moving without unnecessary downtime.</p>
 
                       <ul className="list-group list-group-borderless mb-4">
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>See how much each agent or affiliate has earned</li>
@@ -423,17 +437,18 @@ function BuildSyncHome() {
                     </div>
 
                     <div className="col-lg-5 position-relative ms-auto">
-                      <img src="assets/images/services/rewards.png" className="rounded" alt="feature-img" />
+                      <img src="../assets/images/opsera-buildsync/services/service_3.png" className="rounded" alt="feature-img" />
                     </div>
                   </div>
                 </div>
 
-                <div className="tab-pane fade" id="pills-properties" role="tabpanel" aria-labelledby="pills-properties-tab" tabIndex={0}>
+                <div className="tab-pane fade" id="pills-documents" role="tabpanel" aria-labelledby="pills-documents-tab" tabIndex={0}>
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Properties</span>
-                      <h3 className="my-4">One Platform to Manage All Your Property Listings</h3>
-                      <p className="mb-5">Whether you're selling land plots, individual units, or entire estates, Opsera gives you control over your property listings.</p>
+                      <span className="bg-opsera text-white text-uppercase rounded small px-3 py-2">Documents</span>
+                      <h3 className="my-4">Document Harmony</h3>
+                      <p className="mb-5">Construction documents move fast and BuildSync ensures you never lose track. All drawings, versions, and site documents — organised and connected.</p>
+                      <p className="mb-5">Prevent rework, eliminate “wrong version” mistakes, and maintain a clean audit trail for every document.</p>
 
                       <ul className="list-group list-group-borderless mb-4">
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Add and categorize properties by location, type, status (available, sold, pending)</li>
@@ -445,17 +460,18 @@ function BuildSyncHome() {
                     </div>
 
                     <div className="col-lg-5 position-relative ms-auto">
-                      <img src="assets/images/services/properties.png" className="rounded" alt="feature-img" />
+                      <img src="../assets/images/opsera-buildsync/services/service_4.png" className="rounded" alt="feature-img" />
                     </div>
                   </div>
                 </div>
 
-                <div className="tab-pane fade" id="pills-affiliates" role="tabpanel" aria-labelledby="pills-affiliates-tab" tabIndex={0}>
+                <div className="tab-pane fade" id="pills-collaboration" role="tabpanel" aria-labelledby="pills-collaboration-tab" tabIndex={0}>
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Affiliates</span>
-                      <h3 className="my-4">Organize and Optimize Affiliate Performance</h3>
-                      <p className="mb-5">Handle hundreds of agents and partners without stress. Structure affiliate tiers, permissions, and activity tracking easily.</p>
+                      <span className="bg-opsera text-white text-uppercase rounded small px-3 py-2">Collaboration</span>
+                      <h3 className="my-4">Multi-Stakeholder Collaboration</h3>
+                      <p className="mb-5">Construction has many moving parts — BuildSync brings them all together with everyone aligned, zero confusion and one source of truth.</p>
+                      <p className="mb-5">Clarity replaces chaos. Teams collaborate faster, decisions are quicker, and delivery becomes predictable.</p>
 
                       <ul className="list-group list-group-borderless mb-4">
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Approve or suspend affiliates in one click</li>
@@ -467,17 +483,18 @@ function BuildSyncHome() {
                     </div>
 
                     <div className="col-lg-5 position-relative ms-auto">
-                      <img src="assets/images/services/affiliates.png" className="rounded" alt="feature-img" />
+                      <img src="../assets/images/services/affiliates.png" className="rounded" alt="feature-img" />
                     </div>
                   </div>
                 </div>
 
-                <div className="tab-pane fade" id="pills-reports" role="tabpanel" aria-labelledby="pills-reports-tab" tabIndex={0}>
+                <div className="tab-pane fade" id="pills-reporting" role="tabpanel" aria-labelledby="pills-reporting-tab" tabIndex={0}>
                   <div className="row align-items-center">
                     <div className="col-lg-6 mb-6 mb-lg-0">
-                      <span className="bg-primary text-white text-uppercase rounded small px-3 py-2">Reports</span>
-                      <h3 className="my-4">Data-Driven Insights for Smarter Real Estate Decisions</h3>
-                      <p className="mb-5">Make smarter decisions with real-time data on your sales, agents, and business performance.</p>
+                      <span className="bg-opsera text-white text-uppercase rounded small px-3 py-2">Reporting</span>
+                      <h3 className="my-4">Real-Time Field Reporting</h3>
+                      <p className="mb-5">Turn the field into your strongest source of truth as site updates shouldn’t take hours.</p>
+                      <p className="mb-5">BuildSync automates the entire reporting cycle. Reduce disputes, speed up approvals, and give every stakeholder an accurate view of what’s happening on-site.</p>
 
                       <ul className="list-group list-group-borderless mb-4">
                         <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Visualize sales performance over time</li>
@@ -489,7 +506,30 @@ function BuildSyncHome() {
                     </div>
 
                     <div className="col-lg-5 position-relative ms-auto">
-                      <img src="assets/images/services/reports.png" className="rounded" alt="feature-img" />
+                      <img src="../assets/images/opsera-buildsync/services/service_6.png" className="rounded" alt="feature-img" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="tab-pane fade" id="pills-automation" role="tabpanel" aria-labelledby="pills-automation-tab" tabIndex={0}>
+                  <div className="row align-items-center">
+                    <div className="col-lg-6 mb-6 mb-lg-0">
+                      <span className="bg-opsera text-white text-uppercase rounded small px-3 py-2">Automation</span>
+                      <h3 className="my-4">Automation Suite</h3>
+                      <p className="mb-5">Let BuildSync handle the repetitive tasks so your team can focus on building.</p>
+                      <p className="mb-5">Save hours every week, reduce admin overhead, and standardise processes across all projects.</p>
+
+                      <ul className="list-group list-group-borderless mb-4">
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Visualize sales performance over time</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Identify top-performing agents and affiliates</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Forecast sales revenue and trends</li>
+                        <li className="list-group-item heading-color mb-0"><i className="bi bi-patch-check-fill me-2" style={{ color: '#FFA600' }}></i>Download data-rich reports for investors or internal review</li>
+                      </ul>
+                      <a className="btn btn-white icon-link icon-link-hover" href="/#get-started">Get started<i className="bi bi-arrow-right"></i> </a>
+                    </div>
+
+                    <div className="col-lg-5 position-relative ms-auto">
+                      <img src="../assets/images/services/reports.png" className="rounded" alt="feature-img" />
                     </div>
                   </div>
                 </div>
@@ -500,27 +540,25 @@ function BuildSyncHome() {
       </section>
 
       <section className="bg-dark position-relative overflow-hidden" data-bs-theme="dark">
-
         <div className="container position-relative">
           <div className="inner-container-small text-center">
-            <span className="bg-light heading-color small rounded-3 px-3 py-2">🚀 Innovative solutions, Measurable results</span>
-            <h2 className="mb-0 mt-4">A Unified PropTech Platform for the Entire Property Lifecycle</h2>
-            <p>Opsera is home to six powerful SaaS platforms, each solving a mission-critical need—yet designed to work together seamlessly.</p>
+            <span className="text-secondary rounded-3 px-3 py-2 text-uppercase fw-bold">WHO BuildSync IS FOR</span>
+            <h2 className="mb-0 mt-4">Built for every role in the construction ecosystem</h2>
+            {/* <p>Opsera is home to six powerful SaaS platforms, each solving a mission-critical need—yet designed to work together seamlessly.</p> */}
           </div>
 
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-5 gy-md-7 mt-3">
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-5 gy-md-7 mt-3">
             <div className="col">
               <div className="card bg-light h-100">
                 <div className="card-body pb-0">
                   <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
                     <i className="bi bi-stack fa-fw fs-5"></i>
                   </div>
-                  <h5 className="mb-3"><a href="#" className="text-white">Hotel Management Software (HMS)</a></h5>
-                  <p>Smart hospitality management for hotels of all sizes.</p>
-                  <p>Automate bookings, optimize operations, increase occupancy, and deliver memorable guest experiences.</p>
+                  <h5 className="mb-3"><a href="#" className="text-white">Construction Firms </a></h5>
+                  <p>Manage multiple projects, teams, and timelines from a centralized dashboard.</p>
                 </div>
                 <div className="card-footer bg-light mt-auto pt-2">
-                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                  {/* <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a> */}
                 </div>
               </div>
             </div>
@@ -531,11 +569,11 @@ function BuildSyncHome() {
                   <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
                     <i className="bi bi-boxes fa-fw fs-5"></i>
                   </div>
-                  <h5 className="mb-3"><a href="#" className="text-white">Property Management Software (PMS)</a></h5>
-                  <p>A modern system for managing rentals, maintenance, tenants, facilities, and property finance—built for landlords, facility managers, and property companies.</p>
+                  <h5 className="mb-3"><a href="#" className="text-white">Developers</a></h5>
+                  <p>Gain full visibility into costs, progress, and risks across every stage of development.</p>
                 </div>
                 <div className="card-footer bg-light mt-auto pt-2">
-                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                  {/* <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a> */}
                 </div>
               </div>
             </div>
@@ -546,12 +584,11 @@ function BuildSyncHome() {
                   <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
                     <i className="bi bi-circle-square fa-fw fs-5"></i>
                   </div>
-                  <h5 className="mb-3"><a href="#" className="text-white">Estate Management Software (EMS)</a></h5>
-                  <p>Digitize and automate estate governance.</p>
-                  <p>Payments. Security. Maintenance. Communication. All in one place.</p>
+                  <h5 className="mb-3"><a href="#" className="text-white">Project Managers</a></h5>
+                  <p>Plan, track, and deliver projects on time with real-time data and clear accountability.</p>
                 </div>
                 <div className="card-footer bg-light mt-auto pt-2">
-                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                  {/* <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a> */}
                 </div>
               </div>
             </div>
@@ -562,12 +599,11 @@ function BuildSyncHome() {
                   <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
                     <i className="bi bi-vector-pen fa-fw fs-5"></i>
                   </div>
-                  <h5 className="mb-3"><a href="#" className="text-white">Construction Management Software (CMS)</a></h5>
-                  <p>The future of construction project management.</p>
-                  <p>Plan, track, collaborate, and deliver projects with precision, transparency, and cost control.</p>
+                  <h5 className="mb-3"><a href="#" className="text-white">Engineers</a></h5>
+                  <p>Coordinate designs, approvals, and site execution without miscommunication.</p>
                 </div>
                 <div className="card-footer bg-light mt-auto pt-2">
-                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                  {/* <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a> */}
                 </div>
               </div>
             </div>
@@ -578,11 +614,11 @@ function BuildSyncHome() {
                   <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
                     <i className="bi bi-briefcase fa-fw fs-5"></i>
                   </div>
-                  <h5 className="mb-3"><a href="#" className="text-white">Real Estate Investment Software (REIS)</a></h5>
-                  <p>A platform that empowers investors with data-driven insights, risk analysis, portfolio tracking, and smart investment tools for wealth creation.</p>
+                  <h5 className="mb-3"><a href="#" className="text-white">Quality Surveyors</a></h5>
+                  <p>Monitor budgets, variations, and costs with accurate, up-to-date financial insights.</p>
                 </div>
                 <div className="card-footer bg-light mt-auto pt-2">
-                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                  {/* <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a> */}
                 </div>
               </div>
             </div>
@@ -593,12 +629,41 @@ function BuildSyncHome() {
                   <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
                     <i className="bi bi-binoculars fa-fw fs-5"></i>
                   </div>
-                  <h5 className="mb-3"><a href="#" className="text-white">Sales Management Software (SMS)</a></h5>
-                  <p>A sales engine built for real-estate developers and agencies.</p>
-                  <p>Lead management, automation, customer engagement, and revenue tracking in one streamlined workflow.</p>
+                  <h5 className="mb-3"><a href="#" className="text-white">Consultants & Owners</a></h5>
+                  <p>Stay informed with transparent reporting and high-level project oversight at all times.</p>
                 </div>
                 <div className="card-footer bg-light mt-auto pt-2">
-                  <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a>
+                  {/* <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a> */}
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card bg-light h-100">
+                <div className="card-body pb-0">
+                  <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
+                    <i className="bi bi-binoculars fa-fw fs-5"></i>
+                  </div>
+                  <h5 className="mb-3"><a href="#" className="text-white">Interior Finishers</a></h5>
+                  <p>Receive task assignments, schedules, and approvals to execute work efficiently.</p>
+                </div>
+                <div className="card-footer bg-light mt-auto pt-2">
+                  {/* <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a> */}
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card bg-light h-100">
+                <div className="card-body pb-0">
+                  <div className="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
+                    <i className="bi bi-binoculars fa-fw fs-5"></i>
+                  </div>
+                  <h5 className="mb-3"><a href="#" className="text-white">Subcontractors</a></h5>
+                  <p>Receive clear assignments, deadlines, and documentation to execute efficiently.</p>
+                </div>
+                <div className="card-footer bg-light mt-auto pt-2">
+                  {/* <a className="icon-link icon-link-hover" href="#">Know more<i className="bi bi-arrow-right"></i> </a> */}
                 </div>
               </div>
             </div>
@@ -612,7 +677,6 @@ function BuildSyncHome() {
       </section>
 
       <section className="position-relative price-wrap">
-
         <figure className="position-absolute top-0 start-0 ms-n9">
           <svg className="opacity-2" width="424" height="405" viewBox="0 0 424 405" fill="none" xmlns="http://www.w3.org/2000/svg">
             <ellipse cx="212" cy="202.5" rx="212" ry="202.5" fill="url(#paint0_linear_153_3831)"></ellipse>
@@ -653,7 +717,7 @@ function BuildSyncHome() {
                   </svg>
                 </figure>
 
-                <h5>Customization</h5>
+                <h5 className="text-white">Customization</h5>
                 <p className="small mb-6 text-white">Our essential plan is self-service solution for businesses to handle website messaging and personalization</p>
 
                 <span className="mb-4 text-white"> <span className="h2 text-white" data-monthly-price="$25" data-annual-price="$20">$25</span> /month</span>
@@ -688,7 +752,7 @@ function BuildSyncHome() {
         <div className="container">
           <div className="row">
             <div className="col-sm-10 col-lg-6 col-xl-5 position-relative ms-xl-auto">
-              <img src="assets/images/about/03.jpg" className="rounded" alt="testimonial-img" />
+              <img src="../assets/images/about/03.jpg" className="rounded" alt="testimonial-img" />
 
               <figure className="position-absolute top-50 start-0 translate-middle ms-n5 d-none d-xl-block">
                 <svg width="144" height="166" viewBox="0 0 144 166" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -699,7 +763,7 @@ function BuildSyncHome() {
               <div className="col-11 col-sm-8 position-absolute top-0 start-0 mt-n2 mt-sm-7 ms-n2 ms-sm-n7">
                 <div className="bg-dark rounded d-flex align-items-center px-3 py-2">
                   <div className="avatar avatar-sm flex-shrink-0 me-2">
-                    <img className="avatar-img rounded-circle" src="assets/images/avatar/09.jpg" alt="avatar" />
+                    <img className="avatar-img rounded-circle" src="../assets/images/avatar/09.jpg" alt="avatar" />
                   </div>
                   <p className="text-white small mb-0">The best Bootstrap theme we've ever used 🔥</p>
                 </div>
@@ -707,7 +771,7 @@ function BuildSyncHome() {
 
               <div className="bg-white rounded shadow d-flex align-items-center position-absolute bottom-0 start-0 mb-sm-5 ms-sm-n5 px-3 py-2">
                 <div className="avatar avatar-sm flex-shrink-0 me-2">
-                  <img className="avatar-img rounded-circle" src="assets/images/avatar/03.jpg" alt="avatar" />
+                  <img className="avatar-img rounded-circle" src="../assets/images/avatar/03.jpg" alt="avatar" />
                 </div>
                 <p className="text-dark small mb-0">Excellent Theme 💗</p>
               </div>
@@ -737,7 +801,7 @@ function BuildSyncHome() {
                       <div className="card-footer bg-transparent p-0">
                         <div className="d-flex align-items-center">
                           <div className="avatar avatar-sm flex-shrink-0 me-2">
-                            <img className="avatar-img rounded" src="assets/images/avatar/03.jpg" alt="avatar" />
+                            <img className="avatar-img rounded" src="../assets/images/avatar/03.jpg" alt="avatar" />
                           </div>
                           <p className="mb-0">By Nix Maxwell</p>
                         </div>
@@ -761,7 +825,7 @@ function BuildSyncHome() {
                       <div className="card-footer bg-transparent p-0">
                         <div className="d-flex align-items-center">
                           <div className="avatar avatar-sm flex-shrink-0 me-2">
-                            <img className="avatar-img rounded" src="assets/images/avatar/01.jpg" alt="avatar" />
+                            <img className="avatar-img rounded" src="../assets/images/avatar/01.jpg" alt="avatar" />
                           </div>
                           <p className="mb-0">By Dennis Barrett</p>
                         </div>
@@ -785,7 +849,7 @@ function BuildSyncHome() {
                       <div className="card-footer bg-transparent p-0">
                         <div className="d-flex align-items-center">
                           <div className="avatar avatar-sm flex-shrink-0 me-2">
-                            <img className="avatar-img rounded" src="assets/images/avatar/02.jpg" alt="avatar" />
+                            <img className="avatar-img rounded" src="../assets/images/avatar/02.jpg" alt="avatar" />
                           </div>
                           <p className="mb-0">By Nix Maxwell</p>
                         </div>
@@ -809,7 +873,7 @@ function BuildSyncHome() {
                       <div className="card-footer bg-transparent p-0">
                         <div className="d-flex align-items-center">
                           <div className="avatar avatar-sm flex-shrink-0 me-2">
-                            <img className="avatar-img rounded" src="assets/images/avatar/05.jpg" alt="avatar" />
+                            <img className="avatar-img rounded" src="../assets/images/avatar/05.jpg" alt="avatar" />
                           </div>
                           <p className="mb-0">By Carolyn Ortiz</p>
                         </div>

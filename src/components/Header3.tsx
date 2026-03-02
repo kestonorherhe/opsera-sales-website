@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function Header() {
+function Header({ productLogo, subNavMenuItems }: { subNavMenuItems: any[], productLogo: string }) {
   const [isSticky, setIsSticky] = useState(false);
   const [isMainMenuOpen, setIsMainMenuOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -32,22 +32,19 @@ function Header() {
       style={{ backgroundColor: "white" }}
       className={`header-absolute ${isSticky ? "is-sticky" : ""}`}
     >
-      {/* ========= PRIMARY NAVBAR ========= */}
       <nav className="navbar navbar-expand-xl px-lg-5 primary-nav">
         <div className="container-fluid">
           <a className="navbar-brand me-5" href="/">
             <img
               className="light-mode-item navbar-brand-item"
-              src="assets/images/logos/opsera-footer-dark-4.svg"
+              src="../assets/images/logos/opsera-footer-dark-4.svg"
               alt="logo"
             />
           </a>
 
-          {/* Main collapse */}
           <div
-            className={`collapse navbar-collapse ${
-              isMainMenuOpen ? "show" : ""
-            }`}
+            className={`collapse navbar-collapse ${isMainMenuOpen ? "show" : ""
+              }`}
             id="mainNav"
           >
             <ul className="navbar-nav navbar-nav-scroll dropdown-hover">
@@ -59,65 +56,57 @@ function Header() {
                 >
                   Products
                 </a>
-                <div className="dropdown-menu dropdown-menu-size-md p-3">
-                  <ul className="list-unstyled">
-                    <li className="dropdown-item p-2">
-                      <a
-                        className="fw-bold text-black"
-                        href="/sales"
-                        style={{ fontSize: "12px" }}
-                      >
-                        Opsera Sales
-                        <p
-                          className="text-wrap"
-                          style={{ fontWeight: "normal" }}
-                        >
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry.
-                        </p>
-                      </a>
-                    </li>
-                    <li className="dropdown-item p-2">
-                      <a
-                        className="fw-bold text-black"
-                        href="/buildsync"
-                        style={{ fontSize: "12px" }}
-                      >
-                        BuildSync
-                        <p
-                          className="text-wrap"
-                          style={{ fontWeight: "normal" }}
-                        >
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry.
-                        </p>
-                      </a>
-                    </li>
-                    <li className="dropdown-item p-2">
-                      <a
-                        className="fw-bold text-black"
-                        href="/hotel"
-                        style={{ fontSize: "12px" }}
-                      >
-                        Opsera Hotel
-                        <p
-                          className="text-wrap"
-                          style={{ fontWeight: "normal" }}
-                        >
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry.
-                        </p>
-                      </a>
-                    </li>
-                  </ul>
-                  {/* <hr />
+                <div className="dropdown-menu dropdown-menu-size-xl p-2">
+                  <div className="row pt-2">
+                    <div className="col-sm-6">
+                      <ul className="list-unstyled">
+                        <li className="dropdown-item p-2">
+                          <a className="fw-bold text-black" href="/sales" style={{ fontSize: '16px' }}
+                          >Sales
+                            <p className="text-wrap" style={{ fontWeight: 'normal', fontSize: '12px' }}>Sell Properties with Confidence. Manage Sales with Ease.</p>
+                          </a>
+                        </li>
+                        <li className="dropdown-item p-2">
+                          <a className="fw-bold text-black" href="/buildsync" style={{ fontSize: '16px' }}>BuildSync
+                            <p className="text-wrap" style={{ fontWeight: 'normal', fontSize: '12px' }}>Build smarter. Deliver faster. Eliminate chaos.</p>
+                          </a>
+                        </li>
+                        <li className="dropdown-item p-2">
+                          <a className="fw-bold text-black" href="/hotel" style={{ fontSize: '16px' }}>Stay
+                            <p className="text-wrap" style={{ fontWeight: 'normal', fontSize: '12px' }}>Run Your Hotel Smarter.Faster. More Profitably.</p>
+                          </a>
+                        </li>
+                        <li className="dropdown-item p-2">
+                          <a className="fw-bold text-black" href="/hotel" style={{ fontSize: '16px' }}>Portfolio
+                            <p className="text-wrap" style={{ fontWeight: 'normal', fontSize: '12px' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="col-sm-6">
+                      <ul className="list-unstyled">
+                        <li className="dropdown-item p-2">
+                          <a className="fw-bold text-black" href="/sales" style={{ fontSize: '16px' }}
+                          >Dine
+                            <p className="text-wrap" style={{ fontWeight: 'normal', fontSize: '12px' }}>Lorem Ipsum is simply dummy text of the </p>
+                          </a>
+                        </li>
+                        <li className="dropdown-item p-2">
+                          <a className="fw-bold text-black" href="/buildsync" style={{ fontSize: '16px' }}>Laundr
+                            <p className="text-wrap" style={{ fontWeight: 'normal', fontSize: '12px' }}>Lorem Ipsum is simply dummy text of the </p>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <hr />
                   <div className="d-flex justify-content-between align-items-center px-2">
                     <div>
                       <h6 className="mb-1">Ready to get started?</h6>
                       <small>Take your documents to the next level with Mizzle</small>
                     </div>
-                    <a href="#" className="btn btn-sm btn-primary">Get in touch</a>
-                  </div> */}
+                    {/* <a href="#" className="btn btn-sm btn-primary">Get in touch</a> */}
+                  </div>
                 </div>
               </li>
               <li className="nav-item dropdown">
@@ -171,30 +160,6 @@ function Header() {
               </li>
             </ul>
           </div>
-          {/* <ul className="nav align-items-center dropdown-hover ms-sm-2 d-none d-xl-flex">
-            <li className="nav-item d-none d-sm-block">
-              <a href="/#get-started" className="btn btn-md btn-primary mb-0">Get Started!</a>
-            </li>
-            <li className="nav-item">
-              <button
-                className="navbar-toggler ms-3"
-                type="button"
-                onClick={toggleMainMenu}
-                style={{
-                  padding: "4px 6px", transform: "scale(0.8)",
-                  color: '#000 !important'
-                }}
-              >
-                {isMainMenuOpen ? (
-                  <span className="fs-2 close-icon">&times;</span>
-                ) : (
-                  <span className="navbar-toggler-animation">
-                    <span></span><span></span><span></span>
-                  </span>
-                )}
-              </button>
-            </li>
-          </ul> */}
           <ul className="nav align-items-center dropdown-hover ms-sm-2">
             <li className="nav-item d-none d-sm-block">
               <a href="/#get-started" className="btn btn-md btn-primary mb-0">
@@ -229,9 +194,8 @@ function Header() {
 
       {/* ========= SECONDARY NAVBAR ========= */}
       <nav
-        className={`navbar navbar-expand-xl secondary-nav ${
-          isMainMenuOpen ? "d-none" : ""
-        }`}
+        className={`navbar navbar-expand-xl secondary-nav ${isMainMenuOpen ? "d-none" : ""
+          }`}
       >
         <div className="container">
           {/* Mobile Logo + toggler */}
@@ -259,7 +223,7 @@ function Header() {
             <a className="navbar-brand me-0" href="/">
               <img
                 className="light-mode-item navbar-brand-item"
-                src="assets/images/logos/buildsync-logo.png"
+                src={productLogo}
                 style={{ width: "100px" }}
                 alt="logo"
               />
@@ -270,7 +234,7 @@ function Header() {
           <a className="navbar-brand me-0 d-none d-xl-block" href="/">
             <img
               className="light-mode-item navbar-brand-item"
-              src="assets/images/logos/buildsync-logo.png"
+              src={productLogo}
               style={{ width: "150px", height: "40px" }}
               alt="logo"
             />
@@ -278,30 +242,24 @@ function Header() {
 
           {/* Secondary items */}
           <div
-            className={`collapse navbar-collapse ${
-              isSecondaryMenuOpen ? "show" : ""
-            }`}
+            className={`collapse navbar-collapse ${isSecondaryMenuOpen ? "show" : ""
+              }`}
             id="secondaryNav"
           >
             <ul className="navbar-nav mx-auto">
-              {[
-                "Home",
-                "Features",
-                "Benefits",
-                "Pricing",
-                "Testimonials",
-                "FAQs",
-              ].map((item) => (
-                <li className="nav-item" key={item}>
-                  <a
-                    className="nav-link"
-                    href={`/#${item.toLowerCase()}`}
-                    onClick={closeAllMenus}
-                  >
-                    {item}
-                  </a>
-                </li>
-              ))}
+              {
+                subNavMenuItems
+                  .map((item) => (
+                    <li className="nav-item" key={item}>
+                      <a
+                        className="nav-link"
+                        href={`/${item.link.toLowerCase()}`}
+                        onClick={closeAllMenus}
+                      >
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
             </ul>
           </div>
         </div>

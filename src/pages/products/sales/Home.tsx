@@ -1,10 +1,13 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Header2 from "../../../components/Header2";
 import Header3 from "../../../components/Header3";
+import { useEffect } from "react";
 
 function SalesHome() {
+  useEffect(() => {
+    window.location.href = '/sales/#home'
+  })
   const sliderSettings = {
     dots: true,
     infinite: true,
@@ -54,7 +57,7 @@ function SalesHome() {
   return (
     <main>
       {/* <Header2 /> */}
-      <Header3 />
+      <Header3 productLogo='../assets/images/logos/buildsync-logo.png' subNavMenuItems={[{ link: 'sales/#home', label: 'Home' }, { link: 'sales/#features', label: 'Features' }, { link: 'sales/#benefits', label: 'Benefits' }, { link: 'sales/#pricing', label: 'Pricing' }, { link: 'sales/#testimonials', label: 'Testimonials' }, { link: 'sales/#faqs', label: 'FAQs' }]} />
 
       {/* <section id="home" className="overflow-hidden pt-xl-8 mb-n6 parallax-wrap">
         <div className="container position-relative zindex-5 pt-5" style={{ height: '100vh' }}>
@@ -77,13 +80,13 @@ function SalesHome() {
             </div>
 
             <div className="col-xl-10 d-flex rotate-343 position-relative aos z-index-2" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out">
-              <img src="assets/images/bg/hero.png" className="rounded-4 position-relative" alt="" />
+              <img src="../assets/images/bg/hero.png" className="rounded-4 position-relative" alt="" />
             </div>
           </div>
         </div>
       </section> */}
 
-      <section className="overflow-hidden pt-xl-8 mb-n6 parallax-wrap">
+      <section id="home" className="overflow-hidden pt-xl-8 mb-n6 parallax-wrap">
         <div className="container position-relative zindex-5 pt-5">
           <div className="row justify-content-xl-start justify-content-center flex-xl-nowrap">
             <div className="col-xl-6 ps-xl-5 mb-8 mb-xl-0">
@@ -133,7 +136,7 @@ function SalesHome() {
                     </svg>
                   </figure>
                   <img
-                    src="assets/images/elements/trustpilot-star.svg"
+                    src="../assets/images/elements/trustpilot-star.svg"
                     className="h-20px mb-3"
                     alt="Rating-img"
                   />
@@ -146,7 +149,7 @@ function SalesHome() {
 
                 <div className="col-sm-6">
                   <img
-                    src="assets/images/elements/google.svg"
+                    src="../assets/images/elements/google.svg"
                     className="mb-3 h-40px"
                     alt="google icon"
                   />
@@ -572,14 +575,14 @@ function SalesHome() {
               </figure>
 
               <img
-                src="assets/images/bg/saas-bg-2.png"
+                src="../assets/images/bg/saas-bg-2.png"
                 className="rounded-4 position-relative"
                 alt=""
               />
 
               <div className="">
                 <img
-                  src="assets/images/elements/saas-decoration/01.png"
+                  src="../assets/images/elements/saas-decoration/01.png"
                   data-depth="0.5"
                   className="layer position-absolute top-0 end-0 rounded-3 h-25 shadow me-5"
                   alt=""
@@ -587,20 +590,20 @@ function SalesHome() {
               </div>
 
               <img
-                src="assets/images/elements/saas-decoration/02.png"
+                src="../assets/images/elements/saas-decoration/02.png"
                 className="rounded-3 shadow position-absolute top-0 start-50 translate-middle mt-7 d-none d-md-block"
                 alt=""
               />
 
               <img
-                src="assets/images/elements/saas-decoration/03.png"
+                src="../assets/images/elements/saas-decoration/03.png"
                 data-depth="0.8"
                 className="rounded-3 layer shadow position-absolute bottom-0 start-0 ms-8 d-none d-lg-block"
                 alt=""
               />
 
               <img
-                src="assets/images/elements/saas-decoration/04.png"
+                src="../assets/images/elements/saas-decoration/04.png"
                 data-depth="0.3"
                 className="rounded-3 layer shadow position-absolute bottom-0 end-0 me-9 mb-4 d-none d-sm-block"
                 alt=""
@@ -869,7 +872,7 @@ function SalesHome() {
 
                     <div className="col-lg-5 position-relative ms-auto">
                       <img
-                        src="assets/images/services/leeds.png"
+                        src="../assets/images/services/leeds.png"
                         alt="feature-img"
                       />
                     </div>
@@ -938,7 +941,7 @@ function SalesHome() {
 
                     <div className="col-lg-5 position-relative ms-auto">
                       <img
-                        src="assets/images/services/sales.png"
+                        src="../assets/images/services/sales.png"
                         className="rounded"
                         alt="feature-img"
                       />
@@ -1007,7 +1010,7 @@ function SalesHome() {
 
                     <div className="col-lg-5 position-relative ms-auto">
                       <img
-                        src="assets/images/services/rewards.png"
+                        src="../assets/images/services/rewards.png"
                         className="rounded"
                         alt="feature-img"
                       />
@@ -1079,7 +1082,7 @@ function SalesHome() {
 
                     <div className="col-lg-5 position-relative ms-auto">
                       <img
-                        src="assets/images/services/properties.png"
+                        src="../assets/images/services/properties.png"
                         className="rounded"
                         alt="feature-img"
                       />
@@ -1149,7 +1152,7 @@ function SalesHome() {
 
                     <div className="col-lg-5 position-relative ms-auto">
                       <img
-                        src="assets/images/services/affiliates.png"
+                        src="../assets/images/services/affiliates.png"
                         className="rounded"
                         alt="feature-img"
                       />
@@ -1218,7 +1221,7 @@ function SalesHome() {
 
                     <div className="col-lg-5 position-relative ms-auto">
                       <img
-                        src="assets/images/services/reports.png"
+                        src="../assets/images/services/reports.png"
                         className="rounded"
                         alt="feature-img"
                       />
@@ -1777,7 +1780,7 @@ function SalesHome() {
                   <div className="card border p-4">
                     <h6>Recent Project</h6>
                     <img
-                      src="assets/images/about/07.jpg"
+                      src="../assets/images/about/07.jpg"
                       className="card-img mb-3"
                       alt="card image"
                     />
@@ -1790,7 +1793,7 @@ function SalesHome() {
                       <div className="avatar avatar-sm">
                         <img
                           className="avatar-img rounded-circle"
-                          src="assets/images/avatar/02.jpg"
+                          src="../assets/images/avatar/02.jpg"
                           alt="avatar"
                         />
                       </div>
@@ -1807,7 +1810,7 @@ function SalesHome() {
                     <div className="avatar">
                       <img
                         className="avatar-img rounded-circle"
-                        src="assets/images/avatar/05.jpg"
+                        src="../assets/images/avatar/05.jpg"
                         alt="avatar"
                       />
                     </div>
@@ -2212,7 +2215,7 @@ function SalesHome() {
                     <Slider {...sliderSettings2}>
                       <div className="swiper-slide card bg-transparent p-0 pe-md-7">
                         <img
-                          src="assets/images/team/03.jpg"
+                          src="../assets/images/team/03.jpg"
                           className="rounded"
                           alt="review-img"
                         />
@@ -2251,7 +2254,7 @@ function SalesHome() {
 
                       <div className="swiper-slide card bg-transparent p-0 pe-md-7">
                         <img
-                          src="assets/images/team/02.jpg"
+                          src="../assets/images/team/02.jpg"
                           className="rounded"
                           alt="review-img"
                         />
@@ -2323,42 +2326,42 @@ function SalesHome() {
                   <div className="row row-cols-2 row-cols-sm-3 g-4 g-md-5 align-items-center">
                     <div className="col">
                       <img
-                        src="assets/images/client/01.svg"
+                        src="../assets/images/client/01.svg"
                         className="grayscale px-2"
                         alt="client-img"
                       />
                     </div>
                     <div className="col">
                       <img
-                        src="assets/images/client/02.svg"
+                        src="../assets/images/client/02.svg"
                         className="grayscale px-2"
                         alt="client-img"
                       />
                     </div>
                     <div className="col">
                       <img
-                        src="assets/images/client/03.svg"
+                        src="../assets/images/client/03.svg"
                         className="grayscale px-2"
                         alt="client-img"
                       />
                     </div>
                     <div className="col">
                       <img
-                        src="assets/images/client/04.svg"
+                        src="../assets/images/client/04.svg"
                         className="grayscale px-2"
                         alt="client-img"
                       />
                     </div>
                     <div className="col">
                       <img
-                        src="assets/images/client/05.svg"
+                        src="../assets/images/client/05.svg"
                         className="grayscale px-2"
                         alt="client-img"
                       />
                     </div>
                     <div className="col">
                       <img
-                        src="assets/images/client/07.svg"
+                        src="../assets/images/client/07.svg"
                         className="grayscale px-2"
                         alt="client-img"
                       />
