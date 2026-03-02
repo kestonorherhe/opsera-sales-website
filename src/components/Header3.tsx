@@ -122,7 +122,7 @@ function Header({ productLogo, subNavMenuItems }: { subNavMenuItems: any[], prod
                     <li className="dropdown-item p-2">
                       <a
                         className="fw-bold text-black"
-                        href="index-2.html"
+                        href="/"
                         style={{ fontSize: "12px" }}
                       >
                         Work with a partner
@@ -131,7 +131,7 @@ function Header({ productLogo, subNavMenuItems }: { subNavMenuItems: any[], prod
                     <li className="dropdown-item p-2">
                       <a
                         className="fw-bold text-black"
-                        href="index-2.html"
+                        href="/"
                         style={{ fontSize: "12px" }}
                       >
                         Become a partner

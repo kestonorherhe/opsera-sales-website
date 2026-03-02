@@ -49,29 +49,29 @@ function Header() {
             <ul className="navbar-nav navbar-nav-scroll dropdown-hover">
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" style={{ color: "white" }}>Products</a>
-                <div className="dropdown-menu dropdown-menu-size-lg p-2">
+                <div className="dropdown-menu dropdown-menu-size-xl p-2">
                   <div className="row pt-2">
                     <div className="col-sm-6">
                       <ul className="list-unstyled">
                         <li className="dropdown-item p-2">
-                          <a className="fw-bold text-black" href="/sales" style={{ fontSize: '12px' }}
+                          <a className="fw-bold text-black" href="/sales" style={{ fontSize: '16px' }}
                           >Sales
-                            <p className="text-wrap" style={{ fontWeight: 'normal', }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p className="text-wrap" style={{ fontWeight: 'normal', fontSize: '12px' }}>Sell Properties with Confidence. Manage Sales with Ease.</p>
                           </a>
                         </li>
                         <li className="dropdown-item p-2">
-                          <a className="fw-bold text-black" href="/buildsync" style={{ fontSize: '12px' }}>BuildSync
-                            <p className="text-wrap" style={{ fontWeight: 'normal' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                          <a className="fw-bold text-black" href="/buildsync" style={{ fontSize: '16px' }}>BuildSync
+                            <p className="text-wrap" style={{ fontWeight: 'normal', fontSize: '12px' }}>Build smarter. Deliver faster. Eliminate chaos.</p>
                           </a>
                         </li>
                         <li className="dropdown-item p-2">
-                          <a className="fw-bold text-black" href="/hotel" style={{ fontSize: '12px' }}>Stay
-                            <p className="text-wrap" style={{ fontWeight: 'normal' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                          <a className="fw-bold text-black" href="/hotel" style={{ fontSize: '16px' }}>Stay
+                            <p className="text-wrap" style={{ fontWeight: 'normal', fontSize: '12px' }}>Run Your Hotel Smarter.Faster. More Profitably.</p>
                           </a>
                         </li>
                         <li className="dropdown-item p-2">
-                          <a className="fw-bold text-black" href="/hotel" style={{ fontSize: '12px' }}>Portfolio
-                            <p className="text-wrap" style={{ fontWeight: 'normal' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                          <a className="fw-bold text-black" href="/hotel" style={{ fontSize: '16px' }}>Portfolio
+                            <p className="text-wrap" style={{ fontWeight: 'normal', fontSize: '12px' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                           </a>
                         </li>
                       </ul>
@@ -79,38 +79,27 @@ function Header() {
                     <div className="col-sm-6">
                       <ul className="list-unstyled">
                         <li className="dropdown-item p-2">
-                          <a className="fw-bold text-black" href="/sales" style={{ fontSize: '12px' }}
-                          >Sales
-                            <p className="text-wrap" style={{ fontWeight: 'normal', }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                          <a className="fw-bold text-black" href="/sales" style={{ fontSize: '16px' }}
+                          >Dine
+                            <p className="text-wrap" style={{ fontWeight: 'normal', fontSize: '12px' }}>Lorem Ipsum is simply dummy text of the </p>
                           </a>
                         </li>
                         <li className="dropdown-item p-2">
-                          <a className="fw-bold text-black" href="/buildsync" style={{ fontSize: '12px' }}>BuildSync
-                            <p className="text-wrap" style={{ fontWeight: 'normal' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                          </a>
-                        </li>
-                        <li className="dropdown-item p-2">
-                          <a className="fw-bold text-black" href="/hotel" style={{ fontSize: '12px' }}>Stay
-                            <p className="text-wrap" style={{ fontWeight: 'normal' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                          </a>
-                        </li>
-                        <li className="dropdown-item p-2">
-                          <a className="fw-bold text-black" href="/hotel" style={{ fontSize: '12px' }}>Portfolio
-                            <p className="text-wrap" style={{ fontWeight: 'normal' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                          <a className="fw-bold text-black" href="/buildsync" style={{ fontSize: '16px' }}>Laundr
+                            <p className="text-wrap" style={{ fontWeight: 'normal', fontSize: '12px' }}>Lorem Ipsum is simply dummy text of the </p>
                           </a>
                         </li>
                       </ul>
                     </div>
                   </div>
-
-                  {/* <hr />
+                  <hr />
                   <div className="d-flex justify-content-between align-items-center px-2">
                     <div>
                       <h6 className="mb-1">Ready to get started?</h6>
                       <small>Take your documents to the next level with Mizzle</small>
                     </div>
-                    <a href="#" className="btn btn-sm btn-primary">Get in touch</a>
-                  </div> */}
+                    {/* <a href="#" className="btn btn-sm btn-primary">Get in touch</a> */}
+                  </div>
                 </div>
               </li>
               <li className="nav-item dropdown">
@@ -118,10 +107,10 @@ function Header() {
                 <div className="dropdown-menu dropdown-menu-size-md p-3">
                   <ul className="list-unstyled">
                     <li className="dropdown-item p-2">
-                      <a className="fw-bold text-black" href="index-2.html" style={{ fontSize: '12px' }}>Work with a partner</a>
+                      <a className="fw-bold text-black" href="/" style={{ fontSize: '12px' }}>Work with a partner</a>
                     </li>
                     <li className="dropdown-item p-2">
-                      <a className="fw-bold text-black" href="index-2.html" style={{ fontSize: '12px' }}>Become a partner</a>
+                      <a className="fw-bold text-black" href="/" style={{ fontSize: '12px' }}>Become a partner</a>
                     </li>
                   </ul>
                 </div>
